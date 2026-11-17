@@ -29,7 +29,7 @@
   .hero::before{top:-34px;right:-50px;opacity:.55}
   .hero::after{bottom:-20px;left:-40px;opacity:.55}
   .tag{display:inline-block;font-family:var(--caps);font-weight:700;font-size:11px;letter-spacing:.14em;text-transform:uppercase;background:rgba(255,255,255,.16);padding:5px 10px;border-radius:999px}
-  .hero h1{font-family:var(--round);font-weight:900;font-size:clamp(32px,8.5vw,50px);line-height:1.04;margin:16px 0 12px;letter-spacing:-.01em}
+  .hero h1{font-family:var(--round);font-weight:900;font-size:clamp(32px,8.5vw,50px);line-height:1.22;margin:12px 0 12px;letter-spacing:-.01em}
   .hero p{margin:0;font-size:17px;opacity:.92;max-width:30em}
   .neck{position:relative;width:210px;margin:30px auto 0;height:150px}
   .neck .band{position:absolute;left:50%;top:0;transform:translateX(-50%);background:var(--white);color:var(--red);border-radius:10px;padding:7px 14px;font-family:var(--slab);font-weight:700;font-size:19px;white-space:nowrap;box-shadow:0 6px 0 rgba(0,0,0,.12);z-index:2}
@@ -379,7 +379,8 @@
   .hero .kicker{display:inline-flex;gap:8px;align-items:center;font-family:var(--caps);font-weight:800;font-size:11px;letter-spacing:.14em;text-transform:uppercase;background:rgba(255,255,255,.16);padding:6px 12px;border-radius:999px}
   .hero .kicker i{width:8px;height:8px;border-radius:50%;background:#7BE0A0;box-shadow:0 0 0 0 rgba(123,224,160,.7);animation:pulseDot 2s infinite}
   @keyframes pulseDot{70%{box-shadow:0 0 0 9px rgba(123,224,160,0)}100%{box-shadow:0 0 0 0 rgba(123,224,160,0)}}
-  .hero h1 em{font-style:normal;background:#fff;color:var(--red);padding:0 .18em;border-radius:.18em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+  .hero h1 em{font-style:normal;background:none;padding:0}
+  .hero h1 em span{background:#fff;color:var(--red);padding:0 .2em;margin:0 .04em;border-radius:.2em}
   .hero p.lead{font-size:18px;margin:0 0 6px;opacity:.95;max-width:34ch}
 
   /* ===== TABS ===== */
@@ -458,7 +459,6 @@
   .typew span{display:inline-block;animation:wordIn .55s cubic-bezier(.2,.8,.2,1) both}
   .typew span:nth-child(1){animation-delay:.05s}.typew span:nth-child(2){animation-delay:.15s}.typew span:nth-child(3){animation-delay:.25s}.typew span:nth-child(4){animation-delay:.38s}.typew span:nth-child(5){animation-delay:.48s}.typew span:nth-child(6){animation-delay:.58s}
   .typew em span:nth-child(1){animation-delay:.75s}.typew em span:nth-child(2){animation-delay:.9s}
-  .typew em{animation:hlIn .5s both .7s}
   @keyframes wordIn{from{opacity:0;transform:translateY(.4em)}}
   @keyframes hlIn{from{background:transparent}}
   .qm{display:inline-block;color:var(--red);margin-left:.08em;animation:qBob 2.2s ease-in-out infinite;transform-origin:50% 90%}
