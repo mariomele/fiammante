@@ -263,8 +263,8 @@
   @keyframes lensIn{from{opacity:0;transform:translateY(40px) scale(.94)}}
   @keyframes zoomLoop{
     0%,13%{transform:translate(0,0) scale(1);animation-timing-function:cubic-bezier(.6,0,.25,1)}
-    25%,35%{transform:translate(-160px,53px) scale(2);animation-timing-function:cubic-bezier(.6,0,.25,1)}
-    47%,84%{transform:translate(-512px,-17px) scale(4.2);animation-timing-function:cubic-bezier(.6,0,.25,1)}
+    25%,35%{transform:translate(-840px,-64px) scale(4);animation-timing-function:cubic-bezier(.6,0,.25,1)}
+    47%,84%{transform:translate(-1344px,-117px) scale(5.8);animation-timing-function:cubic-bezier(.6,0,.25,1)}
     96%,100%{transform:translate(0,0) scale(1)}}
   @keyframes hintLoop{0%,2%{opacity:0}5%,12%{opacity:1}17%,100%{opacity:0}}
   @keyframes s1{0%,13%{opacity:1}16%,95%{opacity:0}98%,100%{opacity:1}}
@@ -276,7 +276,7 @@
   @keyframes txtG{0%,50%{fill:#fff}52%,84%{fill:#EB0029}88%,100%{fill:#fff}}
   @keyframes pulseRing{0%{transform:scale(1);opacity:.9}100%{transform:scale(1.3);opacity:0}}
   @keyframes arrNudge{50%{transform:translateX(-5px)}}
-  .lens{width:min(340px,100%);margin:30px auto 0;border-radius:30px;overflow:hidden;background:var(--cream);box-shadow:0 22px 0 -14px rgba(0,0,0,.14),0 24px 40px -18px rgba(0,0,0,.4);animation:lensIn .8s cubic-bezier(.2,.8,.2,1) both .4s}
+  .lens{width:100%;margin:28px 0 0;border-radius:24px;overflow:hidden;background:var(--cream);box-shadow:0 22px 0 -14px rgba(0,0,0,.14),0 24px 40px -18px rgba(0,0,0,.4);animation:lensIn .8s cubic-bezier(.2,.8,.2,1) both .4s}
   .lens svg{display:block;width:100%;height:auto}
   .lens .zm{transform-box:view-box;transform-origin:0 0;animation:zoomLoop 13s infinite 1.2s}
   .lens .hint{opacity:0;animation:hintLoop 13s infinite 1.2s}
@@ -291,7 +291,7 @@
   .hero{padding-bottom:34px}
   @media (prefers-reduced-motion:reduce){
     .lens,.lens *{animation:none!important}
-    .lens .zm{transform:translate(-512px,-17px) scale(4.2)}
+    .lens .zm{transform:translate(-1344px,-117px) scale(5.8)}
     .lens .hint,.lens .s1,.lens .s2{opacity:0}.lens .s3,.lens .hl,.lens .lab{opacity:1}
     #tE{fill:#3B2A22}#t198{fill:#EB0029}
   }
@@ -307,7 +307,7 @@
     <h1>La tua passata è da pomodoro fresco?</h1>
     <p>Il codice è stampato sul tappo della bottiglia: scrivilo qui sotto e ti diciamo il giorno esatto in cui è stata prodotta.</p>
     <div class="lens" aria-hidden="true">
-      <svg viewBox="0 0 320 330">
+      <svg viewBox="0 0 560 260">
         <defs>
           <linearGradient id="capSide" x1="0" x2="1">
             <stop offset="0" stop-color="#9E0019"/><stop offset=".22" stop-color="#E0102E"/><stop offset=".42" stop-color="#FF4560"/><stop offset=".55" stop-color="#F01B3A"/><stop offset="1" stop-color="#8F0016"/>
@@ -315,9 +315,11 @@
           <radialGradient id="capTop" cx=".4" cy=".35" r=".8"><stop offset="0" stop-color="#FF6A7E"/><stop offset=".6" stop-color="#F01B3A"/><stop offset="1" stop-color="#C4001F"/></radialGradient>
           <pattern id="rib" width="2.6" height="20" patternUnits="userSpaceOnUse"><rect width="1.1" height="20" fill="#000" opacity=".26"/><rect x="1.1" width=".5" height="20" fill="#fff" opacity=".18"/></pattern>
           <clipPath id="sideClip"><path d="M127 33V58A33 6.5 0 0 0 193 58V33z"/></clipPath>
+        <pattern id="sq" width="46" height="36" patternUnits="userSpaceOnUse"><g fill="none" stroke="#EB0029" stroke-width="1.6" stroke-linecap="round" opacity=".14"><path d="M4 8q4 5 8 0"/><path d="M27 4q4 5 8 0"/><path d="M14 25q4 5 8 0"/><path d="M36 23q4 5 8 0"/></g></pattern>
         </defs>
-        <ellipse cx="160" cy="292" rx="62" ry="6" fill="#000" opacity=".08"/>
-        <g class="zm">
+        <rect width="560" height="260" fill="url(#sq)"/>
+        <g class="zm"><g transform="translate(164.8 8) scale(.72)">
+          <ellipse cx="160" cy="292" rx="62" ry="6" fill="#000" opacity=".08"/>
           <!-- bottiglia -->
           <path d="M145 60h30v22c0 14 33 22 33 44v146q0 18-18 18h-60q-18 0-18-18V126c0-22 33-30 33-44z" fill="#E3172B"/>
           <path d="M160 60h15v22c0 14 33 22 33 44v146q0 18-18 18h-30z" fill="#C81025"/>
@@ -346,22 +348,22 @@
           </g>
           <g class="lab lab1"><path id="lnE" stroke="#F2B134" stroke-width=".55" stroke-linecap="round"/><rect id="pE" rx="2.6" fill="#F2B134"/><text id="xE" font-family="Montserrat" font-weight="800" font-size="3" letter-spacing=".35" fill="#3B2A22" text-anchor="middle">ANNO</text></g>
           <g class="lab lab2"><path id="ln198" stroke="#fff" stroke-width=".55" stroke-linecap="round"/><rect id="p198" rx="2.6" fill="#3B2A22"/><text id="x198" font-family="Montserrat" font-weight="800" font-size="3" letter-spacing=".35" fill="#fff" text-anchor="middle">GIORNO</text></g>
-        </g>
+        </g></g>
         <!-- indizio iniziale -->
         <g class="hint">
-          <ellipse class="ringc" cx="160" cy="46" rx="44" ry="24" fill="none" stroke="#EB0029" stroke-width="2.2"/>
-          <g class="arr"><path d="M224 46h-12" stroke="#EB0029" stroke-width="3" stroke-linecap="round"/><path d="M218 40l-7 6 7 6" fill="none" stroke="#EB0029" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
-          <rect x="228" y="30" width="84" height="32" rx="12" fill="#EB0029"/>
-          <text x="270" y="44" text-anchor="middle" font-family="Nunito" font-weight="900" font-size="10" fill="#fff">Il codice è</text>
-          <text x="270" y="56" text-anchor="middle" font-family="Nunito" font-weight="900" font-size="10" fill="#fff">sul tappo</text>
+          <ellipse class="ringc" cx="280" cy="40" rx="37" ry="21" fill="none" stroke="#EB0029" stroke-width="2.4"/>
+          <g class="arr"><path d="M338 40h-14" stroke="#EB0029" stroke-width="3.4" stroke-linecap="round"/><path d="M331 33l-8 7 8 7" fill="none" stroke="#EB0029" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+          <rect x="344" y="16" width="128" height="48" rx="16" fill="#EB0029"/>
+          <text x="408" y="35" text-anchor="middle" font-family="Nunito" font-weight="900" font-size="17" fill="#fff">Il codice è</text>
+          <text x="408" y="53" text-anchor="middle" font-family="Nunito" font-weight="900" font-size="17" fill="#fff">sul tappo</text>
         </g>
         <!-- didascalie passo-passo -->
         <g class="steps">
-          <rect x="70" y="298" width="180" height="24" rx="12" fill="#3B2A22"/>
-          <g font-family="Nunito" font-weight="900" font-size="11" fill="#fff" text-anchor="middle">
-            <text class="s s1" x="160" y="314">1 · Prendi la bottiglia</text>
-            <text class="s s2" x="160" y="314">2 · Guarda il tappo</text>
-            <text class="s s3" x="160" y="314">3 · Leggi anno e giorno</text>
+          <rect x="150" y="222" width="260" height="32" rx="16" fill="#3B2A22"/>
+          <g font-family="Nunito" font-weight="900" font-size="17" fill="#fff" text-anchor="middle">
+            <text class="s s1" x="280" y="244">1 · Prendi la bottiglia</text>
+            <text class="s s2" x="280" y="244">2 · Guarda il tappo</text>
+            <text class="s s3" x="280" y="244">3 · Leggi anno e giorno</text>
           </g>
         </g>
       </svg>
