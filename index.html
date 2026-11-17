@@ -579,6 +579,11 @@
   .vhero .burst i{position:absolute;width:8px;height:8px;border-radius:50%;opacity:0;animation:burst .9s ease-out both .45s}
   .vhero.ok .burst i{background:var(--green)}.vhero.no .burst i{background:var(--orange)}
   @keyframes burst{0%{opacity:1;transform:translate(0,0) scale(1)}100%{opacity:0;transform:translate(var(--x),var(--y)) scale(.4)}}
+  .warn{display:flex;gap:12px;align-items:flex-start;margin-top:14px;padding:14px 14px;border-radius:18px;background:#FFF6D9;border:2.5px solid #F2C94C;animation:rise .5s both 1.1s}
+  .warn .wi{flex:none;width:34px;height:34px;border-radius:50%;background:#F2C94C;color:#5A4300;display:flex;align-items:center;justify-content:center;font-family:var(--round);font-weight:900;font-size:20px;animation:warnP 2s ease-in-out infinite 1.8s}
+  @keyframes warnP{0%,100%{transform:none}50%{transform:scale(1.14) rotate(-6deg)}}
+  .warn b{display:block;font-weight:900;font-size:15.5px;line-height:1.25;color:#5A4300}
+  .warn p{margin:4px 0 0;font-size:14px;line-height:1.4;color:#5A4300}
   .rmeta{margin-top:16px;display:grid;grid-template-columns:1fr 1fr;gap:10px}
   .rmeta .m{background:var(--cream);border-radius:14px;padding:10px 12px;animation:rise .5s both;animation-delay:calc(.9s + var(--i)*100ms)}
   .rmeta .m small{display:block;font-family:var(--caps);font-weight:700;font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--brown)}
@@ -893,6 +898,7 @@ function render(p, year){
     `<div class="part key" style="--i:2"><b>${pad(day)}</b><small>Giorno</small></div>`,
     p.time ? `<div class="part" style="--i:3"><b>${p.time}</b><small>Ora</small></div>` : ''
   ].join('');
+  const ageDays = Math.round((today-d)/86400000), old = ageDays > 730;
   const burst = Array.from({length:10},(_,i)=>{ const an=i/10*Math.PI*2, r=90+((i*37)%40); return `<i style="--x:${(Math.cos(an)*r).toFixed(0)}px;--y:${(Math.sin(an)*r*.7).toFixed(0)}px"></i>`; }).join('');
   const codeTxt = `${p.plant?p.plant+' ':''}L<span class="k">${letter}</span><span class="k">${pad(day)}</span>${p.time?' '+p.time:''}`;
   $res.innerHTML = `
@@ -910,6 +916,7 @@ function render(p, year){
       <div class="m" style="--i:1"><small>${fresh?'Periodo':'Raccolta'}</small><b>${fresh?'in piena raccolta':'lontano dalla raccolta'}</b></div>
       <div class="m" style="--i:2"><small>Prodotta da</small><b>${ago(Math.round((today-d)/86400000))}</b></div>
     </div>
+    ${old?`<div class="warn"><span class="wi">!</span><div><b>Controlla la data di scadenza</b><p>${fresh?'Sì, è stata imbottigliata quando era fresca, però':'Questa bottiglia'} ${fresh?'ha':'ha'} <b style="display:inline">più di 2 anni</b> (${ago(ageDays)}): è oltre la durata media di una passata. Guarda la data di scadenza stampata sulla bottiglia prima di usarla.</p></div></div>`:''}
     ${isLeap(year)&&day>59?`<p class="note">Il ${year} era bisestile: dal 1° marzo le date slittano di un giorno.</p>`:''}
     <div class="lanes one" data-live>${lane(fresh?'ok':'no')}</div>
     ${actions()}
