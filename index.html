@@ -265,8 +265,8 @@
   @keyframes lensIn{from{opacity:0;transform:translateY(40px) scale(.94)}}
   @keyframes zoomLoop{
     0%,13%{transform:translate(0,0) scale(1);animation-timing-function:cubic-bezier(.6,0,.25,1)}
-    25%,35%{transform:translate(-1540px,-190px) scale(6.5);animation-timing-function:cubic-bezier(.6,0,.25,1)}
-    47%,84%{transform:translate(-1960px,-254px) scale(8);animation-timing-function:cubic-bezier(.6,0,.25,1)}
+    25%,35%{transform:translate(-1540px,-170px) scale(6.5);animation-timing-function:cubic-bezier(.6,0,.25,1)}
+    47%,84%{transform:translate(-1960px,-226px) scale(8);animation-timing-function:cubic-bezier(.6,0,.25,1)}
     96%,100%{transform:translate(0,0) scale(1)}}
   @keyframes hintLoop{0%,2%{opacity:0}5%,12%{opacity:1}17%,100%{opacity:0}}
   @keyframes s1{0%,13%{opacity:1}16%,95%{opacity:0}98%,100%{opacity:1}}
@@ -293,7 +293,7 @@
   .hero{padding-bottom:34px}
   @media (prefers-reduced-motion:reduce){
     .lens,.lens *{animation:none!important}
-    .lens .zm{transform:translate(-1960px,-254px) scale(8)}
+    .lens .zm{transform:translate(-1960px,-226px) scale(8)}
     .lens .hint,.lens .s1,.lens .s2{opacity:0}.lens .s3,.lens .hl,.lens .lab{opacity:1}
     #tE{fill:#3B2A22}#t198{fill:#EB0029}
   }
@@ -625,40 +625,44 @@
           </linearGradient>
           <radialGradient id="capTop" cx=".4" cy=".35" r=".8"><stop offset="0" stop-color="#FF6A7E"/><stop offset=".6" stop-color="#F01B3A"/><stop offset="1" stop-color="#C4001F"/></radialGradient>
           <pattern id="rib" width="1.7" height="20" patternUnits="userSpaceOnUse"><rect width=".8" height="20" fill="#000" opacity=".45"/><rect x=".8" width=".4" height="20" fill="#fff" opacity=".32"/></pattern>
-          <clipPath id="sideClip"><path d="M137 44V60A23 3.6 0 0 0 183 60V44z"/></clipPath>
+          <clipPath id="bodyClip"><path d="M146 55h28v18c0 10 30 12 30 34v170q0 15-15 15h-58q-15 0-15-15V107c0-22 30-24 30-34z"/></clipPath>
+          <pattern id="grain" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".6" fill="#fff" opacity=".5"/><circle cx="4" cy="3.5" r=".5" fill="#7A0012" opacity=".5"/><circle cx="2" cy="5" r=".4" fill="#fff" opacity=".4"/></pattern>
         <pattern id="sq" width="46" height="36" patternUnits="userSpaceOnUse"><g fill="none" stroke="#EB0029" stroke-width="1.6" stroke-linecap="round" opacity=".14"><path d="M4 8q4 5 8 0"/><path d="M27 4q4 5 8 0"/><path d="M14 25q4 5 8 0"/><path d="M36 23q4 5 8 0"/></g></pattern>
         </defs>
         <rect width="560" height="260" fill="url(#sq)"/>
         <g class="zm"><g transform="translate(164.8 8) scale(.72)">
-          <ellipse cx="160" cy="292" rx="62" ry="6" fill="#000" opacity=".08"/>
-          <!-- bottiglia -->
-          <path d="M140 60h40v22c0 14 28 22 28 44v146q0 18-18 18h-60q-18 0-18-18V126c0-22 28-30 28-44z" fill="#E3172B"/>
-          <path d="M160 60h20v22c0 14 28 22 28 44v146q0 18-18 18h-30z" fill="#C81025"/>
-          <path d="M140 60h40v26c0 6 4 10 7 13-9 4-54 4-54 0 3-3 7-7 7-13z" fill="#FFF6EA"/><path d="M143 62v34" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".8"/>
-          <path d="M140 68.5h40M140.6 73h38.8" stroke="#E8D5BE" stroke-width="1.2"/><path d="M138.5 66.5q21.5 6 43 0v2.2q-21.5 6-43 0z" fill="#fff" stroke="#E8D5BE" stroke-width=".8"/>
-          <path d="M123 132q-3 60 0 120" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".28" fill="none"/>
-          <rect x="122" y="162" width="76" height="82" rx="9" fill="#FAEDDA"/>
-          <circle cx="160" cy="192" r="15" fill="#E3172B"/><path d="M160 178l-6-5 6 2 6-2z" fill="#2F9A5C"/><path d="M152 188q3-5 8-6" stroke="#fff" stroke-width="2.4" stroke-linecap="round" fill="none" opacity=".5"/>
-          <text x="160" y="228" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="8" letter-spacing="1.6" fill="#EB0029">PASSATA</text>
+          <ellipse cx="160" cy="292" rx="58" ry="5" fill="#000" opacity=".08"/>
+          <!-- bottiglia stile video -->
+          <path d="M146 55h28v18c0 10 30 12 30 34v170q0 15-15 15h-58q-15 0-15-15V107c0-22 30-24 30-34z" fill="#E3172B"/>
+          <path d="M160 55h14v18c0 10 30 12 30 34v170q0 15-15 15h-29z" fill="#CC0F25"/>
+          <path d="M146 55h28v19q0 3-2 4h-24q-2-1-2-4z" fill="#FFF3E6"/>
+          <path d="M150 57v26" stroke="#fff" stroke-width="2.4" stroke-linecap="round" opacity=".85"/>
+          <rect x="116" y="96" width="88" height="190" fill="url(#grain)" opacity=".5" clip-path="url(#bodyClip)"/>
+          <path d="M124 128q-3 70 0 140" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".26" fill="none"/>
+          <rect x="127" y="150" width="66" height="96" rx="5" fill="#FFF3E6"/>
+          <rect x="160" y="150" width="33" height="96" rx="5" fill="#F4E3D0" opacity=".7"/>
+          <ellipse cx="160" cy="198" rx="21" ry="18" fill="#E3172B"/><path d="M160 198 m0 -18a21 18 0 0 1 0 36z" fill="#CC0F25"/>
+          <path d="M160 181l-11-9 11 3 11-3zM160 181l-4-12 4 7 4-7z" fill="#2F9A5C"/>
+          <path d="M146 192q3-8 11-10" stroke="#fff" stroke-width="2.6" stroke-linecap="round" fill="none" opacity=".5"/>
           <!-- tappo piatto stile video -->
-          <rect x="135" y="42" width="50" height="19" rx="4.5" fill="#E3172B"/>
-          <path d="M160 42h20.500a4.500 4.500 0 0 1 4.500 4.500v10a4.500 4.500 0 0 1-4.500 4.500H160z" fill="#C81025" opacity=".55"/>
-          <rect x="135" y="42" width="50" height="4.500" rx="2.200" fill="#F2475A"/>
-          <rect x="135" y="57.800" width="50" height="3.200" rx="1.600" fill="#B3001C" opacity=".6"/>
+          <rect x="139" y="40" width="42" height="15" rx="3.2" fill="#E3172B"/>
+          <path d="M160 40h18a3.200 3.200 0 0 1 3.200 3.200v8.600a3.200 3.200 0 0 1-3.200 3.200H160z" fill="#C81025" opacity=".5"/>
+          <rect x="139" y="40" width="42" height="4" rx="2" fill="#F5546A"/>
+          <rect x="139" y="52" width="42" height="3" rx="1.500" fill="#A80019" opacity=".65"/>
           <!-- codice stampato -->
           <rect id="hE" class="hl hlE" rx="1.2" fill="#F2B134"/>
           <rect id="h198" class="hl hlG" rx="1.2" fill="#fff"/>
-          <g class="code" font-family="DotGothic16, monospace" font-size="4.1">
-            <text id="tR" y="52.2" fill="#fff">RR1</text><text id="tL" y="52.2" fill="#fff">L</text>
-            <text id="tE" y="52.2" fill="#fff">E</text><text id="t198" y="52.2" fill="#fff">198</text>
-            <text id="tT" y="52.2" fill="#fff">00:17</text>
+          <g class="code" font-family="DotGothic16, monospace" font-size="3.6">
+            <text id="tR" y="49.4" fill="#fff">RR1</text><text id="tL" y="49.4" fill="#fff">L</text>
+            <text id="tE" y="49.4" fill="#fff">E</text><text id="t198" y="49.4" fill="#fff">198</text>
+            <text id="tT" y="49.4" fill="#fff">00:17</text>
           </g>
           <g class="lab lab1"><path id="lnE" stroke="#F2B134" stroke-width=".55" stroke-linecap="round"/><rect id="pE" rx="2.6" fill="#F2B134"/><text id="xE" font-family="Montserrat" font-weight="800" font-size="3" letter-spacing=".35" fill="#3B2A22" text-anchor="middle">ANNO</text></g>
           <g class="lab lab2"><path id="ln198" stroke="#fff" stroke-width=".55" stroke-linecap="round"/><rect id="p198" rx="2.6" fill="#3B2A22"/><text id="x198" font-family="Montserrat" font-weight="800" font-size="3" letter-spacing=".35" fill="#fff" text-anchor="middle">GIORNO</text></g>
         </g></g>
         <!-- indizio iniziale -->
         <g class="hint">
-          <ellipse class="ringc" cx="280" cy="45" rx="27" ry="14" fill="none" stroke="#EB0029" stroke-width="2.4"/>
+          <ellipse class="ringc" cx="280" cy="42" rx="22" ry="12" fill="none" stroke="#EB0029" stroke-width="2.4"/>
           <g class="arr"><path d="M326 45h-12" stroke="#EB0029" stroke-width="3.4" stroke-linecap="round"/><path d="M320 38l-8 7 8 7" fill="none" stroke="#EB0029" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></g>
           <rect x="332" y="21" width="128" height="48" rx="16" fill="#EB0029"/>
           <text x="396" y="40" text-anchor="middle" font-family="Nunito" font-weight="900" font-size="17" fill="#fff">Il codice è</text>
@@ -980,12 +984,12 @@ function layoutCap(){
   const total=w.reduce((a,b)=>a+b,0)+gap*(ids.length-1);
   let x=160-total/2; const pos={};
   ids.forEach((id,i)=>{ g(id).setAttribute('x',x.toFixed(2)); pos[id]={x,w:w[i]}; x+=w[i]+gap; });
-  [['hE','tE'],['h198','t198']].forEach(([h,tx])=>{ const p=pos[tx], r=g(h); r.setAttribute('x',(p.x-1).toFixed(2)); r.setAttribute('width',(p.w+2).toFixed(2)); r.setAttribute('y','48.7'); r.setAttribute('height','4.8'); });
+  [['hE','tE'],['h198','t198']].forEach(([h,tx])=>{ const p=pos[tx], r=g(h); r.setAttribute('x',(p.x-1).toFixed(2)); r.setAttribute('width',(p.w+2).toFixed(2)); r.setAttribute('y','45.3'); r.setAttribute('height','4.8'); });
   const lab=(line,pill,txt,cx,py,l1,l2)=>{ const t=g(txt), tw=t.getBBox().width+4.4; t.setAttribute('x',cx.toFixed(2)); t.setAttribute('y',(py+3.35).toFixed(2));
     const p=g(pill); p.setAttribute('x',(cx-tw/2).toFixed(2)); p.setAttribute('y',py); p.setAttribute('width',tw.toFixed(2)); p.setAttribute('height','4.8');
     g(line).setAttribute('d',`M${cx.toFixed(2)} ${l1} V${l2}`); };
-  lab('lnE','pE','xE',pos.tE.x+pos.tE.w/2,36,48.7,37.5);
-  lab('ln198','p198','x198',pos.t198.x+pos.t198.w/2,66,53.5,66);
+  lab('lnE','pE','xE',pos.tE.x+pos.tE.w/2,32.5,45.3,37.5);
+  lab('ln198','p198','x198',pos.t198.x+pos.t198.w/2,62,50.1,62);
 }
 if(document.fonts&&document.fonts.ready){ document.fonts.ready.then(layoutCap); } else { window.addEventListener('load',layoutCap); }
 layoutCap();
