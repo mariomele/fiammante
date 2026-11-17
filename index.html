@@ -6,7 +6,7 @@
 <title>Verifica lotto passata — prototipo per La Fiammante</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;600;700&family=Montserrat:wght@600;700;800&family=Nunito:wght@500;600;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;600;700&family=Montserrat:wght@600;700;800&family=Nunito:wght@500;600;800;900&family=DotGothic16&display=swap" rel="stylesheet">
 <style>
   :root{
     --red:#EB0029; --red-dark:#C10022; --cream:#FAEDDA; --cream-2:#F3E0C6;
@@ -259,33 +259,40 @@
     .scenewrap:not(.play) .scene *{opacity:1!important;stroke-dashoffset:0!important}
   }
 
-  /* ===== HERO: zoom sul tappo ===== */
+  /* ===== HERO: bottiglia → tappo → codice ===== */
   @keyframes lensIn{from{opacity:0;transform:translateY(40px) scale(.94)}}
-  @keyframes zoomLoop{0%,17%{transform:translate(0,0) scale(1);animation-timing-function:cubic-bezier(.65,0,.2,1)}31%,80%{transform:translate(-320px,-9px) scale(3);animation-timing-function:cubic-bezier(.65,0,.2,1)}94%,100%{transform:translate(0,0) scale(1)}}
-  @keyframes hintLoop{0%{opacity:0}4%,16%{opacity:1}22%,100%{opacity:0}}
-  @keyframes hlLoop{0%,36%{opacity:0;transform:scale(.6)}40%{opacity:1;transform:scale(1.12)}44%,82%{opacity:1;transform:scale(1)}90%,100%{opacity:0}}
-  @keyframes labLoop{0%,41%{opacity:0;transform:translateY(-3px)}46%{opacity:1;transform:translateY(0.6px)}49%,82%{opacity:1;transform:none}90%,100%{opacity:0}}
-  @keyframes pulseRing{0%{transform:scale(1);opacity:.9}100%{transform:scale(1.25,1.9);opacity:0}}
+  @keyframes zoomLoop{
+    0%,13%{transform:translate(0,0) scale(1);animation-timing-function:cubic-bezier(.6,0,.25,1)}
+    25%,35%{transform:translate(-160px,53px) scale(2);animation-timing-function:cubic-bezier(.6,0,.25,1)}
+    47%,84%{transform:translate(-512px,-17px) scale(4.2);animation-timing-function:cubic-bezier(.6,0,.25,1)}
+    96%,100%{transform:translate(0,0) scale(1)}}
+  @keyframes hintLoop{0%,2%{opacity:0}5%,12%{opacity:1}17%,100%{opacity:0}}
+  @keyframes s1{0%,13%{opacity:1}16%,95%{opacity:0}98%,100%{opacity:1}}
+  @keyframes s2{0%,15%{opacity:0}18%,36%{opacity:1}39%,100%{opacity:0}}
+  @keyframes s3{0%,38%{opacity:0}41%,86%{opacity:1}89%,100%{opacity:0}}
+  @keyframes hlLoop{0%,49%{opacity:0;transform:scale(.5)}52%{opacity:1;transform:scale(1.15)}54%,84%{opacity:1;transform:scale(1)}88%,100%{opacity:0}}
+  @keyframes labLoop{0%,52%{opacity:0}56%,84%{opacity:1}88%,100%{opacity:0}}
+  @keyframes txtE{0%,50%{fill:#fff}52%,84%{fill:#3B2A22}88%,100%{fill:#fff}}
+  @keyframes txtG{0%,50%{fill:#fff}52%,84%{fill:#EB0029}88%,100%{fill:#fff}}
+  @keyframes pulseRing{0%{transform:scale(1);opacity:.9}100%{transform:scale(1.3);opacity:0}}
   @keyframes arrNudge{50%{transform:translateX(-5px)}}
   .lens{width:min(340px,100%);margin:30px auto 0;border-radius:30px;overflow:hidden;background:var(--cream);box-shadow:0 22px 0 -14px rgba(0,0,0,.14),0 24px 40px -18px rgba(0,0,0,.4);animation:lensIn .8s cubic-bezier(.2,.8,.2,1) both .4s}
   .lens svg{display:block;width:100%;height:auto}
-  .lens .zm{transform-box:view-box;transform-origin:0 0;animation:zoomLoop 11s infinite 1.4s}
-  .lens .hint{animation:hintLoop 11s infinite 1.4s}
-  .lens .ringc{transform-box:fill-box;transform-origin:50% 50%;animation:pulseRing 1.4s ease-out infinite 1.4s}
+  .lens .zm{transform-box:view-box;transform-origin:0 0;animation:zoomLoop 13s infinite 1.2s}
+  .lens .hint{opacity:0;animation:hintLoop 13s infinite 1.2s}
+  .lens .ringc{transform-box:fill-box;transform-origin:50% 50%;animation:pulseRing 1.3s ease-out infinite}
   .lens .arr{animation:arrNudge .9s ease-in-out infinite}
-  .lens .hl{transform-box:fill-box;transform-origin:50% 50%;opacity:0;animation:hlLoop 11s infinite 1.4s}
-  .lens .hlG{animation-delay:1.9s}
-  .lens .lab{transform-box:fill-box;opacity:0;animation:labLoop 11s infinite 1.4s}
-  .lens .lab2{animation-delay:1.9s}
-  @keyframes txtE{0%,36%{fill:#fff}40%,82%{fill:#3B2A22}90%,100%{fill:#fff}}
-  @keyframes txtG{0%,36%{fill:#fff}40%,82%{fill:#EB0029}90%,100%{fill:#fff}}
-  #tE{animation:txtE 11s infinite 1.4s}#t198{animation:txtG 11s infinite 1.9s}
+  .lens .s{opacity:0}.lens .s1{opacity:1;animation:s1 13s infinite 1.2s}.lens .s2{animation:s2 13s infinite 1.2s}.lens .s3{animation:s3 13s infinite 1.2s}
+  .lens .hl{transform-box:fill-box;transform-origin:50% 50%;opacity:0;animation:hlLoop 13s infinite 1.2s}
+  .lens .hlG{animation-delay:1.7s}
+  .lens .lab{opacity:0;animation:labLoop 13s infinite 1.2s}
+  .lens .lab2{animation-delay:1.7s}
+  #tE{animation:txtE 13s infinite 1.2s}#t198{animation:txtG 13s infinite 1.7s}
   .hero{padding-bottom:34px}
   @media (prefers-reduced-motion:reduce){
-    .lens .zm{animation:none;transform:translate(-320px,-9px) scale(3)}
-    .lens .hint{display:none}
-    .lens .hl,.lens .lab{animation:none;opacity:1}
-    .lens,.lens *{animation:none}
+    .lens,.lens *{animation:none!important}
+    .lens .zm{transform:translate(-512px,-17px) scale(4.2)}
+    .lens .hint,.lens .s1,.lens .s2{opacity:0}.lens .s3,.lens .hl,.lens .lab{opacity:1}
     #tE{fill:#3B2A22}#t198{fill:#EB0029}
   }
   footer{margin:48px 0 0;padding:20px 0 40px;border-top:1.5px solid var(--cream-2);font-size:12px;color:var(--brown);font-weight:600}
@@ -300,37 +307,62 @@
     <h1>La tua passata è da pomodoro fresco?</h1>
     <p>Il codice è stampato sul tappo della bottiglia: scrivilo qui sotto e ti diciamo il giorno esatto in cui è stata prodotta.</p>
     <div class="lens" aria-hidden="true">
-      <svg viewBox="0 0 320 300" role="img">
-        <ellipse cx="160" cy="291" rx="62" ry="6" fill="#000" opacity=".08"/>
+      <svg viewBox="0 0 320 330">
+        <defs>
+          <linearGradient id="capSide" x1="0" x2="1">
+            <stop offset="0" stop-color="#9E0019"/><stop offset=".22" stop-color="#E0102E"/><stop offset=".42" stop-color="#FF4560"/><stop offset=".55" stop-color="#F01B3A"/><stop offset="1" stop-color="#8F0016"/>
+          </linearGradient>
+          <radialGradient id="capTop" cx=".4" cy=".35" r=".8"><stop offset="0" stop-color="#FF6A7E"/><stop offset=".6" stop-color="#F01B3A"/><stop offset="1" stop-color="#C4001F"/></radialGradient>
+          <pattern id="rib" width="2.6" height="20" patternUnits="userSpaceOnUse"><rect width="1.1" height="20" fill="#000" opacity=".26"/><rect x="1.1" width=".5" height="20" fill="#fff" opacity=".18"/></pattern>
+          <clipPath id="sideClip"><path d="M127 33V58A33 6.5 0 0 0 193 58V33z"/></clipPath>
+        </defs>
+        <ellipse cx="160" cy="292" rx="62" ry="6" fill="#000" opacity=".08"/>
         <g class="zm">
           <!-- bottiglia -->
-          <path d="M143 50h34v30c0 14 31 20 31 42v150q0 18-18 18h-60q-18 0-18-18V122c0-22 31-28 31-42z" fill="#E3172B"/>
-          <path d="M160 50h17v30c0 14 31 20 31 42v150q0 18-18 18h-30z" fill="#C81025"/>
-          <path d="M143 50h34v34c0 6 3 10 6 13-8 4-46 4-46 0 3-3 6-7 6-13z" fill="#FFF6EA"/>
-          <path d="M123 128q-3 60 0 120" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".28" fill="none"/>
-          <rect x="122" y="160" width="76" height="82" rx="9" fill="#FAEDDA"/>
-          <circle cx="160" cy="190" r="15" fill="#E3172B"/><path d="M160 176l-6-5 6 2 6-2z" fill="#2F9A5C"/><path d="M152 186q3-5 8-6" stroke="#fff" stroke-width="2.4" stroke-linecap="round" fill="none" opacity=".5"/>
-          <text x="160" y="226" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="8" letter-spacing="1.6" fill="#EB0029">PASSATA</text>
-          <!-- tappo -->
-          <rect x="110" y="26" width="100" height="24" rx="7" fill="#EB0029"/>
-          <rect x="110" y="26" width="100" height="24" rx="7" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width=".8"/>
-          <rect id="hE" class="hl hlE" rx="1.8" fill="#F2B134"/>
-          <rect id="h198" class="hl hlG" rx="1.8" fill="#fff"/>
-          <g font-family="Zilla Slab" font-weight="700" font-size="9.5">
-            <text id="tR" y="42.4" fill="#fff">RR1</text><text id="tL" y="42.4" fill="#fff">L</text>
-            <text id="tE" y="42.4" fill="#fff">E</text><text id="t198" y="42.4" fill="#fff">198</text>
-            <text id="tT" y="42.4" fill="#fff" opacity=".9">00:17</text>
+          <path d="M145 60h30v22c0 14 33 22 33 44v146q0 18-18 18h-60q-18 0-18-18V126c0-22 33-30 33-44z" fill="#E3172B"/>
+          <path d="M160 60h15v22c0 14 33 22 33 44v146q0 18-18 18h-30z" fill="#C81025"/>
+          <path d="M145 60h30v26c0 6 3 10 6 13-8 4-44 4-44 0 3-3 6-7 6-13z" fill="#FFF6EA"/>
+          <path d="M145 64h30M145 68h30" stroke="#E8D5BE" stroke-width="1.2"/>
+          <path d="M123 132q-3 60 0 120" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".28" fill="none"/>
+          <rect x="122" y="162" width="76" height="82" rx="9" fill="#FAEDDA"/>
+          <circle cx="160" cy="192" r="15" fill="#E3172B"/><path d="M160 178l-6-5 6 2 6-2z" fill="#2F9A5C"/><path d="M152 188q3-5 8-6" stroke="#fff" stroke-width="2.4" stroke-linecap="round" fill="none" opacity=".5"/>
+          <text x="160" y="228" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="8" letter-spacing="1.6" fill="#EB0029">PASSATA</text>
+          <!-- tappo (capsula metallica) -->
+          <ellipse cx="160" cy="59" rx="34" ry="7.5" fill="#7A0012"/>
+          <path d="M127 33V58A33 6.5 0 0 0 193 58V33z" fill="url(#capSide)"/>
+          <rect x="127" y="47" width="66" height="18" fill="url(#rib)" clip-path="url(#sideClip)"/>
+          <path d="M127 47.5A33 6.5 0 0 0 193 47.5" fill="none" stroke="#7A0012" stroke-width=".8" opacity=".6"/>
+          <ellipse cx="160" cy="33" rx="33" ry="7" fill="url(#capTop)"/>
+          <ellipse cx="160" cy="33" rx="27" ry="5" fill="none" stroke="#B3001C" stroke-width=".8" opacity=".55"/>
+          <path d="M139 31q8-4 18-4" stroke="#fff" stroke-width="1.6" stroke-linecap="round" fill="none" opacity=".55"/>
+          <rect x="140" y="34" width="5" height="22" rx="2.5" fill="#fff" opacity=".18"/>
+          <!-- codice stampato -->
+          <rect id="hE" class="hl hlE" rx="1.2" fill="#F2B134"/>
+          <rect id="h198" class="hl hlG" rx="1.2" fill="#fff"/>
+          <g class="code" font-family="DotGothic16, monospace" font-size="5.4">
+            <text id="tR" y="43.2" fill="#fff">RR1</text><text id="tL" y="43.2" fill="#fff">L</text>
+            <text id="tE" y="43.2" fill="#fff">E</text><text id="t198" y="43.2" fill="#fff">198</text>
+            <text id="tT" y="43.2" fill="#fff">00:17</text>
           </g>
-          <g class="lab lab1"><path id="lnE" stroke="#F2B134" stroke-width=".9" stroke-linecap="round"/><rect id="pE" rx="4" fill="#F2B134"/><text id="xE" font-family="Montserrat" font-weight="800" font-size="4.6" letter-spacing=".5" fill="#3B2A22" text-anchor="middle">ANNO</text></g>
-          <g class="lab lab2"><path id="ln198" stroke="#EB0029" stroke-width=".9" stroke-linecap="round"/><rect id="p198" rx="4" fill="#EB0029"/><text id="x198" font-family="Montserrat" font-weight="800" font-size="4.6" letter-spacing=".5" fill="#fff" text-anchor="middle">GIORNO</text></g>
+          <g class="lab lab1"><path id="lnE" stroke="#F2B134" stroke-width=".55" stroke-linecap="round"/><rect id="pE" rx="2.6" fill="#F2B134"/><text id="xE" font-family="Montserrat" font-weight="800" font-size="3" letter-spacing=".35" fill="#3B2A22" text-anchor="middle">ANNO</text></g>
+          <g class="lab lab2"><path id="ln198" stroke="#fff" stroke-width=".55" stroke-linecap="round"/><rect id="p198" rx="2.6" fill="#3B2A22"/><text id="x198" font-family="Montserrat" font-weight="800" font-size="3" letter-spacing=".35" fill="#fff" text-anchor="middle">GIORNO</text></g>
         </g>
-        <!-- indizio prima dello zoom -->
+        <!-- indizio iniziale -->
         <g class="hint">
-          <rect class="ringc" x="108" y="24" width="104" height="28" rx="9" fill="none" stroke="#EB0029" stroke-width="2"/>
-          <g class="arr"><path d="M222 38h-8" stroke="#EB0029" stroke-width="3" stroke-linecap="round"/><path d="M219 32l-7 6 7 6" fill="none" stroke="#EB0029" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
-          <rect x="226" y="20" width="86" height="36" rx="12" fill="#EB0029"/>
-          <text x="269" y="35" text-anchor="middle" font-family="Nunito" font-weight="900" font-size="10" fill="#fff">Il codice è</text>
-          <text x="269" y="48" text-anchor="middle" font-family="Nunito" font-weight="900" font-size="10" fill="#fff">sul tappo</text>
+          <ellipse class="ringc" cx="160" cy="46" rx="44" ry="24" fill="none" stroke="#EB0029" stroke-width="2.2"/>
+          <g class="arr"><path d="M224 46h-12" stroke="#EB0029" stroke-width="3" stroke-linecap="round"/><path d="M218 40l-7 6 7 6" fill="none" stroke="#EB0029" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+          <rect x="228" y="30" width="84" height="32" rx="12" fill="#EB0029"/>
+          <text x="270" y="44" text-anchor="middle" font-family="Nunito" font-weight="900" font-size="10" fill="#fff">Il codice è</text>
+          <text x="270" y="56" text-anchor="middle" font-family="Nunito" font-weight="900" font-size="10" fill="#fff">sul tappo</text>
+        </g>
+        <!-- didascalie passo-passo -->
+        <g class="steps">
+          <rect x="70" y="298" width="180" height="24" rx="12" fill="#3B2A22"/>
+          <g font-family="Nunito" font-weight="900" font-size="11" fill="#fff" text-anchor="middle">
+            <text class="s s1" x="160" y="314">1 · Prendi la bottiglia</text>
+            <text class="s s2" x="160" y="314">2 · Guarda il tappo</text>
+            <text class="s s3" x="160" y="314">3 · Leggi anno e giorno</text>
+          </g>
         </g>
       </svg>
     </div>
@@ -594,18 +626,18 @@ document.addEventListener('click',e=>{ const w=e.target.closest('.dialwrap'); if
 
 /* ===== Tappo: posiziona codice, evidenziazioni ed etichette ===== */
 function layoutCap(){
-  const g=id=>document.getElementById(id), gap=3.2;
+  const g=id=>document.getElementById(id), gap=1.9;
   const ids=['tR','tL','tE','t198','tT'];
   const w=ids.map(i=>g(i).getBBox().width);
-  const total=w.reduce((a,b)=>a+b,0)+gap*(ids.length-1)+4;
-  let x=160-total/2+2; const pos={};
+  const total=w.reduce((a,b)=>a+b,0)+gap*(ids.length-1);
+  let x=160-total/2; const pos={};
   ids.forEach((id,i)=>{ g(id).setAttribute('x',x.toFixed(2)); pos[id]={x,w:w[i]}; x+=w[i]+gap; });
-  [['hE','tE'],['h198','t198']].forEach(([h,tx])=>{ const p=pos[tx]; const r=g(h); r.setAttribute('x',(p.x-1.6).toFixed(2)); r.setAttribute('width',(p.w+3.2).toFixed(2)); r.setAttribute('y','30.6'); r.setAttribute('height','15.2'); });
-  const lab=(line,pill,txt,cx,y,line1)=>{ const t=g(txt); const tw=t.getBBox().width+7; t.setAttribute('x',cx.toFixed(2)); t.setAttribute('y',(y+5.1).toFixed(2));
-    const p=g(pill); p.setAttribute('x',(cx-tw/2).toFixed(2)); p.setAttribute('y',y.toFixed(2)); p.setAttribute('width',tw.toFixed(2)); p.setAttribute('height','7.4');
-    g(line).setAttribute('d',`M${cx.toFixed(2)} ${line1} V${y}`); };
-  lab('lnE','pE','xE',pos.tE.x+pos.tE.w/2,56,45.8);
-  lab('ln198','p198','x198',pos.t198.x+pos.t198.w/2,68,45.8);
+  [['hE','tE'],['h198','t198']].forEach(([h,tx])=>{ const p=pos[tx], r=g(h); r.setAttribute('x',(p.x-1).toFixed(2)); r.setAttribute('width',(p.w+2).toFixed(2)); r.setAttribute('y','37'); r.setAttribute('height','8'); });
+  const lab=(line,pill,txt,cx,py,l1,l2)=>{ const t=g(txt), tw=t.getBBox().width+4.4; t.setAttribute('x',cx.toFixed(2)); t.setAttribute('y',(py+3.35).toFixed(2));
+    const p=g(pill); p.setAttribute('x',(cx-tw/2).toFixed(2)); p.setAttribute('y',py); p.setAttribute('width',tw.toFixed(2)); p.setAttribute('height','4.8');
+    g(line).setAttribute('d',`M${cx.toFixed(2)} ${l1} V${l2}`); };
+  lab('lnE','pE','xE',pos.tE.x+pos.tE.w/2,20.5,37,25.3);
+  lab('ln198','p198','x198',pos.t198.x+pos.t198.w/2,62,45,62);
 }
 if(document.fonts&&document.fonts.ready){ document.fonts.ready.then(layoutCap); } else { window.addEventListener('load',layoutCap); }
 layoutCap();
