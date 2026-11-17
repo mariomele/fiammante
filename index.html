@@ -489,9 +489,9 @@
 
   <section>
     <div class="rv"><div class="caps eyebrow">La regola</div>
-    <h2>Cerca un numero tra 190 e 290</h2>
+    <h2>Cerca un numero tra 182 e 288</h2>
 
-    <p class="body">Il pomodoro matura in pieno campo solo d'estate: la raccolta va da luglio agli inizi di ottobre. Dal 9 luglio al 17 ottobre, cioè dal giorno 190 al 290.</p></div>
+    <p class="body">Il pomodoro matura in pieno campo solo d'estate: la raccolta va da luglio a metà ottobre. Dal 1° luglio al 15 ottobre, cioè dal giorno 182 al 288.</p></div>
     <div class="dialwrap" id="ruleDial" data-play></div>
     <div class="lanes" id="lanesRule" data-play></div>
   </section>
@@ -502,7 +502,7 @@
     <div class="years" id="years" data-play></div>
   </section>
 
-  <footer>Prototipo realizzato da NOOR per La Fiammante. Regola di lettura e finestra 190–290 dal video La Fiammante; la tabella lettere‑anno (E = 2020 confermata dal video) va verificata dal Controllo Qualità prima della pubblicazione.</footer>
+  <footer>Prototipo realizzato da NOOR per La Fiammante. Regola di lettura e finestra 182–288 dal video La Fiammante; la tabella lettere‑anno (E = 2020 confermata dal video) va verificata dal Controllo Qualità prima della pubblicazione.</footer>
 </main>
 
 <script>
@@ -510,7 +510,7 @@ const YEARS = { J:2019, E:2020, U:2021, F:2022, M:2023, G:2024, R:2025, K:2026 }
 const MESI = ["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"];
 const MS = ["GEN","FEB","MAR","APR","MAG","GIU","LUG","AGO","SET","OTT","NOV","DIC"];
 const GIORNI = ["domenica","lunedì","martedì","mercoledì","giovedì","venerdì","sabato"];
-const FRESH_FROM = 190, FRESH_TO = 290;
+const FRESH_FROM = 182, FRESH_TO = 288;
 const VIDEO_ID = "cm6ONvZ_78g";
 const ICON_OK = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>', ICON_NO = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M12 6v8"/><path d="M12 18.5v.01"/></svg>';
 
@@ -528,7 +528,7 @@ function pt(a,r,c=160){ const t=a*Math.PI/180; return [c+r*Math.sin(t), c-r*Math
 function arc(a1,a2,r){ const [x1,y1]=pt(a1,r),[x2,y2]=pt(a2,r); const large=(a2-a1)>180?1:0; return `M${x1.toFixed(1)} ${y1.toFixed(1)} A${r} ${r} 0 ${large} 1 ${x2.toFixed(1)} ${y2.toFixed(1)}`; }
 function dial(day, max=365){
   const monthStart=[1,32,60,91,121,152,182,213,244,274,305,335];
-  let s=`<svg class="dial ${day?(day>=FRESH_FROM&&day<=FRESH_TO?'ok':'no'):''}" viewBox="0 0 320 320" role="img" aria-label="${day?`Giorno ${day} sul calendario`:'Calendario: finestra di raccolta 190–290'}">`;
+  let s=`<svg class="dial ${day?(day>=FRESH_FROM&&day<=FRESH_TO?'ok':'no'):''}" viewBox="0 0 320 320" role="img" aria-label="${day?`Giorno ${day} sul calendario`:'Calendario: finestra di raccolta 182–288'}">`;
   s+=`<circle cx="160" cy="160" r="150" fill="none" stroke="#fff" stroke-width="3" stroke-dasharray="1 7" stroke-linecap="round"/>`;
   s+=`<circle cx="160" cy="160" r="104" fill="#F7DEC4"/>`;
   MS.forEach((m,i)=>{ const a=ang(monthStart[i]+14,max); const [x,y]=pt(a,130);
@@ -600,8 +600,8 @@ function render(p, year){
     <div class="verdict ${fresh?'ok':'no'}">
       <span class="ic">${fresh?ICON_OK:ICON_NO}</span>
       <div>${fresh
-        ? `<strong>Passata da pomodoro fresco</strong><span>Il giorno ${pad(day)} è tra 190 e 290: imbottigliata in piena raccolta.</span>`
-        : `<strong>Fuori dalla raccolta</strong><span>Il giorno ${pad(day)} non è tra 190 e 290: pomodoro rilavorato, anche a mesi dalla raccolta.</span>`}</div>
+        ? `<strong>Passata da pomodoro fresco</strong><span>Il giorno ${pad(day)} è tra 182 e 288: imbottigliata in piena raccolta.</span>`
+        : `<strong>Fuori dalla raccolta</strong><span>Il giorno ${pad(day)} non è tra 182 e 288: pomodoro rilavorato, anche a mesi dalla raccolta.</span>`}</div>
     </div>
     <div class="lanes one" data-live>${lane(fresh?'ok':'no')}</div>
     <div class="dialwrap play">${dial(day,max)}</div>
@@ -694,7 +694,7 @@ function lane(kind){
   const ok = kind==='ok';
   const mm = ok ? '<span>raccolta</span><span>bottiglia</span>' : '<span>raccolta</span><span>ott</span><span>dic</span><span>feb</span><span>apr</span>';
   return `<div class="lane ${ok?'ok':'no'}">
-    <div class="lhead"><span class="lic">${ok?ICON_OK:ICON_NO}</span><div class="lt"><span class="lchip">${ok?'Tra 190 e 290':'Fuori da 190–290'}</span><strong>${ok?'Fresca: raccolta e subito in bottiglia':'Rilavorata: imbottigliata mesi dopo'}</strong></div></div>
+    <div class="lhead"><span class="lic">${ok?ICON_OK:ICON_NO}</span><div class="lt"><span class="lchip">${ok?'Tra 182 e 288':'Fuori da 182–288'}</span><strong>${ok?'Fresca: raccolta e subito in bottiglia':'Rilavorata: imbottigliata mesi dopo'}</strong></div></div>
     <p class="lsub">${ok?'Il pomodoro matura in pieno campo, arriva allo stabilimento e viene imbottigliato a poche ore dalla raccolta.':'Il pomodoro viene concentrato, stoccato in silos e rilavorato, poi imbottigliato anche a distanza di mesi dalla raccolta.'}</p>
     <div class="track">
       ${ok?'<span class="zap">poche ore</span>':''}${TOK}
