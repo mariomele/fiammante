@@ -75,12 +75,12 @@
    ],
    "pas": [
     1,
-    "La Passata di pomodoro 680g",
+    "La Passata di pomodoro 680g; La Passata Dolcissima 700g (nuova ricetta, settembre 2026)",
     "https://www.lafiammante.it/passata-di-pomodoro.html"
    ],
    "pol": [
     1,
-    "Polpa di pomodoro 400g",
+    "Polpa di pomodoro 400g; Polpa fine LOVEPIZZA 400 g (nuova, agosto 2026)",
     "https://www.lafiammante.it/polpa-di-pomodoro.html"
    ],
    "pmd": [
@@ -151,6 +151,28 @@
      "La Paesana (F.lli Paudice)",
      "https://www.lafiammante.it/blog/post/tornano-a-splendere-gli-antichi-loghi-e-le-etichette-la-reale-e-la-paesana-flli-paudice-gli-altri-du"
     ]
+   ],
+   "nuovi": [
+    {
+     "nome": "La Passata Dolcissima 700g",
+     "cat": "Passata",
+     "prezzo": "2,19 €",
+     "d": "2026-09-24",
+     "nota": "Rilanciata con «nuova ricetta migliorata, stessa freschezza di sempre» (post del 24/09/2026); il nome Dolcissima compariva già in un reel del 2024.",
+     "u": "https://www.lafiammante.it/la-passata-di-pomodoro-dolcissima-700g.html",
+     "su": "https://www.instagram.com/p/Ddrscx6DAhP/",
+     "s": "dic"
+    },
+    {
+     "nome": "Polpa fine LOVEPIZZA 400 g",
+     "cat": "Polpa e cubetti",
+     "prezzo": "1,99 €",
+     "d": "2026-08-04",
+     "nota": "«La nuovissima polpa fine La Fiammante per pizza e... non solo» (pagina prodotto); primo post con #LOVEPIZZA il 04/08/2026. Per pizzerie c'è già Pa' Pizza 4,5 kg.",
+     "u": "https://www.lafiammante.it/lovepizza.html",
+     "su": "https://www.instagram.com/p/DboX0YwCiIh/",
+     "s": "dic"
+    }
    ]
   },
   "mutti": {
@@ -989,6 +1011,7 @@
   "ICAB vende con tre marchi: La Fiammante e i due storici napoletani La Reale e La Paesana (F.lli Paudice), rilevati negli anni '70. Con questi copre anche il doppio concentrato, in barattolo e in tubo: la prima versione della matrice lo dava assente perché guardava solo il marchio La Fiammante. Sui formati copre latta, vetro e grandi formati per pizzerie (Pa' Pizza 2,5 e 4,5 kg, bag in box), ha bio su pelati, passata e polpa e vende legumi e verdure.",
   "La mancanza più evidente sono i sughi pronti: li hanno tutti gli altri 8 concorrenti verificati, anche La Doria con il marchio Althea, ed è la categoria dove i grandi spingono (Mutti ha 5 sughi, 4 salse, 4 pesti di pomodoro e 5 zuppe). Mancano anche il brick, che hanno Pomì, Petti e Valfrutta (Conserve Italia), e una linea dichiarata premium, che hanno Petti, Casalasco (Tomato al Gusto, in Germania) e La Doria (Cook Italia, nel Regno Unito).",
   "Contando tutti i marchi, i grandi gruppi coprono quasi ogni voce: Casalasco (Pomì, De Rica, Pummarò, Gustodoro, Tomato al Gusto) le ha tutte tranne il DOP; Conserve Italia (Cirio, Valfrutta, Jolly Colombani) tutte tranne il DOP, con la linea premium da decidere (Le Selezioni di Cirio). Il concorrente più simile resta La Torrente: stessa area campana, pelati, pomodorini, San Marzano DOP, bio, legumi e catering, ma con in più i sughi pronti.",
-  "Limiti: Solania non è verificata perché il sito ufficiale è ancora in manutenzione; per La Doria bio, DOP e brick restano aperti perché La Romanella non pubblica la gamma; le confezioni di Mutti e Pomì sono ricavate da poche frasi del sito; il numero di prodotti (n) è contato in modo diverso da sito a sito e, tranne ICAB, solo sul marchio principale: va letto come ordine di grandezza."
+  "Limiti: Solania non è verificata perché il sito ufficiale è ancora in manutenzione; per La Doria bio, DOP e brick restano aperti perché La Romanella non pubblica la gamma; le confezioni di Mutti e Pomì sono ricavate da poche frasi del sito; il numero di prodotti (n) è contato in modo diverso da sito a sito e, tranne ICAB, solo sul marchio principale: va letto come ordine di grandezza.",
+  "Nel 2026 La Fiammante ha dato un nome proprio a due prodotti: la Passata Dolcissima, rilanciata a settembre con una nuova ricetta, e la polpa fine LOVEPIZZA per la pizza fatta in casa, lanciata ad agosto. Sono i primi prodotti del marchio con un nome di fantasia e una comunicazione loro sui social. LOVEPIZZA porta il marchio nella pizza di casa, dove finora c'era solo Pa' Pizza per le pizzerie."
  ]
 }

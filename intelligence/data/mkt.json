@@ -2,7 +2,7 @@
  "n": "Analisi dell'agente K (direttore marketing e brand strategist, food italiano di marca), scritta il 22/11/2026 leggendo tutti i file in data/, brandx.json compreso, il CLAUDE.md e qa.md. È una valutazione: ogni numero viene dal cruscotto, nessun dato nuovo. Standing ricalcolato come nella sezione Standing (pesi uguali). Engagement = mediane dei post di posts.json senza i video promossi. Limiti noti (qa.md): like di Instagram da una sola fonte, risposte AI che cambiano a ogni richiesta, Pomì senza dati SEO.",
  "at": "2026-11-22",
  "s": "val",
- "sintesi": "La Fiammante ha un buon prodotto e un racconto vero, ma il marchio pesa meno di quello che vende. Lo standing è 46 su 100, quinto su dieci. Il logo per il panel è nono su dieci e sta in una categoria dove 7 marchi su 10 sono rossi. Il punto di forza c'è ed è chiaro: la filiera etica. Sui post di filiera rendiamo il triplo che sulle ricette (0,84% contro 0,27%), e sulla domanda AI sulla filiera etica siamo i primi nominati su ChatGPT e Perplexity. Su Google siamo secondi per visite (10.340 al mese) grazie alle ricette. Mancano tre cose: un segno che regga in piccolo, una presenza vera su TikTok (1.453 follower) e più citazioni nelle risposte AI (4 su 40 contro 22 di Mutti). Il piano: ripulire il logo, spostare i contenuti su filiera e persone, prendere le ricette del gap e farci citare dai siti che le AI leggono. Il momento è agosto, quando le ricerche di passata raddoppiano.",
+ "sintesi": "La Fiammante ha un buon prodotto e un racconto vero, ma il marchio pesa meno di quello che vende. Lo standing è 51 su 100, quarto su dieci. Il logo per il panel è nono su dieci e sta in una categoria dove 7 marchi su 10 sono rossi. Il punto di forza c'è ed è chiaro: la filiera etica. Sui post di filiera rendiamo il triplo che sulle ricette (0,84% contro 0,27%), e sulla domanda AI sulla filiera etica siamo i primi nominati su ChatGPT e Perplexity. Su Google siamo secondi per visite (10.340 al mese) grazie alle ricette. Mancano tre cose: un segno che regga in piccolo, una presenza vera su TikTok (1.453 follower) e più citazioni nelle risposte AI (4 su 40 contro 22 di Mutti). Il piano: ripulire il logo, spostare i contenuti su filiera e persone, prendere le ricette del gap e farci citare dai siti che le AI leggono. Il momento è agosto, quando le ricerche di passata raddoppiano.",
  "swot": {
   "forza": [
    "Filiera etica riconosciuta: tono «filiera» 5 su 5, post di filiera allo 0,84% mediano, primi nominati sulla domanda AI sulla filiera etica (ChatGPT e Perplexity).",
@@ -32,9 +32,9 @@
  },
  "punti": [
   {
-   "t": "Lo standing è quinto: perdiamo su notizie, premi e storia",
-   "x": "Lo standing di La Fiammante è 46 su 100, quinto su dieci, a 2 punti da Pomì (48). Siamo forti su recensioni Google e visite dal sito, deboli su notizie (0 in 12 mesi, ultimi), premi e certificazioni (3, ultimi) e storia, che non si calcola perché l'anno di fondazione non è nel cruscotto. Sono fattori che si muovono con le relazioni esterne, non con il budget media.",
-   "dati": "Standing 46/100, 5° su 10; Pomì 48, Cirio 72, Mutti 71. Notizie in 12 mesi: 0. Premi + certificazioni: 3. Voto Google 4,6. Visite da Google 10.340 al mese.",
+   "t": "Lo standing è quarto: perdiamo su notizie, premi e storia",
+   "x": "Lo standing di La Fiammante è 51 su 100, quarto su dieci, a 4 punti da Rodolfi (55) e appena sopra Pomì (50). Siamo forti su recensioni Google e visite dal sito, deboli su notizie (0 in 12 mesi, ultimi), premi e certificazioni (3, ultimi) e storia, che non si calcola perché l'anno di fondazione non è nel cruscotto. Sono fattori che si muovono con le relazioni esterne, non con il budget media.",
+   "dati": "Standing 51/100, 4° su 10; Rodolfi 55, Pomì 50, Cirio 68, Mutti 74. Notizie in 12 mesi: 0. Premi + certificazioni: 3. Voto Google 4,6. Visite da Google 10.340 al mese.",
    "az": "Scrivere l'anno di fondazione nella pagina «chi siamo». Fare 1 comunicato al mese (campagna del pomodoro, filiera etica, novità come la Dolcissima). Candidare la passata e i DOP a Prodotto dell'Anno e alle guide del Gambero Rosso, come hanno fatto Petti, Mutti e La Torrente.",
    "pr": 1,
    "imp": 4,
@@ -186,7 +186,7 @@
   ]
  ],
  "kpi": [
-  ["Standing del marchio", "46/100, 5° su 10", "oltre 48, 4° (sopra Pomì)", "standing"],
+  ["Standing del marchio", "51/100, 4° su 10", "oltre 55, 3° (sopra Rodolfi)", "standing"],
   ["Notizie sul marchio in 12 mesi", "0", "almeno 6", "standing"],
   ["Logo, media del panel", "2,3 su 5, 9° su 10", "3,5 su 5", "marchio"],
   ["Engagement mediano Instagram", "0,35%, 4° su 8", "0,6%", "engag"],
