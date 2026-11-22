@@ -76,9 +76,9 @@
     "prem": 2,
     "ess": 2
    },
-   "v": "Una scritta rossa minuscola, grassa e simpatica, che si fa notare ma è circondata da troppi accessori: bandierina, scintilla gialla e verde, contorno chiaro e payoff in maiuscolo spaziato.",
+   "v": "Una scritta rossa minuscola, tonda e molto grassa: dice simpatia e prezzo, non qualità. In più è circondata da troppi accessori: bandierina, scintilla gialla e verde, contorno chiaro e payoff in maiuscolo spaziato.",
    "pro": [
-    "«fiammante» in minuscolo arrotondato e molto pesante è l'unica scritta di questo tipo nella categoria: gli altri usano maiuscole con grazie o scudi.",
+    "«fiammante» in minuscolo tondo e pesante è diversa dagli altri, ma diversa nel senso sbagliato: nella categoria maiuscole, grazie e scudi sono il codice della qualità, e uscirne con un tondo grasso fa leggere il marchio come più economico.",
     "Il ritmo delle due m e delle due a dà una forma lunga e riconoscibile anche da lontano, sulla fascia dell'etichetta.",
     "La bandierina tricolore piccola in alto dice Italia senza trasformare tutto il logo in un tricolore, come fa La Torrente."
    ],
@@ -544,7 +544,7 @@
   "icab": {
    "k": "Debole",
    "e": "Scritta simpatica, troppi accessori",
-   "v": "Una scritta minuscola, grassa e diversa dalle altre, che però ha intorno bandiera, scintilla, contorno e payoff. Si fa vedere, non sembra premium.",
+   "v": "Una scritta minuscola, tonda e grassa: si fa vedere, ma ha il tono di una merendina, non di un San Marzano DOP. Intorno ha bandiera, scintilla, contorno e payoff.",
    "x": [
     [
      "Tipografo",
@@ -559,7 +559,7 @@
     [
      "Category manager GDO",
      2,
-     "La forma lunga e minuscola si distingue dalle maiuscole e dagli scudi degli altri, ma il rosso la rimette nel gruppo."
+     "La forma lunga e minuscola è diversa dalle maiuscole e dagli scudi degli altri, ma è diversa verso il basso (più alla buona), e il rosso la rimette comunque nel gruppo."
     ],
     [
      "Designer digitale",
@@ -768,7 +768,7 @@
   }
  },
  "fiammante": {
-  "sintesi": "Il logo di La Fiammante ha un'idea vera: «fiammante» in minuscolo, tondo e molto pesante, è l'unica scritta di questo tipo in una categoria fatta di maiuscole con grazie e scudi araldici, e il nome stesso evoca il rosso acceso del pomodoro. Il problema è tutto quello che la circonda: bandierina tricolore sopra, scintilla gialla e verde sul «la», contorno chiaro e ombra sotto le lettere, payoff «SANI E MEDITERRANEI» in maiuscolo spaziato. Sono quattro registri in un solo logo, e nessuno sopravvive sul tappo, nella favicon o timbrato a un colore sul cartone. Il tono giocoso delle lettere dice marca popolare, mentre il catalogo ha DOP San Marzano, Piennolo del Vesuvio e tracciabilità in blockchain: oggi il logo vende il marchio sotto il suo prodotto. Con la stessa severità usata per tutti, nel settore sta al nono posto su dieci: sotto Mutti, Pomì, Agromonte, Cirio, Rodolfi, La Torrente, La Doria e Petti, sopra solo Solania; il nome ha più forza del segno che lo porta.",
+  "sintesi": "Il nome è forte, il segno no. «fiammante» in minuscolo, tondo e molto pesante è l'unica scritta di questo tipo in una categoria di maiuscole con grazie e scudi, ma essere diversi non basta. Gli studi sulla scrittura dei marchi dicono che il minuscolo fa sembrare la marca più vicina e simpatica e meno autorevole e competente, mentre il maiuscolo trasmette forza e qualità (Xu, Chen e Liu 2017; Teng e altri, Journal of Business Research 2021). Il tondo molto grasso aggiunge un tono da prodotto per bambini e chiude gli occhielli di «a» ed «e» quando il logo è piccolo. E per Romaniuk (Building Distinctive Brand Assets, 2018) un segno vale come patrimonio solo se è unico e insieme molto riconosciuto: la scritta oggi è unica, ma nessuno ha misurato quanti la riconoscono. A tutto questo si somma ciò che la circonda: bandierina tricolore sopra, scintilla gialla e verde sul «la», contorno chiaro e ombra sotto le lettere, payoff «SANI E MEDITERRANEI» in maiuscolo spaziato. Sono quattro registri in un solo logo, e nessuno sopravvive sul tappo, nella favicon o timbrato a un colore sul cartone. Il tono giocoso delle lettere dice marca popolare, mentre il catalogo ha DOP San Marzano, Piennolo del Vesuvio e tracciabilità in blockchain: oggi il logo vende il marchio sotto il suo prodotto. Con la stessa severità usata per tutti, nel settore sta al nono posto su dieci: sotto Mutti, Pomì, Agromonte, Cirio, Rodolfi, La Torrente, La Doria e Petti, sopra solo Solania; il nome ha più forza del segno che lo porta.",
   "rischi": [
    "Restare un'altra scritta rossa: sullo scaffale il colore la mette nello stesso blocco di Pomì, Petti, Rodolfi e La Torrente, e la forma tonda non basta a separarla.",
    "Il logo dice prezzo accessibile mentre i prodotti DOP chiedono un prezzo alto: il cliente che compra Mutti non viene convinto dal segno.",
