@@ -1,0 +1,808 @@
+{
+ "at": "2026-11-22",
+ "s": "val",
+ "by": "Il logo si giudica dove vive: sullo scaffale a 3 metri tra decine di rossi, sul tappo e sulla fascia stretta dell'etichetta del barattolo, timbrato a un colore sul cartone, nel quadrato di un post Instagram e nella favicon a 16 px; non sullo schermo grande della homepage.",
+ "teamBy": "Lettura di un panel di sette mestieri (tipografo, packaging designer, category manager GDO, designer digitale, stratega di marca, esperto di colore e semiotica, ricercatore sui consumatori). Le voci sono ruoli simulati da Claude, non persone o studi reali; i voti sono valutazioni sui PNG dei loghi.",
+ "crit": [
+  [
+   "rid",
+   "Riduzione",
+   "Tiene su tappo, etichetta piccola, favicon a 16 px?"
+  ],
+  [
+   "mono",
+   "Un colore",
+   "Funziona a un colore: timbro sul cartone, incisione sul tappo, bianco su foto?"
+  ],
+  [
+   "dist",
+   "Distintività",
+   "Si riconosce a scaffale tra i rossi del pomodoro?"
+  ],
+  [
+   "tipo",
+   "Costruzione",
+   "Lettere e forme disegnate bene: pesi, spaziature, un dettaglio proprio?"
+  ],
+  [
+   "sist",
+   "Sistema",
+   "Tiene insieme marchio, sottomarchi, linee e pack?"
+  ],
+  [
+   "sett",
+   "Settore",
+   "Dice pomodoro italiano e la fascia giusta?"
+  ],
+  [
+   "dur",
+   "Durata",
+   "Fra 15 anni sembrerà ancora attuale, senza ombre e sfumature di moda?"
+  ],
+  [
+   "prem",
+   "Percezione",
+   "premium (5) o economico (1)"
+  ],
+  [
+   "ess",
+   "Essenzialità",
+   "Ogni elemento serve? Niente accessori, scritte o effetti in più?"
+  ]
+ ],
+ "top": [
+  "Apple",
+  "Nike",
+  "Coca-Cola",
+  "McDonald's",
+  "Google",
+  "Mercedes-Benz",
+  "FedEx",
+  "Starbucks",
+  "Disney",
+  "IBM"
+ ],
+ "topSrc": "https://celerart.com/blog/the-10-greatest-logos-of-all-time-and-why-they-work-so-well",
+ "logos": {
+  "icab": {
+   "c": {
+    "rid": 2,
+    "mono": 2,
+    "dist": 3,
+    "tipo": 3,
+    "sist": 2,
+    "sett": 3,
+    "dur": 2,
+    "prem": 2,
+    "ess": 2
+   },
+   "v": "Una scritta rossa minuscola, grassa e simpatica, che si fa notare ma è circondata da troppi accessori: bandierina, scintilla gialla e verde, contorno chiaro e payoff in maiuscolo spaziato.",
+   "pro": [
+    "«fiammante» in minuscolo arrotondato e molto pesante è l'unica scritta di questo tipo nella categoria: gli altri usano maiuscole con grazie o scudi.",
+    "Il ritmo delle due m e delle due a dà una forma lunga e riconoscibile anche da lontano, sulla fascia dell'etichetta.",
+    "La bandierina tricolore piccola in alto dice Italia senza trasformare tutto il logo in un tricolore, come fa La Torrente."
+   ],
+   "contro": [
+    "Bandierina, scintilla giallo-verde sul «la» e payoff stanno in tre punti diversi del logo: a 16 px o sul tappo restano solo macchie colorate.",
+    "Il contorno chiaro e la leggera ombra sotto le lettere sono un effetto da insegna, che a un colore (timbro sul cartone) sparisce e lascia le lettere più magre.",
+    "Il tono giocoso delle lettere tonde parla di prezzo accessibile: è in tensione con i prodotti DOP San Marzano e Piennolo che il marchio vende."
+   ],
+   "fix": "Tenere la scritta «la fiammante» come logo principale piena a un colore, senza contorno né ombra; togliere la scintilla, spostare la bandierina a elemento di pack e ricavare dalla «f» con la fiamma un segno quadrato per tappo, favicon e social."
+  },
+  "mutti": {
+   "c": {
+    "rid": 1,
+    "mono": 2,
+    "dist": 5,
+    "tipo": 4,
+    "sist": 4,
+    "sett": 5,
+    "dur": 5,
+    "prem": 5,
+    "ess": 2
+   },
+   "v": "Lo stemma più forte della categoria: scudo rosso, nome bianco pesante, leoni d'oro. Costruito per lo scaffale e per il premium, pagato con molti dettagli che in piccolo non arrivano.",
+   "pro": [
+    "MUTTI in maiuscolo bianco grassetto con grazie corte si legge da tre metri anche sul rosso pieno.",
+    "I due leoni dorati e la cornice oro sono un codice araldico che dice «qualità superiore» senza scriverlo.",
+    "«Solo pomodoro.» in alto è un claim che diventa parte del segno: posizionamento chiuso in tre parole."
+   ],
+   "contro": [
+    "I leoni, il fregio centrale e le scritte «Solo pomodoro.» e «Parma» si impastano sotto i 40 px: sul tappo e in favicon resta uno scudo rosso.",
+    "Funziona solo a colori: rosso e oro insieme sono l'idea; a un colore lo stemma diventa un timbro generico.",
+    "Il file del sito è a bassa risoluzione (140×86), segno che la versione digitale non è curata come quella di pack."
+   ],
+   "fix": "Fissare una versione ridotta ufficiale (scudo rosso con solo MUTTI, senza leoni né scritte piccole) per tappo, favicon e social, lasciando lo stemma completo all'etichetta."
+  },
+  "conserveitalia": {
+   "c": {
+    "rid": 4,
+    "mono": 2,
+    "dist": 4,
+    "tipo": 4,
+    "sist": 3,
+    "sett": 3,
+    "dur": 3,
+    "prem": 3,
+    "ess": 3
+   },
+   "v": "Un cuore blu notte con CIRIO in maiuscolo bianco: il nome si legge benissimo e il blu lo stacca dai rossi, ma corsivo e sfumatura azzurra lo fermano a qualche anno fa.",
+   "pro": [
+    "CIRIO in maiuscole con grazie, pesanti e ben spaziate: è il nome più leggibile da lontano dopo Pomì.",
+    "Il blu notte è la scelta più coraggiosa di contrasto sullo scaffale rosso: si trova subito.",
+    "La forma a cuore è un contenitore compatto che regge in un quadrato (tappo, avatar)."
+   ],
+   "contro": [
+    "La sfumatura azzurra in basso e il bordo crema non reggono a un colore né in stampa flessografica sul cartone.",
+    "«Cuore Italiano» in corsivo sottile sparisce sotto i 120 px e ripete in parole quello che la forma già dice.",
+    "Il blu dice marchio di largo consumo, non pomodoro: sotto la stessa forma vivono legumi e verdure, il segno non è specifico."
+   ],
+   "fix": "Togliere la sfumatura e il corsivo dal logo principale, tenere cuore pieno blu più CIRIO; usare «Cuore Italiano» solo come claim di comunicazione."
+  },
+  "casalasco": {
+   "c": {
+    "rid": 5,
+    "mono": 5,
+    "dist": 2,
+    "tipo": 4,
+    "sist": 4,
+    "sett": 3,
+    "dur": 5,
+    "prem": 3,
+    "ess": 5
+   },
+   "v": "Quattro lettere rosse con grazie morbide e l'accento sulla ì: il logo più essenziale della categoria, ma anche uno dei meno distinguibili per colore.",
+   "pro": [
+    "Pomì è corto, una sola parola, un solo colore: tiene su tappo, favicon e timbro del cartone senza versioni speciali.",
+    "Le grazie morbide e la P aperta danno un carattere caldo e domestico, adatto al brick di passata.",
+    "L'accento sulla ì è un dettaglio proprio, l'unico che si può isolare come segno."
+   ],
+   "contro": [
+    "Rosso su bianco come metà della categoria: senza il pack non si distingue a colpo d'occhio da una marca privata.",
+    "Nessun elemento grafico oltre alle lettere: niente che leghi il marchio agli altri del gruppo (De Rica, Pummarò).",
+    "Le grazie sono ordinate ma senza un taglio proprio: è un buon carattere, non un carattere di Pomì."
+   ],
+   "fix": "Tenere il wordmark e lavorare sull'accento della ì come segno compatto e firma ricorrente (tappo, social, sigillo del pack)."
+  },
+  "ladoria": {
+   "c": {
+    "rid": 2,
+    "mono": 3,
+    "dist": 3,
+    "tipo": 3,
+    "sist": 3,
+    "sett": 2,
+    "dur": 3,
+    "prem": 3,
+    "ess": 2
+   },
+   "v": "Un'etichetta ovale blu e gialla con una torre in un cerchio: riconoscibile per colore, ma costruita come un bollino da scaffale più che come un marchio.",
+   "pro": [
+    "Blu e giallo sono una coppia rara nella categoria e si vedono a distanza.",
+    "LaDoria in maiuscolo con grazie, attaccato e con la D alta, si legge bene dentro l'ovale.",
+    "«DAL 1954» dichiara la storia senza fronzoli."
+   ],
+   "contro": [
+    "Tre livelli (archi gialli, ovale blu, cerchio con torre sopra) per dire un nome: troppi contenitori.",
+    "La torre nel cerchio sporge sopra l'ovale e in piccolo diventa una macchia blu: non è un segno usabile da solo.",
+    "Blu e giallo non dicono pomodoro: potrebbe essere tonno, olio o pasta."
+   ],
+   "fix": "Togliere gli archi gialli e il cerchio sporgente, tenere l'ovale blu con il nome e ridisegnare la torre come segno semplice a un colore."
+  },
+  "petti": {
+   "c": {
+    "rid": 3,
+    "mono": 1,
+    "dist": 1,
+    "tipo": 3,
+    "sist": 3,
+    "sett": 3,
+    "dur": 2,
+    "prem": 3,
+    "ess": 3
+   },
+   "v": "Scudo rosso lucido con corona dorata e Petti in bianco: corretto e caldo, ma è lo stesso codice di Mutti in versione più semplice.",
+   "pro": [
+    "Petti in minuscolo con grazie, pesante e corto, si legge bene al centro dello scudo.",
+    "«1925» tra due filetti dichiara la storia in modo compatto.",
+    "Lo scudo con la corona è un contenitore che entra in un quadrato (tappo, avatar)."
+   ],
+   "contro": [
+    "Scudo rosso più oro è il codice di Mutti: a scaffale Petti sembra la sua alternativa, non un marchio diverso.",
+    "Il rosso sfumato e lucido non regge a un colore e invecchia il segno.",
+    "Il file del sito è molto piccolo e sfocato: il marchio non ha una versione digitale curata."
+   ],
+   "fix": "Appiattire lo scudo in un rosso pieno, scegliere un secondo colore diverso dall'oro (il verde della Toscana, per esempio) e rendere la corona più semplice."
+  },
+  "rodolfi": {
+   "c": {
+    "rid": 1,
+    "mono": 3,
+    "dist": 3,
+    "tipo": 4,
+    "sist": 3,
+    "sett": 5,
+    "dur": 4,
+    "prem": 4,
+    "ess": 2
+   },
+   "v": "Un'etichetta rossa da conserva d'epoca, ben composta, che racconta Parma e la terra: bella sul barattolo, troppo piena per tutto il resto.",
+   "pro": [
+    "RODOLFI in maiuscole con grazie e ombra, ben spaziato: la tipografia più curata della categoria dopo Mutti.",
+    "L'incisione dei campi con il casale dice filiera e territorio senza parole.",
+    "«1896» e «POMODORO A PARMA» tra filetti fissano origine e storia in una gerarchia pulita."
+   ],
+   "contro": [
+    "Incisione, filetti, banda ocra e due righe di testo: sotto i 100 px resta solo RODOLFI su rosso.",
+    "L'ombra sotto le lettere e la trama dell'incisione non reggono a un colore sul cartone.",
+    "Ancora rosso e oro: per colore si confonde con Mutti e Petti."
+   ],
+   "fix": "Separare il marchio (RODOLFI con «1896») dall'etichetta illustrata, che resta solo sul pack; usare il verde scuro del sito come secondo colore al posto dell'ocra."
+  },
+  "agromonte": {
+   "c": {
+    "rid": 4,
+    "mono": 5,
+    "dist": 5,
+    "tipo": 4,
+    "sist": 3,
+    "sett": 2,
+    "dur": 4,
+    "prem": 4,
+    "ess": 4
+   },
+   "v": "L'unico logo nero della categoria: rettangolo con filetto oro, AGROMONTE bianco in maiuscole con grazie. Si ricorda, ma non dice né pomodoro né sugo pronto.",
+   "pro": [
+    "Nero e oro su uno scaffale tutto rosso è il contrasto più netto: si trova in un secondo.",
+    "Lettere maiuscole con grazie fini e ben spaziate: aspetto da gastronomia, premium a costo zero.",
+    "Funziona già a un colore: bianco su nero o nero su bianco, nulla da togliere."
+   ],
+   "contro": [
+    "Il nero non richiama pomodoro né Sicilia: il rettangolo potrebbe essere di un olio o di un vino.",
+    "Il nome lungo dentro un rettangolo largo non entra in un quadrato: per favicon e tappo non c'è un segno.",
+    "«SICILIA» spaziato e piccolo sparisce sotto i 150 px, proprio la parola che dà l'origine."
+   ],
+   "fix": "Ricavare dalla A un segno quadrato nero e oro per tappo e social, e portare un accento rosso del pomodorino nel filetto o nella A."
+  },
+  "solania": {
+   "c": {
+    "rid": 2,
+    "mono": 1,
+    "dist": 3,
+    "tipo": 1,
+    "sist": 2,
+    "sett": 2,
+    "dur": 1,
+    "prem": 1,
+    "ess": 1
+   },
+   "v": "Fiocco blu a onda, sole arancio, tralcio verde e corsivo bianco con ombra: tanti elementi e nessuno ben risolto. Il logo più datato del gruppo.",
+   "pro": [
+    "È diverso da tutti gli altri: blu, verde e arancio insieme non li usa nessuno.",
+    "Il sole arancio dietro la S suggerisce il pomodoro maturo e il Sud.",
+    "La forma a onda è un contenitore che si nota sul pack."
+   ],
+   "contro": [
+    "Il corsivo bianco con ombra si impasta in piccolo e non ha un disegno proprio.",
+    "Quattro colori, sfumature e ombre: a un colore il logo non esiste.",
+    "Il tralcio verde sottile e il bordo dell'onda sono dettagli che spariscono sotto i 100 px."
+   ],
+   "fix": "Rifare da zero: un nome pulito a un colore e un solo segno (il sole arancio) come elemento proprio."
+  },
+  "latorrente": {
+   "c": {
+    "rid": 4,
+    "mono": 2,
+    "dist": 1,
+    "tipo": 3,
+    "sist": 3,
+    "sett": 4,
+    "dur": 3,
+    "prem": 2,
+    "ess": 4
+   },
+   "v": "Barra rossa con bande verdi e TORRENTE in maiuscolo bianco: si legge da lontano, ma è il codice tricolore che usano decine di marchi e marche del distributore.",
+   "pro": [
+    "TORRENTE in maiuscole pesanti su una sola riga: leggibile da tre metri.",
+    "Il «la» corsivo in un riquadro bianco è un piccolo dettaglio proprio, che tiene insieme le due parole.",
+    "Forma orizzontale semplice, adatta alla fascia di un'etichetta e di un cartone."
+   ],
+   "contro": [
+    "Rosso con bande verdi e scritta bianca è il tricolore da pizzeria: nessun elemento lo rende di La Torrente.",
+    "Le grazie decorative di TORRENTE sono di repertorio, non disegnate.",
+    "Senza le bande verdi e il rosso il nome diventa una scritta qualunque: a un colore perde tutto."
+   ],
+   "fix": "Disegnare un TORRENTE proprio (spessori e grazie su misura), fare del «la» nel riquadro il segno compatto e ridurre il verde a un filetto."
+  }
+ },
+ "team": {
+  "mutti": {
+   "k": "Solido",
+   "e": "Lo stemma del pomodoro",
+   "v": "Il marchio che la categoria copia: lo scudo rosso e oro e «Solo pomodoro.» dicono premium a tre metri. Il prezzo è una versione piccola che non esiste.",
+   "x": [
+    [
+     "Tipografo",
+     4,
+     "MUTTI con grazie corte e peso alto è la scritta più solida del gruppo; le scritte piccole sopra e sotto sono deboli."
+    ],
+    [
+     "Packaging designer",
+     5,
+     "Lo scudo è nato per il barattolo e la latta: cornice oro e rosso pieno danno una gerarchia perfetta sull'etichetta."
+    ],
+    [
+     "Category manager GDO",
+     5,
+     "Dal corridoio si vede prima lo scudo e poi il prodotto: è il blocco di colore che orienta tutto il reparto."
+    ],
+    [
+     "Designer digitale",
+     2,
+     "Sul tappo e in favicon i leoni diventano rumore: serve una riduzione ufficiale che oggi manca."
+    ],
+    [
+     "Stratega di marca",
+     5,
+     "Claim e segno coincidono: «Solo pomodoro.» chiude il posizionamento meglio di qualunque concorrente."
+    ],
+    [
+     "Esperto di colore e semiotica",
+     5,
+     "Rosso, oro e leoni: araldica che significa garanzia e tradizione, coerente con la fascia alta."
+    ],
+    [
+     "Ricercatore sui consumatori",
+     5,
+     "È il logo che chi compra pomodoro ricorda e descrive a memoria: scudo rosso con i leoni."
+    ]
+   ],
+   "lez": "Un segno diventa premium quando il colore, il claim e la forma dicono la stessa cosa; La Fiammante deve scegliere che cosa dire e dirlo con meno elementi.",
+   "w": 4,
+   "wv": "Uno dei loghi più forti del settore, con il carattere di un emblema storico, ma lontano dalla sintesi di Starbucks o Mercedes: non regge in piccolo e non vive senza colore."
+  },
+  "conserveitalia": {
+   "k": "Nella norma",
+   "e": "Il cuore blu",
+   "v": "Il blu notte e il cuore fanno di Cirio il marchio più facile da trovare tra i rossi; sfumatura e corsivo lo invecchiano.",
+   "x": [
+    [
+     "Tipografo",
+     4,
+     "CIRIO in maiuscole con grazie è pesante e leggibilissimo; il corsivo sotto è di repertorio."
+    ],
+    [
+     "Packaging designer",
+     3,
+     "Il cuore funziona su barattolo e latta, ma la sfumatura azzurra crea problemi in stampa."
+    ],
+    [
+     "Category manager GDO",
+     5,
+     "A scaffale è l'unico blocco blu: il cliente lo trova senza cercare."
+    ],
+    [
+     "Designer digitale",
+     4,
+     "Il cuore entra in un quadrato e regge come avatar; il corsivo no."
+    ],
+    [
+     "Stratega di marca",
+     3,
+     "Lo stesso cuore copre pomodoro, legumi e verdure: forte come marchio ombrello, meno come marchio di pomodoro."
+    ],
+    [
+     "Esperto di colore e semiotica",
+     3,
+     "Il blu dà fiducia e storia ma toglie il legame con il pomodoro; il cuore aggiunge calore."
+    ],
+    [
+     "Ricercatore sui consumatori",
+     4,
+     "Il cuore blu è un ricordo condiviso da generazioni di consumatori."
+    ]
+   ],
+   "lez": "Un colore diverso dalla categoria vale più di un disegno elaborato: la distintività si compra col contrasto.",
+   "w": 3,
+   "wv": "Forma e colore propri lo rendono riconoscibile, ma sfumature e corsivo lo tengono lontano dalla pulizia di un IBM o di un McDonald's."
+  },
+  "agromonte": {
+   "k": "Solido",
+   "e": "Il nero di Sicilia",
+   "v": "Il contrasto più netto della categoria: nero, oro e maiuscole fini. Si vede e sembra premium, ma non dice pomodoro.",
+   "x": [
+    [
+     "Tipografo",
+     4,
+     "Maiuscole con grazie fini, ben spaziate: aspetto editoriale e pulito."
+    ],
+    [
+     "Packaging designer",
+     4,
+     "Il nero sul vasetto di vetro con il pomodorino rosso dentro fa il lavoro del colore: il prodotto colora il pack."
+    ],
+    [
+     "Category manager GDO",
+     5,
+     "Su uno scaffale di rossi il nero si trova per primo: il miglior segnale di distintività del gruppo."
+    ],
+    [
+     "Designer digitale",
+     3,
+     "Rettangolo largo e nessun segno quadrato: favicon e tappo restano senza forma."
+    ],
+    [
+     "Stratega di marca",
+     3,
+     "Premium e gastronomico, ma il marchio non comunica né pomodorino né salse pronte."
+    ],
+    [
+     "Esperto di colore e semiotica",
+     4,
+     "Nero e oro significano qualità e cura; manca un rosso che leghi il codice al pomodoro."
+    ],
+    [
+     "Ricercatore sui consumatori",
+     3,
+     "Si ricorda come «quello nero», non ancora come il pomodorino di Sicilia."
+    ]
+   ],
+   "lez": "Uscire dal rosso è la mossa di distintività più efficace a scaffale; va però agganciata a un segno del prodotto.",
+   "w": 5,
+   "wv": "Netto e coerente come un wordmark a un colore, ma senza un'idea grafica propria: è un rettangolo con un nome."
+  },
+  "casalasco": {
+   "k": "Riferimento",
+   "e": "Quattro lettere",
+   "v": "Il logo più essenziale della categoria: Pomì regge ovunque. Gli manca solo un colore o un segno che lo separi dagli altri rossi.",
+   "x": [
+    [
+     "Tipografo",
+     4,
+     "Grazie morbide e P aperta danno calore; l'accento sulla ì è l'unico dettaglio proprio."
+    ],
+    [
+     "Packaging designer",
+     4,
+     "Sul brick e sul barattolo sta bene in grande, lasciando spazio al prodotto."
+    ],
+    [
+     "Category manager GDO",
+     3,
+     "Rosso su bianco: a scaffale lo riconosce la forma del brick più che il logo."
+    ],
+    [
+     "Designer digitale",
+     5,
+     "Corto, un colore, nessun effetto: regge a 16 px senza versioni speciali."
+    ],
+    [
+     "Stratega di marca",
+     3,
+     "Buon marchio prodotto, ma isolato: non dice nulla degli altri marchi del gruppo."
+    ],
+    [
+     "Esperto di colore e semiotica",
+     3,
+     "Il rosso pieno dice pomodoro, ma è lo stesso rosso di tutti."
+    ],
+    [
+     "Ricercatore sui consumatori",
+     4,
+     "Nome corto e facile da pronunciare: si ricorda e si chiede per nome."
+    ]
+   ],
+   "lez": "La semplicità paga in ogni formato: un nome corto, pieno e a un colore vale più di bandiere e stelle.",
+   "w": 5,
+   "wv": "Ha la sintesi di Google o Coca-Cola come scritta a un colore, ma non il loro disegno unico né un segno memorabile."
+  },
+  "rodolfi": {
+   "k": "Nella norma",
+   "e": "L'etichetta d'epoca",
+   "v": "Il racconto più coerente di territorio e filiera, disegnato con cura; ma è un'etichetta, non un marchio che vive fuori dal barattolo.",
+   "x": [
+    [
+     "Tipografo",
+     4,
+     "RODOLFI in maiuscole con grazie e ombra, spaziature curate: tipografia di qualità."
+    ],
+    [
+     "Packaging designer",
+     4,
+     "Sul barattolo l'etichetta rossa con l'incisione è bellissima e coerente."
+    ],
+    [
+     "Category manager GDO",
+     3,
+     "Rosso e oro come Mutti e Petti: si confonde nel blocco rosso."
+    ],
+    [
+     "Designer digitale",
+     2,
+     "Incisione, filetti e due righe di testo non sopravvivono in un quadrato da social o favicon."
+    ],
+    [
+     "Stratega di marca",
+     3,
+     "«Pomodoro a Parma» e «1896» posizionano bene, ma senza un segno compatto il marchio non si estende."
+    ],
+    [
+     "Esperto di colore e semiotica",
+     4,
+     "L'incisione dei campi e la banda ocra parlano di terra e tradizione: semantica coerente."
+    ],
+    [
+     "Ricercatore sui consumatori",
+     3,
+     "Piace a chi la guarda da vicino, ma da lontano si ricorda come un altro rosso."
+    ]
+   ],
+   "lez": "Raccontare la filiera va bene sul pack, ma il logo deve stare in piedi senza il racconto.",
+   "w": 3,
+   "wv": "Ben fatto come etichetta, ma è il contrario della sintesi: lontano anni luce da Nike o Apple."
+  },
+  "icab": {
+   "k": "Debole",
+   "e": "Scritta simpatica, troppi accessori",
+   "v": "Una scritta minuscola, grassa e diversa dalle altre, che però ha intorno bandiera, scintilla, contorno e payoff. Si fa vedere, non sembra premium.",
+   "x": [
+    [
+     "Tipografo",
+     3,
+     "Le lettere tonde e pesanti hanno ritmo (mm, aa); il «la» impilato a sinistra e il payoff spaziato sono tre registri diversi."
+    ],
+    [
+     "Packaging designer",
+     2,
+     "Sull'etichetta bandierina, scintilla e payoff si sommano alle foto e alle diciture del pack: troppo rumore."
+    ],
+    [
+     "Category manager GDO",
+     2,
+     "La forma lunga e minuscola si distingue dalle maiuscole e dagli scudi degli altri, ma il rosso la rimette nel gruppo."
+    ],
+    [
+     "Designer digitale",
+     2,
+     "A 16 px e sul tappo restano «fiammante» e due macchie colorate: non esiste un segno compatto."
+    ],
+    [
+     "Stratega di marca",
+     2,
+     "Il tono è da marca popolare mentre il catalogo ha DOP e filiera corta: logo e offerta dicono cose diverse."
+    ],
+    [
+     "Esperto di colore e semiotica",
+     2,
+     "Il rosso vivo e la scintilla richiamano la fiamma del nome; il tricolore aggiunge il solito messaggio di italianità."
+    ],
+    [
+     "Ricercatore sui consumatori",
+     2,
+     "Il nome è caldo e facile da ricordare, ma il segno non ha un elemento che il cliente possa descrivere a memoria."
+    ]
+   ],
+   "lez": "Il nome «fiammante» è già un'immagine: il logo deve trasformarlo in un solo segno, non aggiungere accessori.",
+   "w": 1,
+   "wv": "Ha un'idea (la scritta tonda e calda) ma niente della disciplina dei loghi globali: quattro accessori intorno al nome, effetti che non reggono a un colore e nessuna versione piccola."
+  },
+  "ladoria": {
+   "k": "Debole",
+   "e": "Il bollino blu",
+   "v": "Il blu e giallo lo fanno notare, ma ovale, archi, cerchio e torre sono una cornice sopra l'altra.",
+   "x": [
+    [
+     "Tipografo",
+     3,
+     "LaDoria attaccato con grazie si legge bene; nient'altro di proprio nella scritta."
+    ],
+    [
+     "Packaging designer",
+     3,
+     "L'ovale funziona sull'etichetta, ma sporge la torre e gli archi sprecano spazio."
+    ],
+    [
+     "Category manager GDO",
+     3,
+     "Il blu si vede tra i rossi, ma a scaffale La Doria è più spesso marca privata che marchio."
+    ],
+    [
+     "Designer digitale",
+     2,
+     "Torre e cerchio non reggono sotto i 40 px; l'ovale con il nome è l'unica riduzione."
+    ],
+    [
+     "Stratega di marca",
+     3,
+     "Master brand corretto per un gruppo con molti marchi, ma senza un segno che li leghi."
+    ],
+    [
+     "Esperto di colore e semiotica",
+     3,
+     "Blu e giallo comunicano affidabilità e Mediterraneo, non pomodoro."
+    ],
+    [
+     "Ricercatore sui consumatori",
+     3,
+     "Si ricorda il colore, non il segno: la torre non la nomina nessuno."
+    ]
+   ],
+   "lez": "Un colore diverso aiuta solo se il segno dentro è semplice: le cornici sommate non fanno un marchio.",
+   "w": 2,
+   "wv": "Un bollino da etichetta: niente a che vedere con la sintesi dei 10 loghi mondiali."
+  },
+  "petti": {
+   "k": "Debole",
+   "e": "La copia gentile",
+   "v": "Scudo rosso con corona: ordinato e caldo, ma è il codice di Mutti senza le sue idee. Il file digitale è trascurato.",
+   "x": [
+    [
+     "Tipografo",
+     3,
+     "Petti in minuscolo con grazie è corto e pesante, ben centrato; i filetti di «1925» sono di repertorio."
+    ],
+    [
+     "Packaging designer",
+     3,
+     "Lo scudo sta bene sul barattolo, ma il rosso sfumato complica la stampa."
+    ],
+    [
+     "Category manager GDO",
+     2,
+     "A scaffale si legge come alternativa a Mutti: stesso scudo, stesso rosso, stesso oro."
+    ],
+    [
+     "Designer digitale",
+     2,
+     "Il file del sito è piccolo e sfocato: il marchio non ha una versione digitale curata."
+    ],
+    [
+     "Stratega di marca",
+     3,
+     "La Toscana del claim non si vede nel logo: lo scudo è generico."
+    ],
+    [
+     "Esperto di colore e semiotica",
+     2,
+     "Corona e oro dicono «nobiltà» come Mutti: un significato preso in prestito."
+    ],
+    [
+     "Ricercatore sui consumatori",
+     3,
+     "Rassicura, ma non si ricorda come diverso."
+    ]
+   ],
+   "lez": "Prendere in prestito il codice del leader porta fiducia ma regala al leader la memoria del cliente.",
+   "w": 2,
+   "wv": "Uno scudo classico senza un'idea propria: sotto la media dei loghi di settore sulla scala mondiale."
+  },
+  "latorrente": {
+   "k": "Nella norma",
+   "e": "Il tricolore da pizzeria",
+   "v": "Leggibilissimo e onesto, ma rosso, verde e bianco in barre sono il codice più comune del made in Italy: niente lo rende di La Torrente.",
+   "x": [
+    [
+     "Tipografo",
+     3,
+     "TORRENTE in maiuscole pesanti si legge da lontano; le grazie decorative sono di repertorio. Il «la» nel riquadro è l'unico dettaglio proprio."
+    ],
+    [
+     "Packaging designer",
+     3,
+     "La barra orizzontale si adatta a fascia dell'etichetta e cartone del catering."
+    ],
+    [
+     "Category manager GDO",
+     2,
+     "In un reparto pieno di tricolori sparisce: è il logo meno distinguibile per colore."
+    ],
+    [
+     "Designer digitale",
+     3,
+     "Il riquadro con «la» potrebbe diventare avatar, ma oggi non è usato così."
+    ],
+    [
+     "Stratega di marca",
+     2,
+     "«Coltivato al Sud» è un buon posizionamento che il logo non racconta."
+    ],
+    [
+     "Esperto di colore e semiotica",
+     2,
+     "Il tricolore in barre comunica italianità generica, da pizzeria, non qualità."
+    ],
+    [
+     "Ricercatore sui consumatori",
+     3,
+     "Si legge e si ricorda il nome, non il segno."
+    ]
+   ],
+   "lez": "Il tricolore dice «italiano» come tutti: non può essere il segno distintivo di un marchio di pomodoro italiano.",
+   "w": 3,
+   "wv": "Una scritta in una barra a tre colori: nessun elemento di sintesi o di unicità richiesto dalla scala mondiale."
+  },
+  "solania": {
+   "k": "Da rifare",
+   "e": "Il fiocco anni Novanta",
+   "v": "Corsivo con ombra, onda blu, sole arancio e tralcio: troppi effetti e nessun elemento risolto. Va rifatto.",
+   "x": [
+    [
+     "Tipografo",
+     1,
+     "Corsivo bianco con ombra, senza disegno proprio: in piccolo le lettere si impastano."
+    ],
+    [
+     "Packaging designer",
+     2,
+     "Sul pack si nota, ma i quattro colori e le sfumature rendono difficile la stampa coerente."
+    ],
+    [
+     "Category manager GDO",
+     3,
+     "Per colore si distingue, ma sembra un marchio di un altro reparto."
+    ],
+    [
+     "Designer digitale",
+     1,
+     "A 16 px e a un colore non resta niente di leggibile."
+    ],
+    [
+     "Stratega di marca",
+     2,
+     "Non si capisce né il prodotto né la fascia; l'architettura non è nemmeno verificabile."
+    ],
+    [
+     "Esperto di colore e semiotica",
+     2,
+     "Il sole arancio è pertinente, ma il blu e il verde lo annacquano."
+    ],
+    [
+     "Ricercatore sui consumatori",
+     2,
+     "Sembra datato: comunica prezzo basso più che passione."
+    ]
+   ],
+   "lez": "Ombre, sfumature e corsivi invecchiano in fretta: un logo a un colore dura più a lungo.",
+   "w": 1,
+   "wv": "Il contrario dei loghi mondiali: nessuna sintesi, nessuna tenuta a un colore, nessun segno memorabile."
+  }
+ },
+ "fiammante": {
+  "sintesi": "Il logo di La Fiammante ha un'idea vera: «fiammante» in minuscolo, tondo e molto pesante, è l'unica scritta di questo tipo in una categoria fatta di maiuscole con grazie e scudi araldici, e il nome stesso evoca il rosso acceso del pomodoro. Il problema è tutto quello che la circonda: bandierina tricolore sopra, scintilla gialla e verde sul «la», contorno chiaro e ombra sotto le lettere, payoff «SANI E MEDITERRANEI» in maiuscolo spaziato. Sono quattro registri in un solo logo, e nessuno sopravvive sul tappo, nella favicon o timbrato a un colore sul cartone. Il tono giocoso delle lettere dice marca popolare, mentre il catalogo ha DOP San Marzano, Piennolo del Vesuvio e tracciabilità in blockchain: oggi il logo vende il marchio sotto il suo prodotto. Con la stessa severità usata per tutti, nel settore sta al nono posto su dieci: sotto Mutti, Pomì, Agromonte, Cirio, Rodolfi, La Torrente, La Doria e Petti, sopra solo Solania; il nome ha più forza del segno che lo porta.",
+  "sottomarchi": "ICAB ha tre marchi (La Fiammante, La Reale, La Paesana dei F.lli Paudice) ma nel cruscotto c'è solo il logo di La Fiammante: non esiste un segno, un colore o una firma che li leghi, e dal logo principale non si capisce nemmeno che ci sia una casa di marchi. Il panel suggerisce di decidere i ruoli (La Fiammante marchio di punta e premium, gli altri due per prezzo e canale) e di usare un elemento comune, per esempio la fiamma ricavata dalla «f», come firma piccola «di ICAB» su tutti i pack.",
+  "rischi": [
+   "Restare un'altra scritta rossa: sullo scaffale il colore la mette nello stesso blocco di Pomì, Petti, Rodolfi e La Torrente, e la forma tonda non basta a separarla.",
+   "Il logo dice prezzo accessibile mentre i prodotti DOP chiedono un prezzo alto: il cliente che compra Mutti non viene convinto dal segno.",
+   "Sui canali digitali, dove il marchio deve crescere, manca un segno quadrato: avatar, favicon e icona dell'e-commerce oggi mostrano la scritta rimpicciolita o un ritaglio."
+  ],
+  "mosse": [
+   [
+    "Fissare la scritta «la fiammante» piena a un colore, senza contorno né ombra, come logo principale e farne il negativo bianco",
+    "alto",
+    "basso"
+   ],
+   [
+    "Ricavare dalla «f» con una fiamma un segno quadrato per tappo, favicon, avatar e sigillo del pack",
+    "alto",
+    "medio"
+   ],
+   [
+    "Togliere la scintilla giallo-verde e spostare bandierina e payoff fuori dal logo, come elementi di pack e comunicazione",
+    "medio",
+    "basso"
+   ],
+   [
+    "Definire una versione premium per la linea DOP (scritta in un solo colore scuro o oro, più aria intorno)",
+    "alto",
+    "medio"
+   ],
+   [
+    "Mettere in fila La Fiammante, La Reale e La Paesana con una firma comune di ICAB e un manuale minimo (misure minime, colori, uso su cartone e tappo)",
+    "medio",
+    "medio"
+   ]
+  ],
+  "s": "val"
+ },
+ "regola": "Classe e Global logo index si ricavano dalla media dei 9 criteri, con la stessa regola di Massini: classe Riferimento da 4,0, Solido da 3,3, Nella norma da 2,8, Debole da 2,1, sotto Da rifare; Global = media meno 1,75, per 2,2, arrotondato (da 1 a 10). Così posizione, classe e scala mondiale non si contraddicono."
+}

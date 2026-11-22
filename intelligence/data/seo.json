@@ -1,0 +1,476 @@
+{
+ "n": "DataForSEO Labs + Google Ads + SERP live, Italia, 22/11/2026. etv = traffico organico mensile stimato; t3/t10 = parole chiave in top 3/top 10; top = [parola, volume mensile, posizione]. SERP desktop depth 10: nessun dominio dei 10 marchi in organico sulle 4 query.",
+ "dom": {
+  "icab": {
+   "d": "lafiammante.it",
+   "etv": 10340,
+   "kw": 881,
+   "t3": 68,
+   "t10": 289,
+   "top": [
+    [
+     "datterino",
+     5400,
+     1
+    ],
+    [
+     "pizzaiola di carne",
+     22200,
+     1
+    ],
+    [
+     "taccole ricette",
+     5400,
+     2
+    ],
+    [
+     "carne alla pizzaiola",
+     22200,
+     3
+    ],
+    [
+     "pacchetelle",
+     2400,
+     1
+    ]
+   ],
+   "s": "dic",
+   "u": "https://www.lafiammante.it"
+  },
+  "mutti": {
+   "d": "mutti-parma.com",
+   "etv": 18216,
+   "kw": 1541,
+   "t3": 146,
+   "t10": 618,
+   "top": [
+    [
+     "mutti spa",
+     5400,
+     1
+    ],
+    [
+     "cannelloni ricotta e spinaci",
+     27100,
+     5
+    ],
+    [
+     "mutti collecchio",
+     2900,
+     1
+    ],
+    [
+     "pizzaiola di carne",
+     22200,
+     4
+    ],
+    [
+     "spezzatino con patate e piselli",
+     8100,
+     3
+    ]
+   ],
+   "s": "dic",
+   "u": "https://mutti-parma.com"
+  },
+  "conserveitalia": {
+   "d": "cirio.it",
+   "etv": 7260,
+   "kw": 1321,
+   "t3": 98,
+   "t10": 418,
+   "top": [
+    [
+     "pasta fagioli e patate",
+     2400,
+     1
+    ],
+    [
+     "coniglio alla ligure",
+     18100,
+     1
+    ],
+    [
+     "coniglio ligure",
+     18100,
+     1
+    ],
+    [
+     "polenta con il sugo",
+     2400,
+     2
+    ],
+    [
+     "cirio",
+     4400,
+     1
+    ]
+   ],
+   "s": "dic",
+   "u": "https://cirio.it"
+  },
+  "casalasco": {
+   "d": "pomi.it",
+   "etv": null,
+   "kw": null,
+   "t3": null,
+   "t10": null,
+   "top": [],
+   "s": "dic",
+   "u": "https://www.pomionline.it/it/",
+   "n": "DataForSEO Labs non ha dati per pomi.it (provato anche pomi.com): dominio non tracciato nel database Italia. Controllo del 22/11/2026: pomi.it rimanda a pomidigital.it (pagina in errore), il sito dei prodotti Pomì è pomionline.it: dati da rifare su quel dominio."
+  },
+  "ladoria": {
+   "d": "ladoria.it",
+   "etv": 2697,
+   "kw": 229,
+   "t3": 18,
+   "t10": 101,
+   "top": [
+    [
+     "lenticchie umido",
+     27100,
+     4
+    ],
+    [
+     "calamari con i piselli",
+     5400,
+     3
+    ],
+    [
+     "calamari con piselli",
+     5400,
+     3
+    ],
+    [
+     "lenticchie in umido",
+     27100,
+     12
+    ],
+    [
+     "calamari e piselli in umido",
+     2400,
+     4
+    ]
+   ],
+   "s": "dic",
+   "u": "https://ladoria.it"
+  },
+  "petti": {
+   "d": "ilpomodoropetti.com",
+   "etv": 1842,
+   "kw": 508,
+   "t3": 17,
+   "t10": 117,
+   "top": [
+    [
+     "coniglio umido",
+     5400,
+     3
+    ],
+    [
+     "conserve petti",
+     880,
+     1
+    ],
+    [
+     "gruppo petti italian food spa",
+     320,
+     1
+    ],
+    [
+     "petti conserve",
+     880,
+     1
+    ],
+    [
+     "picchiapò",
+     2900,
+     4
+    ]
+   ],
+   "s": "dic",
+   "u": "https://ilpomodoropetti.com"
+  },
+  "rodolfi": {
+   "d": "rodolfi.com",
+   "etv": 597,
+   "kw": 72,
+   "t3": 11,
+   "t10": 14,
+   "top": [
+    [
+     "rodolfi",
+     590,
+     1
+    ],
+    [
+     "ortolina",
+     1300,
+     1
+    ],
+    [
+     "rodolfi pomodori",
+     260,
+     1
+    ],
+    [
+     "rodolfi pomodoro",
+     260,
+     1
+    ],
+    [
+     "conchiglioni ripieni di ricotta e spinaci",
+     1600,
+     5
+    ]
+   ],
+   "s": "dic",
+   "u": "https://rodolfi.com"
+  },
+  "agromonte": {
+   "d": "agromonte.it",
+   "etv": 864,
+   "kw": 83,
+   "t3": 5,
+   "t10": 27,
+   "top": [
+    [
+     "agromonte",
+     1300,
+     1
+    ],
+    [
+     "margherita pizza",
+     5400,
+     2
+    ],
+    [
+     "risotto di vongole",
+     2400,
+     5
+    ],
+    [
+     "pesce spada al pomodoro",
+     1300,
+     4
+    ],
+    [
+     "agromonte sicilia",
+     170,
+     1
+    ]
+   ],
+   "s": "dic",
+   "u": "https://www.agromonte.it"
+  },
+  "solania": {
+   "d": "solaniasrl.it",
+   "etv": 133,
+   "kw": 5,
+   "t3": 1,
+   "t10": 2,
+   "top": [
+    [
+     "solania",
+     390,
+     1
+    ],
+    [
+     "pomodori solania",
+     90,
+     1
+    ],
+    [
+     "solania san marzano",
+     140,
+     1
+    ],
+    [
+     "solania pomodori",
+     90,
+     1
+    ],
+    [
+     "solania san marzano tomatoes",
+     140,
+     6
+    ]
+   ],
+   "s": "dic",
+   "u": "https://solaniasrl.it"
+  },
+  "latorrente": {
+   "d": "latorrente.it",
+   "etv": 1131,
+   "kw": 168,
+   "t3": 23,
+   "t10": 57,
+   "top": [
+    [
+     "la torrente",
+     720,
+     1
+    ],
+    [
+     "la torrente srl",
+     590,
+     1
+    ],
+    [
+     "una varieta di pomodoro dizy",
+     1000,
+     3
+    ],
+    [
+     "industria conserviera",
+     260,
+     1
+    ],
+    [
+     "pizza margherita",
+     18100,
+     7
+    ]
+   ],
+   "s": "dic",
+   "u": "https://latorrente.it"
+  }
+ },
+ "cat": [
+  [
+   "passata di pomodoro",
+   12100,
+   0.11
+  ],
+  [
+   "pomodori pelati",
+   2400,
+   0.12
+  ],
+  [
+   "polpa di pomodoro",
+   1600,
+   0.06
+  ],
+  [
+   "pomodorini in scatola",
+   390,
+   0.18
+  ],
+  [
+   "datterini in barattolo",
+   50,
+   0.15
+  ],
+  [
+   "pomodoro san marzano dop",
+   260,
+   0.37
+  ],
+  [
+   "sugo pronto",
+   480,
+   0.47
+  ],
+  [
+   "concentrato di pomodoro",
+   4400,
+   0.04
+  ],
+  [
+   "pomodoro biologico",
+   30,
+   null
+  ],
+  [
+   "miglior passata di pomodoro",
+   880,
+   1.17
+  ]
+ ],
+ "serp": [
+  {
+   "q": "passata di pomodoro",
+   "aio": false,
+   "aioCita": [],
+   "pos": {
+    "icab": null,
+    "mutti": null,
+    "conserveitalia": null,
+    "casalasco": null,
+    "ladoria": null,
+    "petti": null,
+    "rodolfi": null,
+    "agromonte": null,
+    "solania": null,
+    "latorrente": null
+   },
+   "n": "Nessun marchio nei risultati organici (6 organici entro depth 10). Mutti nel blocco immagini; Mutti e Pomi nei prodotti Shopping; una domanda 'Le persone chiedono anche' nomina Rodolfi."
+  },
+  {
+   "q": "pomodori pelati",
+   "aio": true,
+   "aioCita": [
+    "ricette.giallozafferano.it",
+    "it.wikipedia.org",
+    "tavolartegusto.it",
+    "youtube.com",
+    "instagram.com",
+    "tiktok.com",
+    "gamberorosso.it"
+   ],
+   "pos": {
+    "icab": null,
+    "mutti": null,
+    "conserveitalia": null,
+    "casalasco": null,
+    "ladoria": null,
+    "petti": null,
+    "rodolfi": null,
+    "agromonte": null,
+    "solania": null,
+    "latorrente": null
+   },
+   "n": "Nessun dominio dei 10 marchi nei risultati organici (7 organici); primo produttore in organico: divella.it (3). Al 5 la classifica Gambero Rosso dei pelati da supermercato, il cui estratto nomina La Torrente. AI Overview senza marchi del gruppo."
+  },
+  {
+   "q": "miglior passata di pomodoro",
+   "aio": false,
+   "aioCita": [],
+   "pos": {
+    "icab": null,
+    "mutti": null,
+    "conserveitalia": null,
+    "casalasco": null,
+    "ladoria": null,
+    "petti": null,
+    "rodolfi": null,
+    "agromonte": null,
+    "solania": null,
+    "latorrente": null
+   },
+   "n": "Nessun dominio dei 10 marchi in organico (8 organici): dominano classifiche di terzi (dailyfood, Gambero Rosso via social, Altroconsumo via Cookist, Virgilio, Businessonline, Il Paragone). Negli estratti compaiono Mutti, Cirio e Petti (Businessonline: Mutti 69, Cirio 68, Petti 68) e Petti terzo per Altroconsumo (Il Paragone). Shopping: Mutti x3, Pomi x2. Immagini: mutti-parma.com. PAA nomina Rodolfi."
+  },
+  {
+   "q": "pomodoro san marzano dop",
+   "aio": false,
+   "aioCita": [],
+   "pos": {
+    "icab": null,
+    "mutti": null,
+    "conserveitalia": null,
+    "casalasco": null,
+    "ladoria": null,
+    "petti": null,
+    "rodolfi": null,
+    "agromonte": null,
+    "solania": null,
+    "latorrente": null
+   },
+   "n": "Nessun dominio dei 10 marchi in organico (8 organici). Il primo prodotto del blocco Shopping, in testa alla pagina, e' 'Fiammante Pomodori San Marzano dop 400 gr' (1,99 euro), seguito da Strianese e Coop. Al 7 organico un e-commerce tedesco (gourmet-versand.com) vende il pelato San Marzano DOP di Solania."
+  }
+ ],
+ "s": "dic",
+ "u": "https://ads.google.com/home/tools/keyword-planner/"
+}

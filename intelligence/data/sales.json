@@ -1,0 +1,287 @@
+{
+ "n": "Valutazione dell'agente J (direttore commerciale del settore conserve di pomodoro) sui dati del cruscotto al 22/11/2026. Nessun dato nuovo: ogni numero viene dalle sezioni indicate. Gli obiettivi dei KPI sono proposte, non dati. Mancano dati interni di ICAB su export, private label, volumi venduti per canale e quote a scaffale: dove servono, il testo lo dice.",
+ "at": "2026-11-22",
+ "s": "val",
+ "sintesi": "La Fiammante ha un prodotto che nessun concorrente del cruscotto ha (il Piennolo del Vesuvio DOP), la certificazione etica più forte (prima in Italia con FSSC 24000) e una crescita che a cinque anni tiene il passo di Mutti (+71% contro +75%). Ma nel 2025 i ricavi sono cresciuti solo dell'1,9% mentre la capacità dello stabilimento sale verso 1 milione di quintali: servono nuovi volumi. Le strade più corte sono le pizzerie con la Polpa e i grandi formati, dove oggi le risposte AI citano Solania e Mutti e non noi, la GDO del Centro-Nord con le referenze distintive invece della guerra di prezzo, e un calendario promozionale costruito sui picchi di agosto (passata) e dell'inverno (concentrato). Le mancanze da chiudere nei prossimi 12 mesi sono i sughi pronti, che hanno tutti gli altri 8 concorrenti verificati, e una linea premium dichiarata. L'export di ICAB non è noto: è il primo dato interno da mettere nel cruscotto.",
+ "swot": {
+  "forza": [
+   "Unico marchio del gruppo con il Pomodorino del Piennolo del Vesuvio DOP, più il San Marzano DOP (Gamma).",
+   "Prima azienda italiana certificata FSSC 24000 (maggio 2025) e tracciabilità in blockchain: ChatGPT e Perplexity la citano per prima sulla filiera etica (OSINT, Risposte AI).",
+   "Ricavi da 25,2 a 43,2 M€ fra 2021 e 2025, +71%: seconda dopo Mutti (+75%) fra le aziende con i 5 anni completi (Storico).",
+   "Tre marchi (La Fiammante, La Reale, La Paesana) e 76 prodotti, con grandi formati Pa' Pizza per l'Horeca (Gamma).",
+   "Sito con il secondo traffico organico stimato del gruppo (10.340 visite/mese, dopo Mutti 18.216) e voto Google 4,6 su 57 recensioni (SEO, Reputazione)."
+  ],
+  "debolezza": [
+   "Nessun sugo pronto, nessun brick e nessuna linea premium dichiarata (Gamma).",
+   "Notorietà concentrata in Campania: indice Trends 100 in Campania, 19 in Lombardia; 720 ricerche al mese contro 8.100 di Mutti (Trends, Confronto).",
+   "Citata in 4 risposte AI su 40, Mutti in 22; 0 su 8 nelle domande sulla pizza napoletana (Risposte AI).",
+   "Logo giudicato 9° su 10 nel settore, percezione premium 2 su 5 contro 5 di Mutti; nessun premio di settore 2022-2026 (Marchio, Standing).",
+   "Export, private label e volumi per canale non noti: oggi non si può dire quanto pesa ogni canale."
+  ],
+  "opportunita": [
+   "Pizzerie: la Polpa e i formati da 2,5 e 4,5 kg ci sono, e una AI già cita La Fiammante come linea Horeca di alta gamma per gli chef (Risposte AI).",
+   "Export italiano di conserve di pomodoro: 2.769 M€ nel 2025; gen-ago 2026 +2,2%; Austria da 36 a 147 M€ e Stati Uniti da 105 a 204 M€ fra 2019 e 2025 (Export).",
+   "Le ricerche di «passata di pomodoro» salgono da 31 a giugno a 77 ad agosto (indice medio 5 anni); il concentrato ha il picco da ottobre a gennaio (Trends).",
+   "Capacità in crescita: da 400.000 a 750.000 quintali, obiettivo 1 milione (OSINT)."
+  ],
+  "minaccia": [
+   "I grandi investono: La Doria oltre 100 mln e l'acquisto di Solana per le reti del Centro-Nord; Conserve Italia la Pomposa Smart Factory (86,9 mln); Mutti 42,5 mln (OSINT, Notizie).",
+   "Mutti ha lo stabilimento Fiordagosto a Oliveto Citra (SA), a circa 13 km in linea d'aria da Buccino, con oltre 18 mln e 43 assunzioni (Stabilimenti, OSINT).",
+   "Casalasco ha comprato Pummarò, Polpabella e Sugo Lampo e ha avuto 200 mln da FSI: più forza contrattuale con la GDO (OSINT).",
+   "Mercato export italiano in calo nel 2025: −7,9% sul 2024 (Export)."
+  ]
+ },
+ "punti": [
+  {
+   "t": "Il Piennolo DOP come biglietto da visita con i buyer",
+   "x": "È l'unica referenza del cruscotto che nessun concorrente ha. Con il San Marzano DOP la mettono solo Mutti, La Torrente e Solania. Al buyer non va proposta come prodotto da volume ma come ragione per dare spazio alla linea intera: chi tiene il Piennolo tiene anche pelati, polpa e datterino.",
+   "dati": "Piennolo DOP: 1 marchio su 10 (La Fiammante); San Marzano DOP in 3 concorrenti su 9 verificati",
+   "az": "Preparare una scheda di vendita sul Piennolo (disciplinare, zona, resa a scaffale) e portarla in ogni trattativa con il resto della gamma in pacchetto.",
+   "pr": 1,
+   "imp": 4,
+   "sf": 2,
+   "sez": "gamma"
+  },
+  {
+   "t": "Pizzerie: la Polpa c'è, la voce no",
+   "x": "Abbiamo Pa' Pizza da 2,5 e 4,5 kg e il bag in box, ma alle domande «pomodoro in scatola per la pizza napoletana» e «pelati per pizza napoletana» le AI rispondono Solania e Mutti, mai La Fiammante. Solania porta il San Marzano DOP ai pizzaioli fino a Las Vegas e Rio. Gemini però ci cita già, con La Torrente, come linea Horeca di alta gamma per gli chef: la base c'è.",
+   "dati": "Citazioni AI sulla pizza napoletana: La Fiammante 0 su 8, Solania e Mutti presenti in tutte e due le domande; Pa' Pizza 2,5 e 4,5 kg",
+   "az": "Lanciare un programma pizzerie: lista di pizzerie e grossisti Horeca in Campania, Lazio e Lombardia, campionatura della Polpa Pa' Pizza, scheda tecnica scaricabile dal sito e una pagina «pomodoro per la pizza napoletana» che le AI possano citare.",
+   "pr": 1,
+   "imp": 5,
+   "sf": 3,
+   "sez": "geo2"
+  },
+  {
+   "t": "Più capacità, crescita ferma: dove mettiamo i nuovi quintali",
+   "x": "In cinque anni i ricavi sono cresciuti del 71%, ma nel 2025 solo dell'1,9%. Nello stesso tempo lo stabilimento passa da 400.000 a 750.000 quintali con l'obiettivo di 1 milione. Se la capacità cresce più delle vendite, il rischio è riempirla con prezzo basso. Non sappiamo quanto della capacità è già venduto né in quali canali: è un dato interno.",
+   "dati": "Ricavi 42,36 → 43,15 M€ (2024-2025, +1,9%); 25,23 → 43,15 M€ (2021-2025, +71%); capacità 400.000 → 750.000 quintali, obiettivo 1 milione",
+   "az": "Fare un piano volumi 2027 per canale (GDO a marchio, Horeca, export, eventuale marca privata) con i dati interni, prima di trattare i listini dell'anno.",
+   "pr": 1,
+   "imp": 5,
+   "sf": 3,
+   "sez": "storico"
+  },
+  {
+   "t": "La filiera etica come argomento da buyer, non solo da comunicazione",
+   "x": "FSSC 24000 (prima in Italia) e tracciabilità in blockchain sono cose che i buyer della GDO chiedono sempre di più nei capitolati. Sulla domanda «marche senza caporalato o filiera etica» ChatGPT e Perplexity citano La Fiammante per prima. Mutti e Rodolfi hanno SA8000, ma nessuno ha questa certificazione.",
+   "dati": "FSSC 24000: maggio 2025, prima in Italia; La Fiammante prima citata in 2 risposte AI sulla filiera etica",
+   "az": "Mettere la certificazione nel dossier di ogni trattativa GDO e proporre ai buyer una comunicazione a scaffale o a volantino sulla filiera etica.",
+   "pr": 1,
+   "imp": 4,
+   "sf": 1,
+   "sez": "osint"
+  },
+  {
+   "t": "Sughi pronti: l'unico buco che hanno tutti gli altri",
+   "x": "Tutti gli altri 8 concorrenti verificati vendono sughi pronti; Petti ha lanciato le salse senza zuccheri aggiunti nel 2026, Casalasco ha comprato Sugo Lampo, Agromonte si presenta come «le salse pronte siciliane». Il segnale di ricerca è piccolo (480 ricerche al mese per «sugo pronto», contro 12.100 per «passata di pomodoro»), quindi non è una categoria da inseguire sul prezzo. Non abbiamo dati di vendita del segmento sughi.",
+   "dati": "Sughi pronti: 8 concorrenti su 8 verificati sì, La Fiammante no; «sugo pronto» 480 ricerche/mese",
+   "az": "Studiare 3-4 sughi del Sud costruiti sulle nostre materie prime distintive (Piennolo, datterino giallo, Corbarino) e testarli in un'insegna campana prima di allargarli.",
+   "pr": 2,
+   "imp": 4,
+   "sf": 4,
+   "sez": "gamma"
+  },
+  {
+   "t": "Vendere sui picchi della stagione",
+   "x": "Le ricerche di «passata di pomodoro» quasi raddoppiano fra giugno e agosto; il concentrato è più cercato da ottobre a gennaio. Anche le ricerche di «la fiammante» hanno il picco ad agosto. Le promozioni in GDO si fissano mesi prima: chi arriva a luglio trova i volantini già chiusi.",
+   "dati": "Indice medio 5 anni «passata di pomodoro»: giugno 31, luglio 56, agosto 77; «concentrato di pomodoro»: giugno 6,4, ottobre 10,8",
+   "az": "Chiudere con i buyer entro la primavera le promozioni di luglio-agosto sulla passata e usare La Reale e La Paesana per le promozioni sul concentrato da ottobre a gennaio.",
+   "pr": 2,
+   "imp": 3,
+   "sf": 1,
+   "sez": "trends"
+  },
+  {
+   "t": "GDO del Centro-Nord con le referenze distintive",
+   "x": "Fuori dalla Campania il marchio è poco cercato, mentre la passata è più cercata proprio al Nord. In una catena del Nord non vinciamo sul prezzo contro Mutti, Cirio o Pomì: entriamo con DOP, Piennolo, datterino e filiera etica, che loro non hanno tutti. La Doria ha comprato Solana proprio per le reti del Centro-Nord.",
+   "dati": "Trends «la fiammante»: Campania 100, Basilicata 76, Lazio 23, Lombardia 19; «passata di pomodoro»: Emilia-Romagna 100, Veneto 93, Campania 80; ricerche al mese: La Fiammante 720, Mutti 8.100, Cirio 4.400",
+   "az": "Scegliere 2 insegne del Centro-Nord e proporre un assortimento corto di 5-6 referenze distintive con degustazioni in punto vendita, come il tour di Agromonte negli iper Carrefour.",
+   "pr": 2,
+   "imp": 4,
+   "sf": 3,
+   "sez": "trends"
+  },
+  {
+   "t": "Premi e guide: oggi il premium lo raccontano gli altri",
+   "x": "Petti è Prodotto dell'Anno 2026, La Torrente ha i Due Gamberi del Gambero Rosso sui pelati, la passata Verace di Cirio è prima nella classifica Gambero Rosso. La Fiammante non ha premi 2022-2026 e il logo è letto come marca economica, mentre i prodotti DOP chiedono un prezzo alto. Il buyer usa questi riconoscimenti per giustificare lo spazio a scaffale.",
+   "dati": "Premi 2022-2026: La Fiammante 0; logo 9° su 10, percezione premium 2 su 5 (Mutti 5)",
+   "az": "Candidare pelato San Marzano DOP, Piennolo e Passata Dolcissima a guide e premi di settore nel 2027 e decidere i ruoli dei marchi: La Fiammante in alto, La Reale e La Paesana sul prezzo.",
+   "pr": 2,
+   "imp": 4,
+   "sf": 2,
+   "sez": "standing"
+  },
+  {
+   "t": "Export: prima il dato, poi due mercati",
+   "x": "La quota export di ICAB non è nota, mentre La Doria esporta l'81%, Mutti il 60% e Rodolfi il 50%. Il mercato si sposta: la Germania resta il primo cliente, ma Austria, Stati Uniti, Polonia e Canada crescono più degli altri. Il DOP e il racconto della pizza napoletana sono gli argomenti che vendono all'estero, come mostra Solania.",
+   "dati": "Export Italia 2025: 2.769 M€ (−7,9% sul 2024), gen-ago 2026 +2,2%; Germania 456 M€, Stati Uniti 204 (105 nel 2019), Austria 147 (36 nel 2019), Canada 56 (28 nel 2019)",
+   "az": "Mettere nel cruscotto la quota export reale di ICAB e i paesi serviti; poi scegliere due mercati (uno europeo, uno extra-UE) e cercare importatori Horeca e catene italiane all'estero.",
+   "pr": 2,
+   "imp": 4,
+   "sf": 4,
+   "sez": "export"
+  },
+  {
+   "t": "Fiere: esserci dove ci sono i buyer",
+   "x": "La Fiammante aveva lo stand a TuttoFood 2025, ma non risulta nell'elenco espositori (stimato) di TuttoFood 2026, dove ci sono gli altri 9; non risulta nemmeno a Cibus 2024. Per un marchio che deve uscire dalla Campania la fiera è il posto più economico per vedere i buyer del Nord e gli importatori.",
+   "dati": "TuttoFood 2026 (elenco stimato): 9 concorrenti su 9, La Fiammante no; TuttoFood 2025: stand confermato",
+   "az": "Confermare la presenza alla prossima fiera di settore con agenda di incontri fissata prima con buyer GDO, grossisti Horeca e importatori.",
+   "pr": 2,
+   "imp": 3,
+   "sf": 3,
+   "sez": "osint"
+  },
+  {
+   "t": "Mutti a pochi chilometri: difendere la filiera corta",
+   "x": "Lo stabilimento Fiordagosto di Mutti a Oliveto Citra è vicino a Buccino e cresce. Mutti ha anche una linea Professional per pizzerie. Il nostro argomento «6 ore dalla raccolta alla conserva» vale solo finché la filiera locale resta nostra.",
+   "dati": "Fiordagosto (Oliveto Citra, SA): oltre 18 mln e 43 assunzioni; circa 13 km in linea d'aria da Buccino (mappa)",
+   "az": "Usare «filiera corta campana» come argomento di vendita contro Mutti al Sud e, con gli acquisti, legare i coltivatori con contratti pluriennali.",
+   "pr": 3,
+   "imp": 3,
+   "sf": 2,
+   "sez": "stabilimenti"
+  },
+  {
+   "t": "Marca privata e discount: decidere con i dati interni",
+   "x": "La Doria fa gran parte del fatturato in marca privata e ha la pressione competitiva più alta sul nostro mercato; anche Petti e Rodolfi producono per altri. Non sappiamo se e quanto ICAB lavora per marca privata. La Reale e La Paesana possono fare da secondo marchio per discount e prezzo, senza abbassare La Fiammante.",
+   "dati": "Pressione competitiva (valutazione): La Doria 75, Conserve Italia 73, Mutti 69, Casalasco 62 su 100; quota marca privata ICAB non nota",
+   "az": "Mettere nel cruscotto la quota di marca privata di ICAB e valutare La Reale e La Paesana come risposta ai discount prima di accettare gare di marca privata a prezzo basso.",
+   "pr": 3,
+   "imp": 3,
+   "sf": 2,
+   "sez": "pressione"
+  }
+ ],
+ "batt": [
+  {
+   "id": "mutti",
+   "loro": "Marca leader e unica («Solo pomodoro»), Polpa come prodotto simbolo, Mutti Professional per le pizzerie, investimenti forti e uno stabilimento a pochi km da Buccino.",
+   "noi": "Piennolo DOP che Mutti non ha, bio che nella gamma italiana Mutti non ha, FSSC 24000, filiera corta campana; crescita 2021-2025 quasi uguale (+71% contro +75%).",
+   "risposta": "«Mutti vi dà il marchio più cercato; noi vi diamo quello che Mutti non ha a scaffale: Piennolo DOP, bio e una filiera etica certificata. Mettiamoci accanto, non al posto.»"
+  },
+  {
+   "id": "ladoria",
+   "loro": "Il gruppo più grande del cruscotto (1.375 M€), molta marca privata, 81% export, acquisizioni (Feger, Solana) per crescere nelle reti del Centro-Nord.",
+   "noi": "Marchio proprio con prodotti DOP e filiera etica dichiarata; La Doria ha il profilo Instagram fermo e voto Google 3,4.",
+   "risposta": "«La Doria vi fa il prezzo sulla marca privata; con noi avete una marca che porta clienti in corsia per DOP e filiera etica, e margine più alto per voi.» (Il margine va confermato con i listini interni.)"
+  },
+  {
+   "id": "conserveitalia",
+   "loro": "Cirio, 170 anni di storia, passata Verace prima nella classifica Gambero Rosso, gamma completa con brick (Valfrutta) e ristorazione (Cirio Alta Cucina, Jolly Colombani).",
+   "noi": "DOP che Cirio non ha (San Marzano e Piennolo), pomodoro tutto dal Sud con filiera corta; Conserve Italia ha lanciato l'allarme prezzi per il caro-gasolio.",
+   "risposta": "«Cirio è la storia, noi siamo la specialità del Sud: DOP, datterino, Piennolo. E sul prezzo dell'anno prossimo parliamone ora.»"
+  },
+  {
+   "id": "casalasco",
+   "loro": "Pomì e i marchi comprati da Star (Pummarò, Polpabella, Sugo Lampo), brick, sughi, campagna record con 880.000 t conferite, 200 mln da FSI.",
+   "noi": "DOP che Casalasco non ha, origine campana contro pomodoro del Nord, voto Google 4,6 contro 3,8.",
+   "risposta": "«Pomì copre il quotidiano; noi copriamo il Sud e il DOP, che il vostro cliente cerca per la pizza e le ricette della tradizione.»"
+  },
+  {
+   "id": "latorrente",
+   "loro": "Il concorrente più simile: Campania, stessa taglia (40,3 M€), San Marzano DOP, bio, catering, 75 prodotti, in più i sughi pronti; Due Gamberi Gambero Rosso e voto Google 4,7.",
+   "noi": "Piennolo DOP che La Torrente non ha, FSSC 24000, ricavi in crescita (+1,9% nel 2025) mentre La Torrente scende (−4,75%), tre marchi per tre fasce di prezzo.",
+   "risposta": "«Stessa terra, ma noi abbiamo il Piennolo e la filiera etica certificata, e cresciamo. Se cercate un fornitore campano solido, siamo noi.»"
+  },
+  {
+   "id": "petti",
+   "loro": "Novità a scaffale (Polpa La Completa Prodotto dell'Anno 2026, salse senza zuccheri), brick, linea premium, pomodoro toscano.",
+   "noi": "Pomodoro del Sud con DOP campani; voto Google 4,6 contro 2,5; ricavi simili (43,2 contro 40,9 M€) ma in crescita mentre Petti cala (−8,15%).",
+   "risposta": "«Petti vi porta le novità toscane; noi il Sud vero con DOP e filiera corta. E i clienti ci danno 4,6 su Google.»"
+  }
+ ],
+ "piano": [
+  [
+   "0-3 mesi",
+   [
+    "Mettere nel cruscotto i dati interni che mancano: quota export e paesi, quota marca privata, volumi per canale, capacità già venduta.",
+    "Preparare il dossier buyer: Piennolo e San Marzano DOP, FSSC 24000, tracciabilità, scheda Pa' Pizza.",
+    "Spingere il concentrato di La Reale e La Paesana nei volantini di dicembre e gennaio, quando è più cercato.",
+    "Avviare il programma pizzerie in Campania: lista di pizzerie e grossisti Horeca, campionatura della Polpa Pa' Pizza.",
+    "Confermare la presenza alla prossima fiera di settore e fissare in anticipo gli incontri con i buyer."
+   ]
+  ],
+  [
+   "3-6 mesi",
+   [
+    "Chiudere con i buyer le promozioni sulla passata per luglio e agosto.",
+    "Presentare l'assortimento corto di referenze distintive a 2 insegne del Centro-Nord, con degustazioni in punto vendita.",
+    "Pubblicare sul sito la pagina sul pomodoro per la pizza napoletana e le schede tecniche Horeca, per farsi citare dalle risposte AI.",
+    "Candidare pelato San Marzano DOP, Piennolo e Passata Dolcissima a guide e premi di settore.",
+    "Allargare il programma pizzerie a Lazio e Lombardia."
+   ]
+  ],
+  [
+   "6-12 mesi",
+   [
+    "Testare 3-4 sughi del Sud (Piennolo, datterino giallo, Corbarino) in un'insegna campana.",
+    "Scegliere due mercati esteri sulla base del dato export interno e cercare importatori Horeca.",
+    "Decidere i ruoli dei marchi: La Fiammante in alto, La Reale e La Paesana per prezzo e discount.",
+    "Rifare il confronto del cruscotto: citazioni AI, ricerche del marchio, recensioni, premi."
+   ]
+  ]
+ ],
+ "kpi": [
+  [
+   "Citazioni nelle risposte AI",
+   "4 su 40",
+   "10 su 40",
+   "geo2"
+  ],
+  [
+   "Citazioni AI sulla pizza napoletana",
+   "0 su 8",
+   "2 su 8",
+   "geo2"
+  ],
+  [
+   "Crescita dei ricavi nell'anno",
+   "+1,9% (2025)",
+   "sopra il +1,9% nel 2026",
+   "storico"
+  ],
+  [
+   "Ricerche Google di «la fiammante» al mese",
+   "720",
+   "1.000",
+   "confronto"
+  ],
+  [
+   "Indice Trends «la fiammante» in Lombardia",
+   "19",
+   "30",
+   "trends"
+  ],
+  [
+   "Linee mancanti in gamma (sughi, brick, premium)",
+   "3 su 3 assenti",
+   "sughi pronti in test",
+   "gamma"
+  ],
+  [
+   "Premi o guide di settore 2022-2026",
+   "0",
+   "1",
+   "standing"
+  ],
+  [
+   "Recensioni Google della scheda ICAB",
+   "4,6 su 57",
+   "4,6 su 120",
+   "reputazione"
+  ],
+  [
+   "Quota export di ICAB",
+   "non nota",
+   "dato interno nel cruscotto",
+   "export"
+  ],
+  [
+   "Presenza alle fiere di settore",
+   "TuttoFood 2025 sì, 2026 non in elenco",
+   "prossima fiera con agenda buyer",
+   "osint"
+  ]
+ ]
+}

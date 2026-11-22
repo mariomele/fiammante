@@ -1,0 +1,205 @@
+{
+ "n": "Analisi dell'agente K (direttore marketing e brand strategist, food italiano di marca), scritta il 22/11/2026 leggendo tutti i file in data/, brandx.json compreso, il CLAUDE.md e qa.md. È una valutazione: ogni numero viene dal cruscotto, nessun dato nuovo. Standing ricalcolato come nella sezione Standing (pesi uguali). Engagement = mediane dei post di posts.json senza i video promossi. Limiti noti (qa.md): like di Instagram da una sola fonte, risposte AI che cambiano a ogni richiesta, Pomì senza dati SEO.",
+ "at": "2026-11-22",
+ "s": "val",
+ "sintesi": "La Fiammante ha un buon prodotto e un racconto vero, ma il marchio pesa meno di quello che vende. Lo standing è 46 su 100, quinto su dieci. Il logo per il panel è nono su dieci e sta in una categoria dove 7 marchi su 10 sono rossi. Il punto di forza c'è ed è chiaro: la filiera etica. Sui post di filiera rendiamo il triplo che sulle ricette (0,84% contro 0,27%), e sulla domanda AI sulla filiera etica siamo i primi nominati su ChatGPT e Perplexity. Su Google siamo secondi per visite (10.340 al mese) grazie alle ricette. Mancano tre cose: un segno che regga in piccolo, una presenza vera su TikTok (1.453 follower) e più citazioni nelle risposte AI (4 su 40 contro 22 di Mutti). Il piano: ripulire il logo, spostare i contenuti su filiera e persone, prendere le ricette del gap e farci citare dai siti che le AI leggono. Il momento è agosto, quando le ricerche di passata raddoppiano.",
+ "swot": {
+  "forza": [
+   "Filiera etica riconosciuta: tono «filiera» 5 su 5, post di filiera allo 0,84% mediano, primi nominati sulla domanda AI sulla filiera etica (ChatGPT e Perplexity).",
+   "Secondi su Google per visite stimate: 10.340 al mese, dopo Mutti (18.216) e prima di Cirio (7.260), con 289 parole in top 10.",
+   "Voto Google 4,6 su 57 recensioni, secondo dopo La Torrente (4,7).",
+   "Gamma campana più ricca: 76 prodotti su tre marchi, San Marzano DOP e unico marchio con il Piennolo del Vesuvio DOP.",
+   "Pubblico Facebook ampio: 103.883 «mi piace», più di Mutti, Petti e Rodolfi."
+  ],
+  "debolezza": [
+   "Logo nono su dieci per il panel (media 2,3 su 5): riduzione e uso a un colore 2 su 5.",
+   "Rosso come 7 marchi su 10: a scaffale la scritta finisce nello stesso blocco di Pomì, Petti, Rodolfi e La Torrente.",
+   "TikTok quasi fermo: 1.453 follower e 1 video non promosso in 6 mesi.",
+   "Zero notizie negli ultimi 12 mesi e solo 3 fra premi e certificazioni: ultimi nello standing su entrambi.",
+   "Niente sughi pronti, che hanno tutti gli altri 8 concorrenti verificati."
+  ],
+  "opportunita": [
+   "Le ricette del gap: parole come «pasta al pomodoro» e «pasta al sugo» (14.800 ricerche al mese ciascuna) dove Mutti è in top 10 e noi fuori dai primi 100.",
+   "Le domande AI dove non siamo citati pur avendo il prodotto: San Marzano DOP, pizza napoletana, passata del Sud.",
+   "Il picco di agosto: ricerche di «passata di pomodoro» a 77 di indice medio contro 31 a giugno.",
+   "Un video promosso (Passata Dolcissima) ha fatto 4.899.065 visualizzazioni su TikTok: il formato funziona quando c'è spinta."
+  ],
+  "minaccia": [
+   "Mutti domina le risposte AI (22 citazioni su 40, prima nominata 10 volte) e Cirio segue con 13: le AI stanno fissando la lista delle marche «di qualità» senza di noi.",
+   "La Torrente, il concorrente più simile, ha i Due Gamberi del Gambero Rosso e fa annunci sia su Meta (5) sia su Google (6).",
+   "Fuori dalla Campania il marchio è poco cercato: «la fiammante» vale 19 in Lombardia contro 100 in Campania."
+  ]
+ },
+ "punti": [
+  {
+   "t": "Lo standing è quinto: perdiamo su notizie, premi e storia",
+   "x": "Lo standing di La Fiammante è 46 su 100, quinto su dieci, a 2 punti da Pomì (48). Siamo forti su recensioni Google e visite dal sito, deboli su notizie (0 in 12 mesi, ultimi), premi e certificazioni (3, ultimi) e storia, che non si calcola perché l'anno di fondazione non è nel cruscotto. Sono fattori che si muovono con le relazioni esterne, non con il budget media.",
+   "dati": "Standing 46/100, 5° su 10; Pomì 48, Cirio 72, Mutti 71. Notizie in 12 mesi: 0. Premi + certificazioni: 3. Voto Google 4,6. Visite da Google 10.340 al mese.",
+   "az": "Scrivere l'anno di fondazione nella pagina «chi siamo». Fare 1 comunicato al mese (campagna del pomodoro, filiera etica, novità come la Dolcissima). Candidare la passata e i DOP a Prodotto dell'Anno e alle guide del Gambero Rosso, come hanno fatto Petti, Mutti e La Torrente.",
+   "pr": 1,
+   "imp": 4,
+   "sf": 2,
+   "sez": "standing"
+  },
+  {
+   "t": "Il logo: un nome forte dentro troppi accessori",
+   "x": "Il panel mette il logo nono su dieci: la scritta minuscola tonda è l'unica di questo tipo nella categoria, ma bandierina, scintilla, contorno e payoff non reggono sul tappo, nella favicon o a un colore. Il tono giocoso dice prezzo accessibile mentre il catalogo ha DOP e tracciabilità in blockchain.",
+   "dati": "Panel di 7 mestieri: media 2,3 su 5, 9° su 10; riduzione 2/5, un colore 2/5, percezione premium 2/5. Giudizio del logo in brand.json 3,75 su 5.",
+   "az": "Fissare la scritta «la fiammante» piena a un colore, senza contorno né ombra, con il negativo bianco. Togliere la scintilla, portare bandierina e payoff sul pack. Ricavare dalla «f» un segno quadrato per tappo, favicon e avatar social. Rifare prima i file digitali, poi i pack alla prima ristampa.",
+   "pr": 1,
+   "imp": 4,
+   "sf": 2,
+   "sez": "marchio"
+  },
+  {
+   "t": "Il colore: il rosso è affollato, le tinte libere ci sono",
+   "x": "Sulla ruota dei colori 7 marchi su 10 hanno il rosso come primo colore; il blu è solo di Cirio, il verde solo di Solania, il bruno di Agromonte. Nessuno usa giallo, turchese o viola. Il rosso resta giusto per un nome come «fiammante», ma serve un secondo colore proprio per staccarsi a scaffale e per la linea alta. Il verde #8DB339 è già nella nostra palette.",
+   "dati": "Primo colore rosso: 7 marchi su 10. ICAB: #D91B34, #8DB339, #BF0214. Distintività del logo per il panel: 3 su 5.",
+   "az": "Tenere il rosso per il logo e usare il verde della palette come colore fisso di sistema (fasce, tappi, social). Per la linea DOP provare una tinta libera sulla ruota, per esempio un giallo caldo o un tono scuro, con test a scaffale su 2-3 prove di etichetta.",
+   "pr": 2,
+   "imp": 3,
+   "sf": 2,
+   "sez": "marchio"
+  },
+  {
+   "t": "Tre marchi senza un'architettura che si veda",
+   "x": "ICAB è una casa di marchi (La Fiammante, La Reale, La Paesana) con 76 prodotti, ma il panel nota che nessun segno, colore o firma li lega. La Reale e La Paesana portano il concentrato, che a La Fiammante da sola mancava. I grandi gruppi, come Casalasco e Conserve Italia, danno a ogni marchio un ruolo chiaro.",
+   "dati": "Gamma ICAB: 76 prodotti (La Fiammante 65, La Reale 6, La Paesana 5). Architettura: casa di marchi. Sughi pronti: presenti in 8 concorrenti su 8, assenti da noi.",
+   "az": "Dare un ruolo a ogni marchio: La Fiammante marchio di punta con la linea DOP, La Reale e La Paesana per concentrato, prezzo e canale. Mettere una firma piccola comune «di ICAB» su tutti i pack. Valutare i sughi pronti solo sotto La Fiammante, come estensione del marchio di punta.",
+   "pr": 2,
+   "imp": 3,
+   "sf": 3,
+   "sez": "gamma"
+  },
+  {
+   "t": "Il tono che rende è la filiera, non la ricetta",
+   "x": "Il nostro tono ha il voto più alto del gruppo sulla filiera (5 su 5) e i numeri lo premiano: i post di filiera fanno 0,84% di engagement mediano, le ricette 0,27%. Su tutti i marchi valori (0,79%), prodotto (0,55%) e filiera (0,54%) battono le ricette (0,22%). Oggi le ricette sono il tema più usato da noi (10 post su 24).",
+   "dati": "Instagram La Fiammante, 24 post in 6 mesi: filiera 8 post, 0,84%; ricette 10 post, 0,27%; valori 3 post, 0,78%. Tutti i marchi: valori 0,79%, ricette 0,22%. Tono: filiera 5, ironia 1.",
+   "az": "Portare filiera, persone e valori (lavoratori, campagna, lotta al caporalato) ad almeno metà dei post. Le ricette restano, ma sempre con il prodotto in primo piano e il link alla ricetta sul sito.",
+   "pr": 1,
+   "imp": 4,
+   "sf": 1,
+   "sez": "engag"
+  },
+  {
+   "t": "Formati e orari: pubblichiamo la sera, rende il primo pomeriggio",
+   "x": "14 post su 24 escono fra le 19 e le 24, dove la mediana di tutti i marchi è 0,34%; fra le 13 e le 16 è 0,62%. Il giovedì, il venerdì e il sabato rendono più del lunedì e del martedì. 19 post su 24 sono reel (0,33%); i nostri 3 caroselli fanno 0,69%. L'engagement mediano di La Fiammante è 0,35%, quarto su 8.",
+   "dati": "Fasce orarie, tutti i marchi: 13-16 0,62%, 19-24 0,34%, 7-10 0,26%. Giorni: sab 0,45%, gio 0,44%, ven 0,42%, lun 0,28%, mar 0,25%. La Fiammante: reel 19 post 0,33%, caroselli 3 post 0,69%; mediana 0,35%, 4° su 8.",
+   "az": "Per 8 settimane spostare metà dei post fra le 13 e le 16, da giovedì a sabato, e alternare reel e caroselli di filiera. Confrontare la mediana a fine test con lo 0,35% di oggi.",
+   "pr": 1,
+   "imp": 3,
+   "sf": 1,
+   "sez": "engag"
+  },
+  {
+   "t": "Collaborazioni: sì, ma su video e con racconto",
+   "x": "Non abbiamo post in collaborazione. Su Instagram i post con creator dei concorrenti rendono poco (0,13% contro 0,36% degli altri): Cirio ne ha 7 su 24, quasi tutti ricette con creator. Su TikTok le 2 collaborazioni di La Torrente fanno 16,82%. Il campione è piccolo, ma dice che la collaborazione funziona quando è un video con una storia, non una ricetta in più.",
+   "dati": "Instagram, tutti i marchi: collaborazioni 16 post, 0,13%; altri post 0,36%. La Fiammante: 0 collaborazioni. TikTok La Torrente: 2 collaborazioni, 16,82%.",
+   "az": "Fare 2-3 collaborazioni l'anno solo in video (reel e TikTok) con chi racconta la cucina del Sud e la campagna del pomodoro, misurate a parte. Niente ricette sponsorizzate su Instagram.",
+   "pr": 2,
+   "imp": 3,
+   "sf": 3,
+   "sez": "engag"
+  },
+  {
+   "t": "TikTok: abbiamo provato che funziona, ora serve continuità",
+   "x": "Su TikTok abbiamo 1.453 follower, contro i 36.038 di Mutti, i 24.261 di Pomì e i 23.637 di Agromonte. In 6 mesi c'è un solo video non promosso. Il video promosso della Passata Dolcissima ha fatto 4.899.065 visualizzazioni, e il video di filiera di giugno ha il 6,81% di engagement: il pubblico c'è, manca il ritmo.",
+   "dati": "TikTok follower: La Fiammante 1.453, Mutti 36.038, Pomì 24.261, Agromonte 23.637. Video non promossi in 6 mesi: 1. Video promosso Dolcissima: 4.899.065 visualizzazioni. Video di filiera: 6,81%.",
+   "az": "Pubblicare 2 video a settimana riusando i reel di filiera e di campagna, con formato verticale nativo. Rilanciare con la promozione solo i video che superano la mediana nei primi giorni.",
+   "pr": 1,
+   "imp": 4,
+   "sf": 3,
+   "sez": "social"
+  },
+  {
+   "t": "SEO: prendere le ricette del gap e collegarle ai prodotti",
+   "x": "Siamo secondi per visite da Google, ma 85 parole su 100 sono informative e 0 commerciali: le ricette portano gente che non arriva al prodotto. Il gap con Mutti, Cirio e La Doria è fatto quasi solo di ricette al pomodoro molto cercate. Per «polpo alla luciana» abbiamo già una ricetta simile (polipetti alla luciana, 4ª posizione). I domini che ci linkano sono 496, contro 2.355 di Mutti.",
+   "dati": "Visite da Google 10.340 al mese, 2° dopo Mutti 18.216. Intento: 85 informative, 0 commerciali, 13 transazionali. Gap: cannelloni ricotta e spinaci 27.100, polpo alla luciana 27.100, trippa alla romana 22.200, peperonata 18.100, pasta al pomodoro 14.800, pasta al sugo 14.800, riso con pomodorini 14.800. Domini che linkano 496.",
+   "az": "Scrivere o aggiornare 10 ricette del gap, partendo da pasta al pomodoro, pasta al sugo, polpo alla luciana e peperonata. In ogni ricetta mettere il prodotto usato con il link alla scheda e al negozio online.",
+   "pr": 1,
+   "imp": 4,
+   "sf": 2,
+   "sez": "seo2"
+  },
+  {
+   "t": "Risposte AI: primi sulla filiera etica, assenti dove abbiamo i DOP",
+   "x": "Le AI ci citano 4 volte su 40, contro 22 di Mutti e 13 di Cirio. Sulla domanda sulla filiera etica siamo i primi nominati su ChatGPT e Perplexity, grazie al sito sostenibilita.lafiammante.it, citato come fonte 2 volte. Non compariamo sulle domande dove abbiamo il prodotto giusto: San Marzano DOP, pizza napoletana (2 domande), passata del Sud. I siti che le AI citano di più sono greenme.it (12 volte), gamberorosso.it (8), cookist.it (4) e reddit.com (4).",
+   "dati": "Citazioni: La Fiammante 4 su 40, Mutti 22, Cirio 13, Petti 8, Solania 7. Prima nominata: La Fiammante 2 volte, Mutti 10. Fonti più citate: greenme.it 12, gamberorosso.it 8, cookist.it 4, reddit.com 4; sostenibilita.lafiammante.it 2.",
+   "az": "Copiare il modello del sito sostenibilità: una pagina chiara per ogni domanda persa (San Marzano e Piennolo DOP, pomodoro per pizza napoletana, passata del Sud), con dati, origine e premi. Portare i DOP ai siti fonte: campioni e schede a gamberorosso.it, greenme.it e cookist.it.",
+   "pr": 1,
+   "imp": 4,
+   "sf": 3,
+   "sez": "geo2"
+  },
+  {
+   "t": "Trends: agosto è il nostro mese, la Campania il nostro mercato",
+   "x": "Le ricerche di passata di pomodoro salgono d'estate: indice medio 77 in agosto contro 31 a giugno, con il massimo dei 5 anni nella settimana del 23/08/2026. Anche «la fiammante» è più cercata in agosto. L'interesse per il marchio è concentrato al Sud: 100 in Campania, 76 in Basilicata, 19 in Lombardia.",
+   "dati": "«passata di pomodoro»: media agosto 77, giugno 31, settimana del 23/08/2026 = 100. «la fiammante», media mensile: agosto 3,7, altri mesi da 1 a 2,3. Regioni «la fiammante»: Campania 100, Basilicata 76, Puglia 28, Lombardia 19.",
+   "az": "Concentrare contenuti, annunci e pubbliche relazioni fra luglio e settembre attorno alla campagna del pomodoro e alla salsa fatta in casa. In Campania difendere il marchio; fuori dal Sud parlare prima di filiera e DOP che di marchio.",
+   "pr": 2,
+   "imp": 3,
+   "sf": 2,
+   "sez": "trends"
+  },
+  {
+   "t": "Pubblicità: poche varianti e niente Google",
+   "x": "Oggi abbiamo 2 annunci attivi su Meta, con lo stesso video, e nessuno su Google. Cirio e Rodolfi ne hanno 6 su Meta, La Torrente 5 su Meta ed è l'unica con annunci su Google (6). Con una sola creatività non si impara che cosa funziona.",
+   "dati": "Annunci attivi: La Fiammante Meta 2 (stesso video, dal 19/11/2026), Google 0. Cirio Meta 6, Rodolfi Meta 6, La Torrente Meta 5 e Google 6, Pomì Meta 3.",
+   "az": "Tenere sempre 4-6 varianti attive su Meta (filiera, prodotto, carosello, video) e spegnere quelle sotto la media dopo 2 settimane. Provare annunci Google su «passata di pomodoro» nel picco di luglio-settembre.",
+   "pr": 2,
+   "imp": 3,
+   "sf": 2,
+   "sez": "pubblicita"
+  }
+ ],
+ "piano": [
+  [
+   "0-3 mesi",
+   [
+    "Logo pieno a un colore, negativo bianco e segno quadrato dalla «f» per favicon, avatar e tappo.",
+    "Anno di fondazione su «chi siamo» e un comunicato al mese.",
+    "Test di 8 settimane su Instagram: metà dei post fra le 13 e le 16, da giovedì a sabato, mix spostato su filiera e valori.",
+    "TikTok a 2 video a settimana con i reel di filiera.",
+    "Prime 5 ricette del gap con link ai prodotti.",
+    "Meta: da 2 a 4-6 varianti attive."
+   ]
+  ],
+  [
+   "3-6 mesi",
+   [
+    "Pagine risposta sul sito per San Marzano e Piennolo DOP, pomodoro per pizza napoletana e passata del Sud.",
+    "Campioni e schede DOP a gamberorosso.it, greenme.it e cookist.it; candidatura a Prodotto dell'Anno e guide del Gambero Rosso.",
+    "Altre 5 ricette del gap; controllo di visite e posizioni.",
+    "Ruoli dei tre marchi decisi e firma comune «di ICAB» sui file dei pack.",
+    "Prima collaborazione video con chi racconta la cucina del Sud."
+   ]
+  ],
+  [
+   "6-12 mesi",
+   [
+    "Campagna della raccolta fra luglio e settembre: contenuti, annunci Meta e prova di Google su «passata di pomodoro».",
+    "Linea DOP con versione premium del logo e colore proprio, testata a scaffale.",
+    "Nuovi pack con il logo ripulito alla prima ristampa.",
+    "Rifare la misura delle risposte AI e dello standing a fine campagna e confrontarle con oggi.",
+    "Valutare i sughi pronti sotto La Fiammante."
+   ]
+  ]
+ ],
+ "kpi": [
+  ["Standing del marchio", "46/100, 5° su 10", "oltre 48, 4° (sopra Pomì)", "standing"],
+  ["Notizie sul marchio in 12 mesi", "0", "almeno 6", "standing"],
+  ["Logo, media del panel", "2,3 su 5, 9° su 10", "3,5 su 5", "marchio"],
+  ["Engagement mediano Instagram", "0,35%, 4° su 8", "0,6%", "engag"],
+  ["Post Instagram fra le 13 e le 16", "4 su 24", "metà dei post", "engag"],
+  ["Post di filiera e valori sul totale", "11 su 24", "almeno metà", "engag"],
+  ["Follower TikTok", "1.453", "10.000", "social"],
+  ["Video TikTok non promossi in 6 mesi", "1", "48 (2 a settimana)", "social"],
+  ["Visite da Google al mese", "10.340", "14.000", "seo"],
+  ["Parole del gap in top 10", "0 su 48", "10", "seo2"],
+  ["Domini che linkano al sito", "496", "700", "seo2"],
+  ["Citazioni nelle risposte AI", "4 su 40", "10 su 40", "geo2"],
+  ["Risposte AI dove siamo i primi nominati", "2", "5", "geo2"],
+  ["Annunci Meta attivi (creatività diverse)", "2 (1 video)", "4-6", "pubblicita"],
+  ["Voto Google", "4,6 su 57 recensioni", "4,6 su 100", "reputazione"]
+ ]
+}

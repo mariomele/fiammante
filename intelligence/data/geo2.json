@@ -1,0 +1,993 @@
+{
+ "sent_s": "val",
+ "n": "DataForSEO AI Optimization, LLM Responses con ricerca web richiesta, 22/11/2026. Modelli: ChatGPT = gpt-5.4-mini-2026-03-17, Gemini = gemini-3.8-flash, Claude = claude-haiku-5-5, Perplexity = sonar. Una sola risposta per domanda e modello (le risposte cambiano a ogni richiesta). cit = marchi del gruppo nell'ordine in cui compaiono nel testo (Cirio = conserveitalia, Pomì = casalasco; Santa Rosa, Valfrutta, De Rica in altri); altri = altri marchi così come scritti; fonti = domini delle citazioni della risposta (Gemini: titolo dell'annotazione). Marchi presenti solo nelle fonti consultate e non nel testo non sono contati. In 9 risposte su 40 il modello non ha usato la ricerca web anche se richiesta (ChatGPT q6-q7, Gemini q4, q6, q7, Claude q4-q7): lo dice la nota della riga. sent = giudizio di Claude sul tono della risposta verso il marchio (val). ment vuoto: ai_opt_llm_ment_cross_agg_metrics (Google AI Overview, Italia) dà conteggi falsati dagli omonimi ('La Fiammante' 32.344 e 'La Torrente' 29.205 contro Mutti 455: 'fiammante' e 'torrente' sono parole comuni), quindi non usati.",
+ "at": "2026-11-22",
+ "s": "dic",
+ "mod": [
+  "chatgpt",
+  "gemini",
+  "claude",
+  "perplexity"
+ ],
+ "q": [
+  "qual è la migliore passata di pomodoro",
+  "che marca di pelati comprare",
+  "migliori pomodori San Marzano DOP in scatola",
+  "marche italiane di conserve di pomodoro di qualità",
+  "pomodoro in scatola per la pizza napoletana",
+  "quale passata di pomodoro usano gli chef",
+  "passata di pomodoro del Sud Italia",
+  "pomodori pelati per pizza napoletana",
+  "marche di pomodoro italiane senza caporalato o filiera etica",
+  "conserve di pomodoro biologiche migliori"
+ ],
+ "r": [
+  {
+   "q": 0,
+   "m": "chatgpt",
+   "cit": [
+    "mutti"
+   ],
+   "altri": [
+    "Conad"
+   ],
+   "fonti": [
+    "cookist.it",
+    "altroconsumo.it"
+   ],
+   "sent": {
+    "mutti": "pos"
+   },
+   "u": null,
+   "n": "Conad Classica indicata prima (Altroconsumo 2025); La Torrente e La Fiammante compaiono solo nei search_results, non nella risposta"
+  },
+  {
+   "q": 1,
+   "m": "chatgpt",
+   "cit": [
+    "mutti",
+    "solania"
+   ],
+   "altri": [
+    "Arioli"
+   ],
+   "fonti": [
+    "gamberorosso.it"
+   ],
+   "sent": {
+    "mutti": "pos",
+    "solania": "pos"
+   },
+   "u": null,
+   "n": ""
+  },
+  {
+   "q": 2,
+   "m": "chatgpt",
+   "cit": [],
+   "altri": [
+    "Cento"
+   ],
+   "fonti": [
+    "italiantastemap.com",
+    "americastestkitchen.com"
+   ],
+   "sent": {},
+   "u": null,
+   "n": "nessun brand monitorato; Cento citato con avvertenza che 'certified' non equivale a DOP; catalogo La Fiammante solo nei search_results"
+  },
+  {
+   "q": 3,
+   "m": "chatgpt",
+   "cit": [
+    "mutti",
+    "conserveitalia",
+    "petti"
+   ],
+   "altri": [
+    "L'Oro del Vesuvio",
+    "Fior di passata"
+   ],
+   "fonti": [
+    "gamberorosso.it"
+   ],
+   "sent": {
+    "mutti": "pos",
+    "conserveitalia": "pos",
+    "petti": "pos"
+   },
+   "u": null,
+   "n": "Cirio citata come passata Verace; 'Fior di passata' e' un prodotto Rodolfi secondo la fonte Gambero Rosso, ma la risposta non nomina Rodolfi"
+  },
+  {
+   "q": 4,
+   "m": "chatgpt",
+   "cit": [],
+   "altri": [],
+   "fonti": [
+    "membership.avpn.it"
+   ],
+   "sent": {},
+   "u": null,
+   "n": "nessuna marca citata; solo indicazione San Marzano DOP / pelato italiano (disciplinare AVPN)"
+  },
+  {
+   "q": 5,
+   "m": "chatgpt",
+   "cit": [
+    "mutti"
+   ],
+   "altri": [],
+   "fonti": [
+    "cookist.it",
+    "blog.giallozafferano.it"
+   ],
+   "sent": {
+    "mutti": "pos"
+   },
+   "u": null,
+   "n": ""
+  },
+  {
+   "q": 6,
+   "m": "chatgpt",
+   "cit": [],
+   "altri": [],
+   "fonti": [],
+   "sent": {},
+   "u": null,
+   "n": "web_search false nella risposta; solo definizione, nessuna marca"
+  },
+  {
+   "q": 7,
+   "m": "chatgpt",
+   "cit": [],
+   "altri": [],
+   "fonti": [],
+   "sent": {},
+   "u": null,
+   "n": "web_search false nella risposta; consigli generici San Marzano DOP, nessuna marca"
+  },
+  {
+   "q": 8,
+   "m": "chatgpt",
+   "cit": [
+    "icab",
+    "casalasco"
+   ],
+   "altri": [
+    "Coop",
+    "Iamme"
+   ],
+   "fonti": [
+    "consumatori.coop.it",
+    "sostenibilita.lafiammante.it",
+    "pomionline.it",
+    "freshpointmagazine.it",
+    "ccdp.it"
+   ],
+   "sent": {
+    "icab": "pos",
+    "casalasco": "pos"
+   },
+   "u": null,
+   "n": "La Fiammante citata per prima ('filiera etica'); casalasco citato sia come Pomi che come Consorzio Casalasco; shortlist: Iamme No Cap 1a, La Fiammante 2a"
+  },
+  {
+   "q": 9,
+   "m": "chatgpt",
+   "cit": [
+    "mutti"
+   ],
+   "altri": [
+    "Bio Orto",
+    "Oilalá"
+   ],
+   "fonti": [
+    "sainsburys.co.uk",
+    "bio-orto.com",
+    "oilala.com",
+    "alpassofood.com"
+   ],
+   "sent": {
+    "mutti": "pos"
+   },
+   "u": null,
+   "n": "Mutti Organic al primo posto; quarta voce 'Organic San Marzano Tomato Passata' senza marca nel testo (fonte alpassofood.com)"
+  },
+  {
+   "q": 0,
+   "m": "gemini",
+   "cit": [
+    "conserveitalia",
+    "petti",
+    "rodolfi",
+    "mutti"
+   ],
+   "altri": [
+    "Santa Rosa",
+    "Vitale",
+    "Alce Nero",
+    "De Cecco",
+    "Coop",
+    "Esselunga",
+    "Così Com'è",
+    "Masseria Dauna",
+    "DaniCoop (Gustarosso)"
+   ],
+   "fonti": [
+    "gamberorosso.it",
+    "sky.it",
+    "greenme.it",
+    "fanpage.it",
+    "ilfattoquotidiano.it",
+    "virgilio.it",
+    "horecanews.it"
+   ],
+   "sent": {
+    "conserveitalia": "pos",
+    "petti": "pos",
+    "rodolfi": "pos",
+    "mutti": "pos"
+   },
+   "u": null,
+   "n": "Cirio Passata Verace prima nel test Gambero Rosso; Santa Rosa (Conserve Italia) in altri"
+  },
+  {
+   "q": 1,
+   "m": "gemini",
+   "cit": [
+    "latorrente",
+    "mutti",
+    "conserveitalia"
+   ],
+   "altri": [
+    "Gustarosso (Danicoop)",
+    "Miracolo di San Gennaro",
+    "Casa Marrazzo",
+    "Così Com'è",
+    "Strianese",
+    "Rosso Gargano",
+    "De Cecco",
+    "Fior Fiore Coop",
+    "Sapori & Dintorni Conad",
+    "Esselunga Top"
+   ],
+   "fonti": [
+    "greenme.it"
+   ],
+   "sent": {
+    "latorrente": "pos",
+    "mutti": "pos",
+    "conserveitalia": "pos"
+   },
+   "u": null,
+   "n": null
+  },
+  {
+   "q": 2,
+   "m": "gemini",
+   "cit": [
+    "solania",
+    "mutti"
+   ],
+   "altri": [
+    "Agrigenus",
+    "Danicop (Gustarosso)",
+    "Casa Marrazzo",
+    "Pastificio Gentile",
+    "Strianese",
+    "Annalisa",
+    "D'Amico"
+   ],
+   "fonti": [
+    "scattidigusto.it",
+    "gamberorosso.it",
+    "greenme.it",
+    "reddit.com"
+   ],
+   "sent": {
+    "solania": "pos",
+    "mutti": "pos"
+   },
+   "u": null,
+   "n": null
+  },
+  {
+   "q": 3,
+   "m": "gemini",
+   "cit": [
+    "solania",
+    "mutti",
+    "conserveitalia",
+    "petti"
+   ],
+   "altri": [
+    "Gustarosso (Danicoop)",
+    "Agrigenus",
+    "Casa Marrazzo",
+    "Masseria Dauna",
+    "I Contadini",
+    "Così Com'è (Finagricola)",
+    "Alce Nero",
+    "De Cecco"
+   ],
+   "fonti": [
+    "gamberorosso.it",
+    "reddit.com",
+    "greenme.it",
+    "ilfattoquotidiano.it"
+   ],
+   "sent": {
+    "solania": "pos",
+    "mutti": "pos",
+    "conserveitalia": "pos",
+    "petti": "pos"
+   },
+   "u": null,
+   "n": null
+  },
+  {
+   "q": 4,
+   "m": "gemini",
+   "cit": [
+    "solania",
+    "mutti"
+   ],
+   "altri": [
+    "Gustarosso (Danicoop)",
+    "Fontanella",
+    "Strianese",
+    "Agrigenus",
+    "Casa Marrazzo",
+    "Ciro Flagella"
+   ],
+   "fonti": [],
+   "sent": {
+    "solania": "pos",
+    "mutti": "pos"
+   },
+   "u": null,
+   "n": "web_search false nella risposta, nessuna annotazione"
+  },
+  {
+   "q": 5,
+   "m": "gemini",
+   "cit": [
+    "solania",
+    "icab",
+    "latorrente",
+    "conserveitalia",
+    "petti",
+    "mutti",
+    "rodolfi"
+   ],
+   "altri": [
+    "Agrigenus",
+    "Danicoop / Gustarosso",
+    "La Carmela / Fratelli D'Acunzi",
+    "I Contadini",
+    "Orominerva",
+    "Casa Barone",
+    "Paglione",
+    "De Rica"
+   ],
+   "fonti": [
+    "gamberorosso.it",
+    "reddit.com",
+    "orominerva.it",
+    "peppeguida.com",
+    "ilfattoquotidiano.it",
+    "cucinare.it",
+    "sky.it"
+   ],
+   "sent": {
+    "solania": "pos",
+    "icab": "pos",
+    "latorrente": "pos",
+    "conserveitalia": "pos",
+    "petti": "pos",
+    "mutti": "pos",
+    "rodolfi": "pos"
+   },
+   "u": null,
+   "n": "La Fiammante citata con La Torrente come linea professionale Horeca di alta gamma; Mutti lodata ma 'gusto più neutro e standardizzato'"
+  },
+  {
+   "q": 6,
+   "m": "gemini",
+   "cit": [
+    "agromonte"
+   ],
+   "altri": [
+    "Casa Marrazzo",
+    "Gustarosso (Danicoop)",
+    "Agrigenus",
+    "Così Com'è",
+    "Rosso Gargano",
+    "Paglione",
+    "I Contadini",
+    "Fratepietro",
+    "Campisi"
+   ],
+   "fonti": [],
+   "sent": {
+    "agromonte": "pos"
+   },
+   "u": null,
+   "n": "web_search false nella risposta, nessuna annotazione; Agromonte unico brand monitorato (Sicilia, ciliegino)"
+  },
+  {
+   "q": 7,
+   "m": "gemini",
+   "cit": [
+    "solania",
+    "mutti",
+    "conserveitalia"
+   ],
+   "altri": [
+    "Gustarosso (Danicoop)",
+    "Fontanella",
+    "Agrigenus",
+    "Ciao - Il Pomodoro di Napoli",
+    "Strianese"
+   ],
+   "fonti": [],
+   "sent": {
+    "solania": "pos",
+    "mutti": "pos",
+    "conserveitalia": "pos"
+   },
+   "u": null,
+   "n": "web_search false nella risposta, nessuna annotazione; Mutti/Cirio come alternative da supermercato"
+  },
+  {
+   "q": 8,
+   "m": "gemini",
+   "cit": [
+    "mutti"
+   ],
+   "altri": [
+    "No Cap",
+    "IAMME",
+    "Riaccolto",
+    "Coop",
+    "Sfruttazero",
+    "Good Land",
+    "Alce Nero",
+    "Libera Terra",
+    "Altromercato (Tomato Revolution)",
+    "Rinascita",
+    "Verbumcaudo",
+    "Pietra di Scarto (Passata Marcone)"
+   ],
+   "fonti": [
+    "fruitbookmagazine.it",
+    "amandla.it",
+    "autodifesalimentare.it",
+    "pianetapsr.it",
+    "coop.it",
+    "greenme.it",
+    "verbumcaudo.it",
+    "rondini.org",
+    "ilfattoalimentare.it"
+   ],
+   "sent": {
+    "mutti": "pos"
+   },
+   "u": null,
+   "n": "Mutti unico brand monitorato, per raccolta meccanizzata e certificazione lavoro"
+  },
+  {
+   "q": 9,
+   "m": "gemini",
+   "cit": [],
+   "altri": [
+    "Alce Nero",
+    "Sarchio",
+    "Terre e Libertà / Altromercato",
+    "Coop Vivi Verde",
+    "Esselunga Bio",
+    "Amo Essere Biologico (Eurospin)",
+    "Casa Morana",
+    "Danicoop / Gustarosso",
+    "Paglione"
+   ],
+   "fonti": [
+    "youtube.com",
+    "virgilio.it",
+    "diredonna.it",
+    "horecanews.it",
+    "sky.it",
+    "greenme.it"
+   ],
+   "sent": {},
+   "u": null,
+   "n": "nessun brand monitorato citato"
+  },
+  {
+   "q": 0,
+   "m": "claude",
+   "cit": [
+    "conserveitalia",
+    "mutti",
+    "petti"
+   ],
+   "altri": [
+    "Conad",
+    "Lidl Italiamo",
+    "Delizie dal Sole",
+    "Eurospin"
+   ],
+   "fonti": [
+    "greenme.it",
+    "dailyfood.it",
+    "veronasera.it",
+    "cookist.it",
+    "tech.everyeye.it",
+    "agroalimentarenews.com"
+   ],
+   "sent": {
+    "conserveitalia": "pos",
+    "mutti": "pos",
+    "petti": "pos"
+   },
+   "u": null,
+   "n": ""
+  },
+  {
+   "q": 1,
+   "m": "claude",
+   "cit": [
+    "latorrente",
+    "conserveitalia",
+    "mutti"
+   ],
+   "altri": [
+    "Arioli",
+    "Saviano",
+    "Camilla",
+    "Aldi",
+    "Coop",
+    "Denner"
+   ],
+   "fonti": [
+    "greenme.it",
+    "ricettasprint.it",
+    "dailyfood.it"
+   ],
+   "sent": {
+    "latorrente": "pos",
+    "conserveitalia": "pos",
+    "mutti": "neg"
+   },
+   "u": null,
+   "n": "Arioli primo consigliato; Mutti citata tra le peggiori in un test svizzero"
+  },
+  {
+   "q": 2,
+   "m": "claude",
+   "cit": [
+    "solania"
+   ],
+   "altri": [
+    "Esselunga Top",
+    "Agrigenus",
+    "Casa Marrazzo",
+    "Gustarosso",
+    "Pomilia",
+    "Coppola",
+    "Valgri"
+   ],
+   "fonti": [
+    "starbene.it",
+    "gamberorosso.it",
+    "valsana.it",
+    "shop.gustarosso.it",
+    "pomilia.it"
+   ],
+   "sent": {
+    "solania": "neu"
+   },
+   "u": null,
+   "n": "Solania solo nominata nella classifica Gambero Rosso dei pelati artigianali"
+  },
+  {
+   "q": 3,
+   "m": "claude",
+   "cit": [
+    "mutti",
+    "casalasco",
+    "conserveitalia"
+   ],
+   "altri": [
+    "Le Conserve della Nonna",
+    "Alce Nero",
+    "De Cecco",
+    "La Molisana",
+    "De Rica",
+    "Star La Mia Pummarò",
+    "Tudìa",
+    "Casa Morana"
+   ],
+   "fonti": [
+    "trevisotoday.it",
+    "buttalapasta.it",
+    "scattidigusto.it",
+    "bell-italia.com",
+    "greenme.it"
+   ],
+   "sent": {
+    "mutti": "pos",
+    "casalasco": "pos",
+    "conserveitalia": "pos"
+   },
+   "u": null,
+   "n": "risposta in inglese"
+  },
+  {
+   "q": 4,
+   "m": "claude",
+   "cit": [],
+   "altri": [],
+   "fonti": [],
+   "sent": {},
+   "u": null,
+   "n": "web_search false nella risposta; nessuna marca, solo San Marzano DOP generico"
+  },
+  {
+   "q": 5,
+   "m": "claude",
+   "cit": [],
+   "altri": [],
+   "fonti": [],
+   "sent": {},
+   "u": null,
+   "n": "web_search false nella risposta; nessuna marca, il modello chiede se fare una ricerca"
+  },
+  {
+   "q": 6,
+   "m": "claude",
+   "cit": [],
+   "altri": [],
+   "fonti": [],
+   "sent": {},
+   "u": null,
+   "n": "web_search false nella risposta; nessuna marca"
+  },
+  {
+   "q": 7,
+   "m": "claude",
+   "cit": [],
+   "altri": [],
+   "fonti": [],
+   "sent": {},
+   "u": null,
+   "n": "web_search false nella risposta; nessuna marca, solo San Marzano DOP generico"
+  },
+  {
+   "q": 8,
+   "m": "claude",
+   "cit": [],
+   "altri": [
+    "Tomato Revolution",
+    "Altromercato",
+    "Cooperativa Rinascita",
+    "No Cap",
+    "Megamark",
+    "Iamme",
+    "Riaccolto",
+    "Consorzio Oltre"
+   ],
+   "fonti": [
+    "altromercato.it",
+    "foggiareporter.it",
+    "lucianopignataro.it",
+    "freshpointmagazine.it",
+    "freshplaza.it"
+   ],
+   "sent": {},
+   "u": null,
+   "n": "La Fiammante solo nel titolo di una fonte citata (lucianopignataro.it), non nel testo della risposta"
+  },
+  {
+   "q": 9,
+   "m": "claude",
+   "cit": [
+    "mutti"
+   ],
+   "altri": [
+    "Alce Nero",
+    "Todis",
+    "Conad",
+    "NaturaSì",
+    "Viviverde Coop"
+   ],
+   "fonti": [
+    "greenme.it",
+    "ilfattoalimentare.it",
+    "ilsalvagente.it",
+    "dissapore.com"
+   ],
+   "sent": {
+    "mutti": "pos"
+   },
+   "u": null,
+   "n": ""
+  },
+  {
+   "q": 0,
+   "m": "perplexity",
+   "cit": [
+    "petti",
+    "mutti",
+    "conserveitalia"
+   ],
+   "altri": [
+    "Conad"
+   ],
+   "fonti": [
+    "cookist.it",
+    "tg24.sky.it",
+    "elle.com",
+    "greenme.it",
+    "seriouseats.com"
+   ],
+   "sent": {
+    "petti": "pos",
+    "mutti": "pos",
+    "conserveitalia": "pos"
+   },
+   "u": null,
+   "n": "Petti La Completa prima scelta (test Il Salvagente); Cirio Passata Verace per il gusto."
+  },
+  {
+   "q": 1,
+   "m": "perplexity",
+   "cit": [
+    "conserveitalia",
+    "mutti"
+   ],
+   "altri": [
+    "Arioli",
+    "Graziella"
+   ],
+   "fonti": [
+    "greenme.it",
+    "mutti-parma.com",
+    "radio-food.it",
+    "reddit.com"
+   ],
+   "sent": {
+    "conserveitalia": "pos",
+    "mutti": "pos"
+   },
+   "u": null,
+   "n": "Prima scelta Arioli (test Gambero Rosso)."
+  },
+  {
+   "q": 2,
+   "m": "perplexity",
+   "cit": [
+    "mutti"
+   ],
+   "altri": [
+    "La Valle",
+    "Strianese",
+    "L'Oro del Sud",
+    "Pomilia",
+    "Cento"
+   ],
+   "fonti": [
+    "pizzaovencraft.com",
+    "pizzaovenradar.com",
+    "foodnetwork.com",
+    "vincenzosplate.com",
+    "pantryprisma.org",
+    "allfoodfaq.com",
+    "gecoshop.com",
+    "biribox.com",
+    "local.newsbreak.com",
+    "foodandwine.com"
+   ],
+   "sent": {
+    "mutti": "pos"
+   },
+   "u": null,
+   "n": "Mutti prima citata come premium; fonti quasi tutte siti USA/EN."
+  },
+  {
+   "q": 3,
+   "m": "perplexity",
+   "cit": [
+    "petti",
+    "mutti",
+    "icab",
+    "conserveitalia",
+    "agromonte",
+    "latorrente"
+   ],
+   "altri": [
+    "Le Conserve della Nonna",
+    "Così Com'è",
+    "Rega",
+    "Strianese",
+    "De Rica",
+    "Valfrutta"
+   ],
+   "fonti": [
+    "greatitalianfoodtrade.it",
+    "italoamericano.org",
+    "cannedfood.it",
+    "ilpomodoropetti.com",
+    "linkedin.com",
+    "efanews.eu",
+    "gamberorosso.it"
+   ],
+   "sent": {
+    "petti": "pos",
+    "mutti": "pos",
+    "icab": "pos",
+    "conserveitalia": "pos",
+    "agromonte": "pos",
+    "latorrente": "pos"
+   },
+   "u": null,
+   "n": "La Fiammante terza, citata senza fonte, consigliata per qualità-prezzo; premium: Petti, Mutti, Agromonte, Così Com'è."
+  },
+  {
+   "q": 4,
+   "m": "perplexity",
+   "cit": [],
+   "altri": [],
+   "fonti": [
+    "shop.qualitalia.store",
+    "twojadebowls.com",
+    "jayarr.pizza",
+    "kettlepizza.com",
+    "mortadellahead.com",
+    "saveur.com",
+    "brickovenbaker.com",
+    "kitchenlab.eu",
+    "nurgutes.de",
+    "theclevermeal.com"
+   ],
+   "sent": {},
+   "u": null,
+   "n": "Nessuna marca: solo San Marzano DOP generico e ricetta."
+  },
+  {
+   "q": 5,
+   "m": "perplexity",
+   "cit": [
+    "mutti",
+    "conserveitalia"
+   ],
+   "altri": [
+    "La Valle",
+    "Faella"
+   ],
+   "fonti": [
+    "eatingwell.com",
+    "alibaba.com",
+    "yeschef.me",
+    "chowhound.com",
+    "mazzachef.com",
+    "seriouseats.com",
+    "recipes.net",
+    "italiasolutions.co.uk",
+    "tastelab.food",
+    "romewithchef.com"
+   ],
+   "sent": {
+    "mutti": "pos",
+    "conserveitalia": "pos"
+   },
+   "u": null,
+   "n": "Mutti prima, consigliata da Lidia Bastianich."
+  },
+  {
+   "q": 6,
+   "m": "perplexity",
+   "cit": [],
+   "altri": [],
+   "fonti": [
+    "italoamericano.org",
+    "wikicibo.com",
+    "siciliangirl.com",
+    "shop.laterradipuglia.it",
+    "amadeco.it",
+    "giardinodicapri.com",
+    "foodrelated.com",
+    "sudrise.com",
+    "ramonascuisine.com",
+    "compagniamercantiledoltremare.com"
+   ],
+   "sent": {},
+   "u": null,
+   "n": "Nessuna marca: risposta descrittiva sulla passata del Sud."
+  },
+  {
+   "q": 7,
+   "m": "perplexity",
+   "cit": [],
+   "altri": [],
+   "fonti": [
+    "favfamilyrecipes.com",
+    "olioandolive.com",
+    "blog.pizzauniversity.org",
+    "youtube.com",
+    "brickovenbaker.com",
+    "shop.qualitalia.store",
+    "amazon.com",
+    "shop.laterradipuglia.it"
+   ],
+   "sent": {},
+   "u": null,
+   "n": "Nessuna marca: solo San Marzano DOP generico e consigli d'uso."
+  },
+  {
+   "q": 8,
+   "m": "perplexity",
+   "cit": [
+    "icab"
+   ],
+   "altri": [
+    "Riaccolto",
+    "NO CAP",
+    "Iamme",
+    "Tomato Revolution (Altromercato)",
+    "Prima Bio",
+    "Funky Tomato",
+    "Sfruttazero"
+   ],
+   "fonti": [
+    "sostenibilita.lafiammante.it",
+    "immediato.net",
+    "freshplaza.it",
+    "corporate.lidl.fi",
+    "freshplaza.com",
+    "trmtv.it",
+    "atnews.it",
+    "slowfood.it",
+    "corriereromagna.it",
+    "amandla.it"
+   ],
+   "sent": {
+    "icab": "pos"
+   },
+   "u": null,
+   "n": "La Fiammante prima marca citata, fonte il suo sito sostenibilità."
+  },
+  {
+   "q": 9,
+   "m": "perplexity",
+   "cit": [
+    "petti"
+   ],
+   "altri": [
+    "Alce Nero",
+    "Viviverde Coop",
+    "Valgri",
+    "Piatti Onorati"
+   ],
+   "fonti": [
+    "terramia.shop",
+    "ilpomodoropetti.com",
+    "compagniamercantiledoltremare.com",
+    "cusmai1925.com",
+    "valgri.it",
+    "altroconsumo.it",
+    "violey.com",
+    "italoamericano.org"
+   ],
+   "sent": {
+    "petti": "pos"
+   },
+   "u": null,
+   "n": "Prima scelta Alce Nero Bio (Altroconsumo); Petti con due referenze bio."
+  }
+ ],
+ "ment": {},
+ "u": "https://dataforseo.com/apis/ai-optimization-api"
+}

@@ -1,0 +1,509 @@
+{
+ "icab": {
+  "rev": [
+   [
+    2021,
+    25.23,
+    "ver",
+    "ICAB SpA, bilancio d'esercizio (valore della produzione/ricavi)",
+    "https://www.reportaziende.it/icab_industrie_conserve_alimentari_buccino_spa_sa_07239170637"
+   ],
+   [
+    2022,
+    34.34,
+    "ver",
+    "ICAB SpA, bilancio d'esercizio (valore della produzione/ricavi)",
+    "https://www.reportaziende.it/icab_industrie_conserve_alimentari_buccino_spa_sa_07239170637"
+   ],
+   [
+    2023,
+    37.3,
+    "ver",
+    "ICAB SpA, bilancio d'esercizio (valore della produzione/ricavi)",
+    "https://www.reportaziende.it/icab_industrie_conserve_alimentari_buccino_spa_sa_07239170637"
+   ],
+   [
+    2024,
+    42.36,
+    "ver",
+    "ICAB SpA, bilancio d'esercizio (valore della produzione/ricavi)",
+    "https://www.reportaziende.it/icab_industrie_conserve_alimentari_buccino_spa_sa_07239170637"
+   ],
+   [
+    2025,
+    43.15,
+    "ver",
+    "ICAB SpA, bilancio d'esercizio (valore della produzione/ricavi)",
+    "https://www.reportaziende.it/icab_industrie_conserve_alimentari_buccino_spa_sa_07239170637"
+   ]
+  ],
+  "emp": [
+   [
+    2021,
+    239,
+    "ver",
+    "dipendenti dichiarati a bilancio; conteggio non omogeneo tra anni (stagionali inclusi o no)",
+    "https://www.reportaziende.it/icab_industrie_conserve_alimentari_buccino_spa_sa_07239170637"
+   ],
+   [
+    2022,
+    239,
+    "ver",
+    "dipendenti dichiarati a bilancio; conteggio non omogeneo tra anni (stagionali inclusi o no)",
+    "https://www.reportaziende.it/icab_industrie_conserve_alimentari_buccino_spa_sa_07239170637"
+   ],
+   [
+    2023,
+    48,
+    "ver",
+    "dipendenti dichiarati a bilancio; conteggio non omogeneo tra anni (stagionali inclusi o no)",
+    "https://www.reportaziende.it/icab_industrie_conserve_alimentari_buccino_spa_sa_07239170637"
+   ],
+   [
+    2024,
+    118,
+    "ver",
+    "dipendenti dichiarati a bilancio; conteggio non omogeneo tra anni (stagionali inclusi o no)",
+    "https://www.reportaziende.it/icab_industrie_conserve_alimentari_buccino_spa_sa_07239170637"
+   ],
+   [
+    2025,
+    49,
+    "ver",
+    "dipendenti dichiarati a bilancio; conteggio non omogeneo tra anni (stagionali inclusi o no)",
+    "https://www.reportaziende.it/icab_industrie_conserve_alimentari_buccino_spa_sa_07239170637"
+   ]
+  ]
+ },
+ "mutti": {
+  "rev": [
+   [
+    2021,
+    420.37,
+    "ver",
+    "Mutti SpA società singola; il gruppo dichiara di più (777 M€ nel 2025), perimetro diverso",
+    "https://www.reportaziende.it/mutti_societa_per_azioni_in_breve_mutti_spa_pr_02758310342"
+   ],
+   [
+    2022,
+    491.03,
+    "ver",
+    "Mutti SpA società singola; il gruppo dichiara di più (777 M€ nel 2025), perimetro diverso",
+    "https://www.reportaziende.it/mutti_societa_per_azioni_in_breve_mutti_spa_pr_02758310342"
+   ],
+   [
+    2023,
+    595.46,
+    "ver",
+    "Mutti SpA società singola; il gruppo dichiara di più (777 M€ nel 2025), perimetro diverso",
+    "https://www.reportaziende.it/mutti_societa_per_azioni_in_breve_mutti_spa_pr_02758310342"
+   ],
+   [
+    2024,
+    672.23,
+    "ver",
+    "Mutti SpA società singola; il gruppo dichiara di più (777 M€ nel 2025), perimetro diverso",
+    "https://www.reportaziende.it/mutti_societa_per_azioni_in_breve_mutti_spa_pr_02758310342"
+   ],
+   [
+    2025,
+    737.03,
+    "ver",
+    "Mutti SpA società singola; il gruppo dichiara di più (777 M€ nel 2025), perimetro diverso",
+    "https://www.reportaziende.it/mutti_societa_per_azioni_in_breve_mutti_spa_pr_02758310342"
+   ]
+  ],
+  "emp": [
+   [
+    2021,
+    551,
+    "ver",
+    "Mutti SpA società singola",
+    "https://www.reportaziende.it/mutti_societa_per_azioni_in_breve_mutti_spa_pr_02758310342"
+   ],
+   [
+    2025,
+    715,
+    "ver",
+    "Mutti SpA società singola",
+    "https://www.reportaziende.it/mutti_societa_per_azioni_in_breve_mutti_spa_pr_02758310342"
+   ]
+  ]
+ },
+ "rodolfi": {
+  "rev": [
+   [
+    2021,
+    93.01,
+    "ver",
+    "Rodolfi Mansueto SpA",
+    "https://www.reportaziende.it/rodolfi_mansueto_spa_pr_01569530346"
+   ],
+   [
+    2022,
+    115.75,
+    "ver",
+    "Rodolfi Mansueto SpA",
+    "https://www.reportaziende.it/rodolfi_mansueto_spa_pr_01569530346"
+   ],
+   [
+    2023,
+    130,
+    "ver",
+    "Rodolfi Mansueto SpA",
+    "https://www.reportaziende.it/rodolfi_mansueto_spa_pr_01569530346"
+   ],
+   [
+    2024,
+    144.4,
+    "ver",
+    "Rodolfi Mansueto SpA",
+    "https://www.reportaziende.it/rodolfi_mansueto_spa_pr_01569530346"
+   ],
+   [
+    2025,
+    139.66,
+    "ver",
+    "Rodolfi Mansueto SpA",
+    "https://www.reportaziende.it/rodolfi_mansueto_spa_pr_01569530346"
+   ]
+  ],
+  "emp": [
+   [
+    2021,
+    321,
+    "ver",
+    "Rodolfi Mansueto SpA; 2024 non disponibile",
+    "https://www.reportaziende.it/rodolfi_mansueto_spa_pr_01569530346"
+   ],
+   [
+    2022,
+    228,
+    "ver",
+    "Rodolfi Mansueto SpA; 2024 non disponibile",
+    "https://www.reportaziende.it/rodolfi_mansueto_spa_pr_01569530346"
+   ],
+   [
+    2023,
+    274,
+    "ver",
+    "Rodolfi Mansueto SpA; 2024 non disponibile",
+    "https://www.reportaziende.it/rodolfi_mansueto_spa_pr_01569530346"
+   ],
+   [
+    2025,
+    164,
+    "ver",
+    "Rodolfi Mansueto SpA; 2024 non disponibile",
+    "https://www.reportaziende.it/rodolfi_mansueto_spa_pr_01569530346"
+   ]
+  ]
+ },
+ "latorrente": {
+  "rev": [
+   [
+    2021,
+    28.78,
+    "ver",
+    "La Torrente Srl",
+    "https://www.reportaziende.it/la_torrente_srl_na_01551351214"
+   ],
+   [
+    2022,
+    37.29,
+    "ver",
+    "La Torrente Srl",
+    "https://www.reportaziende.it/la_torrente_srl_na_01551351214"
+   ],
+   [
+    2023,
+    40.68,
+    "ver",
+    "La Torrente Srl",
+    "https://www.reportaziende.it/la_torrente_srl_na_01551351214"
+   ],
+   [
+    2024,
+    42.29,
+    "ver",
+    "La Torrente Srl",
+    "https://www.reportaziende.it/la_torrente_srl_na_01551351214"
+   ],
+   [
+    2025,
+    40.28,
+    "ver",
+    "La Torrente Srl",
+    "https://www.reportaziende.it/la_torrente_srl_na_01551351214"
+   ]
+  ],
+  "emp": [
+   [
+    2021,
+    67,
+    "ver",
+    "La Torrente Srl",
+    "https://www.reportaziende.it/la_torrente_srl_na_01551351214"
+   ],
+   [
+    2022,
+    70,
+    "ver",
+    "La Torrente Srl",
+    "https://www.reportaziende.it/la_torrente_srl_na_01551351214"
+   ],
+   [
+    2023,
+    83,
+    "ver",
+    "La Torrente Srl",
+    "https://www.reportaziende.it/la_torrente_srl_na_01551351214"
+   ],
+   [
+    2024,
+    80,
+    "ver",
+    "La Torrente Srl",
+    "https://www.reportaziende.it/la_torrente_srl_na_01551351214"
+   ],
+   [
+    2025,
+    53,
+    "ver",
+    "La Torrente Srl",
+    "https://www.reportaziende.it/la_torrente_srl_na_01551351214"
+   ]
+  ]
+ },
+ "petti": {
+  "rev": [
+   [
+    2021,
+    45.74,
+    "ver",
+    "Italian Food SpA (marchio Petti)",
+    "https://www.reportaziende.it/italian_food_spa_industria_conserve_alimentari_italian_food_spa_sa_00269890653"
+   ],
+   [
+    2022,
+    37.27,
+    "ver",
+    "Italian Food SpA (marchio Petti)",
+    "https://www.reportaziende.it/italian_food_spa_industria_conserve_alimentari_italian_food_spa_sa_00269890653"
+   ],
+   [
+    2023,
+    40.95,
+    "ver",
+    "Italian Food SpA (marchio Petti)",
+    "https://www.reportaziende.it/italian_food_spa_industria_conserve_alimentari_italian_food_spa_sa_00269890653"
+   ],
+   [
+    2024,
+    44.53,
+    "ver",
+    "Italian Food SpA (marchio Petti)",
+    "https://www.reportaziende.it/italian_food_spa_industria_conserve_alimentari_italian_food_spa_sa_00269890653"
+   ],
+   [
+    2025,
+    40.9,
+    "ver",
+    "Italian Food SpA (marchio Petti)",
+    "https://www.reportaziende.it/italian_food_spa_industria_conserve_alimentari_italian_food_spa_sa_00269890653"
+   ]
+  ],
+  "emp": [
+   [
+    2021,
+    76,
+    "ver",
+    "Italian Food SpA (marchio Petti)",
+    "https://www.reportaziende.it/italian_food_spa_industria_conserve_alimentari_italian_food_spa_sa_00269890653"
+   ],
+   [
+    2022,
+    73,
+    "ver",
+    "Italian Food SpA (marchio Petti)",
+    "https://www.reportaziende.it/italian_food_spa_industria_conserve_alimentari_italian_food_spa_sa_00269890653"
+   ],
+   [
+    2023,
+    103,
+    "ver",
+    "Italian Food SpA (marchio Petti)",
+    "https://www.reportaziende.it/italian_food_spa_industria_conserve_alimentari_italian_food_spa_sa_00269890653"
+   ],
+   [
+    2024,
+    129,
+    "ver",
+    "Italian Food SpA (marchio Petti)",
+    "https://www.reportaziende.it/italian_food_spa_industria_conserve_alimentari_italian_food_spa_sa_00269890653"
+   ],
+   [
+    2025,
+    119,
+    "ver",
+    "Italian Food SpA (marchio Petti)",
+    "https://www.reportaziende.it/italian_food_spa_industria_conserve_alimentari_italian_food_spa_sa_00269890653"
+   ]
+  ]
+ },
+ "solania": {
+  "rev": [
+   [
+    2023,
+    32.388571,
+    "ver",
+    "Solania Srl; anni precedenti non pubblici sulla fonte",
+    "https://m.fatturatoitalia.it/solania-srl-04053840650"
+   ],
+   [
+    2024,
+    43.960921,
+    "ver",
+    "Solania Srl; anni precedenti non pubblici sulla fonte",
+    "https://m.fatturatoitalia.it/solania-srl-04053840650"
+   ]
+  ],
+  "emp": []
+ },
+ "ladoria": {
+  "rev": [
+   [
+    2021,
+    866,
+    "dic",
+    "gruppo consolidato",
+    "https://www.gdonews.it/2022/09/07/benchmark-i-conti-di-conserve-italia-la-doria-star-mutti-e-casalasco-ai-raggi-x/"
+   ],
+   [
+    2022,
+    1018,
+    "dic",
+    "gruppo consolidato",
+    "https://www.gruppoladoria.it/wp-content/uploads/2024/05/La-Doria-Profilo-aziendale-def-ITALIANO.pdf"
+   ],
+   [
+    2023,
+    1228,
+    "dic",
+    "gruppo consolidato",
+    "https://www.gruppoladoria.it/wp-content/uploads/2025/09/La-Doria-Profilo-aziendale_IT.pdf"
+   ],
+   [
+    2024,
+    1277,
+    "dic",
+    "gruppo consolidato",
+    "https://www.gruppoladoria.it/wp-content/uploads/2025/09/La-Doria-Profilo-aziendale_IT.pdf"
+   ],
+   [
+    2025,
+    1375,
+    "dic",
+    "gruppo consolidato",
+    "https://www.gruppoladoria.it/chi-siamo/risultati/"
+   ]
+  ],
+  "emp": [
+   [
+    2022,
+    898,
+    "dic",
+    "gruppo consolidato; dipendenti fissi (807 in Italia), più circa 850 stagionali",
+    "https://www.gruppoladoria.it/wp-content/uploads/2024/05/La-Doria-Profilo-aziendale-def-ITALIANO.pdf"
+   ]
+  ]
+ },
+ "conserveitalia": {
+  "rev": [
+   [
+    2023,
+    1140,
+    "dic",
+    "gruppo consolidato, esercizio luglio-giugno (anno = chiusura al 30/6); esercizio 2022/23",
+    "https://www.beverfood.com/conserve-italia-bilancio-2022-23-fatturato-1-14-mrd-e-investimenti-86-6-mni-wd/"
+   ],
+   [
+    2025,
+    1150,
+    "dic",
+    "gruppo consolidato, esercizio luglio-giugno (anno = chiusura al 30/6); esercizio 2024/25",
+    "https://www.beverfood.com/conserve-italia-fatturato-liquidazione-2024-2025/amp"
+   ]
+  ],
+  "emp": [
+   [
+    2023,
+    3000,
+    "dic",
+    "gruppo consolidato, esercizio luglio-giugno (anno = chiusura al 30/6); circa 3.000 fissi, stagionali esclusi",
+    "https://www.beverfood.com/conserve-italia-bilancio-2022-23-fatturato-1-14-mrd-e-investimenti-86-6-mni-wd/"
+   ]
+  ]
+ },
+ "casalasco": {
+  "rev": [
+   [
+    2023,
+    630,
+    "dic",
+    "gruppo Casalasco (Consorzio Casalasco del Pomodoro); «oltre 630 M€»",
+    "https://www.agricultura.it/2024/04/29/casalasco-spa-chiude-il-2023-con-ricavi-oltre-630-milioni-27-occupazione-mercati-ed-indicatori-esg-in-continua-crescita/"
+   ],
+   [
+    2024,
+    604.5,
+    "dic",
+    "gruppo Casalasco (Consorzio Casalasco del Pomodoro); dal bilancio di sostenibilità 2025",
+    "https://cdn.prod.website-files.com/69987b72285b4e1fd3dc2138/6a60c732477ff811ad2cd5ca_100-26-Bilancio%20Consorzio%20Casalasco%20del%20Pomodoro%202025.pdf"
+   ]
+  ],
+  "emp": [
+   [
+    2024,
+    2037,
+    "dic",
+    "gruppo Casalasco (Consorzio Casalasco del Pomodoro); persone al picco, stagionali inclusi",
+    "https://cdn.prod.website-files.com/69987b72285b4e1fd3dc2138/6a60c732477ff811ad2cd5ca_100-26-Bilancio%20Consorzio%20Casalasco%20del%20Pomodoro%202025.pdf"
+   ],
+   [
+    2025,
+    2075,
+    "dic",
+    "gruppo Casalasco (Consorzio Casalasco del Pomodoro); persone al picco, stagionali inclusi (media annua 1.027 FTE)",
+    "https://cdn.prod.website-files.com/69987b72285b4e1fd3dc2138/6a60c732477ff811ad2cd5ca_100-26-Bilancio%20Consorzio%20Casalasco%20del%20Pomodoro%202025.pdf"
+   ]
+  ]
+ },
+ "agromonte": {
+  "rev": [
+   [
+    2024,
+    34.3,
+    "est",
+    "marchio Agromonte; ricavato da 37 M€ 2025 e +8% sul 2024 (Distribuzione Moderna). La stampa di marzo 2025 diceva «oltre 30 M€» (foodweb.it): il valore 30 di prima dava +23% invece di +8%",
+    "https://distribuzionemoderna.info/successi-e-strategie/agromonte-8-di-fatturato-nel-2025-e-focus-sullespansione-internazionale"
+   ],
+   [
+    2025,
+    37,
+    "dic",
+    "marchio Agromonte (dato stampa); la cooperativa Monterosso a bilancio fattura circa 4 M€, perimetro diverso; +8% sul 2024",
+    "https://distribuzionemoderna.info/successi-e-strategie/agromonte-8-di-fatturato-nel-2025-e-focus-sullespansione-internazionale"
+   ]
+  ],
+  "emp": [
+   [
+    2024,
+    85,
+    "dic",
+    "marchio Agromonte (dato stampa); fino a 150 con gli stagionali",
+    "https://www.foodweb.it/2025/03/agromonte-nuovo-stabilimento-per-i-25-anni/"
+   ]
+  ]
+ }
+}

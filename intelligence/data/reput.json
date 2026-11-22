@@ -1,0 +1,290 @@
+{
+ "google": {
+  "icab": {
+   "v": 4.6,
+   "r": 57,
+   "luogo": "Icab Spa, Via Area Industriale, Buccino (SA)",
+   "u": "https://www.google.com/maps?cid=14036460703130738399",
+   "n": "Scheda Google Maps 'Icab Spa' (sito lafiammante.it). Distribuzione: 42x5, 11x4, 3x3, 0x2, 1x1.",
+   "s": "dic"
+  },
+  "mutti": {
+   "v": 4.3,
+   "r": 269,
+   "luogo": "Mutti SpA, Via Traversetolo 28, Piazza (Montechiarugolo, PR)",
+   "u": "https://www.google.com/maps?cid=13085830745126843775",
+   "n": "Sede (categoria Corporate office). Esistono anche lo Spaccio Mutti (4,5 su 626, risulta chiuso definitivamente) e il Red Store.",
+   "s": "dic"
+  },
+  "conserveitalia": {
+   "v": 4.2,
+   "r": 83,
+   "luogo": "Conserve Italia Soc. Coop. Agricola, Via Paolo Poggi 11, San Lazzaro di Savena (BO)",
+   "u": "https://www.google.com/maps?cid=680478408977603213",
+   "n": "Sede (Corporate office). Lo spaccio aziendale allo stesso indirizzo ha 4,6 su 39. Google lega anche un'altra scheda 'Conserve Italia Soc. Cop. Agricola' con 4,3 su 297, di cui non e' stato verificato il luogo.",
+   "s": "dic"
+  },
+  "casalasco": {
+   "v": 3.8,
+   "r": 51,
+   "luogo": "Casalasco - Societa' Agricola S.p.A., SP32, Rivarolo del Re (CR)",
+   "u": "https://www.google.com/maps?cid=16787732568204231617",
+   "n": "Sede storica di Rivarolo del Re. Lo stabilimento di Fontanellato (PR), 'Casalasco Tomato Consortium', ha 4,3 su 241 (cid 17049145728210616155); il deposito di Casalmaggiore 3,1 su 175; 'Pomi Italia' 3,6 su 25.",
+   "s": "dic"
+  },
+  "ladoria": {
+   "v": 3.4,
+   "r": 495,
+   "luogo": "La Doria S.p.A., SS 367 km 16,4, Sarno (SA)",
+   "u": "https://www.google.com/maps?cid=13175242351205711677",
+   "n": "Stabilimento di Sarno (sito gruppoladoria.it). Distribuzione molto polarizzata: 208x5, 122x1. Lo spaccio di Angri ha 4,5 su 4 recensioni: non affidabile. 'Deposito DORIA' 3,1 su 55.",
+   "s": "dic"
+  },
+  "petti": {
+   "v": 2.5,
+   "r": 113,
+   "luogo": "Gruppo Petti - Italian Food S.p.A., Via Enos Cerrini 67, Venturina Terme (LI)",
+   "u": "https://www.google.com/maps?cid=3605955074061135450",
+   "n": "Stabilimento di Venturina. 62 recensioni su 113 da una stella; tra i temi che Google estrae dalle recensioni compaiono 'fraud' e 'chinese tomato'. Il deposito Italian Food a Campo alla Croce ha 4,2 su 27.",
+   "s": "dic"
+  },
+  "rodolfi": {
+   "v": 4.3,
+   "r": 53,
+   "luogo": "Rodolfi Mansueto S.p.A., Str. Langhirano 243, Fontanini (PR)",
+   "u": "https://www.google.com/maps?cid=10543335997138559140",
+   "n": "Scheda aziendale principale (stabilimenti dichiarati: Ozzano Taro, Fontanini, Castelguelfo).",
+   "s": "dic"
+  },
+  "latorrente": {
+   "v": 4.7,
+   "r": 118,
+   "luogo": "La Torrente Srl, Via Paludicella 23, Sant'Antonio Abate (NA)",
+   "u": "https://www.google.com/maps?cid=15121855183067054081",
+   "n": "Scheda collegata a latorrente.it; distribuzione 99/10/4/1/4. L'altra sede (Sant'Egidio del Monte Albino) ha 3.4 su 5 recensioni.",
+   "s": "dic"
+  }
+ },
+ "geo": {
+  "n": "DataForSEO AI Optimization (LLM Responses, ricerca web attiva), 22/11/2026. Modelli: ChatGPT = gpt-5.4-mini, Gemini = gemini-3.8-flash. cit = marchi del gruppo nell'ordine in cui compaiono nella risposta (Cirio = conserveitalia); altri = altri marchi nominati, così come scritti. Una sola risposta per domanda e modello: le risposte variano a ogni richiesta.",
+  "mod": [
+   "chatgpt",
+   "gemini"
+  ],
+  "q": [
+   "qual è la migliore passata di pomodoro",
+   "che marca di pelati comprare",
+   "migliori pomodori San Marzano DOP in scatola",
+   "marche italiane di conserve di pomodoro di qualità",
+   "pomodoro in scatola per la pizza napoletana",
+   "quale passata di pomodoro usano gli chef"
+  ],
+  "r": [
+   {
+    "q": 0,
+    "m": "chatgpt",
+    "cit": [
+     "mutti"
+    ],
+    "altri": [
+     "Conad"
+    ],
+    "s": "dic",
+    "u": "https://api.dataforseo.com"
+   },
+   {
+    "q": 0,
+    "m": "gemini",
+    "cit": [
+     "conserveitalia",
+     "petti",
+     "rodolfi",
+     "mutti"
+    ],
+    "altri": [
+     "Santa Rosa",
+     "Vitale",
+     "De Cecco",
+     "Coop",
+     "Conad",
+     "Lidl",
+     "Così Com'è",
+     "Miracolo di San Gennaro",
+     "Bio Orto"
+    ],
+    "s": "dic",
+    "u": "https://api.dataforseo.com"
+   },
+   {
+    "q": 1,
+    "m": "chatgpt",
+    "cit": [
+     "mutti",
+     "conserveitalia"
+    ],
+    "altri": [
+     "I Contadini",
+     "Valfrutta",
+     "Conad",
+     "Coop",
+     "Esselunga"
+    ],
+    "s": "dic",
+    "u": "https://api.dataforseo.com"
+   },
+   {
+    "q": 1,
+    "m": "gemini",
+    "cit": [
+     "mutti",
+     "latorrente",
+     "conserveitalia",
+     "solania"
+    ],
+    "altri": [
+     "Arioli",
+     "Esselunga",
+     "Coop",
+     "Conad",
+     "Agrigenus",
+     "Gustarosso",
+     "I Contadini",
+     "Così Com'è"
+    ],
+    "s": "dic",
+    "u": "https://api.dataforseo.com"
+   },
+   {
+    "q": 2,
+    "m": "chatgpt",
+    "cit": [],
+    "altri": [],
+    "s": "dic",
+    "u": "https://api.dataforseo.com",
+    "n": "Nessuna marca: il modello dice di non poter verificare una classifica aggiornata."
+   },
+   {
+    "q": 2,
+    "m": "gemini",
+    "cit": [
+     "solania",
+     "mutti"
+    ],
+    "altri": [
+     "Agrigenus",
+     "Gustarosso",
+     "Casa Marrazzo",
+     "Miracolo di San Gennaro",
+     "Strianese",
+     "Fontanella"
+    ],
+    "s": "dic",
+    "u": "https://api.dataforseo.com"
+   },
+   {
+    "q": 3,
+    "m": "chatgpt",
+    "cit": [
+     "mutti",
+     "conserveitalia",
+     "petti",
+     "latorrente"
+    ],
+    "altri": [
+     "Casa Marrazzo",
+     "Gentile",
+     "De Cecco",
+     "Conad",
+     "Rosso Gargano",
+     "Le Stagioni d'Italia"
+    ],
+    "s": "dic",
+    "u": "https://api.dataforseo.com"
+   },
+   {
+    "q": 3,
+    "m": "gemini",
+    "cit": [
+     "solania",
+     "mutti",
+     "conserveitalia"
+    ],
+    "altri": [
+     "Casa Marrazzo",
+     "I Contadini",
+     "Agrigenus",
+     "Così Com'è",
+     "Orominerva",
+     "Paglione",
+     "Rosso Gargano",
+     "De Rica",
+     "Alce Nero"
+    ],
+    "s": "dic",
+    "u": "https://api.dataforseo.com"
+   },
+   {
+    "q": 4,
+    "m": "chatgpt",
+    "cit": [],
+    "altri": [],
+    "s": "dic",
+    "u": "https://api.dataforseo.com",
+    "n": "Nessuna marca nella risposta; tra le fonti consultate c'era la pagina AVPN di La Fiammante (fornitore approvato), ma non è stata citata."
+   },
+   {
+    "q": 4,
+    "m": "gemini",
+    "cit": [
+     "solania",
+     "mutti",
+     "conserveitalia"
+    ],
+    "altri": [
+     "Gustarosso",
+     "Strianese",
+     "Fontanella",
+     "San Nicola dei Miri",
+     "Agrigenus"
+    ],
+    "s": "dic",
+    "u": "https://api.dataforseo.com",
+    "n": "Il modello non ha usato la ricerca web (web_search false nella risposta)."
+   },
+   {
+    "q": 5,
+    "m": "chatgpt",
+    "cit": [],
+    "altri": [],
+    "s": "dic",
+    "u": "https://api.dataforseo.com",
+    "n": "Nessuna marca: risposta generica (pelati artigianali, blend di pomodori)."
+   },
+   {
+    "q": 5,
+    "m": "gemini",
+    "cit": [
+     "solania",
+     "mutti",
+     "conserveitalia",
+     "rodolfi"
+    ],
+    "altri": [
+     "Miracolo di San Gennaro",
+     "Agrigenus",
+     "Così Com'è",
+     "I Contadini",
+     "San Nicola dei Miri",
+     "Casa Barone",
+     "Peppe Guida",
+     "Paglione",
+     "Prunotto",
+     "Alce Nero",
+     "De Rica"
+    ],
+    "s": "dic",
+    "u": "https://api.dataforseo.com"
+   }
+  ]
+ }
+}

@@ -1,0 +1,994 @@
+{
+ "n": "Siti ufficiali letti il 22/11/2026; riletti il 22/11/2026 su tutti i marchi propri di pomodoro di ogni azienda (pagine «marchi» dei gruppi e siti dei singoli marchi). Le marche private (La Doria, Petti, Rodolfi) non contano come marchio proprio. Prodotti: ICAB = 76 prodotti dello shop (La Fiammante 65, La Reale 6, La Paesana 5, con legumi, verdure e Horeca); per gli altri il numero è del marchio principale (Mutti 41, Cirio 25, Pomì 34, La Doria 11, Petti, Rodolfi Retail, Agromonte, La Torrente shop) perché gli altri marchi non hanno un elenco completo da sommare. Non contati: Bella Parma (La Doria, sito non attivo, non si sa se fa pomodoro), Barbier Dauphin (Conserve Italia, Francia: solo ratatouille e piperade), De Rica sulla pagina marchi di Conserve Italia (oggi è di Casalasco), Emiliana (non sulla pagina marchi di Casalasco), Solana (comprata da La Doria nel 2026, fornitore industriale senza marchi al consumo)",
+ "assi": [
+  [
+   "pel",
+   "Pelati"
+  ],
+  [
+   "pas",
+   "Passata"
+  ],
+  [
+   "pol",
+   "Polpa e cubetti"
+  ],
+  [
+   "pmd",
+   "Pomodorini e datterini"
+  ],
+  [
+   "con",
+   "Concentrato"
+  ],
+  [
+   "sug",
+   "Sughi pronti"
+  ],
+  [
+   "bio",
+   "Biologico"
+  ],
+  [
+   "dop",
+   "DOP e IGP"
+  ],
+  [
+   "prm",
+   "Linea premium"
+  ],
+  [
+   "hrc",
+   "Ristorazione e pizzerie"
+  ],
+  [
+   "vet",
+   "Vetro"
+  ],
+  [
+   "lat",
+   "Latta"
+  ],
+  [
+   "bri",
+   "Brick"
+  ],
+  [
+   "leg",
+   "Legumi e altro"
+  ]
+ ],
+ "az": {
+  "icab": {
+   "n": [
+    76,
+    "https://www.lafiammante.it/catalogo.html"
+   ],
+   "top": [
+    "Pomodoro 100% italiano fresco da filiera corta, «6 ore dalla raccolta alla conserva» (homepage); in evidenza anche i Peperoni arrostiti",
+    "https://www.lafiammante.it/"
+   ],
+   "pel": [
+    1,
+    "Il Pomodoro Pelato 400g",
+    "https://www.lafiammante.it/pomodori-pelati-400g.html"
+   ],
+   "pas": [
+    1,
+    "La Passata di pomodoro 680g",
+    "https://www.lafiammante.it/passata-di-pomodoro.html"
+   ],
+   "pol": [
+    1,
+    "Polpa di pomodoro 400g",
+    "https://www.lafiammante.it/polpa-di-pomodoro.html"
+   ],
+   "pmd": [
+    1,
+    "Il Datterino 400g",
+    "https://www.lafiammante.it/datterini-la-fiammante.html"
+   ],
+   "con": [
+    1,
+    "La Paesana · Doppio concentrato 140g; La Reale · Doppio concentrato 140g e tubo 130g. Il blog di lafiammante.it li chiama «marchi storici di ICAB», rilevati negli anni '70 e prodotti a Buccino: «F.lli Paudice» fa parte del nome del marchio La Paesana, non è un'altra azienda",
+    "https://www.lafiammante.it/doppio-concentrato-di-pomodoro-la-paesana-f-lli-paudice.html"
+   ],
+   "sug": [
+    0,
+    "nessun sugo pronto nei 76 prodotti dello shop (La Fiammante 65, La Reale 6, La Paesana 5)",
+    "https://www.lafiammante.it/catalogo.html"
+   ],
+   "bio": [
+    1,
+    "Il Pomodoro Pelato Biologico 400g",
+    "https://www.lafiammante.it/pomodoro-pelato-bio-400g.html"
+   ],
+   "dop": [
+    1,
+    "Il Pomodoro Pelato S. Marzano Dop 400g; Pomodorino del Piennolo del Vesuvio Dop",
+    "https://www.lafiammante.it/pomodoro-pelato-s-marzano-dop-400g.html"
+   ],
+   "prm": [
+    0,
+    "nessuna linea dichiarata premium o gourmet nei tre marchi; specialità DOP e Corbarino stanno nella gamma normale",
+    "https://www.lafiammante.it/catalogo.html"
+   ],
+   "hrc": [
+    1,
+    "Polpa di pomodoro finissima Pa' Pizza 4,5kg (categoria Horeca)",
+    "https://www.lafiammante.it/catalogo/horeca.html"
+   ],
+   "vet": [
+    1,
+    "Pomodorino del Piennolo del Vesuvio Dop con succo in vetro 450g",
+    "https://www.lafiammante.it/pomodorino-del-piennolo-del-vesuvio-dop-succo-vetro.html"
+   ],
+   "lat": [
+    1,
+    "«Varietà in latta»: pomodorini e datterini 400g (catalogo PDF)",
+    "https://www.lafiammante.it/media/wysiwyg/LaFiammante-Catalogo.pdf"
+   ],
+   "bri": [
+    0,
+    "nessun brick nei 76 prodotti dello shop dei tre marchi (latta, vetro, bag in box)",
+    "https://www.lafiammante.it/catalogo.html"
+   ],
+   "leg": [
+    1,
+    "Ceci lessati in vetro 400g",
+    "https://www.lafiammante.it/ceci-lessati-in-vetro-400g.html"
+   ],
+   "marchi": [
+    [
+     "La Fiammante",
+     "https://www.lafiammante.it/catalogo.html?brand=216"
+    ],
+    [
+     "La Reale",
+     "https://www.lafiammante.it/blog/post/tornano-a-splendere-gli-antichi-loghi-e-le-etichette-la-reale-e-la-paesana-flli-paudice-gli-altri-du"
+    ],
+    [
+     "La Paesana (F.lli Paudice)",
+     "https://www.lafiammante.it/blog/post/tornano-a-splendere-gli-antichi-loghi-e-le-etichette-la-reale-e-la-paesana-flli-paudice-gli-altri-du"
+    ]
+   ]
+  },
+  "mutti": {
+   "n": [
+    41,
+    "https://mutti-parma.com/it/i-nostri-prodotti/"
+   ],
+   "top": [
+    "Gli Indispensabili: Polpa in finissimi pezzi, Passata, Triplo concentrato, Pelati",
+    "https://mutti-parma.com/it/i-nostri-prodotti/"
+   ],
+   "pel": [
+    1,
+    "Pomodori pelati",
+    "https://mutti-parma.com/it/i-nostri-prodotti/pomodori-pelati/"
+   ],
+   "pas": [
+    1,
+    "Passata di pomodoro",
+    "https://mutti-parma.com/it/i-nostri-prodotti/passata-di-pomodoro/"
+   ],
+   "pol": [
+    1,
+    "Polpa di pomodoro in finissimi pezzi",
+    "https://mutti-parma.com/it/i-nostri-prodotti/polpa-di-pomodoro-finissimi-pezzi/"
+   ],
+   "pmd": [
+    1,
+    "Pomodori datterini",
+    "https://mutti-parma.com/it/i-nostri-prodotti/pomodorini-datterini/"
+   ],
+   "con": [
+    1,
+    "Triplo concentrato di pomodoro",
+    "https://mutti-parma.com/it/i-nostri-prodotti/triplo-concentrato-di-pomodoro/"
+   ],
+   "sug": [
+    1,
+    "Sugo con pomodoro datterino",
+    "https://mutti-parma.com/it/i-nostri-prodotti/sugo-con-pomodoro-datterino/"
+   ],
+   "bio": [
+    0,
+    "nessun prodotto biologico nei 41 della gamma italiana",
+    "https://mutti-parma.com/it/i-nostri-prodotti/"
+   ],
+   "dop": [
+    1,
+    "Pomodoro San Marzano (DOP)",
+    "https://mutti-parma.com/it/i-nostri-prodotti/pomodori-s-marzano/"
+   ],
+   "prm": [
+    null,
+    "i Sughi sono presentati come «ricette gourmet», ma non c'è una linea chiamata premium o gourmet",
+    "https://mutti-parma.com/it/i-nostri-prodotti/"
+   ],
+   "hrc": [
+    1,
+    "Mutti Professional (polpa, pelati, passata, concentrato, pizza sauce) per pizzerie e ristoranti",
+    "https://mutti-parma.com/it/food-service/"
+   ],
+   "vet": [
+    1,
+    "Travel Collection: «1 bottiglia di Passata»; Chi siamo: «pomodoro in vetro»",
+    "https://mutti-parma.com/it/travel-collection/"
+   ],
+   "lat": [
+    1,
+    "Travel Collection: «4 lattine di Polpa in finissimi pezzi»",
+    "https://mutti-parma.com/it/travel-collection/"
+   ],
+   "bri": [
+    null,
+    "formati non indicati nel testo delle schede prodotto",
+    "https://mutti-parma.com/it/i-nostri-prodotti/"
+   ],
+   "leg": [
+    0,
+    "nessuna conserva non di pomodoro: anche le Zuppe fresche sono a base di pomodoro",
+    "https://mutti-parma.com/it/i-nostri-prodotti/"
+   ],
+   "marchi": [
+    [
+     "Mutti (anche Mutti Professional per la ristorazione)",
+     "https://mutti-parma.com/it/i-nostri-prodotti/"
+    ]
+   ]
+  },
+  "conserveitalia": {
+   "n": [
+    25,
+    "https://cirio.it/i-nostri-pomodori-di-eccellenza/"
+   ],
+   "top": [
+    "Le passate: hero homepage 'La terra dei pomodori - C'è una passata Cirio per ogni piatto' (Verace, Rustica, Maremma Toscana)",
+    "https://cirio.it/"
+   ],
+   "pel": [
+    1,
+    "Pomodori pelati (Lattina singola da 400 g)",
+    "https://cirio.it/prodotti/pomodori-pelati/"
+   ],
+   "pas": [
+    1,
+    "Passata di pomodoro Verace",
+    "https://cirio.it/prodotti/passata-di-pomodoro-verace/"
+   ],
+   "pol": [
+    1,
+    "Polpa di pomodoro Finissima",
+    "https://cirio.it/prodotti/polpa-di-pomodoro-finissima/"
+   ],
+   "pmd": [
+    1,
+    "Ciliegini di Puglia",
+    "https://cirio.it/prodotti/ciliegini-di-puglia/"
+   ],
+   "con": [
+    1,
+    "Concentrato di pomodoro Supercirio tubetto",
+    "https://cirio.it/prodotti/concentrato-di-pomodoro-supercirio-tubetto/"
+   ],
+   "sug": [
+    1,
+    "Sugo di Pomodoro e Datterini",
+    "https://cirio.it/prodotti/sugo-di-pomodoro-e-datterini/"
+   ],
+   "bio": [
+    1,
+    "Vellutata dolce di datterino rosso di Sicilia bio",
+    "https://cirio.it/prodotti/vellutata-dolce-di-datterino-rosso-di-sicilia-bio/"
+   ],
+   "dop": [
+    0,
+    "nessun DOP/IGP nelle gamme di pomodoro di Cirio (25 prodotti), Cirio Alta Cucina, Valfrutta, Valfrutta Granchef e Jolly Colombani",
+    "https://cirioaltacucina.it/il-pomodoro"
+   ],
+   "prm": [
+    null,
+    "nessuna linea dichiarata 'premium' o 'gourmet'; esiste la categoria 'Le Selezioni' (Datterini pelati, Ciliegini, Fior di Filetti di Puglia: 'migliori varietà... territori d'origine d'eccellenza'), da decidere se conta",
+    "https://cirio.it/pomodori/le-selezioni/"
+   ],
+   "hrc": [
+    1,
+    "Cirio Alta Cucina ('dedicata in esclusiva ai professionisti della ristorazione', latta 1/3/5 kg e bag in box 3/5 kg)",
+    "https://cirioaltacucina.it/il-profilo"
+   ],
+   "vet": [
+    1,
+    "Passata di pomodoro Verace (Bottiglia vetro da 700 g)",
+    "https://cirio.it/prodotti/passata-di-pomodoro-verace/"
+   ],
+   "lat": [
+    1,
+    "Pomodori pelati (Lattina singola da 800 g)",
+    "https://cirio.it/prodotti/pomodori-pelati/"
+   ],
+   "bri": [
+    1,
+    "Valfrutta · Passate e Polpe fini al vapore «in brik»",
+    "https://www.valfrutta.it/it/prodotti/conserve-di-pomodoro"
+   ],
+   "leg": [
+    1,
+    "Ceci in vetro",
+    "https://cirio.it/prodotti/ceci-in-vetro/"
+   ],
+   "marchi": [
+    [
+     "Cirio",
+     "https://cirio.it/i-nostri-pomodori-di-eccellenza/"
+    ],
+    [
+     "Cirio Alta Cucina (ristorazione)",
+     "https://cirioaltacucina.it/il-pomodoro"
+    ],
+    [
+     "Valfrutta",
+     "https://www.valfrutta.it/it/prodotti/conserve-di-pomodoro"
+    ],
+    [
+     "Valfrutta Granchef (ristorazione)",
+     "https://www.valfruttagranchef.it/categoria_prodotti/pomodoro/"
+    ],
+    [
+     "Jolly Colombani (pomodoro solo per professionisti)",
+     "https://www.jollycolombani.it/prodotti-per-professionisti/"
+    ]
+   ]
+  },
+  "casalasco": {
+   "n": [
+    34,
+    "https://www.pomionline.it/it/prodotti/"
+   ],
+   "top": [
+    "Pomì: passate e polpe 100% pomodoro italiano (carosello prodotti in homepage, primo Passata Rustica)",
+    "https://www.pomionline.it/it/"
+   ],
+   "pel": [
+    1,
+    "Pomì Food Service: Pomodori pelati interi",
+    "https://www.pomionline.it/it/food-service/"
+   ],
+   "pas": [
+    1,
+    "Pomì: Passata Classica",
+    "https://www.pomionline.it/it/prodotti/passate-di-pomodoro/passata-classica/"
+   ],
+   "pol": [
+    1,
+    "Pomì: Pomodoro a cubetti",
+    "https://www.pomionline.it/it/prodotti/polpa-di-pomodoro-e-cubetti/pomodoro-a-cubetti/"
+   ],
+   "pmd": [
+    1,
+    "Pomì: Polpa fine datterino",
+    "https://www.pomionline.it/it/prodotti/datterino/polpa-fine-datterino/"
+   ],
+   "con": [
+    1,
+    "De Rica: Doppio Concentrato di Datterino 140 g",
+    "https://www.derica.it/it/prodotti/pomodoro/doppio-concentrato-di-datterino/140"
+   ],
+   "sug": [
+    1,
+    "De Rica: Salsa pronta datterino con basilico 350",
+    "https://www.derica.it/it/prodotti/pomodoro/salsa-pronta-datterino-con-basilico/350"
+   ],
+   "bio": [
+    1,
+    "Pomì: Passata di Pomodoro Biologica",
+    "https://www.pomionline.it/it/prodotti/linea-bio/passata-di-pomodoro-biologica/"
+   ],
+   "dop": [
+    0,
+    "nessun DOP/IGP nelle gamme di Pomì (retail e Food Service), De Rica, Pummarò, Gustodoro e Tomato al Gusto",
+    "https://www.casalasco.com/it/chi-siamo/i-nostri-marchi"
+   ],
+   "prm": [
+    1,
+    "Tomato al Gusto · sughi pronti in brick 390 g, «linea premium» venduta in Germania",
+    "https://www.casalasco.com/it/chi-siamo/i-nostri-marchi"
+   ],
+   "hrc": [
+    1,
+    "Pomì Food Service ('dedicati ai Professionisti dell'Ho.Re.Ca'); anche De Rica Linea professionale",
+    "https://www.pomionline.it/it/food-service/"
+   ],
+   "vet": [
+    1,
+    "Pomì: Passata di Pomodoro Biologica ('La bottiglia in vetro...')",
+    "https://www.pomionline.it/it/prodotti/linea-bio/passata-di-pomodoro-biologica/"
+   ],
+   "lat": [
+    1,
+    "Pomì: 'Oggi la gamma comprende non solo i brick, ma anche vetro e latta' (nessun prodotto specifico indicato in latta)",
+    "https://www.casalasco.com/it/chi-siamo/i-nostri-marchi"
+   ],
+   "bri": [
+    1,
+    "Pomì: Passata Classica 500 gr ('Passata di Pomodoro Pomì in brick', pagina ricetta)",
+    "https://www.pomionline.it/it/ricette/ricettario-pomi/pizza-di-zucca/"
+   ],
+   "leg": [
+    1,
+    "De Rica: Borlotti al naturale 400 g",
+    "https://www.derica.it/it/prodotti/linea-legumi/borlotti-al-naturale/400"
+   ],
+   "marchi": [
+    [
+     "Pomì",
+     "https://www.pomionline.it/it/prodotti/"
+    ],
+    [
+     "De Rica",
+     "https://www.derica.it/it/prodotti/"
+    ],
+    [
+     "Pummarò (con Polpabella e Sugo Lampo)",
+     "https://www.pummaro.it/"
+    ],
+    [
+     "Gustodoro",
+     "https://www.gustodoro.it/it/i-nostri-prodotti/"
+    ],
+    [
+     "Tomato al Gusto e Speciale al Gusto (Germania)",
+     "https://www.tomatoalgusto.de/tomato-al-gusto/"
+    ]
+   ]
+  },
+  "ladoria": {
+   "n": [
+    11,
+    "https://www.ladoria.it/pomodoro-ladoria/"
+   ],
+   "top": [
+    "Nessuna linea in evidenza: la homepage elenca solo 'i nostri prodotti' (pomodoro, legumi, succhi di frutta)",
+    "https://www.ladoria.it/"
+   ],
+   "pel": [
+    1,
+    "PELATI 400g - lattina",
+    "https://www.ladoria.it/pomodoro-ladoria/"
+   ],
+   "pas": [
+    1,
+    "PASSATA 690g - bottiglia",
+    "https://www.ladoria.it/pomodoro-ladoria/"
+   ],
+   "pol": [
+    1,
+    "POLPA 400g - lattina",
+    "https://www.ladoria.it/pomodoro-ladoria/"
+   ],
+   "pmd": [
+    1,
+    "POMODORINI 400g - lattina",
+    "https://www.ladoria.it/pomodoro-ladoria/"
+   ],
+   "con": [
+    1,
+    "Cook Italia · Italian Concentrated Tomato Purée (Regno Unito)",
+    "https://www.cookitalia.co.uk/authentic-range/"
+   ],
+   "sug": [
+    1,
+    "Althea · Sugo al basilico (9 sughi pronti a marchio Althea)",
+    "https://www.sughialthea.it/pagina-elenco-prodotti/"
+   ],
+   "bio": [
+    null,
+    "nessun bio a marchio La Doria, Cook Italia o Althea; gamma di La Romanella non pubblicata online",
+    "https://www.gruppoladoria.it/chi-siamo/i-nostri-marchi/"
+   ],
+   "dop": [
+    null,
+    "nessun DOP/IGP a marchio La Doria, Cook Italia o Althea; gamma di La Romanella non pubblicata online",
+    "https://www.gruppoladoria.it/chi-siamo/i-nostri-marchi/"
+   ],
+   "prm": [
+    1,
+    "Cook Italia · «sinonimo di qualità premium» nel Regno Unito (pomodori, passata, concentrato)",
+    "https://www.gruppoladoria.it/chi-siamo/i-nostri-marchi/"
+   ],
+   "hrc": [
+    1,
+    "PASSATA 2,5 kg - lattina (solo formati grandi; nessuna linea Ho.Re.Ca. dichiarata)",
+    "https://www.ladoria.it/pomodoro-ladoria/"
+   ],
+   "vet": [
+    null,
+    "PASSATA 690g - bottiglia: il sito dice 'bottiglia' ma non il materiale",
+    "https://www.ladoria.it/pomodoro-ladoria/"
+   ],
+   "lat": [
+    1,
+    "POLPA 400g x 3 - lattina",
+    "https://www.ladoria.it/pomodoro-ladoria/"
+   ],
+   "bri": [
+    null,
+    "La Doria solo lattina e bottiglia; confezioni di Cook Italia e La Romanella non indicate",
+    "https://www.gruppoladoria.it/chi-siamo/i-nostri-marchi/"
+   ],
+   "leg": [
+    1,
+    "BORLOTTI 400g - lattina",
+    "https://www.ladoria.it/legumi-ladoria/"
+   ],
+   "marchi": [
+    [
+     "La Doria",
+     "https://www.ladoria.it/pomodoro-ladoria/"
+    ],
+    [
+     "La Romanella (discount)",
+     "https://www.gruppoladoria.it/chi-siamo/i-nostri-marchi/"
+    ],
+    [
+     "Cook Italia (Regno Unito)",
+     "https://www.cookitalia.co.uk/authentic-range/"
+    ],
+    [
+     "Althea (sughi pronti)",
+     "https://www.sughialthea.it/pagina-elenco-prodotti/"
+    ]
+   ]
+  },
+  "petti": {
+   "n": [
+    40,
+    "https://www.ilpomodoropetti.com/retail/"
+   ],
+   "top": [
+    "La Completa (passata e polpa ai 6 pomodori): slider homepage 'Polpa La Completa Petti - Una polpa da premio'",
+    "https://www.ilpomodoropetti.com/"
+   ],
+   "pel": [
+    1,
+    "POMODORI PELATI I succosi",
+    "https://www.ilpomodoropetti.com/retail/pomodori-pelati-i-succosi/"
+   ],
+   "pas": [
+    1,
+    "PASSATA EXTRAFINE Il delicato",
+    "https://www.ilpomodoropetti.com/retail/passate-di-pomodoro/"
+   ],
+   "pol": [
+    1,
+    "POLPA A PEZZETTONI Il gran polposo",
+    "https://www.ilpomodoropetti.com/retail/polpe-di-pomodoro/"
+   ],
+   "pmd": [
+    1,
+    "POMODORINI BIO I deliziosi Bio",
+    "https://www.ilpomodoropetti.com/retail-biologico/"
+   ],
+   "con": [
+    1,
+    "DOPPIO CONCENTRATO DI POMODORO L'essenziale",
+    "https://www.ilpomodoropetti.com/retail/concentrato-di-pomodoro/"
+   ],
+   "sug": [
+    1,
+    "Sugo al pomodoro con basilico",
+    "https://www.ilpomodoropetti.com/i-sughi/"
+   ],
+   "bio": [
+    1,
+    "PASSATA DI DATTERINI BIO Il sublime",
+    "https://www.ilpomodoropetti.com/retail-biologico/"
+   ],
+   "dop": [
+    0,
+    "nessun DOP/IGP su sito e cataloghi (claim '100% Toscano' non e' una IGP)",
+    "https://www.ilpomodoropetti.com/retail/"
+   ],
+   "prm": [
+    1,
+    "LE PRELIBATEZZE GOURMET BIO (Il piccanto, Il sano, Il pregiato)",
+    "https://www.ilpomodoropetti.com/wp-content/uploads/2026/10/PETTI_catalogo_Retail_sett2026.pdf"
+   ],
+   "hrc": [
+    1,
+    "Food Service: formati HORECA, es. Bag in box 20 kg",
+    "https://www.ilpomodoropetti.com/food-service/"
+   ],
+   "vet": [
+    1,
+    "'linea vetro' (catalogo); es. Il delicato Bottiglia 700g, Vaso 300g",
+    "https://www.ilpomodoropetti.com/wp-content/uploads/2026/10/PETTI_catalogo_Retail_sett2026.pdf"
+   ],
+   "lat": [
+    1,
+    "POMODORI PELATI I succosi - Scatola 400g, 800g",
+    "https://www.ilpomodoropetti.com/retail/pomodori-pelati-i-succosi/"
+   ],
+   "bri": [
+    1,
+    "Il delicato - Tetra Brik square 1000g",
+    "https://www.ilpomodoropetti.com/wp-content/uploads/2026/10/PETTI_catalogo_Retail_sett2026.pdf"
+   ],
+   "leg": [
+    0,
+    "gamma completa solo a base di pomodoro (incl. ketchup, succo, sughi)",
+    "https://www.ilpomodoropetti.com/prodotto-sitemap.xml"
+   ],
+   "marchi": [
+    [
+     "Petti (anche Petti Food Service)",
+     "https://www.ilpomodoropetti.com/"
+    ]
+   ]
+  },
+  "rodolfi": {
+   "n": [
+    59,
+    "https://www.rodolfi.com/prodotti/prodotti-rodolfi/"
+   ],
+   "top": [
+    "Prodotti Rodolfi: primo slide homepage 'Il nuovo capitolo di una lunga storia di pomodoro' (secondo slide Ortolina; news in evidenza: I Sughi di Casa Rodolfi)",
+    "https://www.rodolfi.com/"
+   ],
+   "pel": [
+    1,
+    "Pelati Lattina 400 gr",
+    "https://www.rodolfi.com/rodolfi-pelati/"
+   ],
+   "pas": [
+    1,
+    "Passata Classica Bottiglia 690 gr",
+    "https://www.rodolfi.com/rodolfi-passata-classica/"
+   ],
+   "pol": [
+    1,
+    "Polpa a pezzetti Lattina con Cluster 3x400 gr",
+    "https://www.rodolfi.com/rodolfi-polpa-pezzetti/"
+   ],
+   "pmd": [
+    0,
+    "nessun pomodorino/ciliegino/datterino nei marchi Rodolfi, Ortolina, Ardita e Alpino",
+    "https://www.rodolfi.com/prodotti/prodotti-rodolfi/"
+   ],
+   "con": [
+    1,
+    "Doppio concentrato di pomodoro in tubetto",
+    "https://www.rodolfi.com/alpino-astuccio-tubetto/"
+   ],
+   "sug": [
+    1,
+    "Sugo Napoletana in vasetto 400 gr",
+    "https://www.rodolfi.com/rodolfi-sugo-napoletana/"
+   ],
+   "bio": [
+    1,
+    "Polpa Bio Lattina 400 gr",
+    "https://www.rodolfi.com/rodolfi-polpa-bio/"
+   ],
+   "dop": [
+    0,
+    "nessun DOP/IGP nei marchi Rodolfi, Ortolina, Ardita e Alpino",
+    "https://www.rodolfi.com/prodotti/prodotti-rodolfi/"
+   ],
+   "prm": [
+    0,
+    "nessuna linea dichiarata premium/gourmet",
+    "https://www.rodolfi.com/prodotti/prodotti-rodolfi/"
+   ],
+   "hrc": [
+    1,
+    "Ardita Professional (Super Pizza Lattina 5 kg, Bag in box 10 kg)",
+    "https://www.rodolfi.com/professional/ardita-rodolfi/"
+   ],
+   "vet": [
+    1,
+    "Passata Classica: Bottiglia in Vetro da 350 gr e 690 gr",
+    "https://www.rodolfi.com/rodolfi-passata-classica/"
+   ],
+   "lat": [
+    1,
+    "Pelati Lattina 400 gr",
+    "https://www.rodolfi.com/prodotti/prodotti-rodolfi/"
+   ],
+   "bri": [
+    0,
+    "nessun brick/tetrapak; nel professional ci sono bag in box, non brick",
+    "https://www.rodolfi.com/professional/ardita-rodolfi/"
+   ],
+   "leg": [
+    1,
+    "Pesto verde in vasetto 190 gr (Pesto alla Genovese)",
+    "https://www.rodolfi.com/rodolfi-pesto-alla-genovese/"
+   ],
+   "marchi": [
+    [
+     "Rodolfi",
+     "https://www.rodolfi.com/prodotti/prodotti-rodolfi/"
+    ],
+    [
+     "Ortolina",
+     "https://www.rodolfi.com/prodotti/ortolina/"
+    ],
+    [
+     "Ardita (professional)",
+     "https://www.rodolfi.com/professional/ardita-rodolfi/"
+    ],
+    [
+     "Alpino (professional)",
+     "https://www.rodolfi.com/professional/alpino-professional/"
+    ]
+   ]
+  },
+  "agromonte": {
+   "n": [
+    27,
+    "https://www.agromonte.it/prodotti/"
+   ],
+   "top": [
+    "Salsa pronta di pomodoro ciliegino: hero homepage 'Le Salse pronte siciliane più amate dagli italiani'; catalogo: 'il prodotto di punta di Agromonte'",
+    "https://www.agromonte.it/"
+   ],
+   "pel": [
+    0,
+    "nessun pelato in gamma (sito e catalogo Professional)",
+    "https://www.agromonte.it/prodotti/"
+   ],
+   "pas": [
+    1,
+    "Passata di pomodoro e datterino",
+    "https://www.agromonte.it/prodotti/passata-di-pomodoro-e-datterino/"
+   ],
+   "pol": [
+    1,
+    "La Nostra Polpa con Datterino",
+    "https://www.agromonte.it/prodotti/la-nostra-polpa-con-datterino/"
+   ],
+   "pmd": [
+    1,
+    "Salsa pronta di pomodoro ciliegino",
+    "https://www.agromonte.it/prodotti/salsa-pronta-di-pomodoro-ciliegino/"
+   ],
+   "con": [
+    0,
+    "nessun concentrato in gamma (sito e catalogo Professional)",
+    "https://www.agromonte.it/prodotti/"
+   ],
+   "sug": [
+    1,
+    "Sugo di pomodoro ciliegino alla norma",
+    "https://www.agromonte.it/prodotti/sugo-di-pomodoro-ciliegino-alla-norma/"
+   ],
+   "bio": [
+    1,
+    "Salsa pronta di pomodoro ciliegino bio",
+    "https://www.agromonte.it/bio/salsa-pronta-di-pomodoro-ciliegino-bio/"
+   ],
+   "dop": [
+    0,
+    "nessun prodotto DOP/IGP (né Pachino IGP) in gamma",
+    "https://www.agromonte.it/prodotti/"
+   ],
+   "prm": [
+    0,
+    "nessuna linea dichiarata premium/gourmet (Vintage e Pupi siciliani sono gift box in latta, non una linea)",
+    "https://www.agromonte.it/vintage/"
+   ],
+   "hrc": [
+    1,
+    "Agromonte Professional (Linea latte 2kg per horeca, pizzerie e ristoranti)",
+    "https://professional.agromonte.it/"
+   ],
+   "vet": [
+    1,
+    "Salsa pronta di pomodoro ciliegino: 'bottiglietta di vetro di colorazione ambrata', 330g",
+    "https://www.agromonte.it/prodotti/salsa-pronta-di-pomodoro-ciliegino/"
+   ],
+   "lat": [
+    1,
+    "Salsa pronta di Pomodoro Ciliegino 2kg 'Linea latte / Tin line' (catalogo Professional)",
+    "https://professional.agromonte.it/wp-content/uploads/2026/08/NEW-PUPI-AGROMONTE-CATALOGO-PROF_FLIPBOOK.pdf"
+   ],
+   "bri": [
+    0,
+    "nessun brick/tetrapak (formati: vetro, latte, vaschette)",
+    "https://professional.agromonte.it/wp-content/uploads/2026/08/NEW-PUPI-AGROMONTE-CATALOGO-PROF_FLIPBOOK.pdf"
+   ],
+   "leg": [
+    1,
+    "Caponata di melanzane",
+    "https://www.agromonte.it/prodotti/caponata-di-melanzane/"
+   ],
+   "marchi": [
+    [
+     "Agromonte (anche Agromonte Professional)",
+     "https://www.agromonte.it/"
+    ]
+   ]
+  },
+  "solania": {
+   "n": [
+    null,
+    "https://solaniasrl.it/"
+   ],
+   "top": [
+    "null: sito ufficiale in manutenzione (tutte le pagine reindirizzano a /manutenzione/), gamma non verificabile; copia archiviata del sito ufficiale (2/2/2026) in homepage: 'Leader nella Produzione del San Marzano dell'Agro Sarnese Nocerino DOP'",
+    "https://web.archive.org/web/20260202025038/https://solaniasrl.it/"
+   ],
+   "pel": [
+    null,
+    "sito ufficiale in manutenzione (tutte le pagine reindirizzano a /manutenzione/), gamma non verificabile; archivio 2/2/2026 della homepage ufficiale elencava 'Pomodori Pelati Interi'",
+    "https://solaniasrl.it/"
+   ],
+   "pas": [
+    null,
+    "sito ufficiale in manutenzione (tutte le pagine reindirizzano a /manutenzione/), gamma non verificabile; archivio 2/2/2026: «pelati, passate e sughi sia in scatola che in vetro» per Ho.Re.Ca. e Retail",
+    "https://solaniasrl.it/"
+   ],
+   "pol": [
+    null,
+    "sito ufficiale in manutenzione (tutte le pagine reindirizzano a /manutenzione/), gamma non verificabile; archivio 2/2/2026: 'Polpa di Pomodoro'",
+    "https://solaniasrl.it/"
+   ],
+   "pmd": [
+    null,
+    "sito ufficiale in manutenzione (tutte le pagine reindirizzano a /manutenzione/), gamma non verificabile; archivio 2/2/2026: 'Pomodorini Datterini'",
+    "https://solaniasrl.it/"
+   ],
+   "con": [
+    null,
+    "sito ufficiale in manutenzione (tutte le pagine reindirizzano a /manutenzione/), gamma non verificabile",
+    "https://solaniasrl.it/"
+   ],
+   "sug": [
+    null,
+    "sito ufficiale in manutenzione (tutte le pagine reindirizzano a /manutenzione/), gamma non verificabile; archivio 2/2/2026: «pelati, passate e sughi sia in scatola che in vetro» per Ho.Re.Ca. e Retail",
+    "https://solaniasrl.it/"
+   ],
+   "bio": [
+    null,
+    "sito ufficiale in manutenzione (tutte le pagine reindirizzano a /manutenzione/), gamma non verificabile",
+    "https://solaniasrl.it/"
+   ],
+   "dop": [
+    null,
+    "sito ufficiale in manutenzione (tutte le pagine reindirizzano a /manutenzione/), gamma non verificabile; archivio 2/2/2026: 'Pomodoro San Marzano dell'agro Sarnese – Nocerino D.O.P.'",
+    "https://solaniasrl.it/"
+   ],
+   "prm": [
+    null,
+    "sito ufficiale in manutenzione (tutte le pagine reindirizzano a /manutenzione/), gamma non verificabile",
+    "https://solaniasrl.it/"
+   ],
+   "hrc": [
+    null,
+    "sito ufficiale in manutenzione (tutte le pagine reindirizzano a /manutenzione/), gamma non verificabile; archivio 2/2/2026: «pelati, passate e sughi sia in scatola che in vetro» per Ho.Re.Ca. e Retail",
+    "https://solaniasrl.it/"
+   ],
+   "vet": [
+    null,
+    "sito ufficiale in manutenzione (tutte le pagine reindirizzano a /manutenzione/), gamma non verificabile; archivio 2/2/2026: «pelati, passate e sughi sia in scatola che in vetro» per Ho.Re.Ca. e Retail",
+    "https://solaniasrl.it/"
+   ],
+   "lat": [
+    null,
+    "sito ufficiale in manutenzione (tutte le pagine reindirizzano a /manutenzione/), gamma non verificabile; archivio 2/2/2026: «pelati, passate e sughi sia in scatola che in vetro» per Ho.Re.Ca. e Retail",
+    "https://solaniasrl.it/"
+   ],
+   "bri": [
+    null,
+    "sito ufficiale in manutenzione (tutte le pagine reindirizzano a /manutenzione/), gamma non verificabile",
+    "https://solaniasrl.it/"
+   ],
+   "leg": [
+    null,
+    "sito ufficiale in manutenzione (tutte le pagine reindirizzano a /manutenzione/), gamma non verificabile",
+    "https://solaniasrl.it/"
+   ],
+   "marchi": [
+    [
+     "Solania (sito ufficiale in manutenzione, nome letto sulla copia archiviata del 2/2/2026)",
+     "https://web.archive.org/web/20260202025038/https://solaniasrl.it/"
+    ]
+   ]
+  },
+  "latorrente": {
+   "n": [
+    75,
+    "https://shop.latorrente.it/collections/all"
+   ],
+   "top": [
+    "Pomodori Interi Pelati (banner in homepage: premiati con i Due Gamberi del Gambero Rosso)",
+    "https://latorrente.it/"
+   ],
+   "pel": [
+    1,
+    "Pomodori pelati interi",
+    "https://shop.latorrente.it/products/pomodori-pelati-interi"
+   ],
+   "pas": [
+    1,
+    "Passata di pomodoro tradizionale",
+    "https://shop.latorrente.it/products/passata-di-pomodoro-tradizionale"
+   ],
+   "pol": [
+    1,
+    "Polpa di pomodori a cubetti \"Dadìni\"",
+    "https://shop.latorrente.it/products/polpa-di-pomodori-a-cubetti-dadini"
+   ],
+   "pmd": [
+    1,
+    "Pomodorini \"Datterini\"",
+    "https://shop.latorrente.it/products/pomodorini-datterini"
+   ],
+   "con": [
+    1,
+    "Doppio concentrato di pomodori",
+    "https://shop.latorrente.it/products/doppio-concentrato-di-pomodori"
+   ],
+   "sug": [
+    1,
+    "Sugo al basilico",
+    "https://shop.latorrente.it/products/sugo-al-basilico"
+   ],
+   "bio": [
+    1,
+    "Passata di pomodori da agricoltura biologica (linea PomoBio)",
+    "https://shop.latorrente.it/products/passata-di-pomodori-da-agricoltura-biologica"
+   ],
+   "dop": [
+    1,
+    "San Marzano dell’Agro-Sarnese-Nocerino DOP in vetro",
+    "https://shop.latorrente.it/products/san-marzano-dell-agro-sarnese-nocerino-dop-in-vetro"
+   ],
+   "prm": [
+    null,
+    "linea Speciali «selezione di varietà pregiate» con DOP, ma non chiamata premium o gourmet",
+    "https://latorrente.it/prodotti/"
+   ],
+   "hrc": [
+    1,
+    "Pomodori pelati interi con basilico catering (collezione Catering, 6 x 2500g)",
+    "https://shop.latorrente.it/collections/catering"
+   ],
+   "vet": [
+    1,
+    "Passata di pomodoro giallo in vetro",
+    "https://shop.latorrente.it/products/passata-di-pomodoro-giallo-in-vetro"
+   ],
+   "lat": [
+    1,
+    "Pomodoro San Marzano dell’Agro-Sarnese-Nocerino DOP in latta",
+    "https://shop.latorrente.it/products/pomodoro-san-marzano-dell-agro-sarnese-nocerino-dop-in-latta"
+   ],
+   "bri": [
+    0,
+    "nessun brick/tetrapak in tutti gli 84 prodotti dell'e-shop ufficiale (titoli e descrizioni)",
+    "https://shop.latorrente.it/collections/all"
+   ],
+   "leg": [
+    1,
+    "Ceci lessati cotti al naturale",
+    "https://shop.latorrente.it/products/ceci-lessati-cotti-al-naturale"
+   ],
+   "marchi": [
+    [
+     "La Torrente (linee PomoBio e Speciali)",
+     "https://latorrente.it/prodotti/"
+    ]
+   ]
+  }
+ },
+ "an": [
+  "Valutazione nostra sui siti ufficiali letti il 22/11/2026, non un dato. La Fiammante ha l'offerta di pomodoro campano più ricca del gruppo: San Marzano DOP e due DOP del Piennolo del Vesuvio (pelato, pacchetella, al naturale, in vetro), più varietà rare come Corbarino, Principe Borghese e datterino giallo. Il DOP l'abbiamo visto solo da Mutti (San Marzano) e La Torrente; il Piennolo solo da La Fiammante.",
+  "ICAB vende con tre marchi: La Fiammante e i due storici napoletani La Reale e La Paesana (F.lli Paudice), rilevati negli anni '70. Con questi copre anche il doppio concentrato, in barattolo e in tubo: la prima versione della matrice lo dava assente perché guardava solo il marchio La Fiammante. Sui formati copre latta, vetro e grandi formati per pizzerie (Pa' Pizza 2,5 e 4,5 kg, bag in box), ha bio su pelati, passata e polpa e vende legumi e verdure.",
+  "La mancanza più evidente sono i sughi pronti: li hanno tutti gli altri 8 concorrenti verificati, anche La Doria con il marchio Althea, ed è la categoria dove i grandi spingono (Mutti ha 5 sughi, 4 salse, 4 pesti di pomodoro e 5 zuppe). Mancano anche il brick, che hanno Pomì, Petti e Valfrutta (Conserve Italia), e una linea dichiarata premium, che hanno Petti, Casalasco (Tomato al Gusto, in Germania) e La Doria (Cook Italia, nel Regno Unito).",
+  "Contando tutti i marchi, i grandi gruppi coprono quasi ogni voce: Casalasco (Pomì, De Rica, Pummarò, Gustodoro, Tomato al Gusto) le ha tutte tranne il DOP; Conserve Italia (Cirio, Valfrutta, Jolly Colombani) tutte tranne il DOP, con la linea premium da decidere (Le Selezioni di Cirio). Il concorrente più simile resta La Torrente: stessa area campana, pelati, pomodorini, San Marzano DOP, bio, legumi e catering, ma con in più i sughi pronti.",
+  "Limiti: Solania non è verificata perché il sito ufficiale è ancora in manutenzione; per La Doria bio, DOP e brick restano aperti perché La Romanella non pubblica la gamma; le confezioni di Mutti e Pomì sono ricavate da poche frasi del sito; il numero di prodotti (n) è contato in modo diverso da sito a sito e, tranne ICAB, solo sul marchio principale: va letto come ordine di grandezza."
+ ]
+}

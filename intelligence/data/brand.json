@@ -1,0 +1,105 @@
+{
+ "n": "Raccolta del 22/11/2026. Loghi presi dai siti ufficiali (Firecrawl branding o link immagine dell'header) e convertiti in PNG con sips/qlmanage; colori dal branding di Firecrawl sulla home (o dal CSS del sito dove indicato); anno, marchi, certificazioni, premi e claim letti sulle pagine ufficiali (chi siamo, storia, marchi, certificazioni, premi). Premi: solo 2022-2026; [] significa non trovati sulle pagine lette, non che non esistano (ricerca web fatta solo per Mutti, La Fiammante, La Doria, Solania e Prodotto dell'anno). giudizio = valutazione di Claude guardando i PNG: legg leggibilità a piccola dimensione, dist distintività rispetto agli altri 9, coer coerenza con il posizionamento, dis qualità del disegno (1-5). Spesa: circa 48 crediti Firecrawl (oltre il budget di 35: un PDF di Mutti è costato 24 crediti perché fatturato a pagina).",
+ "az": {
+  "icab": {
+   "logo": {"f": "logos/icab.png", "u": "https://www.lafiammante.it/media/logo/default/logo_2.png", "s": "dic"},
+   "colori": {"v": ["#D91B34", "#8DB339", "#BF0214"], "n": "primario, secondario (verde dei pulsanti), accento; branding Firecrawl della home", "s": "dic", "u": "https://www.lafiammante.it"},
+   "yr": {"v": null, "n": "il sito dice che la memoria del marchio risale agli anni '50 e che il marchio fu rilevato da Don Luigi Franzese alla fine degli anni '70; nessun anno preciso", "s": "dic", "u": "https://www.lafiammante.it/progetto"},
+   "arch": {"tipo": "casa di marchi", "marchi": ["La Fiammante", "La Reale", "La Paesana (F.lli Paudice)"], "n": "ICAB ha tre marchi; La Fiammante è il marchio di punta", "s": "dic", "u": "https://www.lafiammante.it/progetto"},
+   "premi": {"v": [], "n": "nessun premio 2022-2026 trovato sul sito né con una ricerca web", "s": "dic", "u": "https://www.lafiammante.it/progetto"},
+   "cert": {"v": ["Bio (alcuni prodotti)", "DOP San Marzano e Piennolo del Vesuvio (prodotti)", "Tracciabilità blockchain VeChain / DNV My Story"], "n": "BRC e IFS non citati nelle pagine lette; Bio e DOP sono prodotti in catalogo, non certificazioni di stabilimento", "s": "dic", "u": "https://www.lafiammante.it/progetto"},
+   "giudizio": {"legg": 4, "dist": 4, "coer": 4, "dis": 3, "tipo": "wordmark", "elementi": "scritta minuscola rossa e arrotondata «la fiammante», bandierina tricolore sopra, stella gialla e verde sul «la», payoff «Sani e mediterranei»", "n": "Scritta forte e riconoscibile, ma bandiera, stella e payoff appesantiscono il segno e spariscono a piccola dimensione.", "s": "val"},
+   "claim": {"v": "Sani e mediterranei", "n": "payoff scritto nel logo; il titolo della home è «pomodoro 100% italiano da filiera corta»", "s": "dic", "u": "https://www.lafiammante.it"}
+  },
+  "mutti": {
+   "logo": {"f": "logos/mutti.png", "u": "https://mutti-parma.com/it/", "s": "dic", "n": "ritagliato da uno screenshot Firecrawl dell'header: il file del logo (logo.webp) risponde 403 al download diretto. Bassa risoluzione (140×86)"},
+   "colori": {"v": ["#C61F1E", "#E01020", "#FBF6E9"], "n": "primario, accento, crema; branding Firecrawl della home", "s": "dic", "u": "https://mutti-parma.com/it/"},
+   "yr": {"v": 1899, "n": "nasce a Basilicanova (PR) con i fratelli Marcellino e Callisto Mutti; Report di sostenibilità 2025 in sintesi", "s": "dic", "u": "https://mutti-parma.com/app/uploads/sites/7/2026/06/mutti-rs-2025-in-sintesi-ita.pdf"},
+   "arch": {"tipo": "monomarca", "marchi": ["Mutti", "Mutti Professional"], "n": "un solo marchio al consumo con linea food service; Fiordagosto è una società del gruppo, non un marchio al consumo", "s": "dic", "u": "https://mutti-parma.com/it/"},
+   "premi": {"v": [["2025", "Prodotto dell'Anno 2025 (Ragù alla Mutti)"]], "n": "dal Report di sostenibilità 2025; il Pomodorino d'Oro è un premio che Mutti dà ai suoi agricoltori, non un premio ricevuto", "s": "dic", "u": "https://mutti-parma.com/app/uploads/sites/7/2026/06/mutti-rs-2025-in-sintesi-ita.pdf"},
+   "cert": {"v": ["FSSC 22000", "ISO 22005", "ISO 14001", "ISO 45001", "SA8000", "UNI 11233 produzione integrata"], "n": "FSSC 22000 per Montechiarugolo, Fiordagosto e Collecchio; B Corp non citata sul sito", "s": "dic", "u": "https://mutti-parma.com/it/chi-siamo/il-nostro-modo-di-agire/"},
+   "giudizio": {"legg": 3, "dist": 5, "coer": 5, "dis": 5, "tipo": "emblema", "elementi": "scudo rosso bordato d'oro, scritta MUTTI bianca, due leoni dorati, «Solo pomodoro.» in alto e «Parma» in basso", "n": "L'emblema più forte del gruppo, coerente con il premium, ma i dettagli (leoni, scritte piccole) si perdono sotto i 40 px.", "s": "val"},
+   "claim": {"v": "Solo pomodoro.", "n": "scritto nel logo; in home anche «Polpa Mutti: l'originale che ti rende originale.»", "s": "dic", "u": "https://mutti-parma.com/it/"}
+  },
+  "conserveitalia": {
+   "logo": {"f": "logos/conserveitalia.png", "u": "https://cirio.it/wp-content/uploads/2024/10/f82e38b47043b6573e2f60e7bdb47d0a.png.webp", "s": "dic"},
+   "colori": {"v": ["#212C4A", "#C21718"], "n": "blu notte primario, rosso secondario; branding Firecrawl di cirio.it", "s": "dic", "u": "https://cirio.it/"},
+   "yr": {"v": 1856, "n": "Francesco Cirio avvia a Torino la conservazione con l'appertizzazione; dal 2004 il marchio è di Conserve Italia", "s": "dic", "u": "https://cirio.it/la-nostra-storia/"},
+   "arch": {"tipo": "casa di marchi", "marchi": ["Cirio", "Cirio Alta Cucina", "Valfrutta", "Yoga", "Derby Blue", "Jolly Colombani", "L'Aperitivo Italiano", "Juver", "Barbier Dauphin"], "n": "marchi elencati (come immagini) nella pagina del gruppo; la stessa pagina mostra anche De Rica, che però il sito Casalasco indica come suo marchio: escluso qui", "s": "dic", "u": "https://www.conserveitalia.it/it/il-gruppo/i-marchi"},
+   "premi": {"v": [["2023", "Francobollo ordinario dedicato a Francesco Cirio, serie Marchi storici"]], "n": "dalla storia del marchio; nel 2021 iscritto al registro dei Marchi storici di interesse nazionale (prima del periodo)", "s": "dic", "u": "https://cirio.it/la-nostra-storia/"},
+   "cert": {"v": ["BRCGS", "IFS", "Sedex/SMETA", "CCPB DTP 09 residui -70%", "Produzione integrata", "Origine italiana", "EPD Process (2019)"], "n": "", "s": "dic", "u": "https://cirio.it/la-qualita/"},
+   "giudizio": {"legg": 5, "dist": 4, "coer": 4, "dis": 4, "tipo": "emblema", "elementi": "cuore blu notte bordato crema, CIRIO in maiuscolo con grazie bianco, «Cuore Italiano» in corsivo, sfumatura azzurra in basso", "n": "Il blu lo stacca dal mare di rossi e il nome si legge benissimo; la sfumatura e il corsivo sono un po' datati.", "s": "val"},
+   "claim": {"v": "Cuore Italiano", "n": "scritto nel logo; la descrizione del sito dice «Cirio dal 1856 è fatto con il Cuore»", "s": "dic", "u": "https://cirio.it/"}
+  },
+  "casalasco": {
+   "logo": {"f": "logos/casalasco.png", "u": "https://www.casalasco.com/it", "s": "dic", "n": "file https://cdn.prod.website-files.com/69987b72285b4e1fd3dc2138/69ee3dad45dcbc1118300fd0_pomi.png dalla home Casalasco; pomi.it risponde errore 500 e pomi.com è un dominio parcheggiato"},
+   "colori": {"v": ["#D2091E", "#1B1B1B"], "n": "dal CSS di pomionline.it (il rosso è il colore più usato, 75 volte); il branding Firecrawl di pomi.com non vale (dominio parcheggiato)", "s": "dic", "u": "https://www.pomionline.it/it/il-nostro-brand/"},
+   "yr": {"v": 1982, "n": "«Il gusto inconfondibile di Pomì è lo stesso dal 1982»; Casalasco dice «nato agli inizi degli anni '80»", "s": "dic", "u": "https://www.pomionline.it/it/il-nostro-brand/"},
+   "arch": {"tipo": "casa di marchi", "marchi": ["Pomì", "De Rica", "Pummarò", "Tomato al Gusto / Speciale al Gusto", "Gustodoro"], "n": "più le linee food service Pomì Food Service e De Rica Professional", "s": "dic", "u": "https://www.casalasco.com/it/chi-siamo/i-nostri-marchi"},
+   "premi": {"v": [], "n": "nessun premio 2022-2026 sulle pagine lette; ricerca web non fatta per budget", "s": "dic", "u": "https://www.pomionline.it/it/il-nostro-brand/"},
+   "cert": {"v": ["BRCGS", "IFS (addendum FSMA)", "ISO 22005", "ISO 14001", "EMAS", "Bio", "Kosher", "Halal", "Non-GMO (NSF, USA)", "GFCO gluten-free (USA)", "RSPO", "ISCC Plus", "QC Emilia-Romagna"], "n": "certificazioni di Casalasco, per stabilimento e mercato", "s": "dic", "u": "https://www.casalasco.com/it/chi-siamo/qualita-e-certificazioni"},
+   "giudizio": {"legg": 5, "dist": 3, "coer": 4, "dis": 4, "tipo": "wordmark", "elementi": "scritta Pomì rossa con grazie morbide, accento a goccia", "n": "Pulito e leggibilissimo, l'accento a goccia è un buon dettaglio, ma è un'altra scritta rossa su bianco.", "s": "val"},
+   "claim": {"v": "Il gusto inconfondibile di Pomì è lo stesso dal 1982.", "n": "titolo della pagina del marchio; il sito cita un «iconico claim» di oltre 40 anni senza riportarlo", "s": "dic", "u": "https://www.pomionline.it/it/il-nostro-brand/"}
+  },
+  "ladoria": {
+   "logo": {"f": "logos/ladoria.png", "u": "https://www.ladoria.it/wp-content/uploads/2023/01/cropped-Logo-Consumer-La-Doria_SMALL-270x270.png", "s": "dic", "n": "versione PNG trasparente (270×270) della stessa immagine dell'header, che è un JPG"},
+   "colori": {"v": ["#DD3333", "#001F60"], "n": "rosso primario, blu secondario; branding Firecrawl della home", "s": "dic", "u": "https://www.ladoria.it/"},
+   "yr": {"v": 1954, "n": "«Dal 1954 il marchio La Doria…»; Diodato Ferraioli fonda l'azienda ad Angri", "s": "dic", "u": "https://www.gruppoladoria.it/chi-siamo/i-nostri-marchi/"},
+   "arch": {"tipo": "casa di marchi", "marchi": ["La Doria", "La Romanella", "Vivi G", "Cook Italia", "Althea", "Bella Parma"], "n": "La Doria è il master brand; gran parte del fatturato è private label", "s": "dic", "u": "https://www.gruppoladoria.it/chi-siamo/i-nostri-marchi/"},
+   "premi": {"v": [], "n": "nessun premio 2022-2026 sulle pagine lette; una ricerca web su premi e rating ESG non ha dato risultati", "s": "dic", "u": "https://www.gruppoladoria.it/chi-siamo/la-storia/"},
+   "cert": {"v": ["ISO 9001", "ISO 22005", "IFS", "BRC"], "n": "ISO 9001 e 22005 in tutti gli stabilimenti; IFS e BRC in quelli che producono per i retailer", "s": "dic", "u": "https://www.gruppoladoria.it/chi-siamo/qualita-e-sicurezza/"},
+   "giudizio": {"legg": 4, "dist": 3, "coer": 4, "dis": 3, "tipo": "emblema", "elementi": "ovale blu con archi gialli, torre in un cerchio, scritta LaDoria bianca con grazie, «Dal 1954»", "n": "Blu e giallo lo distinguono dai rossi, ma l'ovale con torre è un'etichetta da scaffale generica.", "s": "val"},
+   "claim": {"v": "La tradizione mediterranea, sulla tua tavola.", "n": "dalla descrizione della home ladoria.it (la pagina storia risponde 403)", "s": "dic", "u": "https://www.ladoria.it/"}
+  },
+  "petti": {
+   "logo": {"f": "logos/petti.png", "u": "https://www.ilpomodoropetti.com/wp-content/uploads/2016/12/illogo_petti.png", "s": "dic", "n": "piccolo (122×109)"},
+   "colori": {"v": ["#CF2127", "#480006"], "n": "rosso primario, bordeaux secondario; branding Firecrawl della home", "s": "dic", "u": "https://www.ilpomodoropetti.com/"},
+   "yr": {"v": 1925, "n": "Gruppo Petti dal 1925 (Nocera Superiore); Italian Food nasce nel 1973; linea a marchio Petti lanciata nel 2013", "s": "dic", "u": "https://www.ilpomodoropetti.com/chi-siamo/"},
+   "arch": {"tipo": "monomarca", "marchi": ["Petti"], "n": "un marchio al consumo; la produzione è anche per private label (circa il 70% esportato)", "s": "dic", "u": "https://www.ilpomodoropetti.com/chi-siamo/"},
+   "premi": {"v": [["2026", "Eletto Prodotto dell'Anno 2026, categoria Conserve di Pomodoro (Polpa La Completa)"]], "n": "bollino in home; ricerca Circana su 12.000 consumatori. In home c'è anche un «Brands Award, New Entry» senza anno, non incluso", "s": "dic", "u": "https://www.ilpomodoropetti.com/"},
+   "cert": {"v": ["Bio", "VeganOk"], "n": "certificato VeganOk in PDF sul sito; BRC/IFS non citati nelle pagine lette", "s": "dic", "u": "https://www.ilpomodoropetti.com/wp-content/uploads/2024/06/Certificato-VeganOk-Italian_Food.pdf"},
+   "giudizio": {"legg": 3, "dist": 3, "coer": 4, "dis": 3, "tipo": "emblema", "elementi": "scudo rosso con corona dorata, scritta Petti bianca, «1925»", "n": "Stemma rosso e oro classico, vicino per codice a Mutti e Rodolfi; il file del sito è molto piccolo.", "s": "val"},
+   "claim": {"v": "Da 100 anni, Pomodoro E Tradizione Toscana Insieme.", "n": "titolo in home", "s": "dic", "u": "https://www.ilpomodoropetti.com/"}
+  },
+  "rodolfi": {
+   "logo": {"f": "logos/rodolfi.png", "u": "https://www.rodolfi.com/wp-content/uploads/2024/11/Logo_rodolfi_megamenu.svg", "s": "dic", "n": "versione a colori del menu (SVG → PNG); il logo del footer indicato da Firecrawl è la versione monocroma bordeaux"},
+   "colori": {"v": ["#C40118", "#233F34", "#CE8800"], "n": "rosso primario, verde scuro secondario, ocra accento; branding Firecrawl della home", "s": "dic", "u": "https://www.rodolfi.com/"},
+   "yr": {"v": 1896, "n": "Remigio Rodolfi apre il primo opificio a San Pancrazio (PR); il marchio si firma «Rodolfi 1896»", "s": "dic", "u": "https://www.rodolfi.com/la-nostra-storia/"},
+   "arch": {"tipo": "casa di marchi", "marchi": ["Rodolfi", "Ortolina", "Alpino", "Ardita"], "n": "Alpino e Ardita nel professional; anche private label", "s": "dic", "u": "https://www.rodolfi.com/"},
+   "premi": {"v": [], "n": "nessun premio 2022-2026 sulle pagine lette; ricerca web non fatta per budget", "s": "dic", "u": "https://www.rodolfi.com/la-nostra-storia/"},
+   "cert": {"v": ["BRC AA+", "IFS Higher Level", "Bio ICEA", "ISO 14001", "ISO 45001", "ISO 22005", "SA8000", "Registrazione FDA"], "n": "", "s": "dic", "u": "https://www.rodolfi.com/certificazioni-rodolfi/"},
+   "giudizio": {"legg": 3, "dist": 3, "coer": 5, "dis": 4, "tipo": "emblema", "elementi": "etichetta rossa arrotondata con banda ocra, «1896», RODOLFI bianco con ombra, «Pomodoro a Parma», incisione di campi con trattore e casale", "n": "Racconta bene Parma e la filiera, ma l'incisione e le scritte piccole non reggono in piccolo ed è un altro rosso-oro.", "s": "val"},
+   "claim": {"v": "Pomodoro a Parma", "n": "scritto nel logo e nel titolo del sito; in home anche «Una fiducia che si rinnova ogni giorno»", "s": "dic", "u": "https://www.rodolfi.com/"}
+  },
+  "agromonte": {
+   "logo": {"f": "logos/agromonte.png", "u": "https://www.agromonte.it/2018/wp-content/themes/agromonte/images/logo.png", "s": "dic"},
+   "colori": {"v": ["#7F7355", "#A67C52"], "n": "colori del sito (oliva e cuoio), non del logo, che è nero, bianco e oro; branding Firecrawl della home", "s": "dic", "u": "https://www.agromonte.it/"},
+   "yr": {"v": 1970, "n": "anno in cui Carmelo Arestia e la moglie Ida avviano l'impresa; il marchio ha festeggiato 25 anni nel 2025 (latta Vintage)", "s": "dic", "u": "https://www.agromonte.it/azienda/"},
+   "arch": {"tipo": "monomarca", "marchi": ["Agromonte"], "n": "linee Bio, I Gialli di Agromonte, Agromonte Professional; la società è la Soc. Agr. Monterosso", "s": "dic", "u": "https://www.agromonte.it/"},
+   "premi": {"v": [["2026", "Better Future Award, primo posto (Gdoweek, Mark Up, TUTTOFOOD) per l'«Etichetta della Terra»"], ["2026", "Grocery&Consumi Award per il pack della latta Vintage"], ["2024", "Miglior Prodotto Food 2024, categoria Salse e condimenti"], ["2022", "Scelto Miglior Prodotto Food 2022 (La Nostra Polpa)"]], "n": "anno 2026 dei primi due dedotto dalla data delle immagini sul sito (2026/05 e 2026/07), non scritto nel testo", "s": "dic", "u": "https://www.agromonte.it/premi/"},
+   "cert": {"v": ["BRC", "IFS", "Halal", "Kosher", "Vegan", "Bio"], "n": "", "s": "dic", "u": "https://www.agromonte.it/azienda/"},
+   "giudizio": {"legg": 5, "dist": 5, "coer": 4, "dis": 4, "tipo": "wordmark", "elementi": "rettangolo nero con filetto oro, AGROMONTE in maiuscolo bianco con grazie, «Sicilia» spaziato", "n": "L'unico nero in una categoria rossa: si legge e si ricorda, ma dice poco del pomodorino.", "s": "val"},
+   "claim": {"v": "Le Salse pronte siciliane più amate dagli italiani.", "n": "titolo in home", "s": "dic", "u": "https://www.agromonte.it/"}
+  },
+  "solania": {
+   "logo": {"f": "logos/solania.png", "u": "https://solaniasrl.it/manutenzione/solania-logo.png", "s": "dic", "n": "dalla pagina di manutenzione: il sito è chiuso"},
+   "colori": {"v": ["#244B3D", "#F05A2B", "#17382C"], "n": "dal CSS e dal theme-color della pagina di manutenzione; il logo è blu, verde e arancio", "s": "dic", "u": "https://solaniasrl.it/manutenzione/index.html"},
+   "yr": {"v": 1993, "n": "fondata da Giuseppe Napoletano; scheda su italyexport.net (fonte di terzi, il sito è in manutenzione)", "s": "dic", "u": "https://www.italyexport.net/azienda/solania-srl/"},
+   "arch": {"tipo": null, "marchi": ["Solania"], "n": "non verificabile: sito in manutenzione", "s": "dic", "u": "https://solaniasrl.it/manutenzione/index.html"},
+   "premi": {"v": [], "n": "non cercati (sito chiuso); in rete c'è la notizia del primo San Marzano DOP certificato in blockchain, non un premio", "s": "dic", "u": "https://www.salernotoday.it/economia/solania-presenta-il-primo-pomodoro-san-marzano-d-o-p-certificato-in-blockchain.html"},
+   "cert": {"v": ["DOP San Marzano", "BRC Food", "Bio (Bioagricert)", "Agricert", "USDA Organic", "Agroqualità", "JAS Organic"], "n": "loghi della vecchia pagina /about vista nell'indice di ricerca (immagini caricate nel 2018): oggi non verificabili", "s": "dic", "u": "https://solaniasrl.it/about/"},
+   "giudizio": {"legg": 3, "dist": 4, "coer": 3, "dis": 2, "tipo": "simbolo+nome", "elementi": "fiocco blu a onda con sole arancio, tralcio verde, scritta corsiva bianca «Solania» con ombra", "n": "Diverso dagli altri, ma ombre e sfumature lo fanno sembrare datato e il corsivo si impasta in piccolo.", "s": "val"},
+   "claim": {"v": "Nel nome, la passione.", "n": "dalla vecchia pagina /about vista nell'indice di ricerca; oggi il sito è in manutenzione", "s": "dic", "u": "https://solaniasrl.it/about/"}
+  },
+  "latorrente": {
+   "logo": {"f": "logos/latorrente.png", "u": "https://latorrente.it/wp-content/uploads/2026/03/logo-no-payoff-la-torrente.svg", "s": "dic"},
+   "colori": {"v": ["#E1251B", "#7D0700", "#FAF5EE"], "n": "rosso primario, testo bordeaux, sfondo crema; branding Firecrawl della home. Il verde #00A651 è nel logo SVG", "s": "dic", "u": "https://latorrente.it/"},
+   "yr": {"v": 1965, "n": "nasce dall'intuizione di Giuseppe e Annunziata Torrente", "s": "dic", "u": "https://latorrente.it/azienda/"},
+   "arch": {"tipo": "monomarca", "marchi": ["La Torrente"], "n": "linee Retail, Catering e Sughi pronti con lo stesso marchio", "s": "dic", "u": "https://latorrente.it/storia/"},
+   "premi": {"v": [["2026", "Due Gamberi Gambero Rosso ai Pomodori Interi Pelati (guida Top Italian Food 2027)"]], "n": "evento del 25/10/2026, notizia del 26/10/2026", "s": "dic", "u": "https://latorrente.it/la-torrente-gambero-rosso-due-gamberi/"},
+   "cert": {"v": ["BRCGS", "IFS Food", "ISO 9001", "ISO 22005", "UNI 11233 produzione integrata", "Bio", "Halal", "Kosher", "VeganOk"], "n": "nomi letti dai file dei loghi nella pagina; la storia cita anche ISO 14000 a fine anni '90", "s": "dic", "u": "https://latorrente.it/impegno-e-qualita/"},
+   "giudizio": {"legg": 5, "dist": 2, "coer": 4, "dis": 3, "tipo": "wordmark", "elementi": "barra rossa con bande verdi, «la» corsivo e TORRENTE in maiuscolo bianco con grazie decorative", "n": "Si legge da lontano, ma il tricolore su rosso è il codice più comune del pomodoro italiano.", "s": "val"},
+   "claim": {"v": "Coltivato al Sud", "n": "titolo in home; nella storia anche «Dal 1965, è festa tutti i giorni.»", "s": "dic", "u": "https://latorrente.it/"}
+  }
+ }
+}

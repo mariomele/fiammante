@@ -1,0 +1,68 @@
+{
+ "icab": {
+  "q": "\"La Fiammante\"",
+  "k": [
+   "fiammante",
+   "icab"
+  ]
+ },
+ "mutti": {
+  "q": "\"Mutti\" pomodoro OR Parma",
+  "k": [
+   "mutti"
+  ],
+  "x": "training center|parma calcio|mutti di|signor mutti|rugby|vittorio mutti"
+ },
+ "conserveitalia": {
+  "q": "\"Conserve Italia\" OR \"Cirio\" pomodoro",
+  "k": [
+   "conserve italia",
+   "cirio"
+  ]
+ },
+ "casalasco": {
+  "q": "\"Casalasco\" OR \"Pomì\" pomodoro",
+  "k": [
+   "casalasco",
+   "pomì",
+   "pomi"
+  ]
+ },
+ "ladoria": {
+  "q": "\"La Doria\" Angri OR conserve",
+  "k": [
+   "la doria"
+  ]
+ },
+ "petti": {
+  "q": "\"Petti\" pomodoro OR \"Italian Food\" Venturina",
+  "k": [
+   "petti",
+   "italian food"
+  ]
+ },
+ "rodolfi": {
+  "q": "\"Rodolfi Mansueto\" OR \"Rodolfi\" pomodoro",
+  "k": [
+   "rodolfi"
+  ]
+ },
+ "agromonte": {
+  "q": "\"Agromonte\" ciliegino OR Chiaramonte",
+  "k": [
+   "agromonte"
+  ]
+ },
+ "solania": {
+  "q": "\"Solania\" San Marzano OR pomodoro",
+  "k": [
+   "solania"
+  ]
+ },
+ "latorrente": {
+  "q": "\"La Torrente\" pomodoro",
+  "k": [
+   "la torrente"
+  ]
+ }
+}

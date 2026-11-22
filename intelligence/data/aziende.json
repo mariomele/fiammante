@@ -1,0 +1,471 @@
+[
+ {
+  "id": "icab",
+  "nome": "La Fiammante (ICAB)",
+  "paese": "IT",
+  "sede": "Buccino (SA)",
+  "sito": "https://www.lafiammante.it",
+  "f": {
+   "rev": [
+    43.15,
+    "ver",
+    "2025, bilancio depositato letto su reportaziende (stesso valore su aziende.it e fatturatoitalia)",
+    "https://www.reportaziende.it/icab_industrie_conserve_alimentari_buccino_spa_sa_07239170637"
+   ],
+   "ig": [
+    12854,
+    "dic",
+    "@lafiammante, profilo pubblico, 22/11/2026",
+    "https://www.instagram.com/lafiammante/"
+   ],
+   "srch": [
+    720,
+    "dic",
+    "parola «la fiammante», Italia, media nov 2025-ott 2026, Google Ads Keyword Planner (può includere omonimi)",
+    "https://ads.google.com/home/tools/keyword-planner/"
+   ]
+  },
+  "social": {
+   "ig": "lafiammante",
+   "fb": "lafiammante.e",
+   "tt": "lafiammante"
+  }
+ },
+ {
+  "id": "mutti",
+  "nome": "Mutti",
+  "paese": "IT",
+  "sede": "Montechiarugolo (PR)",
+  "sito": "https://mutti-parma.com",
+  "f": {
+   "rev": [
+    777,
+    "dic",
+    "2025, gruppo, comunicato Mutti 30/04/2026",
+    "https://mutti-parma.com/app/uploads/sites/7/2026/06/mutti-cs-dati-finanziari-2025-ita.pdf"
+   ],
+   "gro": [
+    10.6,
+    "dic",
+    "2025 sul 2024, comunicato Mutti",
+    "https://mutti-parma.com/app/uploads/sites/7/2026/06/mutti-cs-dati-finanziari-2025-ita.pdf"
+   ],
+   "emp": [
+    600,
+    "ver",
+    "2025, oltre 600 fissi più 1.600 stagionali, Report di sostenibilità 2025",
+    "https://mutti-parma.com/app/uploads/sites/7/2026/06/mutti-rs-2025-highlights-ita.pdf"
+   ],
+   "exp": [
+    60,
+    "dic",
+    "2025, comunicato Mutti",
+    "https://mutti-parma.com/app/uploads/sites/7/2026/06/mutti-cs-dati-finanziari-2025-ita.pdf"
+   ],
+   "ton": [
+    728000,
+    "ver",
+    "2025, Report di sostenibilità (il comunicato dice 725.000)",
+    "https://mutti-parma.com/app/uploads/sites/7/2026/06/mutti-rs-2025-highlights-ita.pdf"
+   ],
+   "srch": [
+    8100,
+    "dic",
+    "parola «mutti», Italia, media nov 2025-ott 2026, Google Ads Keyword Planner (può includere omonimi)",
+    "https://ads.google.com/home/tools/keyword-planner/"
+   ],
+   "ig": [
+    61242,
+    "dic",
+    "@muttipomodoroit, profilo pubblico, 22/11/2026 (da social.json)",
+    "https://www.instagram.com/muttipomodoroit/"
+   ]
+  },
+  "social": {
+   "ig": "muttipomodoroit",
+   "tt": "muttipomodoro"
+  }
+ },
+ {
+  "id": "conserveitalia",
+  "nome": "Conserve Italia (Cirio)",
+  "paese": "IT",
+  "sede": "San Lazzaro di Savena (BO)",
+  "sito": "https://www.conserveitalia.it",
+  "f": {
+   "rev": [
+    1150,
+    "dic",
+    "esercizio 2024-25, gruppo intero (Cirio, Valfrutta, Yoga…), Beverfood",
+    "https://www.beverfood.com/conserve-italia-fatturato-liquidazione-2024-2025/amp"
+   ],
+   "emp": [
+    2802,
+    "ver",
+    "media 2023/24, gruppo, più 1.398 stagionali, Report di sostenibilità 2024",
+    "https://conserveitalia.it/report-sostenibilita/documenti/report-pocket.pdf"
+   ],
+   "ton": [
+    421970,
+    "ver",
+    "2023/24, solo pomodoro, gruppo, Report di sostenibilità 2024",
+    "https://conserveitalia.it/report-sostenibilita/documenti/report-pocket.pdf"
+   ],
+   "ig": [
+    43761,
+    "dic",
+    "@ciriocuoreitaliano, profilo pubblico, 22/11/2026",
+    "https://www.instagram.com/ciriocuoreitaliano/"
+   ],
+   "srch": [
+    4400,
+    "dic",
+    "parola «cirio», Italia, media nov 2025-ott 2026, Google Ads Keyword Planner (può includere omonimi)",
+    "https://ads.google.com/home/tools/keyword-planner/"
+   ]
+  },
+  "social": {
+   "ig": "ciriocuoreitaliano",
+   "fb": "CirioPassioneVerace"
+  }
+ },
+ {
+  "id": "casalasco",
+  "nome": "Casalasco (Pomì)",
+  "paese": "IT",
+  "sede": "Rivarolo del Re (CR)",
+  "sito": "https://www.casalasco.com",
+  "f": {
+   "rev": [
+    605,
+    "dic",
+    "2024, gruppo con controllate, QdS/askanews",
+    "https://qds.it/casalasco-fatturato-2024-scende-a-605-mln-100-energia-da-rinnovabili/"
+   ],
+   "gro": [
+    -3.9,
+    "dic",
+    "2024 sul 2023 (630 M€), QdS/askanews",
+    "https://qds.it/casalasco-fatturato-2024-scende-a-605-mln-100-energia-da-rinnovabili/"
+   ],
+   "emp": [
+    2037,
+    "dic",
+    "2024, stagionali inclusi (circa 1.200 a tempo pieno), QdS/askanews",
+    "https://qds.it/casalasco-fatturato-2024-scende-a-605-mln-100-energia-da-rinnovabili/"
+   ],
+   "ton": [
+    549978,
+    "dic",
+    "2024, materia prima trasformata, QdS/askanews",
+    "https://qds.it/casalasco-fatturato-2024-scende-a-605-mln-100-energia-da-rinnovabili/"
+   ],
+   "ig": [
+    27200,
+    "dic",
+    "@pomodoro_pomi, profilo pubblico, 22/11/2026",
+    "https://www.instagram.com/pomodoro_pomi/"
+   ],
+   "srch": [
+    390,
+    "dic",
+    "parola «pomì», Italia, media nov 2025-ott 2026, Google Ads Keyword Planner (può includere omonimi)",
+    "https://ads.google.com/home/tools/keyword-planner/"
+   ]
+  },
+  "social": {
+   "ig": "pomodoro_pomi",
+   "fb": "pomi.italia",
+   "tt": "pomodoro_pomi"
+  }
+ },
+ {
+  "id": "ladoria",
+  "nome": "La Doria",
+  "paese": "IT",
+  "sede": "Angri (SA)",
+  "sito": "https://www.gruppoladoria.it",
+  "f": {
+   "rev": [
+    1375,
+    "dic",
+    "2025, consolidato di gruppo, comunicato 08/04/2026",
+    "https://adhoccommunication.it/wp-content/uploads/2026/04/CS-LA-DORIA-FATTURATO-2025.pdf"
+   ],
+   "gro": [
+    7.7,
+    "dic",
+    "2025 sul 2024, anche per acquisizioni, comunicato",
+    "https://adhoccommunication.it/wp-content/uploads/2026/04/CS-LA-DORIA-FATTURATO-2025.pdf"
+   ],
+   "emp": [
+    1221,
+    "dic",
+    "anno non indicato, Atoka (stima di terzi)",
+    "https://atoka.io/public/it/azienda/la-doria-spa/9fe32dc35d4c"
+   ],
+   "exp": [
+    81.2,
+    "dic",
+    "2025, comunicato La Doria",
+    "https://adhoccommunication.it/wp-content/uploads/2026/04/CS-LA-DORIA-FATTURATO-2025.pdf"
+   ],
+   "ig": [
+    1345,
+    "dic",
+    "@ladoria.official, profilo pubblico, 22/11/2026",
+    "https://www.instagram.com/ladoria.official/"
+   ],
+   "srch": [
+    2900,
+    "dic",
+    "parola «la doria», Italia, media nov 2025-ott 2026, Google Ads Keyword Planner (può includere omonimi)",
+    "https://ads.google.com/home/tools/keyword-planner/"
+   ]
+  },
+  "social": {
+   "ig": "ladoria.official",
+   "fb": "ladoria.official"
+  }
+ },
+ {
+  "id": "petti",
+  "nome": "Petti (Italian Food)",
+  "paese": "IT",
+  "sede": "Venturina Terme (LI)",
+  "sito": "https://www.ilpomodoropetti.com",
+  "f": {
+   "rev": [
+    40.9,
+    "ver",
+    "2025, bilancio, fatturatoitalia.it",
+    "https://www.fatturatoitalia.it/italian-food-spa-industria-conserve-alimentari-italian-food-spa-00269890653"
+   ],
+   "gro": [
+    -8.15,
+    "ver",
+    "2025 sul 2024 (44,5 M€), fatturatoitalia.it",
+    "https://www.fatturatoitalia.it/italian-food-spa-industria-conserve-alimentari-italian-food-spa-00269890653"
+   ],
+   "emp": [
+    119,
+    "dic",
+    "2026, circa 119, BeBeez",
+    "https://bebeez.it/agroalimentare/petti-record-di-pomodoro-biologico-lavorato-nello-stabilimento-toscano-italian-food-punta-sui-nuovi-formati-per-crescere/"
+   ],
+   "ton": [
+    80000,
+    "dic",
+    "campagna 2024, Foodweb",
+    "https://www.foodweb.it/2024/11/petti-termina-la-sua-campagna-piu-lunga-della-sua-storia/"
+   ],
+   "ig": [
+    21823,
+    "dic",
+    "@pettipomodoro, profilo pubblico, 22/11/2026",
+    "https://www.instagram.com/pettipomodoro/"
+   ],
+   "srch": [
+    480,
+    "dic",
+    "parola «petti pomodoro», Italia, media nov 2025-ott 2026, Google Ads Keyword Planner (può includere omonimi)",
+    "https://ads.google.com/home/tools/keyword-planner/"
+   ]
+  },
+  "social": {
+   "ig": "pettipomodoro",
+   "fb": "PettiPomodoro"
+  }
+ },
+ {
+  "id": "rodolfi",
+  "nome": "Rodolfi Mansueto",
+  "paese": "IT",
+  "sede": "Collecchio (PR)",
+  "sito": "https://www.rodolfi.com",
+  "f": {
+   "rev": [
+    139.66,
+    "ver",
+    "2025, bilancio, reportaziende.it",
+    "https://www.reportaziende.it/rodolfi_mansueto_spa_pr_01569530346"
+   ],
+   "gro": [
+    -3.28,
+    "ver",
+    "2025 sul 2024, reportaziende.it",
+    "https://www.reportaziende.it/rodolfi_mansueto_spa_pr_01569530346"
+   ],
+   "emp": [
+    164,
+    "ver",
+    "2025, reportaziende.it (circa 400 stagionali in più)",
+    "https://www.reportaziende.it/rodolfi_mansueto_spa_pr_01569530346"
+   ],
+   "exp": [
+    50,
+    "dic",
+    "2023, 'sfiora il 50%', Repubblica Parma",
+    "https://parma.bologna.repubblica.it/cronaca/2024/04/11/news/rodolfi_mansueto_fatturato_2023_sale_a_quota_130_milioni_di_euro_export_sfiora_il_50_in_arrivo_fotovoltaico_per_il_20_d-422463648/"
+   ],
+   "ton": [
+    270000,
+    "dic",
+    "2023, oltre 270.000 t, GDOnews",
+    "https://www.gdonews.it/2024/03/15/rodolfi-mansueto-crescono-fatturato-e-produzione/"
+   ],
+   "ig": [
+    7014,
+    "dic",
+    "@rodolfi_italia, profilo pubblico, 22/11/2026",
+    "https://www.instagram.com/rodolfi_italia/"
+   ],
+   "srch": [
+    590,
+    "dic",
+    "parola «rodolfi», Italia, media nov 2025-ott 2026, Google Ads Keyword Planner (può includere omonimi)",
+    "https://ads.google.com/home/tools/keyword-planner/"
+   ]
+  },
+  "social": {
+   "ig": "rodolfi_italia",
+   "fb": "rodolfiitalia"
+  }
+ },
+ {
+  "id": "agromonte",
+  "nome": "Agromonte",
+  "paese": "IT",
+  "sede": "Chiaramonte Gulfi (RG)",
+  "sito": "https://www.agromonte.it",
+  "f": {
+   "rev": [
+    37,
+    "dic",
+    "2025, Distribuzione Moderna",
+    "https://distribuzionemoderna.info/successi-e-strategie/agromonte-8-di-fatturato-nel-2025-e-focus-sullespansione-internazionale"
+   ],
+   "gro": [
+    8,
+    "dic",
+    "2025 sul 2024, Distribuzione Moderna",
+    "https://distribuzionemoderna.info/successi-e-strategie/agromonte-8-di-fatturato-nel-2025-e-focus-sullespansione-internazionale"
+   ],
+   "emp": [
+    85,
+    "dic",
+    "marzo 2025, sito aziendale (fino a 150 con stagionali)",
+    "https://www.agromonte.it/agromonte-celebra-un-anniversario-speciale-25-anni-damuri-25-anni-di-sapuri-25-anni-di-passioni-per-il-pomodorino-siciliano/"
+   ],
+   "exp": [
+    22,
+    "dic",
+    "2025, Distribuzione Moderna",
+    "https://distribuzionemoderna.info/successi-e-strategie/agromonte-8-di-fatturato-nel-2025-e-focus-sullespansione-internazionale"
+   ],
+   "ig": [
+    26326,
+    "dic",
+    "@agromonte_official, profilo pubblico, 22/11/2026",
+    "https://www.instagram.com/agromonte_official/"
+   ],
+   "srch": [
+    1300,
+    "dic",
+    "parola «agromonte», Italia, media nov 2025-ott 2026, Google Ads Keyword Planner (può includere omonimi)",
+    "https://ads.google.com/home/tools/keyword-planner/"
+   ]
+  },
+  "social": {
+   "ig": "agromonte_official",
+   "fb": "agromonteofficial",
+   "tt": "casa.agromonte"
+  }
+ },
+ {
+  "id": "solania",
+  "nome": "Solania",
+  "paese": "IT",
+  "sede": "Sarno (SA)",
+  "sito": "https://solaniasrl.it",
+  "f": {
+   "rev": [
+    43.96,
+    "ver",
+    "2024, bilancio, reportaziende.it",
+    "https://www.reportaziende.it/solania_srl_sa_04053840650"
+   ],
+   "gro": [
+    35.7,
+    "ver",
+    "2024 sul 2023, reportaziende.it",
+    "https://www.reportaziende.it/solania_srl_sa_04053840650"
+   ],
+   "emp": [
+    8,
+    "ver",
+    "2026, ufficiocamerale.it (società commerciale: la produzione è probabilmente esterna)",
+    "https://www.ufficiocamerale.it/2474/solania-srl"
+   ],
+   "ig": [
+    8278,
+    "dic",
+    "@solaniapomodoro, profilo pubblico, 22/11/2026",
+    "https://www.instagram.com/solaniapomodoro/"
+   ],
+   "srch": [
+    480,
+    "dic",
+    "parola «solania», Italia, media nov 2025-ott 2026, Google Ads Keyword Planner (può includere omonimi)",
+    "https://ads.google.com/home/tools/keyword-planner/"
+   ]
+  },
+  "social": {
+   "ig": "solaniapomodoro"
+  }
+ },
+ {
+  "id": "latorrente",
+  "nome": "La Torrente",
+  "paese": "IT",
+  "sede": "Sant'Antonio Abate (NA)",
+  "sito": "https://latorrente.it",
+  "f": {
+   "rev": [
+    40.28,
+    "ver",
+    "2025, bilancio, reportaziende.it",
+    "https://www.reportaziende.it/la_torrente_srl_na_01551351214"
+   ],
+   "gro": [
+    -4.75,
+    "ver",
+    "2025 sul 2024, reportaziende.it",
+    "https://www.reportaziende.it/la_torrente_srl_na_01551351214"
+   ],
+   "emp": [
+    53,
+    "ver",
+    "2025, reportaziende.it (80 nel 2024)",
+    "https://www.reportaziende.it/la_torrente_srl_na_01551351214"
+   ],
+   "srch": [
+    720,
+    "dic",
+    "parola «la torrente», Italia, media nov 2025-ott 2026, Google Ads Keyword Planner (può includere omonimi)",
+    "https://ads.google.com/home/tools/keyword-planner/"
+   ],
+   "ig": [
+    12758,
+    "dic",
+    "@latorrente_pomodoro, profilo pubblico, 22/11/2026 (da social.json)",
+    "https://www.instagram.com/latorrente_pomodoro/"
+   ]
+  },
+  "social": {
+   "ig": "latorrente_pomodoro",
+   "fb": "LaTorrente",
+   "tt": "latorrente_pomodoro"
+  }
+ }
+]
