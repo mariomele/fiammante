@@ -1,9 +1,15 @@
 {
  "icab": {
-  "q": "\"La Fiammante\"",
+  "q": [
+   "\"La Fiammante\"",
+   "\"Francesco Franzese\"",
+   "Franzese caporalato OR \"doppio ribasso\" OR lavoratori",
+   "\"doppio ribasso\" pomodoro Fiammante"
+  ],
   "k": [
    "fiammante",
-   "icab"
+   "icab",
+   "franzese&pomodoro|caporal|ribasso|conserv|filiera|lavorator|gdo|braccianti"
   ]
  },
  "mutti": {

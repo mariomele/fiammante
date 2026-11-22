@@ -1,5 +1,5 @@
 // Notizie da Google News RSS → news.json (gratis, senza chiave). Uso: node news.js && node render.js
-// Query in data/news_q.json: { id_azienda: { q: "query Google News", k: ["parole nel titolo"], x: "regex omonimi da escludere" } }
+// Query in data/news_q.json: { id_azienda: { q: "query Google News" o [più query], k: ["parole nel titolo"], x: "regex omonimi da escludere" } }
 // Ogni notizia ha titolo, testata, data e link originale: nessun testo inventato. Conserva quelle già raccolte.
 const fs = require('fs'), path = require('path');
 const H = __dirname, DAYS = 365, OUT = path.join(H, 'news.json');
@@ -11,8 +11,8 @@ const tag = (s, t) => ((s.match(new RegExp(`<${t}[^>]*>([\\s\\S]*?)</${t}>`)) ||
 
 (async () => {
   const seen = new Map(old.items.map(n => [n.u, n])), since = Date.now() - DAYS * 864e5;
-  for (const [id, c] of Object.entries(Q)) {
-    const u = `https://news.google.com/rss/search?q=${encodeURIComponent(c.q)}&hl=it&gl=IT&ceid=IT:it`;
+  for (const [id, c] of Object.entries(Q)) for (const q of [].concat(c.q)) {
+    const u = `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=it&gl=IT&ceid=IT:it`;
     let xml;
     try { xml = await (await fetch(u)).text(); } catch (e) { console.error(id, e.message); continue; }
     const x = c.x && new RegExp(c.x, 'i');
@@ -20,7 +20,7 @@ const tag = (s, t) => ((s.match(new RegExp(`<${t}[^>]*>([\\s\\S]*?)</${t}>`)) ||
       const src = tag(it, 'source'), t = tag(it, 'title').replace(new RegExp(` - ${src.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`), '');
       const d = new Date(tag(it, 'pubDate')), link = tag(it, 'link');
       if (isNaN(d) || d < since || !link || seen.has(link)) continue;
-      if (c.k && !c.k.some(k => norm(t).includes(norm(k)))) continue;
+      if (c.k && !c.k.some(k => { const [w, ctx] = k.split('&'); return norm(t).includes(norm(w)) && (!ctx || new RegExp(ctx, 'i').test(norm(t))) })) continue; // «nome&contesto»: il nome conta solo con una parola del settore (omonimi)
       if (x && x.test(t)) continue;
       seen.set(link, { id, d: d.toISOString().slice(0, 10), t, s: src, u: link });
     }

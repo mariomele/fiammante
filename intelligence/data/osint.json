@@ -37,6 +37,10 @@
   [
    "lan",
    "Nuovi prodotti"
+  ],
+  [
+   "imp",
+   "Impegno pubblico e campagne"
   ]
  ],
  "items": [
@@ -609,6 +613,160 @@
    "u": "https://catalogo.fiereparma.it/manifestazione/tuttofood-2026/",
    "f": "Catalogo espositori Fiere Parma – TuttoFood 2026",
    "n": "Solania srl compare nel catalogo espositori di TuttoFood 2026 (Fiera Milano Rho, 11-14 maggio). Da validare: sul catalogo Fiere Parma le pagine TuttoFood 2025 e 2026 mostrano lo stesso elenco espositori."
+  },
+  {
+   "id": "icab",
+   "c": "imp",
+   "t": "Franzese contro le aste online al doppio ribasso",
+   "d": "2017-03-13",
+   "luogo": "Buccino (SA)",
+   "paese": "IT",
+   "lat": 40.6326,
+   "lon": 15.3701,
+   "s": "dic",
+   "u": "https://www.internazionale.it/reportage/fabio-ciconte/2017/03/13/aste-online-supermercati",
+   "f": "Internazionale",
+   "n": "Nel reportage di Terra!/Internazionale l’AD Francesco Franzese paragona le aste al doppio ribasso della GDO a una slot machine e dice che il meccanismo schiaccia tutta la filiera fino agli agricoltori. Ammette di avervi partecipato soprattutto per capirne il funzionamento."
+  },
+  {
+   "id": "icab",
+   "c": "imp",
+   "t": "Patto di filiera con OP Mediterraneo e contratti regolari",
+   "d": "2019-10-17",
+   "luogo": "Buccino (SA)",
+   "paese": "IT",
+   "lat": 40.6326,
+   "lon": 15.3701,
+   "s": "dic",
+   "u": "https://ilfattoalimentare.it/caporalato-pomodori-oxfam.html",
+   "f": "Il Fatto Alimentare",
+   "n": "Franzese spiega il patto di filiera avviato nel 2011 con OP Mediterraneo: prezzi fissati entro dicembre, accordo certificato Social Footprint che impegna gli agricoltori ad assumere i braccianti con contratto regolare. Denuncia di nuovo le aste al doppio ribasso e il peso della GDO; dice di essere uscito dall’ANICAV."
+  },
+  {
+   "id": "icab",
+   "c": "imp",
+   "t": "Caro gas: bolletta da circa 1 mln e prezzi del pomodoro",
+   "d": "2022-08-18",
+   "luogo": "Buccino (SA)",
+   "paese": "IT",
+   "lat": 40.6326,
+   "lon": 15.3701,
+   "s": "dic",
+   "u": "https://www.scattidigusto.it/pomodori-pelati-prezzi",
+   "f": "Scatti di Gusto",
+   "n": "Franzese rende pubblica in un post la bolletta del gas di luglio 2022 (circa 918-978 mila euro contro 120 mila nel 2021) e prevede rincari a scaffale di circa l’80% per pelati e passata. Accusa la politica in campagna elettorale di lasciare soli gli imprenditori."
+  },
+  {
+   "id": "ladoria",
+   "c": "imp",
+   "t": "Certificazione Social Footprint AAA sulla filiera pomodoro",
+   "d": "2022-12-01",
+   "luogo": "Angri (SA)",
+   "paese": "IT",
+   "lat": 40.7377,
+   "lon": 14.5723,
+   "s": "dic",
+   "u": "https://www.beverfood.com/doria-ottiene-certificazione-social-footprint-filiera-pomodoro-wd/",
+   "f": "Beverfood.com",
+   "n": "Bureau Veritas assegna alla linea pomodoro di La Doria il livello AAA Social Footprint, su circa 4.500 lavoratori e 350 aziende agricole in cinque regioni. Termine di confronto diretto con la certificazione sociale di La Fiammante."
+  },
+  {
+   "id": "mutti",
+   "c": "imp",
+   "t": "Francesco Mutti contro le gare al ribasso della centrale Constellation",
+   "d": "2026-07-08",
+   "luogo": "Montechiarugolo (PR)",
+   "paese": "IT",
+   "lat": 44.6872,
+   "lon": 10.3762,
+   "s": "dic",
+   "u": "https://www.internazionale.it/notizie/fabio-ciconte/2026/07/08/la-svendita-forzata-dei-pomodori-italiani",
+   "f": "Internazionale",
+   "n": "Nell’inchiesta di Terra! su una gara al ribasso della centrale europea Constellation (30 giugno 2026), l’AD Francesco Mutti dice che il cibo non può essere trattato come un oggetto e che la pressione sui prezzi ricade su agricoltori e lavoro."
+  },
+  {
+   "id": "icab",
+   "c": "imp",
+   "t": "Franzese a Tagadà (La7) contro le aste della GDO",
+   "d": "2017-03-20",
+   "luogo": "Buccino (SA)",
+   "paese": "IT",
+   "lat": 40.6326,
+   "lon": 15.3701,
+   "s": "dic",
+   "u": "https://www.italiafruit.net/penalizzato-dalle-aste-della-gdo",
+   "f": "Italiafruit News",
+   "n": "In TV su La7, dopo l’inchiesta di Internazionale, Franzese dice che le aste al doppio ribasso si chiudono quasi sempre sottocosto (latta di polpa da 400 g a 20 centesimi contro 22 di costo industriale) e che il margine perso ricade sugli agricoltori."
+  },
+  {
+   "id": "icab",
+   "c": "imp",
+   "t": "Successo della campagna #ASTEnetevi di Terra!",
+   "d": "2017-04-12",
+   "luogo": "Buccino (SA)",
+   "paese": "IT",
+   "lat": 40.6326,
+   "lon": 15.3701,
+   "s": "dic",
+   "u": "https://www.lafiammante.it/blog/post/stop-alle-aste-a-doppio-ribasso",
+   "f": "Blog La Fiammante",
+   "n": "La Fiammante rivendica la campagna #ASTEnetevi di Terra! onlus, partita dalla denuncia di Franzese nell’inchiesta #FilieraSporca: il ministro Martina, Federdistribuzione e Conad si impegnano a un codice etico sulle pratiche commerciali."
+  },
+  {
+   "id": "icab",
+   "c": "imp",
+   "t": "Filiera tracciata in blockchain e campagna #solodapomodorofresco",
+   "d": "2022-02-06",
+   "luogo": "Buccino (SA)",
+   "paese": "IT",
+   "lat": 40.6326,
+   "lon": 15.3701,
+   "s": "dic",
+   "u": "https://www.gdonews.it/2022/02/06/la-fiammante-filiera-corta-e-blockchain-a-tutela-della-qualita/",
+   "f": "GDO News",
+   "n": "La Fiammante pubblica i dati di filiera (varietà, agricoltori, date di produzione) su blockchain con My Story di DNV e QR code su tutti i prodotti; la fonte ricorda la sua campagna contro le aste al doppio ribasso, poi vietate."
+  },
+  {
+   "id": "icab",
+   "c": "imp",
+   "t": "Progetto NO CAP: lavoratori migranti assunti nello stabilimento",
+   "d": "2022-09-14",
+   "luogo": "Buccino (SA)",
+   "paese": "IT",
+   "lat": 40.6326,
+   "lon": 15.3701,
+   "s": "dic",
+   "u": "https://www.lafiammante.it/blog/post/la-fiammante-e-no-cap-contro-lo-sfruttamento-un-modello-di-integrazione",
+   "f": "Blog La Fiammante",
+   "n": "Con l’associazione anticaporalato NO CAP, Caritas e le diocesi di Salerno e Teggiano-Policastro, ICAB inserisce al lavoro nello stabilimento di Buccino migranti che vivono a Campolongo (Eboli). Franzese dice che il progetto si autofinanzia."
+  },
+  {
+   "id": "icab",
+   "c": "imp",
+   "t": "NO CAP: primi 9 braccianti con contratto CCNL, obiettivo 50",
+   "d": "2022-09-16",
+   "luogo": "Buccino (SA)",
+   "paese": "IT",
+   "lat": 40.6326,
+   "lon": 15.3701,
+   "s": "dic",
+   "u": "https://www.lucianopignataro.it/a/la-fiammante-i-pomodori-ottenuti-da-un-filiera-etica-che-ha-abolito-il-caporalato/222546/",
+   "f": "Luciano Pignataro Wine&Food Blog",
+   "n": "Il progetto con NO CAP parte con nove lavoratori dal ghetto di Campolongo assunti con contratto CCNL per tre mesi l’anno, con l’obiettivo di arrivare a 50 e includere donne; le conserve portano il bollino No Cap."
+  },
+  {
+   "id": "icab",
+   "c": "imp",
+   "t": "Terra! rilancia la petizione contro le aste citando Franzese",
+   "d": "2026-07-08",
+   "luogo": "Buccino (SA)",
+   "paese": "IT",
+   "lat": 40.6326,
+   "lon": 15.3701,
+   "s": "dic",
+   "u": "https://www.associazioneterra.it/news/tornano-le-aste-al-ribasso-fermiamole-insieme",
+   "f": "Terra! Onlus",
+   "n": "Terra! ricostruisce la battaglia (inchieste 2016, #ASTEnetevi con Flai CGIL 2017, d.lgs. 198/2021) e lancia la petizione «Ferma le aste al ribasso», riprendendo la frase di Franzese del 2017 sulla slot machine. La Fiammante non è nominata come promotrice."
   }
  ]
 }
