@@ -54,7 +54,13 @@ function build() {
   if (err.length) { console.error('Dati non validi:\n- ' + err.join('\n- ')); process.exit(1); }
   const js = JSON.stringify(D).replace(/</g, '\\u003c');
   const out = fs.readFileSync(path.join(H, 'tpl.html'), 'utf8').replace('__DATA__', () => js);
-  fs.writeFileSync(path.join(H, 'index.html'), out);
+  // favicon (brand/icon.svg incorporata) e anteprima social (brand/og.png + meta.url): tag statici, i social non eseguono JS
+  const M = D.meta, ea = v => String(v).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;'), bf = f => fs.existsSync(path.join(H, 'brand', f));
+  const tit = ea(M.nome + (M.sottotitolo ? ' · ' + M.sottotitolo : '')), ver = (M.aggiornato || '').replace(/-/g, '');
+  const head = `<title>${tit}</title>` + (bf('icon.svg') ? `\n<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,${fs.readFileSync(path.join(H, 'brand/icon.svg')).toString('base64')}">` : '') +
+    (bf('favicon-32.png') ? `<link rel="icon" type="image/png" sizes="32x32" href="brand/favicon-32.png">` : '') + (bf('apple-touch-icon.png') ? `<link rel="apple-touch-icon" href="brand/apple-touch-icon.png">` : '') +
+    (M.url && bf('og.png') ? `\n<meta property="og:type" content="website"><meta property="og:title" content="${tit}"><meta property="og:description" content="${ea(M.descrizione || '')}"><meta name="description" content="${ea(M.descrizione || '')}"><meta property="og:url" content="${ea(M.url)}"><meta property="og:image" content="${ea(M.url)}brand/og.png?v=${ver}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${ea(M.url)}brand/og.png?v=${ver}">` : '');
+  fs.writeFileSync(path.join(H, 'index.html'), out.replace('<title>Intelligence</title>', () => head));
   console.log('index.html', Buffer.byteLength(out), 'byte,', D.aziende.length, 'aziende,', D.news.items.length, 'notizie');
 }
 

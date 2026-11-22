@@ -1,49 +1,51 @@
 {
- "nome": "Fiammante Intelligence",
- "sottotitolo": "radar conserve di pomodoro",
- "azienda": "icab",
- "colore": "#d60723",
- "aggiornato": "2026-11-22",
- "nota": "Prima versione di prova costruita solo su fonti pubbliche, senza documenti interni di ICAB. Instagram = profilo italiano del marchio; volumi di ricerca = parola cercata su Google in Italia (media 12 mesi, può includere omonimi).",
- "metriche": [
-  {
-   "k": "rev",
-   "l": "Ricavi",
-   "u": "M€",
-   "dec": 1
-  },
-  {
-   "k": "gro",
-   "l": "Crescita ricavi",
-   "u": "%",
-   "dec": 1
-  },
-  {
-   "k": "emp",
-   "l": "Dipendenti",
-   "u": ""
-  },
-  {
-   "k": "exp",
-   "l": "Quota export",
-   "u": "%"
-  },
-  {
-   "k": "ton",
-   "l": "Pomodoro trasformato",
-   "u": "t"
-  },
-  {
-   "k": "ig",
-   "l": "Follower Instagram",
-   "u": ""
-  },
-  {
-   "k": "srch",
-   "l": "Ricerche Google al mese",
-   "u": ""
-  }
- ],
- "logo": "logos/icab.png",
- "logo_u": "https://www.lafiammante.it/media/logo/default/logo_2.png"
+  "nome": "Fiammante Intelligence",
+  "sottotitolo": "radar conserve di pomodoro",
+  "azienda": "icab",
+  "colore": "#d60723",
+  "aggiornato": "2026-11-22",
+  "nota": "Prima versione di prova costruita solo su fonti pubbliche, senza documenti interni di ICAB. Instagram = profilo italiano del marchio; volumi di ricerca = parola cercata su Google in Italia (media 12 mesi, può includere omonimi).",
+  "metriche": [
+    {
+      "k": "rev",
+      "l": "Ricavi",
+      "u": "M€",
+      "dec": 1
+    },
+    {
+      "k": "gro",
+      "l": "Crescita ricavi",
+      "u": "%",
+      "dec": 1
+    },
+    {
+      "k": "emp",
+      "l": "Dipendenti",
+      "u": ""
+    },
+    {
+      "k": "exp",
+      "l": "Quota export",
+      "u": "%"
+    },
+    {
+      "k": "ton",
+      "l": "Pomodoro trasformato",
+      "u": "t"
+    },
+    {
+      "k": "ig",
+      "l": "Follower Instagram",
+      "u": ""
+    },
+    {
+      "k": "srch",
+      "l": "Ricerche Google al mese",
+      "u": ""
+    }
+  ],
+  "logo": "logos/icab.png",
+  "logo_u": "https://www.lafiammante.it/media/logo/default/logo_2.png",
+  "url": "https://mariomele.github.io/fiammante/intelligence/",
+  "descrizione": "Concorrenti, marchio e mercato del pomodoro de La Fiammante in un'unica dashboard: bilanci, gamma, export, social, SEO, risposte AI, OSINT e standing del marchio."
 }
