@@ -50,6 +50,8 @@ function build() {
   for (const b of Object.values((D.brand || {}).az || {})) { const f = b.logo && b.logo.f && path.join(H, b.logo.f); if (f && fs.existsSync(f)) b.logo.data = 'data:image/png;base64,' + fs.readFileSync(f).toString('base64'); }
   // i 10 loghi mondiali di riferimento per il Global logo index (logos/top, come Massini)
   const td = path.join(H, 'logos', 'top'); if (D.brandx && fs.existsSync(td)) { D.toplogos = {}; for (const f of fs.readdirSync(td).filter(f => f.endsWith('.png'))) D.toplogos[f.slice(0, -4)] = 'data:image/png;base64,' + fs.readFileSync(path.join(td, f)).toString('base64'); }
+  // foto delle bottiglie (pack.json → logos/pack/) dentro la pagina
+  for (const x of ((D.pack || {}).items || [])) { const f = x.img && path.join(H, x.img); if (f && fs.existsSync(f)) x.data = `data:image/${path.extname(f).slice(1).replace('jpg', 'jpeg')};base64,` + fs.readFileSync(f).toString('base64'); }
   const err = validate(D);
   if (err.length) { console.error('Dati non validi:\n- ' + err.join('\n- ')); process.exit(1); }
   const js = JSON.stringify(D).replace(/</g, '\\u003c');
