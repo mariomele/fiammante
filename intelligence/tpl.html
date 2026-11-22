@@ -287,6 +287,8 @@ small.sub a{color:var(--mut)}
 .std td{white-space:normal;text-align:left}.std td:nth-child(n+4):nth-child(-n+7){text-align:right}
 @media(max-width:620px){.btk{flex-wrap:wrap}.btk .btn{flex:1 1 100%;min-width:0;white-space:normal}.lzk small{white-space:nowrap}}
 .bpl li,.chap a,.chap small,.kf{overflow-wrap:anywhere}
+.lgax{position:relative;margin:14px 18px 6px}.lgpt{position:absolute;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:2px}.lgpt img{width:70px;height:34px;object-fit:contain;background:#fff;border-radius:5px;padding:3px}.lgpt.me img{outline:3px solid var(--me);outline-offset:1px}.lgpt b{font:600 10px var(--mono);color:var(--mut)}.lgal{position:absolute;left:0;right:0;bottom:0;height:30px;border-top:1px solid var(--ln)}.lgal span{position:absolute;transform:translateX(-50%);top:4px;font:600 10px var(--mono);color:var(--mut);display:flex;flex-direction:column;align-items:center;gap:3px}.lgal i{width:2px;height:8px;margin-top:-8px}
+@media(max-width:620px){.lgpt img{width:44px;height:24px}.lgax{margin:14px 10px 6px}}
 .pgh{font:600 12px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--mut);margin:26px 0 10px;padding-top:14px;border-top:1px solid var(--ln)}
 .tkk{margin-left:0}
 .lts{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin:6px 0 2px}.lts span{background:rgba(255,255,255,.03);border:1px solid var(--ln);border-radius:6px;padding:3px 6px;display:flex;flex-direction:column}.lts i{font:600 9px ui-monospace,Menlo,monospace;letter-spacing:.06em;text-transform:uppercase;color:var(--mut);font-style:normal}.lts b{font:700 15px ui-monospace,Menlo,monospace}.lts small{font-size:10px;color:var(--mut);font-weight:400}
@@ -789,10 +791,17 @@ const hmx=(rows,cols,val,fmtv,tip,mxv)=>{const all=rows.flatMap(r=>cols.map(c=>v
 const BX=D.brandx,BXL=(BX||{}).logos||{},BXT=(BX||{}).team||{},bxAvg=id=>{const c=(BXL[id]||{}).c;if(!c)return null;const v=Object.values(c);return v.reduce((s,x)=>s+x,0)/v.length};
 const TK={'Riferimento':'var(--grn)','Solido':'#2ec4b6','Nella norma':'var(--ac)','Debole':'#f5a524','Da rifare':'var(--red)'},TOPF=['apple','nike','cocacola','mcdonalds','google','mercedes','fedex','starbucks','disney','ibm'];
 const lgImg=(id,t)=>BR_[id]?.logo?.data?`<img src="${BR_[id].logo.data}" alt="${esc(nm(id))}" data-tip="${esc(t)}"${id===ME?' class="me"':''} loading="lazy">`:'';
+// scala di settore continua: ogni logo al suo valore esatto su un asse 1-5 con tacche ogni 0,5; i loghi vicini salgono di livello per non sovrapporsi
+function lgSect(ids){
+  const X=v=>(v-1)/4*100,L=[],pts=ids.map(id=>[id,bxAvg(id)]).sort((a,b)=>a[1]-b[1]).map(([id,v])=>{let r=0;while(L.some(q=>q.r===r&&Math.abs(q.x-X(v))<9))r++;const o={id,v,x:X(v),r};L.push(o);return o}),R=Math.max(...pts.map(p=>p.r))+1;
+  return`<div class="card"><h3>Il logo sulla scala del settore</h3>${sseg('lgS',[['g','Global logo index'],['s','Settore']],'g')}
+  <div class="lgax" style="height:${R*52+56}px">${pts.map(p=>`<div class="lgpt${p.id===ME?' me':''}" style="left:${p.x}%;bottom:${40+p.r*52}px">${lgImg(p.id,nm(p.id)+' · '+fmt(p.v,{dec:2})+'/5 · '+(BXT[p.id]?.k||''))}<b>${fmt(p.v,{dec:1})}</b></div>`).join('')}
+  <div class="lgal">${[...Array(9)].map((_,i)=>{const v=1+i*.5;return`<span style="left:${X(v)}%"><i style="background:hsl(${Math.round((v-1)/4*125)} 62% 42%)"></i>${String(v).replace('.',',')}</span>`}).join('')}</div></div>
+  <p class="note">Media dei 9 criteri da 1 a 5, al valore esatto; tacche ogni 0,5. Fasce di classe: Da rifare sotto 2,1 · Debole 2,1-2,8 · Nella norma 2,8-3,3 · Solido 3,3-4 · Riferimento da 4. Il nostro logo è cerchiato.</p></div>`}
 function lgScale(){
   const ids=IDS.filter(id=>BXL[id]);if(ids.length<3)return'';const g=(ST.lgS||'g')==='g',TOP=BX.top||[],cols=[];
   if(g)for(let w=1;w<=10;w++)cols.push([w,w>=9?TOP.map((n,k)=>(w===10?k<5:k>=5)&&D.toplogos?.[TOPF[k]]?`<img src="${D.toplogos[TOPF[k]]}" alt="${esc(n)}" data-tip="${esc((k+1)+'° '+n+' · classifica mondiale')}" loading="lazy">`:'').join(''):ids.filter(id=>BXT[id]?.w===w).map(id=>lgImg(id,nm(id)+' · Global '+w+'/10 · '+(BXT[id].wv||''))).join(''),(w-1)/9]);
-  else for(let v=1.5;v<=4.5;v+=.5)cols.push([String(v).replace('.',','),ids.filter(id=>Math.round(bxAvg(id)*2)/2===v).map(id=>lgImg(id,nm(id)+' · '+fmt(bxAvg(id),{dec:1})+'/5')).join(''),(v-1.5)/3]);
+  else return lgSect(ids);
   return`<div class="card"><h3>Il logo sulla scala ${g?'mondiale':'del settore'}</h3>${sseg('lgS',[['g','Global logo index'],['s','Settore']],'g')}<div class="lsr" style="grid-template-columns:repeat(${cols.length},minmax(0,1fr))">${cols.map(c=>`<div class="lsc"><div class="lsl">${c[1]}</div><b style="background:hsl(${Math.round(c[2]*125)} 62% 42%)">${c[0]}</b></div>`).join('')}</div>
   <p class="note">${g?'Global logo index da 1 a 10: i loghi del settore accanto ai 10 marchi di riferimento mondiali (9-10, a destra). Il nostro logo è cerchiato.':'Voto fra pari da 1 a 5: media dei 9 criteri, arrotondata al mezzo punto. Il nostro logo è cerchiato.'}</p></div>`}
 const TKO=['Riferimento','Solido','Nella norma','Debole','Da rifare'],bxRank=()=>IDS.filter(id=>BXL[id]).sort((a,b)=>(bxAvg(b)-bxAvg(a))||((BXT[b]?.w||0)-(BXT[a]?.w||0)));
@@ -811,9 +820,8 @@ function lgPanel(){
       <div class="ltpc"><div><div class="lth ok">Cosa tiene</div><ul>${(x.pro||[]).map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div><div><div class="lth ko">Cosa non regge</div><ul>${(x.contro||[]).map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div></div>
       ${x.fix?`<p class="ltl"><b>Cosa cambiare</b>${esc(x.fix)}</p>`:''}${t.wv?`<p class="ltl"><b>Sulla scala mondiale</b>${esc(t.wv)}</p>`:''}${t.lez&&id!==ME?`<p class="ltl"><b>Per ${esc(sn(ME))}</b>${esc(t.lez)}</p>`:''}
       <div class="ltx">${(b.colori?.v||[]).length?`<span class="sw">${b.colori.v.map(c=>`<i style="background:${hx6(c)}" data-tip="${esc(c)}"></i>`).join('')}</span>`:''}${b.claim?.v?`<span class="clm">«${esc(b.claim.v)}» ${so(b.claim)}</span>`:''}${(b.cert?.v||[]).length?`<span class="note">${b.cert.v.map(esc).join(' · ')}</span>`:''}${b.arch?.marchi?.length?`<span class="note">${esc(b.arch.tipo||'Marchi')}: ${b.arch.marchi.map(esc).join(', ')}</span>`:''}</div></div>`:''}</div>`};
-  return`<div class="card"><h3>I loghi in classifica</h3>${sseg('lgV',[['s','Essenziale'],['v','Con i voti'],['c','Completa']],'s')}<div class="lgg2" id="lgG">${ids.map(tile).join('')}</div>
+  return`${lgScale()}<div class="card"><h3>I loghi in classifica</h3>${sseg('lgV',[['s','Essenziale'],['v','Con i voti'],['c','Completa']],'s')}<div class="lgg2" id="lgG">${ids.map(tile).join('')}</div>
   <p class="note">Ordine per media dei 9 criteri (settore). Classe e Global logo index si ricavano dalla stessa media, quindi non si contraddicono: ${esc(BX.regola||'')} Clic su un logo per il parere dei 7 esperti.</p></div>
-  ${lgScale()}
   <h2 class="pgh">Analisi dei loghi</h2>
   ${F?`<div class="card mine"><h3>Il logo di ${esc(sn(ME))} secondo il panel</h3><div class="lgme"><div class="lgt2">${lgImg(ME,nm(ME))}</div><div><p class="lgsint">${esc(F.sintesi||'')}</p>${F.sottomarchi?`<p class="note"><b>Sottomarchi.</b> ${esc(F.sottomarchi)}</p>`:''}</div></div>
     <div class="maprow">${(F.rischi||[]).length?`<div><div class="lth ko">Rischi</div><ul class="bpl">${F.rischi.map(r=>`<li>${esc(r)}</li>`).join('')}</ul></div>`:''}${(F.mosse||[]).length?`<div><div class="lth ok">Mosse</div><table class="mvt"><thead><tr><th>Mossa</th><th>Impatto</th><th>Sforzo</th></tr></thead><tbody>${F.mosse.map(m=>`<tr><td>${esc(m[0])}</td><td>${esc(m[1])}</td><td>${esc(m[2])}</td></tr>`).join('')}</tbody></table></div>`:''}</div></div>`:''}

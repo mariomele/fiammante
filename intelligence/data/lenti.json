@@ -2,33 +2,21 @@
  "at": "2026-11-22",
  "s": "val",
  "domande": [
-  "Quale architettura per La Fiammante, La Reale e La Paesana?",
   "Il logo La Fiammante va ritoccato o ridisegnato, e serve un segno compatto?",
-  "Come salire verso il premium (DOP, pizzerie) senza perdere il carattere popolare?"
+  "Come salire verso il premium e le pizzerie: dentro il marchio o con una linea a parte?",
+  "Quale tono e quali codici a scaffale, accanto a Mutti e Pomì?"
  ],
- "risposta": "La Fiammante diventa il marchio madre di tutto ICAB. La Reale e La Paesana restano come etichette storiche del concentrato, firmate «di La Fiammante». La linea DOP, con San Marzano e Piennolo del Vesuvio, sta dentro La Fiammante: ha una versione scura del logo e un pack più sobrio, ma non diventa un marchio nuovo. Il logo si ritocca a fondo e non si rifà da zero. Si tiene la scritta tonda e minuscola, che è l'unica di questo tipo nella categoria, piena e a un colore. Bandierina, scintilla, contorno, ombra e payoff escono dal logo. Dalla «f» si ricava un segno compatto per il tappo, la favicon e i social. Verso il premium si sale con il prodotto (DOP, filiera etica, FSSC 24000) e con le pizzerie, non cambiando tono al marchio. Quattro lenti su sette scelgono questa strada. JKR e Aaker preferiscono tenere tre marchi con una firma comune. Pearlfisher vuole una linea premium con un nome proprio.",
+ "risposta": "Il logo si ritocca a fondo e non si rifà da zero. Si tiene la scritta tonda e minuscola, l'unica di questo tipo nella categoria, piena e a un colore. Bandierina, scintilla, contorno, ombra e payoff escono dal logo. Dalla «f» si ricava un segno compatto per il tappo, la favicon e i social. Il premium e le pizzerie stanno dentro La Fiammante, come famiglie dello stesso marchio: la gamma di tutti i giorni, una famiglia DOP con il logo in versione scura e una famiglia pizzeria con Pa' Pizza. Il tono resta caldo e popolare. Non si copia lo scudo di Mutti: si sale mostrando il prodotto e la filiera etica. A scaffale il rosso resta, ma serve un secondo colore fisso per uscire dal blocco dei rossi. Cinque lenti su sette scelgono questa strada. Pentagram vuole ridisegnare tutto il marchio, Pearlfisher vuole una linea premium con un nome proprio.",
  "premesse": [
   {
    "s": "dic",
-   "t": "ICAB ha tre marchi e 76 prodotti nello shop: La Fiammante 65, La Reale 6, La Paesana (F.lli Paudice) 5. La Reale e La Paesana vendono solo concentrato.",
+   "t": "La Fiammante ha 65 prodotti nello shop: pelati, passate, polpa, pomodorini, datterini, bio, DOP, legumi e grandi formati. Non ci sono sughi pronti né brick.",
    "f": "gamma.json, sezione Gamma prodotti",
    "u": "https://www.lafiammante.it/catalogo.html"
   },
   {
-   "s": "dic",
-   "t": "Il blog di lafiammante.it chiama La Reale e La Paesana «marchi storici di ICAB»: rilevati negli anni '70, prodotti a Buccino, con gli antichi loghi e le etichette rimessi in uso.",
-   "f": "gamma.json, sezione Gamma prodotti",
-   "u": "https://www.lafiammante.it/blog/post/tornano-a-splendere-gli-antichi-loghi-e-le-etichette-la-reale-e-la-paesana-flli-paudice-gli-altri-du"
-  },
-  {
-   "s": "dic",
-   "t": "Fra i tre marchi non c'è nessuna firma, segno o colore comune. Dal logo principale non si capisce che dietro c'è una casa di marchi.",
-   "f": "brand.json (arch) e brandx.json, sezione Loghi e marchio",
-   "u": "https://www.lafiammante.it/progetto"
-  },
-  {
    "s": "val",
-   "t": "Per il panel di sette mestieri il logo de La Fiammante è nono su 10, «Debole», con media 2,3 su 5 sui 9 criteri e indice globale 1 su 10. Riduzione, uso a un colore e percezione premium hanno 2 su 5; Mutti («Solido») ha 5 per il premium. L'unico «Riferimento» del settore è Pomì (4,0).",
+   "t": "Per il panel di sette mestieri il logo de La Fiammante è nono su 10, «Debole», con media 2,3 su 5 sui 9 criteri e indice globale 1 su 10. Riduzione, uso a un colore e percezione premium hanno 2 su 5. Mutti è «Solido» (3,7, Global 4) e l'unico «Riferimento» è Pomì (4,0, Global 5).",
    "f": "brandx.json, sezione Loghi e marchio"
   },
   {
@@ -38,20 +26,26 @@
   },
   {
    "s": "dic",
-   "t": "La Fiammante è l'unico marchio del cruscotto con il Pomodorino del Piennolo del Vesuvio DOP. Il San Marzano DOP lo hanno anche Mutti, La Torrente e Solania. Non c'è una linea dichiarata premium: DOP e Corbarino stanno nella gamma normale.",
+   "t": "La Fiammante è l'unico marchio del cruscotto con il Pomodorino del Piennolo del Vesuvio DOP, in vetro. Il San Marzano DOP lo hanno anche Mutti, La Torrente e Solania. Non c'è una linea dichiarata premium: DOP e Corbarino stanno nella gamma normale.",
    "f": "gamma.json, sezione Gamma prodotti",
-   "u": "https://www.lafiammante.it/pomodoro-pelato-s-marzano-dop-400g.html"
+   "u": "https://www.lafiammante.it/pomodorino-del-piennolo-del-vesuvio-dop-succo-vetro.html"
   },
   {
    "s": "dic",
-   "t": "ICAB è la prima azienda italiana certificata FSSC 24000 (maggio 2025). Sulla domanda sulla filiera etica, ChatGPT e Perplexity nominano La Fiammante per prima.",
-   "f": "osint.json, sezione OSINT; geo2.json, sezione Risposte AI in dettaglio",
+   "t": "Per le pizzerie c'è già una categoria Horeca, con la Polpa finissima Pa' Pizza da 4,5 kg.",
+   "f": "gamma.json, sezione Gamma prodotti",
+   "u": "https://www.lafiammante.it/catalogo/horeca.html"
+  },
+  {
+   "s": "dic",
+   "t": "La Fiammante è la prima azienda italiana certificata FSSC 24000 (maggio 2025), una certificazione di responsabilità sociale su diritti umani, lavoro e sicurezza.",
+   "f": "osint.json, sezione OSINT",
    "u": "https://www.lafiammante.it/blog/post/diritti-umani-lavoro-ambiente-icab-la-fiammante-prima-azienda-certificata-fssc-24000"
   },
   {
    "s": "val",
-   "t": "Nelle risposte AI La Fiammante è citata 4 volte su 40, Mutti 22 e Cirio 13. Sulle domande sulla pizza napoletana è citata 0 volte su 8.",
-   "f": "conteggio del cruscotto sulle 40 risposte di geo2.json, sezione Risposte AI in dettaglio"
+   "t": "Nelle risposte AI La Fiammante è citata 4 volte su 40, Mutti 22 e Cirio 13. Sulle domande sulla pizza napoletana è citata 0 volte su 8. Sulla filiera etica ChatGPT e Perplexity la nominano per prima.",
+   "f": "conteggio del cruscotto sulle risposte di geo2.json, sezione Risposte AI in dettaglio"
   },
   {
    "s": "val",
@@ -66,24 +60,30 @@
   },
   {
    "s": "dic",
-   "t": "Il marchio è conosciuto soprattutto in Campania: l'indice Trends di «la fiammante» è 100 in Campania e 19 in Lombardia. Le ricerche sono 720 al mese contro 8.100 di Mutti. «Fiammante» è anche una parola comune, quindi la curva è rumorosa.",
-   "f": "trends.json, sezione Trends (Google Trends, Italia, 5 anni); ricerche al mese da DataForSEO Keyword Planner, sezione Confronto",
+   "t": "Il marchio è conosciuto soprattutto in Campania: l'indice Trends di «la fiammante» è 100 in Campania e 19 in Lombardia. «Fiammante» è anche una parola comune, quindi la curva è rumorosa. Le ricerche sono 720 al mese contro 8.100 di Mutti.",
+   "f": "trends.json, sezione Trends; ricerche al mese da DataForSEO Keyword Planner, sezione Confronto",
    "u": "https://trends.google.it/trends/explore?date=today%205-y&geo=IT&q=la%20fiammante"
   },
   {
    "s": "val",
-   "t": "Su Instagram i post di filiera rendono il triplo delle ricette: 0,84% di engagement mediano contro 0,27%. Pubblico: Facebook 103.883, Instagram 12.854, TikTok 1.450.",
-   "f": "mediane calcolate dal cruscotto su posts.json; follower da social.json; sezioni Engagement per tipo di post e Social"
+   "t": "Su Instagram i post di filiera rendono il triplo delle ricette: 0,84% di engagement mediano contro 0,27%. Eppure le ricette sono il tema più usato (10 post su 24).",
+   "f": "mediane calcolate dal cruscotto su posts.json, sezione Engagement per tipo di post"
   },
   {
    "s": "val",
-   "t": "7 marchi su 10 hanno il rosso come primo colore. La palette de La Fiammante ha già un verde (#8DB339) accanto al rosso.",
+   "t": "7 marchi su 10 hanno il rosso come primo colore. Si staccano solo Cirio (blu), Agromonte (nero) e Solania (verde). La palette de La Fiammante ha già un verde (#8DB339) accanto al rosso.",
    "f": "conteggio del cruscotto sui colori di brand.json, sezione Loghi e marchio"
+  },
+  {
+   "s": "dic",
+   "t": "Nel logo c'è il payoff «Sani e mediterranei»; il titolo della home dice invece «pomodoro 100% italiano da filiera corta».",
+   "f": "brand.json (claim), sezione Loghi e marchio",
+   "u": "https://www.lafiammante.it"
   }
  ],
  "oggi": {
-  "titolo": "Un buon prodotto sotto un marchio che vale meno",
-  "fatto": "Tre marchi e 76 prodotti, senza una firma che li leghi; l'unico Piennolo DOP del settore venduto con un logo da marca popolare.",
+  "titolo": "Un buon prodotto sotto un logo che vale meno",
+  "fatto": "L'unico Piennolo DOP del settore e la prima FSSC 24000 d'Italia, venduti con un logo da marca popolare e senza una linea alta.",
   "frase": "Il catalogo dice DOP e filiera etica, il logo dice prezzo accessibile.",
   "kpi": [
    {
@@ -94,72 +94,66 @@
     "f": "sezione Standing del marchio"
    },
    {
+    "n": "2,3",
+    "u": "/5",
+    "t": "il voto del logo per il panel: «Debole», nono su 10; Pomì e Mutti stanno sopra 3,5",
+    "s": "val",
+    "f": "sezione Loghi e marchio",
+    "bar": [
+     ["Pomì", 4.0, "#e8eef5"],
+     ["Mutti", 3.7, "#5b9cf0"],
+     ["La Fiammante", 2.3, "#d60723"]
+    ],
+    "max": 5
+   },
+   {
     "n": "4",
     "u": " su 40",
     "t": "risposte AI che citano La Fiammante; Mutti è citata in 22",
     "s": "val",
     "f": "conteggio del cruscotto sulle risposte di geo2.json, sezione Risposte AI in dettaglio",
     "bar": [
-     [
-      "Mutti",
-      22,
-      "#5b9cf0"
-     ],
-     [
-      "Cirio",
-      13,
-      "#e8eef5"
-     ],
-     [
-      "La Fiammante",
-      4,
-      "#d60723"
-     ]
+     ["Mutti", 22, "#5b9cf0"],
+     ["Cirio", 13, "#e8eef5"],
+     ["La Fiammante", 4, "#d60723"]
     ],
     "max": 40
    },
    {
-    "n": "9°",
-    "u": " su 10",
-    "t": "il logo per il panel di sette mestieri: «Debole», percezione premium 2 su 5",
-    "s": "val",
-    "f": "sezione Loghi e marchio"
-   },
-   {
     "n": "0",
-    "u": "https://www.lafiammante.it/progetto",
+    "u": " premi",
     "t": "fra 2022 e 2026, mentre Mutti, Petti, Agromonte e La Torrente ne hanno",
     "s": "dic",
-    "f": "sezione Loghi e marchio (premi)"
+    "f": "sezione Loghi e marchio (premi)",
+    "u": "https://www.lafiammante.it/progetto"
    }
   ]
  },
  "opzioni": [
   {
    "id": "A",
-   "nome": "La Fiammante marchio madre",
-   "sintesi": "Un solo nome firma tutto: La Fiammante. La Reale e La Paesana diventano etichette storiche del concentrato «di La Fiammante», e la linea DOP è la parte alta dello stesso marchio.",
+   "nome": "Ritocco e famiglie dentro il marchio",
+   "sintesi": "Il logo si pulisce e prende un segno compatto. La Fiammante resta un marchio solo, con tre famiglie: tutti i giorni, DOP e pizzeria.",
    "tree": {
     "top": "La Fiammante",
     "kids": [
-     "La Fiammante · gamma",
-     "La Fiammante · DOP",
-     "La Reale di La Fiammante",
-     "La Paesana di La Fiammante"
+     "Tutti i giorni: passate, pelati, polpa",
+     "DOP: San Marzano, Piennolo",
+     "Pizzeria: Pa' Pizza"
     ]
    },
-   "pro": "Tutto il lavoro va su un solo nome, che è già il più conosciuto: Facebook, sito, ricerche e citazioni AI parlano di La Fiammante. Il Piennolo e la filiera etica alzano tutto il marchio, non solo un prodotto. Le due etichette storiche tengono il loro disegno d'epoca, ma il cliente capisce chi le fa.",
-   "contro": "Il marchio madre deve reggere due toni: popolare sulla gamma, sobrio sui DOP. Ci riesce solo se il sistema grafico è disciplinato, cioè con lo stesso logo in due versioni, e non con due loghi. Se La Reale e La Paesana diventano marchi da promozione, abbassano un po' il nome che le firma.",
+   "pro": "Si tiene l'unico segno distintivo che il marchio ha, la scritta tonda, e si toglie quello che non regge. Il Piennolo e la filiera etica alzano tutto il marchio, non solo un prodotto. Costa poco e si fa alle ristampe.",
+   "contro": "Lo stesso marchio deve parlare a chi compra la passata in offerta e a chi paga il Piennolo in vetro. Ci riesce solo con regole strette: stesso logo in due versioni, non due loghi. Un ritocco non basta a far sembrare premium la scritta: il salto deve farlo il pack della famiglia DOP.",
    "comporta": {
-    "cliente": "Vede un marchio solo con tre fasce chiare: la gamma di tutti i giorni, i DOP e il concentrato storico.",
-    "scaffale": "Tutte le referenze firmate La Fiammante formano un blocco più largo. I DOP si staccano con la versione scura del logo e un pack più sobrio.",
-    "digitale": "Un sito, un account per piattaforma. La Reale e La Paesana diventano pagine del sito e non avranno mai canali propri.",
-    "costo": "Logo rifinito, segno compatto, regole di pack. Le etichette si cambiano alla prima ristampa, senza buttare scorte.",
-    "tempo": "6-9 mesi di preparazione; i pack cambiano con le ristampe della campagna successiva.",
-    "rischio": "Nel breve è basso. Nel lungo il rischio è usare le etichette storiche per guerre di prezzo con il nome La Fiammante sopra."
+    "cliente": "Vede la stessa La Fiammante di sempre, più pulita, con una fascia alta riconoscibile.",
+    "scaffale": "La gamma resta rossa. La famiglia DOP si stacca con il logo in negativo su fondo scuro. Il verde della palette diventa il secondo colore fisso.",
+    "digitale": "Il segno dalla «f» va su favicon, avatar e icona dello shop. Si fanno una pagina per la famiglia DOP e una per le pizzerie.",
+    "costo": "Basso o medio: ritocco del logo, segno, regole di pack. Le etichette cambiano alla prima ristampa.",
+    "tempo": "3-6 mesi per il sistema, poi le ristampe della campagna successiva.",
+    "rischio": "Basso. Il rischio vero è fermarsi al ritocco del logo senza lavorare sul pack DOP."
    },
    "liv": {
-    "costo": 2,
+    "costo": 1,
     "tempo": 2,
     "breve": 1,
     "lungo": 1,
@@ -168,56 +162,53 @@
   },
   {
    "id": "B",
-   "nome": "Tre marchi con una firma comune",
-   "sintesi": "La Fiammante, La Reale e La Paesana restano marchi a sé, ognuno con il suo disegno. Una firma piccola e uguale per tutti dice che vengono dalla stessa casa.",
+   "nome": "Ridisegno completo verso l'alto",
+   "sintesi": "Nuovo logo, nuovo carattere e nuovo tono per tutto il marchio: La Fiammante intera sale di fascia.",
    "tree": {
-    "top": "ICAB (firma comune)",
+    "top": "La Fiammante (nuova identità)",
     "kids": [
-     "La Fiammante",
-     "La Reale",
-     "La Paesana"
+     "Tutta la gamma con il nuovo segno",
+     "DOP e pizzeria nello stesso tono"
     ]
    },
-   "pro": "Le etichette storiche tengono tutta la loro identità, che è il motivo per cui sono state rimesse in uso. Se La Reale e La Paesana fanno prezzo e promozioni, La Fiammante resta libera di salire. Costa poco e si fa in pochi mesi.",
-   "contro": "La firma di un'azienda che il consumatore non conosce (ICAB) aggiunge poca fiducia. Tre marchi per 76 prodotti, di cui 11 di solo concentrato, sono tanti per un'azienda con 720 ricerche al mese. La firma da sola non risolve il logo né il salto verso il premium.",
+   "pro": "Risolve il logo una volta per tutte, con un disegno su misura invece che a pezzi. Dà a tutta la gamma un'aria più alta, non solo ai DOP.",
+   "contro": "Rischia di buttare il calore che oggi è l'unica differenza dai concorrenti. Se il nuovo logo sembra «premium» con grazie e oro, diventa un altro Mutti o Petti. Chi compra la passata ogni settimana può non riconoscere il pack. È la strada più cara.",
    "comporta": {
-    "cliente": "Vede ancora tre marchi; capisce che sono parenti solo se legge la firma.",
-    "scaffale": "Nessun blocco più largo: le tre etichette restano separate. Il concentrato storico si distingue bene.",
-    "digitale": "Nessun cambio: un sito con le tre sezioni, come oggi.",
-    "costo": "Basso: si disegna la firma e la si mette su pack, cartoni e sito.",
-    "tempo": "0-3 mesi.",
-    "rischio": "Basso nel breve. Nel lungo il nome ICAB non cresce e La Fiammante non riceve niente dagli altri due."
+    "cliente": "Vede un marchio diverso: chi lo conosce deve ritrovarlo, chi non lo conosce lo legge come più alto.",
+    "scaffale": "Cambiano tutte le etichette insieme: per qualche mese vecchio e nuovo convivono.",
+    "digitale": "Sito, social e shop si rifanno da capo con la nuova identità.",
+    "costo": "Alto: logo, carattere, tutti i pack, sito, lancio.",
+    "tempo": "9-12 mesi di preparazione, poi il cambio con una campagna.",
+    "rischio": "Medio: perdere il riconoscimento in Campania, dove oggi il marchio è forte, per inseguire un premium che i clienti potrebbero non credere."
    },
    "liv": {
-    "costo": 1,
-    "tempo": 1,
-    "breve": 1,
-    "lungo": 2,
+    "costo": 3,
+    "tempo": 3,
+    "breve": 2,
+    "lungo": 1,
     "beneficio": 2
    }
   },
   {
    "id": "C",
-   "nome": "Una linea premium separata",
-   "sintesi": "I DOP e le specialità (San Marzano, Piennolo, Corbarino) escono da La Fiammante e prendono un nome e un pack propri, per gastronomie, pizzerie ed export. La Fiammante resta la marca popolare.",
+   "nome": "Una linea premium con nome proprio",
+   "sintesi": "I DOP e le specialità, con l'offerta per le pizzerie, prendono un nome e un pack propri, firmati «da La Fiammante» in piccolo. La Fiammante resta la marca popolare.",
    "tree": {
-    "top": "ICAB",
+    "top": "La Fiammante",
     "kids": [
-     "La Fiammante",
-     "Nuovo marchio DOP",
-     "La Reale",
-     "La Paesana"
+     "La Fiammante: gamma popolare",
+     "Linea con nome proprio: DOP e pizzerie"
     ]
    },
-   "pro": "Il premium non deve convincere nessuno partendo da un logo giocoso: nasce pulito, con un pack pensato per il vetro e per la cucina dei pizzaioli. La Fiammante non deve cambiare tono.",
-   "contro": "Bisogna costruire un quarto marchio da zero, con standing 46, nessun premio e 0 citazioni AI sulla pizza. Il Piennolo è proprio il prodotto che oggi alza La Fiammante: portarlo via lascia la marca principale senza il suo pezzo migliore. Il budget si divide su quattro nomi.",
+   "pro": "Il premium non deve partire da un logo giocoso: nasce pulito, con un pack pensato per il vetro e per la cucina dei pizzaioli. La Fiammante non deve cambiare tono.",
+   "contro": "Bisogna costruire un nome da zero, con standing 46, nessun premio e 0 citazioni AI sulla pizza. Il Piennolo è il prodotto che oggi alza La Fiammante: portarlo in un'altra linea lascia la marca principale senza il suo pezzo migliore. Il budget si divide su due nomi.",
    "comporta": {
-    "cliente": "Il cliente premium trova un marchio nuovo, che non conosce. Quello di tutti i giorni perde il motivo per pensare che La Fiammante sia anche alta qualità.",
-    "scaffale": "Il nuovo marchio va in un'altra parte del negozio (gastronomia, specialità) e deve farsi accettare dal buyer da zero.",
-    "digitale": "Serve un sito o una sezione propria e nuovi account; si riparte da zero follower.",
-    "costo": "Il più alto: nome, marchio registrato, logo, pack, sito e lancio commerciale.",
+    "cliente": "Il cliente premium trova un nome che non conosce. Quello di tutti i giorni perde il motivo per pensare che La Fiammante sia anche alta qualità.",
+    "scaffale": "La linea va in gastronomia o tra le specialità e va fatta accettare al buyer quasi da zero.",
+    "digitale": "Serve una sezione o un sito proprio e nuovi account; si parte senza pubblico.",
+    "costo": "Alto: nome, marchio registrato, logo, pack, sito e lancio commerciale.",
     "tempo": "12-18 mesi prima di vendere.",
-    "rischio": "Medio-alto: un marchio nuovo senza notorietà, e un marchio principale più povero."
+    "rischio": "Medio-alto: un nome nuovo senza notorietà e una La Fiammante più povera."
    },
    "liv": {
     "costo": 3,
@@ -230,25 +221,24 @@
   {
    "id": "D",
    "nome": "Restare fermi",
-   "sintesi": "Tre marchi separati come oggi, il logo così com'è, i DOP mescolati alla gamma. Anche questa è una scelta, e ha un costo che non si vede in bilancio.",
+   "sintesi": "Il logo così com'è, i DOP mescolati alla gamma, le pizzerie servite senza una proposta propria. Anche questa è una scelta, e ha un costo che non si vede in bilancio.",
    "tree": {
-    "top": "ICAB (non visibile)",
+    "top": "La Fiammante (com'è oggi)",
     "kids": [
-     "La Fiammante",
-     "La Reale",
-     "La Paesana"
+     "65 prodotti nella stessa gamma",
+     "DOP senza una fascia propria"
     ],
     "rotto": 1
    },
    "pro": "Nessuna spesa e nessun lavoro oggi.",
-   "contro": "Il logo resta nono su 10 e continua a dire «prezzo accessibile» proprio sui prodotti che potrebbero costare di più. Il Piennolo resta un prodotto fra 65. Le AI continuano a fissare la lista delle marche «di qualità» senza La Fiammante.",
+   "contro": "Il logo resta nono su 10 e continua a dire «prezzo accessibile» proprio sui prodotti che potrebbero costare di più. Il Piennolo resta un prodotto fra 65. Le AI continuano a fissare la lista delle marche «di qualità» e della pizza senza La Fiammante.",
    "comporta": {
     "cliente": "Vede una marca popolare campana; non sa che dietro ci sono il Piennolo DOP e la prima FSSC 24000 d'Italia.",
     "scaffale": "Resta un'altra scritta rossa nel blocco con Pomì, Petti, Rodolfi e La Torrente.",
     "digitale": "Nessun segno quadrato per avatar, favicon e icona dello shop.",
     "costo": "Nessuno oggi.",
     "tempo": "Nessuno.",
-    "rischio": "Nessuno nel breve. Nel lungo lo standing resta 46 e la capacità in crescita si riempie con il prezzo."
+    "rischio": "Nessuno nel breve. Nel lungo lo standing resta 46 e il marchio si gioca sul prezzo."
    },
    "liv": {
     "costo": 0,
@@ -261,7 +251,7 @@
  ],
  "intro": "Per rispondere non ci siamo fidati di un solo punto di vista: abbiamo interpellato, in modo virtuale, sette riferimenti mondiali che guardano la marca da angoli diversi. Due grandi studi di identità (Pentagram a Londra e New York, Studio Dumbar in Olanda), il maestro del modernismo italiano (Massimo Vignelli), il collettivo che lega oggetto e marchio (LoveFrom, di Jony Ive e Marc Newson), che qui guarda la latta, il vasetto e il tappo, due studi specializzati in marchi alimentari e di largo consumo (Pearlfisher e Jones Knowles Ritchie, tutti e due fra Londra e New York) e il teorico dell'architettura di marca (David Aaker). Sono scuole che spesso non la pensano allo stesso modo, e qui infatti non sono tutte d'accordo: dove si dividono, la scelta tocca all'azienda.",
  "avviso": "Ogni lente guarda la domanda dal punto di vista di uno studio o di un autore diverso, ricostruito dai principi e dai progetti che quello studio ha pubblicato: Vignelli dal suo Canon e dalle sue identità, Pentagram e Studio Dumbar dai loro casi, LoveFrom dai progetti pubblici di Ive e Newson, Pearlfisher e Jones Knowles Ritchie dai loro siti e dai lavori che mostrano, Aaker dal suo libro. Non sono pareri degli studi su La Fiammante e nessuno di loro è stato consultato. I giudizi sono severi quanto quelli del panel dei loghi.",
- "convergenza": "Le sette lenti sono d'accordo su tre cose. La prima: dal logo devono uscire bandierina, scintilla, contorno, ombra e payoff. La seconda: la scritta tonda e minuscola è l'unico patrimonio grafico da tenere. La terza: il premium si costruisce sul prodotto (Piennolo, San Marzano, filiera etica), non imitando lo scudo di Mutti. Si dividono su tre punti. Il primo è l'architettura: Vignelli, Pentagram, Studio Dumbar e LoveFrom portano tutto sotto La Fiammante (A). JKR e Aaker vogliono tenere La Reale e La Paesana come marchi propri con una firma comune (B): JKR perché le etichette storiche sono segni distintivi già pronti, Aaker perché un marchio usato per le promozioni non deve trascinare in basso quello che vuole salire. Il secondo è il premium: Pearlfisher è l'unica lente che lo toglie da La Fiammante e gli dà un nome proprio (C); per tutte le altre un marchio nuovo con queste forze è uno spreco. Il terzo è il logo: Vignelli, Dumbar e JKR si fermano a un ritocco severo, Pentagram vuole ridisegnare su misura la scritta e il carattere, Pearlfisher ridisegnerebbe solo la linea premium, LoveFrom sposta il peso dal logo all'oggetto. Sul segno compatto ricavato dalla «f» sono d'accordo tutte tranne Vignelli, a cui basta la parola «fiammante» da sola.",
+ "convergenza": "Le sette lenti sono d'accordo su tre cose. La prima: dal logo devono uscire bandierina, scintilla, contorno, ombra e payoff. La seconda: il premium si costruisce sul prodotto (Piennolo, San Marzano, filiera etica) e non imitando lo scudo e l'oro di Mutti. La terza: il rosso da solo non basta a farsi trovare a scaffale. Si dividono su tre punti. Il primo è quanto cambiare il logo. Vignelli, Dumbar, JKR e Aaker si fermano a un ritocco severo, perché la scritta tonda è l'unico patrimonio da non perdere. Pentagram vuole un ridisegno completo su misura (B), perché oggi il logo è fatto di pezzi presi da altre parti. LoveFrom sposta il peso dal logo all'oggetto. Il secondo è dove mettere il premium. Per cinque lenti sta dentro La Fiammante, come famiglia DOP. Pearlfisher è l'unica che gli dà un nome proprio (C), perché un logo giocoso non può rendere desiderabile un Piennolo. Il terzo è il tono. JKR e Aaker difendono il calore popolare come forza, Pentagram e Pearlfisher lo considerano un freno da superare. Sul segno compatto ricavato dalla «f» sono d'accordo tutte tranne Vignelli, a cui basta la parola «fiammante» da sola.",
  "lenti": [
   {
    "chi": "Massimo Vignelli",
@@ -273,9 +263,9 @@
    "perche": "È il riferimento mondiale della disciplina applicata alle marche, ed è italiano. Il problema del logo de La Fiammante non è la mancanza di idee, ma l'eccesso di elementi: proprio quello che il Canon insegna a togliere.",
    "base": "Principi del Vignelli Canon (2010) e identità come American Airlines e Knoll: semantica, sintattica, pragmatica; disciplina, appropriatezza, nessuna ambiguità; pochi caratteri e pochi colori; disegnare per durare, non per la moda.",
    "scelta": "A",
-   "architettura": "Una casa, un nome. Tre marchi per 76 prodotti sono ambiguità, e due marchi diversi per lo stesso concentrato (6 e 5 referenze) sono una ridondanza che nessun cliente chiede. Tutto sotto La Fiammante. A regime terrebbe una sola etichetta storica per il concentrato, non due.",
-   "logo": "Basta un ritocco, purché severo. Nel logo restano solo la parola e un colore: fuori bandiera, scintilla, contorno, ombra e il payoff in maiuscolo spaziato. Le lettere tonde e minuscole possono restare, ma vanno disegnate con disciplina, con pesi e spaziature regolari. Non servono simboli: sul tappo basta la parola «fiammante» da sola.",
-   "linee": "La Reale e La Paesana come etichette del concentrato, composte nel carattere del marchio madre; la linea DOP non con un altro logo ma con lo stesso logo in un colore scuro e più spazio bianco intorno."
+   "architettura": "Un marchio, poche famiglie, nessuna ambiguità. Un nome nuovo per i DOP sarebbe un secondo marchio da spiegare; un ridisegno completo cambierebbe ciò che funziona per correggere ciò che è di troppo. Basta togliere. Sul tono è severo: il gioco delle lettere va bene, ma il payoff «Sani e mediterranei» non dice nulla che il cliente non sappia, e la home dice già una frase migliore.",
+   "logo": "Basta un ritocco, purché severo. Nel logo restano solo la parola e un colore: fuori bandiera, scintilla, contorno, ombra e payoff. Le lettere tonde restano, ma ridisegnate con pesi e spaziature regolari. Non servono simboli: sul tappo basta la parola «fiammante» da sola. A scaffale un solo rosso pieno e un solo carattere per tutte le scritte del pack.",
+   "linee": "Tre famiglie al massimo, con nomi che dicono cosa sono: La Fiammante, La Fiammante DOP, La Fiammante Pizzeria. La famiglia DOP non ha un altro logo, ma lo stesso logo in un colore scuro e più spazio bianco intorno. Le passate restano nella gamma di tutti i giorni, senza nomi di fantasia."
   },
   {
    "chi": "Pentagram",
@@ -284,12 +274,12 @@
    "img": "pentagram.svg",
    "cr": "",
    "storia": "Studio fondato a Londra nel 1972 da Alan Fletcher, Colin Forbes, Theo Crosby, Kenneth Grange e Mervyn Kurlansky. È di proprietà dei suoi partner e si presenta come il più grande studio di design indipendente al mondo, con sedi tra cui Londra e New York. Tra i suoi lavori: Citi e Mastercard (2016).",
-   "perche": "Lavora da cinquant'anni su identità di grandi gruppi e famiglie di prodotto, con un metodo dichiarato: un'idea su misura per ogni cliente, portata in tutto il sistema. A La Fiammante manca proprio un'idea che tenga insieme tre marchi e due fasce di prezzo.",
+   "perche": "Lavora da cinquant'anni su identità di grandi marchi e famiglie di prodotto, con un metodo dichiarato: un'idea su misura per ogni cliente, portata in tutto il sistema. A La Fiammante manca proprio un'idea che tenga insieme logo, pack, famiglie e fasce di prezzo.",
    "base": "Un'idea su misura per ogni cliente, portata in tutto il sistema; logotipo e carattere che nascono dal carattere del prodotto; un marchio madre che regge una serie di prodotti con un linguaggio comune (es. Jetour e la G Series, 2025).",
-   "scelta": "A",
-   "architettura": "Prima l'idea, poi i nomi. L'idea c'è ed è nel nome: «fiammante» è il rosso del pomodoro maturo e la cottura entro sei ore dalla raccolta. Solo La Fiammante può portarla, quindi è lei il marchio madre. La Reale e La Paesana non hanno un'idea diversa da dire: sono capitoli della stessa storia.",
-   "logo": "Non basta un ritocco. Serve un ridisegno su misura che tenga la scritta tonda e minuscola, la parte migliore, ma la ricostruisca da capo: un carattere La Fiammante usato anche per nomi di prodotto, etichette e sito. Il segno compatto nasce dalla «f» con la fiamma. Oggi il logo è un insieme di pezzi presi da altre parti.",
-   "linee": "La Reale e La Paesana come serie storiche del marchio madre, con il loro disegno d'epoca racchiuso in una cornice comune; la linea DOP come serie alta con lo stesso carattere e una gerarchia più sobria."
+   "scelta": "B",
+   "architettura": "Prima l'idea, poi il disegno. L'idea c'è ed è nel nome: «fiammante» è il rosso del pomodoro maturo e la cottura entro sei ore dalla raccolta. Oggi il logo non la racconta: è un insieme di pezzi presi in prestito (tricolore, scintilla, payoff). Ritoccarlo vuol dire avere un logo meno sbagliato, non un logo giusto. Il marchio va ridisegnato tutto insieme, logo, carattere e pack, e così sale di fascia senza bisogno di un'altra linea.",
+   "logo": "Serve un ridisegno su misura. Si tiene l'intuizione della scritta tonda e minuscola, ma la si ricostruisce da capo con un carattere La Fiammante, usato anche per nomi di prodotto, etichette e sito. Il segno compatto nasce dalla «f» con la fiamma. Il tono diventa più sicuro, non più freddo: né scudo come Mutti né quattro lettere neutre come Pomì.",
+   "linee": "Una sola identità con tre famiglie composte nello stesso carattere: la gamma di tutti i giorni, la serie DOP con una gerarchia più sobria e la serie pizzeria su formati grandi e cartone. Le passate fanno da prodotto bandiera della gamma."
   },
   {
    "chi": "Studio Dumbar",
@@ -302,9 +292,9 @@
    "perche": "È specialista nel ridurre un'identità a poche regole che reggono su ogni supporto, anche in movimento. È il problema del logo de La Fiammante: troppi elementi, nessuna versione piccola, nessuna regola di colore.",
    "base": "Ridurre le varianti a una e dare una sola regola di colore; un motivo grafico ricavato dalla geometria del logo che vive in movimento su digitale, stampa e oggetti (es. PostNL: un solo logo, arancio e bianco, niente gradienti, la «post-line»).",
    "scelta": "A",
-   "architettura": "Un logo per tutta la casa, senza versioni per marchio. La Reale e La Paesana non hanno bisogno di un logo nuovo: le identifica il sistema (colore, posizione della firma, cornice).",
-   "logo": "Basta un ritocco, purché porti a un logo unico e pieno, rosso e bianco, senza contorno né ombra. La fiamma della «f» diventa il segno compatto e anche un motivo che si muove: nei reel, sul cartone, sulla fascia del pack. Il verde della palette diventa il secondo colore fisso, non un dettaglio della scintilla.",
-   "linee": "La linea DOP non ha un logo diverso: ha una regola diversa, con il logo in negativo su un fondo scuro. Le etichette storiche tengono il loro disegno, ma la firma «di La Fiammante» sta sempre nello stesso punto e nella stessa misura."
+   "architettura": "Un logo solo, nessuna versione per famiglia. Le famiglie si distinguono con le regole del sistema (fondo, colore, posizione del logo), non con loghi o nomi nuovi. Non serve un ridisegno: serve un sistema che oggi non c'è.",
+   "logo": "Basta un ritocco, purché porti a un logo unico e pieno, rosso e bianco, senza contorno né ombra. La fiamma della «f» diventa il segno compatto e anche un motivo che si muove: nei reel, sul cartone, sulla fascia del pack. Il verde della palette diventa il secondo colore fisso, non un dettaglio della scintilla. A scaffale la fascia verde e la fiamma fanno trovare La Fiammante nel blocco dei rossi.",
+   "linee": "La famiglia DOP usa il logo in negativo su un fondo scuro. La famiglia pizzeria usa il logo a un colore sul cartone e sul secchio, dove si stampa senza effetti. Le passate tengono la fascia verde come segno di riconoscimento della gamma."
   },
   {
    "chi": "LoveFrom",
@@ -313,12 +303,12 @@
    "img": "lovefrom.png",
    "cr": "",
    "storia": "Collettivo creativo fondato nel 2019 da Jony Ive con Marc Newson, con sede a San Francisco. Ive è stato per oltre vent'anni il capo del design di Apple (iMac, iPod, iPhone); Newson è uno dei designer industriali più noti al mondo. LoveFrom riunisce architetti, designer industriali e grafici, disegnatori di caratteri, ingegneri, musicisti e scrittori. Collabora con Ferrari dal 2021 e con Airbnb, e dal 2025 è partner di OpenAI nello sviluppo di un nuovo prodotto; ha disegnato il sigillo Terra Carta per l'allora Principe Carlo (2021).",
-   "perche": "È lo studio che più di tutti tratta oggetto e marchio come una cosa sola. Per un'azienda di conserve l'oggetto è la latta, il vasetto di vetro, il tappo, il cartone del pizzaiolo: è lì che il cliente decide se il pomodoro vale di più.",
+   "perche": "È lo studio che più di tutti tratta oggetto e marchio come una cosa sola. Per un'azienda di conserve l'oggetto è la latta, il vasetto di vetro, il tappo, la bottiglia della passata, il formato del pizzaiolo: è lì che il cliente decide se il pomodoro vale di più.",
    "base": "Ricostruita dal lavoro pubblico di Ive e Newson e dai progetti di LoveFrom: semplicità come chiarezza, non come mancanza; cura dei dettagli che nessuno vede; un carattere disegnato apposta (LoveFrom Serif) come voce dello studio; prodotti che portano il marchio in silenzio, con la loro forma.",
    "scelta": "A",
-   "architettura": "Un solo nome, come Apple con i suoi prodotti: il marchio madre è uno, e i prodotti hanno nomi semplici che dicono cosa sono. Tre marchi per una sola casa sono una complicazione che il cliente non dovrebbe vedere.",
-   "logo": "Il logo conta meno di quanto si pensi. Oggi il premium si perde perché l'oggetto è uguale per tutti: la stessa latta con un'etichetta rumorosa. Il lavoro va sul tappo, che deve avere il segno inciso o stampato a un colore; sul vasetto del Piennolo, dove il prodotto si vede e l'etichetta deve essere corta; sulla latta, con poche scritte allineate. Il logo serve pulito e a un colore, perché deve stare su questi oggetti senza gridare.",
-   "linee": "La linea DOP si riconosce dall'oggetto (vetro, carta, tappo, peso delle scritte), non da un nome nuovo. La Reale e La Paesana restano come curiosità storiche nel tubo e nel barattolo del concentrato, firmate da La Fiammante."
+   "architettura": "Un solo nome, come Apple con i suoi prodotti: il marchio è uno, i prodotti hanno nomi semplici che dicono cosa sono. Il premium non si dichiara con un altro nome, si fa sentire con l'oggetto.",
+   "logo": "Il logo conta meno di quanto si pensi. Oggi il premium si perde perché l'oggetto è uguale a quello di tutti: una latta con un'etichetta rumorosa. Il lavoro va sul tappo, che deve avere il segno inciso o stampato a un colore; sul vasetto del Piennolo, dove il prodotto si vede e l'etichetta deve essere corta; sulla latta, con poche scritte allineate. Il logo va pulito e a un colore, perché deve stare su questi oggetti senza gridare.",
+   "linee": "La famiglia DOP si riconosce dall'oggetto (vetro, carta, tappo, peso delle scritte), non da un nome nuovo. La passata ha una bottiglia con un'etichetta essenziale e il prodotto ben visibile. La famiglia pizzeria è pensata per il banco del pizzaiolo: facile da aprire, versare e richiudere."
   },
   {
    "chi": "Pearlfisher",
@@ -328,12 +318,12 @@
    "cr": "",
    "wd": 1,
    "storia": "Studio indipendente di design di marca e packaging, attivo dal 1992 (dal suo sito), con studi a Londra e New York. Fondato da Jonathan Ford e Mike Branson; è un'azienda B Corp certificata. Fra i clienti che mostra ci sono Cadbury Dairy Milk, Green & Black's, Jamie Oliver, Waitrose, Driscoll's, SkinnyPop, McDonald's, General Mills e Kraft Heinz.",
-   "perche": "È lo studio che più si occupa di rendere desiderabile un prodotto alimentare, anche nella fascia alta. Lavora con marchi etici (è B Corp) e per molte insegne della distribuzione: è la lente giusta sulla terza domanda, cioè come salire senza diventare un'altra cosa.",
+   "perche": "È lo studio che più si occupa di rendere desiderabile un prodotto alimentare, anche nella fascia alta. Lavora con marchi etici (è B Corp): è la lente giusta su come salire senza diventare un'altra cosa.",
    "base": "Ricostruita dal sito dello studio: scendere in profondità per trovare la verità di fondo di un marchio (la «perla», dal nome dei pescatori di perle giapponesi) e portarla in superficie; metodo in due metà, «The Depth» (strategia e nuovi prodotti) e «The Surface» (identità, pack, mondo del marchio); portare i marchi dal funzionale al desiderabile, con risultati commerciali misurabili.",
    "scelta": "C",
-   "architettura": "La perla di ICAB non è la marca popolare: è il Piennolo del Vesuvio con la prima FSSC 24000 d'Italia dietro. Oggi questa perla sta in fondo a una gamma di 65 prodotti, sotto un logo che dice prezzo accessibile. Per farla diventare desiderabile in gastronomia, in pizzeria e all'estero, le serve un nome e un pack propri. La Fiammante resta la marca di tutti i giorni, onesta e calda. Sulle etichette storiche questa lente non ha preferenze, purché non confondano il cliente.",
-   "logo": "Per La Fiammante basta un ritocco: togliere gli accessori e fare il segno compatto. Il disegno vero si fa per la linea premium: un pack pensato per il vetro e per il sacco del pizzaiolo, con il prodotto al centro e la filiera etica raccontata come valore, non come nota in piccolo.",
-   "linee": "La linea DOP diventa un marchio a sé, con una piccola nota «da ICAB, Buccino» sul retro. La Reale e La Paesana restano etichette storiche del concentrato. La Fiammante resta la marca popolare."
+   "architettura": "La perla de La Fiammante non è la passata di tutti i giorni: è il Piennolo del Vesuvio, con la prima FSSC 24000 d'Italia dietro. Oggi questa perla sta in fondo a 65 prodotti, sotto un logo che dice prezzo accessibile. Per diventare desiderabile in gastronomia, in pizzeria e all'estero le serve un nome e un pack propri, firmati «da La Fiammante» in piccolo. La Fiammante resta la marca di tutti i giorni, onesta e calda: non deve fingere di essere Mutti.",
+   "logo": "Per La Fiammante basta un ritocco: togliere gli accessori e fare il segno compatto. Il disegno vero si fa per la linea premium: un pack pensato per il vetro e per il pizzaiolo, con il prodotto al centro e la filiera etica raccontata come valore, non come nota in piccolo.",
+   "linee": "La linea premium con nome proprio raccoglie DOP, Corbarino e l'offerta per le pizzerie. La Fiammante tiene passate, pelati, polpa e pomodorini, con il tono popolare di oggi."
   },
   {
    "chi": "Jones Knowles Ritchie (JKR)",
@@ -343,12 +333,12 @@
    "cr": "",
    "wd": 1,
    "storia": "Studio di design di marca fondato a Londra nel 1990, con sedi a Londra e New York. Fra i lavori che mostra ci sono Coca-Cola, KFC, Burger King, Stella Artois, Impossible, Walmart e Uber. Il caso più noto è il nuovo marchio di Burger King (2021), che ha ripreso e aggiornato il logo storico del panino.",
-   "perche": "È fra gli studi più influenti al mondo sui marchi di largo consumo e lavora sulla riconoscibilità a scaffale. Il suo caso Burger King riguarda proprio un marchio popolare che recupera i propri segni storici invece di inseguire la moda: è la situazione de La Fiammante e delle sue etichette storiche.",
+   "perche": "È fra gli studi più influenti al mondo sui marchi di largo consumo e lavora sulla riconoscibilità a scaffale. Il suo caso Burger King riguarda un marchio popolare che recupera i propri segni invece di inseguire la moda: è la situazione de La Fiammante davanti alla tentazione di «sembrare premium».",
    "base": "Ricostruita dal sito dello studio e dai casi pubblicati: «Be Distinctive Everywhere», cioè essere riconoscibili su ogni supporto; aiutare un marchio a diventare più pienamente sé stesso invece di somigliare ai concorrenti; recuperare e aggiornare i segni che il pubblico già conosce (Burger King, 2021).",
-   "scelta": "B",
-   "architettura": "Le etichette de La Reale e La Paesana sono segni distintivi già pronti: ICAB li ha appena rimessi in uso. Assorbirli dentro La Fiammante vuol dire buttare l'unica cosa che li rende utili. Meglio tre marchi, ognuno pienamente sé stesso, con una firma comune piccola e sempre uguale. Il marchio da far crescere resta La Fiammante.",
-   "logo": "Si evolve, non si rivoluziona. La scritta tonda e minuscola è il segno più riconoscibile della categoria, che è fatta di maiuscole e scudi: ridisegnarla in un elegante carattere con grazie, per sembrare premium, la renderebbe uguale a Mutti e Petti. Si toglie il superfluo, si tiene il calore e si fa della «f» con la fiamma un segno da usare ovunque, dal tappo al reel.",
-   "linee": "Il premium non deve imitare il codice di Mutti: va fatto con il tono de La Fiammante, cioè caldo, popolare e campano, mostrando meglio il prodotto. La linea DOP resta La Fiammante. La Reale e La Paesana restano marchi a sé, con le loro etichette d'epoca, per il concentrato."
+   "scelta": "A",
+   "architettura": "Il marchio deve diventare più pienamente sé stesso, non un altro. La Fiammante è calda, popolare e campana, e questo è un vantaggio in una categoria dove tutti fanno gli araldici. Un ridisegno «elegante» o una linea con un altro nome spendono soldi per somigliare a Mutti. Una La Fiammante più riconoscibile ovunque vale più di due marchi.",
+   "logo": "Si evolve, non si rivoluziona. La scritta tonda e minuscola è il segno più riconoscibile della categoria, che è fatta di maiuscole e scudi: ridisegnarla in un carattere con grazie per sembrare premium la renderebbe uguale a Mutti e Petti. Si toglie il superfluo, si tiene il calore e si fa della «f» con la fiamma un segno da usare ovunque, dal tappo al reel. A scaffale va scelto un codice da possedere oltre al rosso, per esempio il verde della palette in una fascia sempre uguale.",
+   "linee": "Il premium va fatto con il tono de La Fiammante, mostrando meglio il prodotto. La famiglia DOP resta La Fiammante con lo stesso segno. La famiglia pizzeria parla la lingua del pizzaiolo napoletano, che è il mondo naturale del marchio. Le passate portano i codici più forti, perché sono il prodotto più cercato d'estate."
   },
   {
    "chi": "David Aaker",
@@ -358,11 +348,11 @@
    "cr": "Foto: Prophet, CC BY 2.0, Wikimedia Commons",
    "storia": "Professore emerito alla Haas School of Business dell'Università di Berkeley e vicepresidente di Prophet, spesso chiamato il padre del branding moderno. Ha scritto Managing Brand Equity (1991), Building Strong Brands (1996) e, con Erich Joachimsthaler, Brand Leadership (2000).",
    "perche": "Non è un designer: è l'autore del modello di architettura di marca che studi e aziende usano ancora. Serve da metro neutro accanto alle sei lenti di design.",
-   "base": "Lo spettro delle relazioni tra marchi pubblicato in «Brand Leadership» (con Erich Joachimsthaler, 2000): dalla branded house (un marchio su tutto) alla house of brands (marchi indipendenti), passando per sottomarchi e marchi garantiti. Marchi separati si giustificano solo se servono mercati diversi o se il marchio madre li danneggerebbe, o ne sarebbe danneggiato.",
-   "scelta": "B",
-   "architettura": "Le due risposte dipendono dal ruolo. Se La Reale e La Paesana servono per prezzo e promozioni sul concentrato, come propone l'analisi Sales, mettere sopra il nome La Fiammante lo trascina in basso proprio mentre vuole salire. È una delle condizioni che giustificano marchi separati, quindi qui servono marchi garantiti con una firma comune. Per i DOP invece vale il contrario: un marchio nuovo non ha notorietà da spendere (La Fiammante stessa ha 720 ricerche al mese), quindi la linea DOP è un sottomarchio di La Fiammante, che guida.",
-   "logo": "Il logo segue l'architettura: La Fiammante porta il segno, la linea DOP ne usa una versione, le etichette storiche portano solo la firma comune. Prima si decide il ruolo di ogni marchio, poi si ridisegna; farlo al contrario è il rischio più comune.",
-   "linee": "La Fiammante è il marchio madre. La linea DOP è un sottomarchio guidato da La Fiammante. La Reale e La Paesana sono marchi garantiti dalla firma comune, con un ruolo scritto (concentrato, promozioni d'inverno) che non deve allargarsi ad altre categorie."
+   "base": "Lo spettro delle relazioni tra marchi pubblicato in «Brand Leadership» (con Erich Joachimsthaler, 2000): dalla branded house (un marchio su tutto) alla house of brands (marchi indipendenti), passando per sottomarchi e marchi garantiti. Un nome nuovo si giustifica solo se serve un mercato diverso o se il marchio madre lo danneggerebbe.",
+   "scelta": "A",
+   "architettura": "Un nome nuovo per il premium (C) avrebbe senso solo se La Fiammante danneggiasse i DOP. Ma un nome nuovo non ha notorietà da spendere, e La Fiammante stessa ne ha poca: 720 ricerche al mese, standing 46. Conviene un sottomarchio guidato dal marchio madre: La Fiammante DOP. Un ridisegno completo (B) rischia di consumare il patrimonio che c'è, cioè il riconoscimento in Campania e il calore del nome.",
+   "logo": "Il logo segue l'architettura: La Fiammante porta il segno, il sottomarchio DOP ne usa una versione. Prima si decidono le famiglie e il ruolo di ognuna, poi si ridisegna; farlo al contrario è l'errore più comune.",
+   "linee": "La Fiammante è il marchio madre. La Fiammante DOP e La Fiammante Pizzeria sono sottomarchi guidati dal madre, con un ruolo scritto: la DOP alza la percezione di tutto il marchio, la pizzeria apre un canale. Le passate sono il cuore della gamma e non hanno bisogno di un nome proprio."
   }
  ],
  "logo": {
@@ -370,11 +360,11 @@
   "proposta": [
    {
     "t": "La scritta",
-    "x": "«la fiammante» resta minuscola e tonda: è l'unica scritta di questo tipo nella categoria. Si ridisegna pesi e spaziature, piena a un colore, senza contorno né ombra, con il negativo bianco."
+    "x": "«la fiammante» resta minuscola e tonda: è l'unica scritta di questo tipo nella categoria. Si ridisegnano pesi e spaziature; diventa piena a un colore, senza contorno né ombra, con il negativo bianco."
    },
    {
     "t": "Fuori dal logo",
-    "x": "Bandierina, scintilla giallo-verde e payoff «Sani e mediterranei» escono dal marchio. Bandiera e payoff, se servono, tornano sul pack e nella comunicazione come elementi separati."
+    "x": "Bandierina, scintilla giallo-verde e payoff «Sani e mediterranei» escono dal marchio. Bandiera e frase, se servono, tornano sul pack e nella comunicazione come elementi separati."
    },
    {
     "t": "Il segno",
@@ -385,44 +375,46 @@
     "x": "Stesso logo, non un logo nuovo: in un colore scuro o in negativo, con più aria intorno, sul vasetto del Piennolo e sulla latta del San Marzano."
    },
    {
-    "t": "La firma",
-    "x": "«di La Fiammante» in una misura e posizione fisse sulle etichette di La Reale e La Paesana, che tengono il loro disegno d'epoca."
+    "t": "La versione pizzeria",
+    "x": "Logo a un colore su cartone e formati grandi, senza effetti, con il segno della «f» ben visibile sul banco del pizzaiolo."
    },
    {
     "t": "I colori",
-    "x": "Il rosso del logo resta, perché il nome lo chiede. Il verde della palette (#8DB339) diventa il secondo colore fisso del sistema per staccarsi dai 7 marchi rossi su 10. Per i DOP si prova a scaffale un tono scuro."
+    "x": "Il rosso del logo resta, perché il nome lo chiede. Il verde della palette (#8DB339) diventa il secondo colore fisso, in una fascia sempre uguale, per staccarsi dai 7 marchi rossi su 10. Per i DOP si prova a scaffale un tono scuro."
    }
   ]
  },
  "passi": [
   {
    "fase": "0-3 mesi",
-   "x": "Decidere il ruolo scritto di ogni marchio: La Fiammante madre, DOP come sottomarchio, La Reale e La Paesana per il concentrato. Scrivere il brief del logo, controllare che il segno sia registrabile. Mettere l'anno di fondazione nel «chi siamo»."
+   "x": "Decidere le famiglie (tutti i giorni, DOP, pizzeria) e il ruolo di ognuna. Scrivere il brief del logo e controllare che il segno sia registrabile. Mettere l'anno di fondazione nel «chi siamo»."
   },
   {
    "fase": "3-6 mesi",
-   "x": "Ritocco del logo, segno dalla «f», versione DOP, firma per le etichette storiche e manuale minimo (misure, colori, cartone, tappo). Prova a scaffale su 2-3 bozze di etichetta DOP. Subito nuovi file digitali: sito, favicon, avatar."
+   "x": "Ritocco del logo, segno dalla «f», versione DOP e versione pizzeria, manuale minimo (misure, colori, cartone, tappo). Prova a scaffale su 2-3 bozze di etichetta DOP. Subito i nuovi file digitali: sito, favicon, avatar."
   },
   {
    "fase": "6-12 mesi",
-   "x": "Nuove etichette alle ristampe della campagna, prima i DOP e il Pa' Pizza. Pagina «pomodoro per la pizza napoletana» sul sito e programma pizzerie. Candidature a Prodotto dell'Anno e alle guide di settore."
+   "x": "Nuove etichette alle ristampe della campagna, prima i DOP e Pa' Pizza. Pagina «pomodoro per la pizza napoletana» sul sito e programma pizzerie. Candidature a Prodotto dell'Anno e alle guide di settore."
   },
   {
    "fase": "12-24 mesi",
-   "x": "Misurare: standing (oggi 46), citazioni AI (oggi 4 su 40, 0 su 8 sulla pizza), ricerche fuori dalla Campania, voto del logo nel panel. Decidere se le due etichette storiche restano due o diventano una."
+   "x": "Misurare: standing (oggi 46), citazioni AI (oggi 4 su 40, 0 su 8 sulla pizza), ricerche fuori dalla Campania, voto del logo nel panel (oggi 2,3). Decidere se la famiglia DOP ha bisogno di più distanza dal resto della gamma."
   }
  ],
  "rischi": [
   "Ritoccare il logo togliendo anche il calore: una scritta «premium» con grazie sottili renderebbe La Fiammante uguale a Mutti e Petti e farebbe perdere l'unico segno distintivo.",
-  "Usare La Reale e La Paesana per guerre di prezzo con il nome La Fiammante sopra: abbassa il marchio madre proprio mentre sale con i DOP.",
+  "Fermarsi al logo: senza un pack DOP diverso e una proposta per le pizzerie, un logo più pulito non porta il marchio più in alto.",
   "Cambiare i pack a metà: per qualche mese si vedranno a scaffale etichette vecchie e nuove insieme. Va pianificato con le ristampe, senza buttare scorte.",
   "Il segno ricavato dalla «f» va controllato per marchi simili prima di usarlo; una fiamma è un segno comune in altri settori.",
   "Il premium non si regge solo sul pack: senza premi, notizie e citazioni AI il prezzo più alto non viene creduto."
  ],
  "fonti": [
   "https://www.lafiammante.it/catalogo.html",
+  "https://www.lafiammante.it/catalogo/horeca.html",
   "https://www.lafiammante.it/progetto",
-  "https://www.lafiammante.it/blog/post/tornano-a-splendere-gli-antichi-loghi-e-le-etichette-la-reale-e-la-paesana-flli-paudice-gli-altri-du",
+  "https://www.lafiammante.it/pomodorino-del-piennolo-del-vesuvio-dop-succo-vetro.html",
+  "https://www.lafiammante.it/blog/post/diritti-umani-lavoro-ambiente-icab-la-fiammante-prima-azienda-certificata-fssc-24000",
   "https://pearlfisher.com/",
   "https://pearlfisher.com/about/",
   "https://pearlfisher.com/wp-content/uploads/2026/05/Vector-20.svg",
