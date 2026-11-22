@@ -4,9 +4,81 @@
  "domande": [
   "Il logo La Fiammante va ritoccato o ridisegnato, e serve un segno compatto?",
   "Come salire verso il premium e le pizzerie: dentro il marchio o con una linea a parte?",
-  "Quale tono e quali codici a scaffale, accanto a Mutti e Pomì?"
+  "Quale tono e quali codici a scaffale, accanto a Mutti e Pomì?",
+  "La Fiammante o solo Fiammante?"
  ],
- "risposta": "Il logo si ritocca a fondo e non si rifà da zero. Si tiene la scritta tonda e minuscola, l'unica di questo tipo nella categoria, piena e a un colore. Bandierina, scintilla, contorno, ombra e payoff escono dal logo. Dalla «f» si ricava un segno compatto per il tappo, la favicon e i social. Il premium e le pizzerie stanno dentro La Fiammante, come famiglie dello stesso marchio: la gamma di tutti i giorni, una famiglia DOP con il logo in versione scura e una famiglia pizzeria con Pa' Pizza. Il tono resta caldo e popolare. Non si copia lo scudo di Mutti: si sale mostrando il prodotto e la filiera etica. A scaffale il rosso resta, ma serve un secondo colore fisso per uscire dal blocco dei rossi. Cinque lenti su sette scelgono questa strada. Pentagram vuole ridisegnare tutto il marchio, Pearlfisher vuole una linea premium con un nome proprio.",
+ "nome": {
+  "sintesi": "Togliere «La» e chiamarsi solo «Fiammante» non è un'idea sbagliata, ma oggi non conviene. Una parola sola è più corta e il logo la mostra già così, ma tutto quello che il marchio ha costruito porta l'articolo: dominio, account social, ricerche e citazioni AI. E «fiammante» da sola è un aggettivo comune, che potrebbe essere difficile da registrare e da trovare in rete. Tre lenti dicono tenere, due togliere, due dipende. Il nome resta La Fiammante finché le verifiche non dicono che «Fiammante» si può proteggere; se si sceglie il ridisegno completo (B), la domanda si riapre.",
+  "pro": [
+   "Una parola sola è più forte: «fiammante» è già un'immagine, il rosso del pomodoro maturo, e l'articolo non aggiunge significato.",
+   "Il logo la mostra già così: il «la» è piccolo e impilato a sinistra, e a misura piccola o sul tappo si legge solo «fiammante».",
+   "Il nome comincerebbe con la «f», la stessa lettera del segno compatto proposto per tappo, favicon e social.",
+   "L'articolo non distingue: nella categoria lo hanno anche La Doria e La Torrente."
+  ],
+  "contro": [
+   "«Fiammante» da sola è un aggettivo comune («rosso fiammante»): può essere più difficile da registrare e da difendere come marchio, e più difficile da trovare in rete. Già oggi le misure di Trends e di AI Overview sono disturbate dagli omonimi.",
+   "Tutto quello che il marchio ha costruito porta l'articolo: il sito lafiammante.it, gli account @lafiammante, l'hashtag #lafiammante, le ricerche su «la fiammante».",
+   "Con l'articolo «fiammante» è un nome proprio; senza, torna un aggettivo, e il marchio dovrebbe farlo diventare nome da solo.",
+   "Il cambio costa (pack, cartoni, sito, account, registrazioni) e non risolve i problemi veri: troppi accessori nel logo, nessuna fascia DOP, nessun premio, poche citazioni AI."
+  ],
+  "dati": [
+   {
+    "t": "Il sito del marchio è lafiammante.it. Anche la pagina della filiera etica, citata come fonte nelle risposte AI, sta su sostenibilita.lafiammante.it.",
+    "s": "dic",
+    "f": "aziende.json (sito); geo2.json (fonti delle risposte)",
+    "u": "https://www.lafiammante.it"
+   },
+   {
+    "t": "Gli account social portano l'articolo: Instagram @lafiammante (12.854 follower), TikTok @lafiammante (1.450), Facebook lafiammante.e (103.883 «mi piace»).",
+    "s": "dic",
+    "f": "social.json, sezione Social",
+    "u": "https://www.instagram.com/lafiammante/"
+   },
+   {
+    "t": "L'hashtag #lafiammante è in 17 dei 24 post Instagram degli ultimi sei mesi.",
+    "s": "val",
+    "f": "conteggio del cruscotto su posts.json"
+   },
+   {
+    "t": "In Trends è stata misurata solo «la fiammante», ed è segnata fra le parole con omonimi, come «la torrente»: la curva è rumorosa. L'indice è 100 in Campania e 19 in Lombardia; le ricerche sono 720 al mese. «Fiammante» da sola non è stata misurata.",
+    "s": "dic",
+    "f": "trends.json (note e regioni), sezione Trends; ricerche al mese da DataForSEO Keyword Planner, sezione Confronto",
+    "u": "https://trends.google.it/trends/explore?date=today%205-y&geo=IT&q=la%20fiammante"
+   },
+   {
+    "t": "Nelle menzioni di Google AI Overview «La Fiammante» risulta 32.344 volte e «La Torrente» 29.205, contro 455 di Mutti: sono numeri falsati perché «fiammante» e «torrente» sono parole comuni, e il cruscotto non li usa.",
+    "s": "dic",
+    "f": "geo2.json (nota), sezione Risposte AI in dettaglio",
+    "u": "https://dataforseo.com/apis/ai-optimization-api"
+   },
+   {
+    "t": "Nelle risposte AI il marchio è citato in 4 risposte su 40, tutte su filiera etica, chef e qualità.",
+    "s": "val",
+    "f": "conteggio del cruscotto sulle risposte di geo2.json, sezione Risposte AI in dettaglio"
+   },
+   {
+    "t": "Nel logo il «la» è piccolo e impilato a sinistra; a 16 px e sul tappo restano leggibili solo «fiammante» e due macchie colorate.",
+    "s": "val",
+    "f": "brandx.json, sezione Loghi e marchio"
+   },
+   {
+    "t": "Fatto di categoria: fra le 10 aziende confrontate, tre hanno un marchio principale che comincia con «La»: La Fiammante, La Doria e La Torrente. Nel gruppo La Doria c'è anche La Romanella.",
+    "s": "dic",
+    "f": "brand.json (marchi), sezione Loghi e marchio",
+    "u": "https://www.gruppoladoria.it/chi-siamo/i-nostri-marchi/"
+   }
+  ],
+  "verifica": [
+   "Se «Fiammante» da sola si può registrare come marchio per le conserve di pomodoro: è un aggettivo comune e potrebbe essere giudicata descrittiva o poco distintiva. Serve il parere di un consulente in marchi.",
+   "Quali marchi simili con «fiammante» sono già registrati in Italia e nell'UE, nella classe delle conserve e in quelle vicine (banche dati UIBM ed EUIPO).",
+   "Se la registrazione di oggi copre anche la sola parola «fiammante» o il logo con il «la» piccolo.",
+   "Se sono liberi il dominio fiammante.it (e .com) e gli account @fiammante su Instagram, TikTok e Facebook.",
+   "Quanto si cerca «fiammante» da sola e quanta parte di quelle ricerche riguarda il pomodoro: nei dati c'è solo «la fiammante».",
+   "Come chiamano il marchio clienti, buyer e pizzaioli, con o senza articolo: si sa solo con un piccolo sondaggio.",
+   "Quanto costa il cambio: etichette, cartoni, sito, account, materiali per la grande distribuzione e l'Horeca."
+  ]
+ },
+ "risposta": "Il logo si ritocca a fondo e non si rifà da zero. Si tiene la scritta tonda e minuscola, l'unica di questo tipo nella categoria, piena e a un colore. Bandierina, scintilla, contorno, ombra e payoff escono dal logo. Dalla «f» si ricava un segno compatto per il tappo, la favicon e i social. Il premium e le pizzerie stanno dentro La Fiammante, come famiglie dello stesso marchio: la gamma di tutti i giorni, una famiglia DOP con il logo in versione scura e una famiglia pizzeria con Pa' Pizza. Il tono resta caldo e popolare. Non si copia lo scudo di Mutti: si sale mostrando il prodotto e la filiera etica. A scaffale il rosso resta, ma serve un secondo colore fisso per uscire dal blocco dei rossi. Cinque lenti su sette scelgono questa strada. Pentagram vuole ridisegnare tutto il marchio, Pearlfisher vuole una linea premium con un nome proprio. Il nome resta La Fiammante. Togliere «La» non è sbagliato, ma oggi costa più di quanto rende: dominio, social e ricerche portano l'articolo, e «fiammante» da sola è un aggettivo comune, forse difficile da registrare. Nel logo la parola che si legge è già «fiammante», con il «la» piccolo accanto: si tiene così, nella stessa scritta piena a un colore. La domanda si riapre se si sceglie il ridisegno completo o se le verifiche sul marchio vanno bene. Sul nome tre lenti dicono tenere, due togliere e due dipende.",
  "premesse": [
   {
    "s": "dic",
@@ -100,9 +172,21 @@
     "s": "val",
     "f": "sezione Loghi e marchio",
     "bar": [
-     ["Pomì", 4.0, "#e8eef5"],
-     ["Mutti", 3.7, "#5b9cf0"],
-     ["La Fiammante", 2.3, "#d60723"]
+     [
+      "Pomì",
+      4,
+      "#e8eef5"
+     ],
+     [
+      "Mutti",
+      3.7,
+      "#5b9cf0"
+     ],
+     [
+      "La Fiammante",
+      2.3,
+      "#d60723"
+     ]
     ],
     "max": 5
    },
@@ -113,19 +197,30 @@
     "s": "val",
     "f": "conteggio del cruscotto sulle risposte di geo2.json, sezione Risposte AI in dettaglio",
     "bar": [
-     ["Mutti", 22, "#5b9cf0"],
-     ["Cirio", 13, "#e8eef5"],
-     ["La Fiammante", 4, "#d60723"]
+     [
+      "Mutti",
+      22,
+      "#5b9cf0"
+     ],
+     [
+      "Cirio",
+      13,
+      "#e8eef5"
+     ],
+     [
+      "La Fiammante",
+      4,
+      "#d60723"
+     ]
     ],
     "max": 40
    },
    {
     "n": "0",
-    "u": " premi",
+    "u": "https://www.lafiammante.it/progetto",
     "t": "fra 2022 e 2026, mentre Mutti, Petti, Agromonte e La Torrente ne hanno",
     "s": "dic",
-    "f": "sezione Loghi e marchio (premi)",
-    "u": "https://www.lafiammante.it/progetto"
+    "f": "sezione Loghi e marchio (premi)"
    }
   ]
  },
@@ -251,12 +346,16 @@
  ],
  "intro": "Per rispondere non ci siamo fidati di un solo punto di vista: abbiamo interpellato, in modo virtuale, sette riferimenti mondiali che guardano la marca da angoli diversi. Due grandi studi di identità (Pentagram a Londra e New York, Studio Dumbar in Olanda), il maestro del modernismo italiano (Massimo Vignelli), il collettivo che lega oggetto e marchio (LoveFrom, di Jony Ive e Marc Newson), che qui guarda la latta, il vasetto e il tappo, due studi specializzati in marchi alimentari e di largo consumo (Pearlfisher e Jones Knowles Ritchie, tutti e due fra Londra e New York) e il teorico dell'architettura di marca (David Aaker). Sono scuole che spesso non la pensano allo stesso modo, e qui infatti non sono tutte d'accordo: dove si dividono, la scelta tocca all'azienda.",
  "avviso": "Ogni lente guarda la domanda dal punto di vista di uno studio o di un autore diverso, ricostruito dai principi e dai progetti che quello studio ha pubblicato: Vignelli dal suo Canon e dalle sue identità, Pentagram e Studio Dumbar dai loro casi, LoveFrom dai progetti pubblici di Ive e Newson, Pearlfisher e Jones Knowles Ritchie dai loro siti e dai lavori che mostrano, Aaker dal suo libro. Non sono pareri degli studi su La Fiammante e nessuno di loro è stato consultato. I giudizi sono severi quanto quelli del panel dei loghi.",
- "convergenza": "Le sette lenti sono d'accordo su tre cose. La prima: dal logo devono uscire bandierina, scintilla, contorno, ombra e payoff. La seconda: il premium si costruisce sul prodotto (Piennolo, San Marzano, filiera etica) e non imitando lo scudo e l'oro di Mutti. La terza: il rosso da solo non basta a farsi trovare a scaffale. Si dividono su tre punti. Il primo è quanto cambiare il logo. Vignelli, Dumbar, JKR e Aaker si fermano a un ritocco severo, perché la scritta tonda è l'unico patrimonio da non perdere. Pentagram vuole un ridisegno completo su misura (B), perché oggi il logo è fatto di pezzi presi da altre parti. LoveFrom sposta il peso dal logo all'oggetto. Il secondo è dove mettere il premium. Per cinque lenti sta dentro La Fiammante, come famiglia DOP. Pearlfisher è l'unica che gli dà un nome proprio (C), perché un logo giocoso non può rendere desiderabile un Piennolo. Il terzo è il tono. JKR e Aaker difendono il calore popolare come forza, Pentagram e Pearlfisher lo considerano un freno da superare. Sul segno compatto ricavato dalla «f» sono d'accordo tutte tranne Vignelli, a cui basta la parola «fiammante» da sola.",
+ "convergenza": "Le sette lenti sono d'accordo su tre cose. La prima: dal logo devono uscire bandierina, scintilla, contorno, ombra e payoff. La seconda: il premium si costruisce sul prodotto (Piennolo, San Marzano, filiera etica) e non imitando lo scudo e l'oro di Mutti. La terza: il rosso da solo non basta a farsi trovare a scaffale. Si dividono su tre punti. Il primo è quanto cambiare il logo. Vignelli, Dumbar, JKR e Aaker si fermano a un ritocco severo, perché la scritta tonda è l'unico patrimonio da non perdere. Pentagram vuole un ridisegno completo su misura (B), perché oggi il logo è fatto di pezzi presi da altre parti. LoveFrom sposta il peso dal logo all'oggetto. Il secondo è dove mettere il premium. Per cinque lenti sta dentro La Fiammante, come famiglia DOP. Pearlfisher è l'unica che gli dà un nome proprio (C), perché un logo giocoso non può rendere desiderabile un Piennolo. Il terzo è il tono. JKR e Aaker difendono il calore popolare come forza, Pentagram e Pearlfisher lo considerano un freno da superare. Sul segno compatto ricavato dalla «f» sono d'accordo tutte tranne Vignelli, a cui basta la parola «fiammante» da sola. Sul nome, cioè togliere «La» e chiamarsi solo «Fiammante», le lenti si dividono. Vignelli e Pentagram dicono togliere: l'articolo non serve e una parola sola è più forte; per Pentagram però va fatto solo dentro un ridisegno completo, per cambiare una volta sola. Pearlfisher, JKR e Aaker dicono tenere: l'articolo è la voce popolare del marchio, dominio, social e ricerche lo portano, e «fiammante» da sola è un aggettivo difficile da proteggere. Dumbar e LoveFrom dicono che dipende: il nome si cambia solo se la verifica sul marchio va bene e se il cambio cade insieme ai nuovi pack. Togliere «La» non è una strada a sé: si può fare dentro A o dentro B.",
  "lenti": [
   {
    "chi": "Massimo Vignelli",
    "tipo": "Modernismo",
    "sk": "vignelli",
+   "nome": {
+    "v": "togliere",
+    "x": "Ogni parola deve servire, e l'articolo non serve: non dice niente che «fiammante» non dica già. Il logo lo mostra, perché a misura piccola resta solo la parola. Un nome, una parola, un colore; ma il disegno deve far leggere «fiammante» come un nome e non come un aggettivo, e la verifica sul marchio va fatta prima."
+   },
    "img": "vignelli.jpg",
    "cr": "Foto: Wikimassimovignelli, CC BY-SA 4.0, Wikimedia Commons",
    "storia": "Designer italiano (Milano 1931 – New York 2014). Nel 1965 co-fonda Unimark International e nel 1971, con la moglie Lella, Vignelli Associates a New York. Firma l'identità di American Airlines (1967), la mappa della metropolitana di New York (1972), Knoll e Bloomingdale's; nel 2010 raccoglie le sue regole nel Vignelli Canon.",
@@ -271,6 +370,10 @@
    "chi": "Pentagram",
    "tipo": "Identità",
    "sk": "pentagram",
+   "nome": {
+    "v": "togliere",
+    "x": "Se si ridisegna tutto (B), è il momento di farlo, una volta sola: l'idea del marchio è la parola «fiammante», e un nome di una parola dà al nuovo carattere e al segno dalla «f» un solo protagonista. Togliere l'articolo più avanti, dopo un ritocco, vorrebbe dire cambiare due volte. Con la strada A questa lente non lo farebbe."
+   },
    "img": "pentagram.svg",
    "cr": "",
    "storia": "Studio fondato a Londra nel 1972 da Alan Fletcher, Colin Forbes, Theo Crosby, Kenneth Grange e Mervyn Kurlansky. È di proprietà dei suoi partner e si presenta come il più grande studio di design indipendente al mondo, con sedi tra cui Londra e New York. Tra i suoi lavori: Citi e Mastercard (2016).",
@@ -285,6 +388,10 @@
    "chi": "Studio Dumbar",
    "tipo": "Identità",
    "sk": "dumbar",
+   "nome": {
+    "v": "dipende",
+    "x": "Al sistema non serve cambiare nome: le misure piccole le risolve il segno dalla «f». Il «la» impilato però è un secondo elemento nel logo, quindi va integrato nella scritta piena o ridotto, tenendo il nome La Fiammante. Togliere l'articolo anche dal nome ha senso solo se la verifica dice che «Fiammante» da sola si può proteggere."
+   },
    "img": "dumbar-logo.svg",
    "cr": "",
    "wd": 1,
@@ -300,6 +407,10 @@
    "chi": "LoveFrom",
    "tipo": "Oggetto e marchio",
    "sk": "lovefrom",
+   "nome": {
+    "v": "dipende",
+    "x": "Sugli oggetti una parola sola sta meglio: una riga in meno sulla latta e sul cartone. Ma il cliente non decide il valore del Piennolo per un articolo: lo decide guardando il vasetto. Il nome si cambia solo se si fa insieme ai nuovi oggetti, non come lavoro a parte."
+   },
    "img": "lovefrom.png",
    "cr": "",
    "storia": "Collettivo creativo fondato nel 2019 da Jony Ive con Marc Newson, con sede a San Francisco. Ive è stato per oltre vent'anni il capo del design di Apple (iMac, iPod, iPhone); Newson è uno dei designer industriali più noti al mondo. LoveFrom riunisce architetti, designer industriali e grafici, disegnatori di caratteri, ingegneri, musicisti e scrittori. Collabora con Ferrari dal 2021 e con Airbnb, e dal 2025 è partner di OpenAI nello sviluppo di un nuovo prodotto; ha disegnato il sigillo Terra Carta per l'allora Principe Carlo (2021).",
@@ -314,6 +425,10 @@
    "chi": "Pearlfisher",
    "tipo": "Packaging alimentare",
    "sk": "pearlfisher",
+   "nome": {
+    "v": "tenere",
+    "x": "«La Fiammante» con l'articolo è la voce calda e popolare del marchio, ed è proprio il ruolo che questa lente le dà. Togliere «La» la renderebbe più fredda senza renderla desiderabile: il desiderio nasce dal prodotto e dalla linea premium, non da una parola in meno. Se serve un nome asciutto, va dato alla linea premium, non alla marca di tutti i giorni."
+   },
    "img": "pearlfisher.svg",
    "cr": "",
    "wd": 1,
@@ -329,6 +444,10 @@
    "chi": "Jones Knowles Ritchie (JKR)",
    "tipo": "Largo consumo",
    "sk": "jkr",
+   "nome": {
+    "v": "tenere",
+    "x": "I codici da tenere a ogni costo sono la scritta tonda, la parola «fiammante» e il rosso, e restano tutti anche con l'articolo. L'articolo non è un codice distintivo, perché lo hanno anche La Doria e La Torrente, ma non è nemmeno un problema. Cambiare nome spende soldi e riconoscimento sulla cosa sbagliata: il lavoro da fare è sui codici a scaffale."
+   },
    "img": "jkr.svg",
    "cr": "",
    "wd": 1,
@@ -344,6 +463,10 @@
    "chi": "David Aaker",
    "tipo": "Teoria",
    "sk": "aaker",
+   "nome": {
+    "v": "tenere",
+    "x": "Il valore accumulato è legato al nome intero: si cerca «la fiammante», si va su lafiammante.it e @lafiammante, le AI la citano così. «Fiammante» da sola è un aggettivo comune, più debole da proteggere e da trovare. Un cambio di nome si giustifica se il nome danneggia il marchio, e i dati non lo mostrano: il costo è certo, il beneficio no."
+   },
    "img": "aaker.jpg",
    "cr": "Foto: Prophet, CC BY 2.0, Wikimedia Commons",
    "storia": "Professore emerito alla Haas School of Business dell'Università di Berkeley e vicepresidente di Prophet, spesso chiamato il padre del branding moderno. Ha scritto Managing Brand Equity (1991), Building Strong Brands (1996) e, con Erich Joachimsthaler, Brand Leadership (2000).",
@@ -387,7 +510,7 @@
  "passi": [
   {
    "fase": "0-3 mesi",
-   "x": "Decidere le famiglie (tutti i giorni, DOP, pizzeria) e il ruolo di ognuna. Scrivere il brief del logo e controllare che il segno sia registrabile. Mettere l'anno di fondazione nel «chi siamo»."
+   "x": "Decidere le famiglie (tutti i giorni, DOP, pizzeria) e il ruolo di ognuna. Scrivere il brief del logo e controllare che il segno sia registrabile. Mettere l'anno di fondazione nel «chi siamo». Far verificare se «Fiammante» da sola è registrabile e se dominio e account sono liberi, per chiudere la domanda sul nome."
   },
   {
    "fase": "3-6 mesi",
