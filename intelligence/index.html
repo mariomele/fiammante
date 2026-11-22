@@ -480,7 +480,7 @@ const lk=(u,t)=>u?`<a href="${esc(u)}" target="_blank" rel="noopener">${t}</a>`:
 const n0=v=>v==null?'<span class="na">—</span>':fmt(v);
 const dt=d=>d?new Date(d).toLocaleDateString('it-IT',{day:'2-digit',month:'short',year:'2-digit'}):'<span class="na">—</span>';
 // avviso sulle valutazioni di esperti: in testa alle sezioni di giudizio
-const DSC_S=['standing','marchio','pack','tono','amarca','asales','amkt'],DSC='<p class="disc">○ Le valutazioni di questa pagina (voti a loghi, confezioni, marchio e strategie) sono generate in automatico seguendo i criteri dei maggiori esperti di branding, packaging e GDO e dei report di settore. Sono indicative e non rispecchiano per forza il giudizio dell\'autore del cruscotto.</p>';
+const DSC_S=['standing','marchio','pack','tono','amarca','asales','amkt'],DSC='<p class="disc">○ Le valutazioni di questa pagina (voti a loghi, confezioni, marchio e strategie) sono generate in automatico seguendo i criteri dei maggiori esperti di branding, packaging e GDO e dei report di settore. Sono indicative e non rispecchiano per forza il giudizio dell\'autore della dashboard.</p>';
 const VAL='<p class="note">○ Valutazione calcolata in automatico: solo indicativa, non è il parere dell\'azienda.</p>';
 const hlSeg=ids=>`<div class="chips">${ids.map(id=>`<button data-hl="${id}" aria-pressed="${ST.hl===id}" class="${id===ME?'me':''}">${esc(nm(id))}</button>`).join('')}</div>`;
 // grafico a linee: S=[{id,nm,pts:[[x,y]]}]; la nostra azienda e quella scelta (ST.hl) in evidenza
