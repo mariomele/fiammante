@@ -1,0 +1,476 @@
+{
+ "at": "2026-11-22",
+ "s": "val",
+ "n": "Foto frontali scaricate il 22/11/2026 dai siti ufficiali (Solania da un negozio online estero, perché il sito ufficiale non si legge; Agromonte disponibile solo in 520 g). Giudizi di un panel simulato da Claude di 7 ruoli (designer di pack, category manager GDO, buyer, shopper researcher, tipografo, stratega di marca, esperto di stampa ed etichette) guardando solo la foto: solo indicativo, non è un test con consumatori.",
+ "crit": [
+  [
+   "imp",
+   "Impatto a 2 metri",
+   "Si vede e si riconosce dal corridoio, fra 20 passate rosse?"
+  ],
+  [
+   "blk",
+   "Blocco a scaffale",
+   "Più facce affiancate fanno un blocco di colore riconoscibile?"
+  ],
+  [
+   "dis",
+   "Distintività",
+   "Si stacca dal rosso-tricolore di categoria?"
+  ],
+  [
+   "ger",
+   "Gerarchia",
+   "Marca, prodotto, variante: si leggono in quest'ordine in 3 secondi?"
+  ],
+  [
+   "var",
+   "Variante",
+   "Si capisce subito quale passata è (classica, rustica, Dolcissima)?"
+  ],
+  [
+   "prm",
+   "Percezione di qualità",
+   "Sembra premium o primo prezzo?"
+  ],
+  [
+   "mar",
+   "Coerenza col marchio",
+   "Il logo è usato bene e uguale agli altri prodotti del marchio?"
+  ],
+  [
+   "clm",
+   "Claim e prove",
+   "Origine, filiera, ingredienti: chiari e credibili, non affollati?"
+  ],
+  [
+   "frm",
+   "Forma e chiusura",
+   "Bottiglia, tappo, collarino: aiutano presa e riconoscibilità?"
+  ]
+ ],
+ "regola": "Classe dalla media dei 9 criteri (1-5, 3 = nella norma): Riferimento ≥ 4,0; Solido ≥ 3,3; Nella norma ≥ 2,8; Debole ≥ 2,1; altrimenti Da rifare. Ordine per media.",
+ "items": [
+  {
+   "id": "mutti",
+   "k": "mutti",
+   "nome": "Passata di pomodoro 700g",
+   "fmt": "700 g, vetro",
+   "img": "logos/pack/mutti.png",
+   "u": "https://mutti-parma.com/it/i-nostri-prodotti/passata-di-pomodoro/",
+   "iu": "https://cdn1.mutti-parma.com/spai/q_glossy+w_448+to_webp+ret_img/mutti-parma.com/app/uploads/sites/7/2019/09/passata-700-1-768x1916.png",
+   "s": "dic",
+   "v": {
+    "imp": 4,
+    "blk": 5,
+    "dis": 4,
+    "ger": 4,
+    "var": 3,
+    "prm": 4,
+    "mar": 5,
+    "clm": 3,
+    "frm": 4
+   },
+   "media": 4.0,
+   "cls": "Riferimento",
+   "ep": "«il blocco che fa lo scaffale»",
+   "verd": "Etichetta crema e rossa con i leoni, uguale su tutta la gamma: dieci bottiglie affiancate fanno un muro che si riconosce senza leggere.",
+   "pro": [
+    "Il crema dell'etichetta è l'unico colore chiaro caldo della categoria: si vede e si possiede.",
+    "Logo e leoni identici su tutti i prodotti.",
+    "Bottiglia alta e stretta con spalle morbide, riconoscibile anche di profilo."
+   ],
+   "contro": [
+    "La variante si legge solo da vicino: «Passata» in corsivo è elegante ma piccolo.",
+    "Le prove di filiera stanno in una riga minuscola."
+   ],
+   "fix": "Poco da cambiare: rendere più evidente la variante sulle altre passate.",
+   "gdo": "È il riferimento del corridoio: il blocco crema-rosso segna dove inizia la categoria."
+  },
+  {
+   "id": "conserveitalia",
+   "k": "conserveitalia",
+   "nome": "Passata di pomodoro Verace 700g",
+   "fmt": "700 g, vetro",
+   "img": "logos/pack/conserveitalia.png",
+   "u": "https://cirio.it/prodotti/passata-di-pomodoro-verace/",
+   "iu": "https://cirio.it/wp-content/uploads/2025/11/Pomodoro-Passata-Verace-700_2025.png",
+   "s": "dic",
+   "v": {
+    "imp": 4,
+    "blk": 4,
+    "dis": 3,
+    "ger": 4,
+    "var": 4,
+    "prm": 3,
+    "mar": 4,
+    "clm": 3,
+    "frm": 3
+   },
+   "media": 3.56,
+   "cls": "Solido",
+   "ep": "«ordine e logo forte»",
+   "verd": "Logo ovale blu ben riconoscibile, poi PASSATA VERACE grande, poi il claim: la gerarchia è da manuale. Il pomodoro fotografato e il rosso pieno la riportano però nella media.",
+   "pro": [
+    "Il blu del tappo e del logo stacca dal rosso e firma la marca da lontano.",
+    "Nome e variante grandi, in stampatello, letti in un colpo.",
+    "Etichetta avvolgente: in fila fa blocco."
+   ],
+   "contro": [
+    "Pomodoro con foglia: immagine vista ovunque.",
+    "Bottiglia standard senza segni propri."
+   ],
+   "fix": "Sostituire il pomodoro fotografato con un segno proprio di Cirio.",
+   "gdo": "Il blu fa trovare Cirio subito; il resto è nella media della categoria."
+  },
+  {
+   "id": "casalasco",
+   "k": "casalasco",
+   "nome": "Passata di pomodoro 700g",
+   "fmt": "700 g, vetro (sul sito anche 500 g)",
+   "img": "logos/pack/casalasco.png",
+   "u": "https://www.pomionline.it/it/prodotti/passate-di-pomodoro/passata-classica/",
+   "iu": "https://media-casalasco-prod.alkemy.digital/pomi/media/__sized__/products/product_format/image/PASSATA_700g_mjYzZaa-thumbnail-600x600.png",
+   "s": "dic",
+   "v": {
+    "imp": 4,
+    "blk": 4,
+    "dis": 2,
+    "ger": 4,
+    "var": 3,
+    "prm": 3,
+    "mar": 4,
+    "clm": 3,
+    "frm": 4
+   },
+   "media": 3.44,
+   "cls": "Solido",
+   "ep": "«il logo grande salva il rosso»",
+   "verd": "Pomì in bianco grandissimo su rosso pieno: si legge da lontano. Ma il resto (rosso, due pomodori) è il codice di tutti.",
+   "pro": [
+    "Logo enorme, il più leggibile del corridoio.",
+    "Vetro inciso «Così Pomì» e tappo bianco scritto: segni propri.",
+    "Gerarchia chiara: marca, PASSATA, formato."
+   ],
+   "contro": [
+    "Tutto rosso: si distingue solo per la parola Pomì.",
+    "«Densa e profumata» è scritto piccolo dentro i pomodori."
+   ],
+   "fix": "Dare alla passata in vetro un colore o un segno che la separi dal brick della stessa marca.",
+   "gdo": "In GDO Pomì è soprattutto brick; la bottiglia si riconosce per il logo, non per il colore."
+  },
+  {
+   "id": "petti",
+   "k": "petti",
+   "nome": "Il Delicato Passata extrafine 700g",
+   "fmt": "700 g, vetro",
+   "img": "logos/pack/petti.png",
+   "u": "https://www.ilpomodoropetti.com/retail/passate-di-pomodoro/",
+   "iu": "https://www.ilpomodoropetti.com/wp-content/uploads/2024/03/PETTI_Il_delicato_700g-2024.png",
+   "s": "dic",
+   "v": {
+    "imp": 3,
+    "blk": 3,
+    "dis": 3,
+    "ger": 4,
+    "var": 4,
+    "prm": 3,
+    "mar": 4,
+    "clm": 3,
+    "frm": 3
+   },
+   "media": 3.33,
+   "cls": "Solido",
+   "ep": "«un sistema di nomi che funziona»",
+   "verd": "Fascia verde con il nome della variante (Il Delicato, Il Corposo…) e logo a stemma: si capisce subito quale passata è e che fa parte di una famiglia.",
+   "pro": [
+    "Il nome di variante su una fascia colorata è il sistema più chiaro della categoria.",
+    "«Pomodoro toscano» dà un'origine precisa."
+   ],
+   "contro": [
+    "Il resto della bottiglia è rosso pieno, come tutti.",
+    "Lo stemma con corona è un codice comune."
+   ],
+   "fix": "Allargare il colore di fascia per far vedere la variante da più lontano.",
+   "gdo": "Il blocco Petti si legge per variante: è il modello da copiare per la linea La Fiammante."
+  },
+  {
+   "id": "rodolfi",
+   "k": "rodolfi",
+   "nome": "Fior di Passata 690g",
+   "fmt": "690 g, vetro",
+   "img": "logos/pack/rodolfi.png",
+   "u": "https://www.rodolfi.com/rodolfi-passata-classica/",
+   "iu": "https://www.rodolfi.com/wp-content/uploads/2026/05/Rodolfi-Passta-classica-700x700-1.png",
+   "s": "dic",
+   "v": {
+    "imp": 3,
+    "blk": 3,
+    "dis": 3,
+    "ger": 4,
+    "var": 3,
+    "prm": 4,
+    "mar": 3,
+    "clm": 3,
+    "frm": 3
+   },
+   "media": 3.22,
+   "cls": "Nella norma",
+   "ep": "«Parma in etichetta»",
+   "verd": "Tappo oro, rosso scuro, campo coltivato disegnato e fascia verde: tutto dice tradizione di Parma e qualità, ma con lo stesso codice di Mutti.",
+   "pro": [
+    "Tappo oro e bottiglia sagomata danno un'aria curata.",
+    "«Pomodoro a Parma» e il disegno del campo sono una prova d'origine chiara."
+   ],
+   "contro": [
+    "Rosso e oro come Mutti: a scaffale le due si confondono.",
+    "Nome sul sito (Passata classica) diverso da quello in etichetta (Fior di Passata)."
+   ],
+   "fix": "Rendere il verde della fascia il colore della marca per uscire dall'ombra di Mutti.",
+   "gdo": "Bella da vicino, ma in GDO sta accanto a Mutti e perde il confronto."
+  },
+  {
+   "id": "agromonte",
+   "k": "agromonte",
+   "nome": "Passata di pomodoro e ciliegino 520g",
+   "fmt": "520 g, vetro",
+   "img": "logos/pack/agromonte.png",
+   "u": "https://www.agromonte.it/prodotti/passata-of-tomato-and-cherry-tomato/?lang=en",
+   "iu": "https://www.agromonte.it/2018/wp-content/uploads/2018/09/passata_cherry_tomato_520g.png",
+   "s": "dic",
+   "v": {
+    "imp": 3,
+    "blk": 3,
+    "dis": 3,
+    "ger": 3,
+    "var": 3,
+    "prm": 4,
+    "mar": 4,
+    "clm": 3,
+    "frm": 3
+   },
+   "media": 3.22,
+   "cls": "Nella norma",
+   "ep": "«gastronomia siciliana»",
+   "verd": "Etichetta nera con merletto e cucchiaio: sembra una specialità più che una passata da tutti i giorni. Riconoscibile, ma il formato da 520 g la mette fuori dal confronto diretto.",
+   "pro": [
+    "Il nero dell'etichetta stacca dal rosso.",
+    "Logo e stile uguali su tutta la gamma.",
+    "Sembra premium."
+   ],
+   "contro": [
+    "Molti elementi: merletto, cucchiaio, pomodori, tricolore, scritte in inglese.",
+    "L'immagine sul sito è la versione per l'estero (testi in inglese)."
+   ],
+   "fix": "Semplificare l'etichetta tenendo il nero.",
+   "gdo": "In GDO sta fra le specialità: non compete sul prezzo con le 700 g."
+  },
+  {
+   "id": "icab",
+   "k": "icab-dolce",
+   "nome": "La Passata Dolcissima 700g",
+   "fmt": "700 g, vetro",
+   "img": "logos/pack/icab-dolce.png",
+   "u": "https://www.lafiammante.it/la-passata-di-pomodoro-dolcissima-700g.html",
+   "iu": "https://www.lafiammante.it/media/catalog/product/cache/ce9ae49cd4cf22ffc326df94b461c9f5/d/o/dolcissima-lafiammante-680g.jpg",
+   "s": "dic",
+   "v": {
+    "imp": 2,
+    "blk": 2,
+    "dis": 2,
+    "ger": 3,
+    "var": 4,
+    "prm": 3,
+    "mar": 3,
+    "clm": 3,
+    "frm": 3
+   },
+   "media": 2.78,
+   "cls": "Debole",
+   "ep": "«bella, ma è un'altra marca»",
+   "verd": "Più curata della classica: tappo oro, bottiglia lavorata, nome in corsivo. Ma rosso scuro su rosso passata, sparisce in mezzo a Mutti e Rodolfi e non somiglia per niente alla sorella verde.",
+   "pro": [
+    "«Dolcissima» in corsivo grande dice subito la variante.",
+    "Tappo oro e vetro a rilievo danno un'aria più ricca della classica.",
+    "«Senza acido citrico aggiunto» è una prova concreta e leggibile."
+   ],
+   "contro": [
+    "Rosso su rosso: da 2 metri si confonde con il resto dello scaffale.",
+    "Nessun legame visivo con la classica verde: due bottiglie dello stesso marchio sembrano di due aziende.",
+    "Tappo oro e corsivo sono lo stesso codice di Rodolfi e Mutti: non ci si distingue."
+   ],
+   "fix": "Dare a tutta la linea uno stesso sistema (fascia, posizione del logo, tappo) e usare il colore solo per la variante; il colore della Dolcissima deve staccarsi dal rosso.",
+   "gdo": "Sembra più cara della classica, ma in GDO si perde nel blocco rosso dei marchi forti."
+  },
+  {
+   "id": "ladoria",
+   "k": "ladoria",
+   "nome": "Passata 690g",
+   "fmt": "690 g, vetro",
+   "img": "logos/pack/ladoria.png",
+   "u": "https://www.ladoria.it/passata-690g/",
+   "iu": "https://www.ladoria.it/wp-content/uploads/2022/11/LaDoria_Passata_720ml_2022.png",
+   "s": "dic",
+   "v": {
+    "imp": 3,
+    "blk": 3,
+    "dis": 2,
+    "ger": 3,
+    "var": 3,
+    "prm": 2,
+    "mar": 3,
+    "clm": 3,
+    "frm": 2
+   },
+   "media": 2.67,
+   "cls": "Debole",
+   "ep": "«corretta e dimenticabile»",
+   "verd": "Etichetta bianca con logo blu e PASSATA rossa: ordinata ma uguale a una marca del distributore.",
+   "pro": [
+    "Il bianco con logo blu si legge bene.",
+    "Gerarchia pulita."
+   ],
+   "contro": [
+    "Ciotola, pomodoro e bollino tricolore: tutti i cliché insieme.",
+    "Sembra un prodotto di primo prezzo.",
+    "Bottiglia standard, tappo blu generico."
+   ],
+   "fix": "Togliere ciotola e pomodoro, alzare la qualità della stampa e dare un segno proprio.",
+   "gdo": "Si confonde con le marche del distributore che La Doria stessa produce."
+  },
+  {
+   "id": "icab",
+   "k": "icab",
+   "nome": "La Passata di pomodoro 680g",
+   "fmt": "680 g, vetro",
+   "img": "logos/pack/icab.png",
+   "u": "https://www.lafiammante.it/passata-di-pomodoro.html",
+   "iu": "https://www.lafiammante.it/media/catalog/product/cache/ce9ae49cd4cf22ffc326df94b461c9f5/l/f/lf__680g_passata.jpg",
+   "s": "dic",
+   "v": {
+    "imp": 3,
+    "blk": 3,
+    "dis": 3,
+    "ger": 3,
+    "var": 2,
+    "prm": 2,
+    "mar": 3,
+    "clm": 2,
+    "frm": 2
+   },
+   "media": 2.56,
+   "cls": "Debole",
+   "ep": "«il verde che nessuno aspetta»",
+   "verd": "Tappo ed etichetta verde chiaro sono l'unica cosa che la distingue dal rosso della categoria; tutto il resto è generico: foto di una ciotola, scritte piccole, bottiglia standard.",
+   "pro": [
+    "Il verde di tappo ed etichetta si vede da lontano fra tanti rossi e tricolori.",
+    "«LA PASSATA» in rosso grande è leggibile subito."
+   ],
+   "contro": [
+    "Il verde chiaro dice «leggero» o «biologico» più che pomodoro: rischia di confondere.",
+    "La foto della ciotola di passata è la più comune della categoria e non dà nessun motivo per scegliere.",
+    "«100% italiano» è un bollino piccolo; manca la filiera, che è il vero argomento del marchio.",
+    "Bottiglia e tappo standard, nessun segno proprio."
+   ],
+   "fix": "Tenere il verde ma più deciso e solo come colore di linea; togliere la ciotola; portare la filiera (Campania, patto con gli agricoltori) in una riga grande.",
+   "gdo": "A scaffale si nota per il colore, ma il verde chiaro sbiadisce sotto le luci e il blocco sembra di una marca minore."
+  },
+  {
+   "id": "latorrente",
+   "k": "latorrente",
+   "nome": "Passata di pomodoro pelato",
+   "fmt": "vetro, peso non indicato sulla pagina",
+   "img": "logos/pack/latorrente.png",
+   "u": "https://latorrente.it/prodotti/",
+   "iu": "https://latorrente.it/wp-content/uploads/2026/03/passata-di-pomdoro-pelato-da-pomodor-lungo-def.png",
+   "s": "dic",
+   "v": {
+    "imp": 2,
+    "blk": 2,
+    "dis": 3,
+    "ger": 2,
+    "var": 2,
+    "prm": 2,
+    "mar": 2,
+    "clm": 2,
+    "frm": 2
+   },
+   "media": 2.11,
+   "cls": "Debole",
+   "ep": "«tutto in diagonale»",
+   "verd": "Etichetta bianca con pomodoro, cucchiaio, mappa e bollini che si sovrappongono: tanti elementi, nessuno che guida l'occhio.",
+   "pro": [
+    "Il bianco con il logo rosso a bandiera si distingue un poco."
+   ],
+   "contro": [
+    "Il logo è piccolo rispetto alle immagini.",
+    "Il nome della variante in corsivo azzurro si legge male.",
+    "Troppi bollini e disegni sovrapposti."
+   ],
+   "fix": "Togliere metà degli elementi e ingrandire il logo.",
+   "gdo": "A scaffale sembra una marca locale; il blocco non si riconosce."
+  },
+  {
+   "id": "solania",
+   "k": "solania",
+   "nome": "Passata di pomodoro 680g",
+   "fmt": "680 g, vetro",
+   "img": "logos/pack/solania.png",
+   "u": "https://littlelane.co/products/solania-passata-680g",
+   "iu": "https://littlelane.co/cdn/shop/files/471D9728-C7B0-46D4-8614-07D6ACC38005.png?v=1752745447&width=1200",
+   "s": "dic",
+   "v": {
+    "imp": 2,
+    "blk": 2,
+    "dis": 2,
+    "ger": 2,
+    "var": 2,
+    "prm": 1,
+    "mar": 2,
+    "clm": 1,
+    "frm": 2
+   },
+   "media": 1.78,
+   "cls": "Da rifare",
+   "ep": "«etichetta di altri anni»",
+   "verd": "Logo con ombre e onde, scritta gialla, foto sfocata: sembra un'etichetta degli anni '90 e dice primo prezzo.",
+   "pro": [
+    "Il celeste dell'etichetta è diverso dal rosso degli altri."
+   ],
+   "contro": [
+    "Scritta gialla su foto: poco leggibile.",
+    "Nessuna prova di origine visibile sul fronte.",
+    "Logo con ombre e contorni che a distanza diventa una macchia."
+   ],
+   "fix": "Rifare l'etichetta da zero: logo pulito, nome grande, origine in chiaro.",
+   "gdo": "Non regge il confronto in GDO italiana; la foto viene da un negozio estero, perché il sito ufficiale non è leggibile."
+  }
+ ],
+ "cliente": {
+  "sintesi": "Le due bottiglie La Fiammante sono entrambe «Deboli» e sembrano di due marche diverse: una verde chiaro con la ciotola, l'altra rosso scuro e oro. Nessuna delle due dice la filiera, che è il vero argomento del marchio.",
+  "dolcissima": "La Dolcissima è più curata della classica (tappo oro, vetro a rilievo, nome chiaro, senza acido citrico) ma usa il codice rosso-oro di Mutti e Rodolfi e da 2 metri sparisce; perde il verde, l'unica cosa che faceva notare la classica.",
+  "scaffale": "Mutti fa un muro crema-rosso e Cirio si firma con il blu; La Fiammante non fa blocco: verde e rosso alternati si leggono come due marche minori. Il modello da seguire è Petti: una bottiglia uguale e una fascia colorata per la variante.",
+  "mosse": [
+   [
+    "Un solo sistema per tutte le passate: stessa posizione del logo, stessa fascia, stesso tappo",
+    "Oggi classica e Dolcissima non sembrano parenti e non fanno blocco",
+    "medio"
+   ],
+   [
+    "Colore di variante su una fascia, sul modello Petti; Dolcissima fuori dal rosso-oro",
+    "La variante deve leggersi da 2 metri",
+    "basso"
+   ],
+   [
+    "Togliere la foto della ciotola e mettere in grande la filiera (Campania, patto con gli agricoltori)",
+    "È la prova che nessun concorrente può copiare",
+    "basso"
+   ],
+   [
+    "Un segno proprio sulla bottiglia o sul tappo (vetro inciso, tappo stampato)",
+    "Pomì e Mutti si riconoscono anche dalla forma",
+    "alto"
+   ]
+  ]
+ }
+}
