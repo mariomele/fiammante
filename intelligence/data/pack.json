@@ -46,7 +46,7 @@
   [
    "frm",
    "Forma e chiusura",
-   "Bottiglia, tappo, collarino: aiutano presa e riconoscibilità?"
+   "Bottiglia, tappo, collarino: la forma è propria o standard, aiuta presa e riconoscibilità?"
   ]
  ],
  "regola": "Classe dalla media dei 9 criteri (1-5, 3 = nella norma): Riferimento ≥ 4,0; Solido ≥ 3,3; Nella norma ≥ 2,8; Debole ≥ 2,1; altrimenti Da rifare. Ordine per media.",
@@ -71,7 +71,7 @@
     "clm": 3,
     "frm": 4
    },
-   "media": 4.0,
+   "media": 4,
    "cls": "Riferimento",
    "ep": "«il blocco che fa lo scaffale»",
    "verd": "Etichetta crema e rossa con i leoni, uguale su tutta la gamma: dieci bottiglie affiancate fanno un muro che si riconosce senza leggere.",
@@ -85,7 +85,11 @@
     "Le prove di filiera stanno in una riga minuscola."
    ],
    "fix": "Poco da cambiare: rendere più evidente la variante sulle altre passate.",
-   "gdo": "È il riferimento del corridoio: il blocco crema-rosso segna dove inizia la categoria."
+   "gdo": "È il riferimento del corridoio: il blocco crema-rosso segna dove inizia la categoria.",
+   "forma": {
+    "g": "standard",
+    "t": "Cilindro dritto con spalla corta: la bottiglia più comune della categoria. Il lavoro lo fa l’etichetta crema, non il vetro."
+   }
   },
   {
    "id": "conserveitalia",
@@ -121,7 +125,11 @@
     "Bottiglia standard senza segni propri."
    ],
    "fix": "Sostituire il pomodoro fotografato con un segno proprio di Cirio.",
-   "gdo": "Il blu fa trovare Cirio subito; il resto è nella media della categoria."
+   "gdo": "Il blu fa trovare Cirio subito; il resto è nella media della categoria.",
+   "forma": {
+    "g": "standard",
+    "t": "Cilindro dritto e tozzo, collo corto: la forma di tutti. Comunica prodotto di base; a distinguerla resta il blu del logo."
+   }
   },
   {
    "id": "casalasco",
@@ -157,7 +165,11 @@
     "«Densa e profumata» è scritto piccolo dentro i pomodori."
    ],
    "fix": "Dare alla passata in vetro un colore o un segno che la separi dal brick della stessa marca.",
-   "gdo": "In GDO Pomì è soprattutto brick; la bottiglia si riconosce per il logo, non per il colore."
+   "gdo": "In GDO Pomì è soprattutto brick; la bottiglia si riconosce per il logo, non per il colore.",
+   "forma": {
+    "g": "propria",
+    "t": "Cilindro largo con «O Così O Pomì» inciso nel vetro: il marchio è nella bottiglia anche senza etichetta. Dice cura e marca solida."
+   }
   },
   {
    "id": "petti",
@@ -192,7 +204,11 @@
     "Lo stemma con corona è un codice comune."
    ],
    "fix": "Allargare il colore di fascia per far vedere la variante da più lontano.",
-   "gdo": "Il blocco Petti si legge per variante: è il modello da copiare per la linea La Fiammante."
+   "gdo": "Il blocco Petti si legge per variante: è il modello da copiare per la linea La Fiammante.",
+   "forma": {
+    "g": "propria",
+    "t": "Alta e stretta con spalla piatta e collo largo: più snella delle altre, si stacca nel profilo e richiama un prodotto più raffinato, da gastronomia."
+   }
   },
   {
    "id": "rodolfi",
@@ -227,7 +243,11 @@
     "Nome sul sito (Passata classica) diverso da quello in etichetta (Fior di Passata)."
    ],
    "fix": "Rendere il verde della fascia il colore della marca per uscire dall'ombra di Mutti.",
-   "gdo": "Bella da vicino, ma in GDO sta accanto a Mutti e perde il confronto."
+   "gdo": "Bella da vicino, ma in GDO sta accanto a Mutti e perde il confronto.",
+   "forma": {
+    "g": "propria",
+    "t": "Sagomata in vita con spalla bombata: si prende bene in mano e il profilo a clessidra comunica artigianalità e tradizione."
+   }
   },
   {
    "id": "agromonte",
@@ -263,7 +283,11 @@
     "L'immagine sul sito è la versione per l'estero (testi in inglese)."
    ],
    "fix": "Semplificare l'etichetta tenendo il nero.",
-   "gdo": "In GDO sta fra le specialità: non compete sul prezzo con le 700 g."
+   "gdo": "In GDO sta fra le specialità: non compete sul prezzo con le 700 g.",
+   "forma": {
+    "g": "propria",
+    "t": "Spalla tonda e collo stretto, come una bottiglia da latte, con tappo oro: la più piccola e la più «da dispensa», dice prodotto artigianale siciliano."
+   }
   },
   {
    "id": "icab",
@@ -300,7 +324,11 @@
     "Tappo oro e corsivo sono lo stesso codice di Rodolfi e Mutti: non ci si distingue."
    ],
    "fix": "Dare a tutta la linea uno stesso sistema (fascia, posizione del logo, tappo) e usare il colore solo per la variante; il colore della Dolcissima deve staccarsi dal rosso.",
-   "gdo": "Sembra più cara della classica, ma in GDO si perde nel blocco rosso dei marchi forti."
+   "gdo": "Sembra più cara della classica, ma in GDO si perde nel blocco rosso dei marchi forti.",
+   "forma": {
+    "g": "propria",
+    "t": "Sagomata con una fascia di vetro a puntini in rilievo sopra l’etichetta: l’unico vetro lavorato al tatto della categoria. Comunica cura e un prodotto speciale, ed è un elemento da tenere."
+   }
   },
   {
    "id": "ladoria",
@@ -336,7 +364,11 @@
     "Bottiglia standard, tappo blu generico."
    ],
    "fix": "Togliere ciotola e pomodoro, alzare la qualità della stampa e dare un segno proprio.",
-   "gdo": "Si confonde con le marche del distributore che La Doria stessa produce."
+   "gdo": "Si confonde con le marche del distributore che La Doria stessa produce.",
+   "forma": {
+    "g": "standard",
+    "t": "Bottiglia da succo con collo lungo: profilo diverso ma preso da un’altra categoria; comunica prezzo e grandi quantità, non pomodoro di qualità."
+   }
   },
   {
    "id": "icab",
@@ -373,7 +405,11 @@
     "Bottiglia e tappo standard, nessun segno proprio."
    ],
    "fix": "Tenere il verde ma più deciso e solo come colore di linea; togliere la ciotola; portare la filiera (Campania, patto con gli agricoltori) in una riga grande.",
-   "gdo": "A scaffale si nota per il colore, ma il verde chiaro sbiadisce sotto le luci e il blocco sembra di una marca minore."
+   "gdo": "A scaffale si nota per il colore, ma il verde chiaro sbiadisce sotto le luci e il blocco sembra di una marca minore.",
+   "forma": {
+    "g": "standard",
+    "t": "Cilindro dritto con collo corto, il vetro più generico del gruppo: senza etichetta non si distingue da una marca del distributore. Solo il tappo verde la fa notare."
+   }
   },
   {
    "id": "latorrente",
@@ -408,7 +444,11 @@
     "Troppi bollini e disegni sovrapposti."
    ],
    "fix": "Togliere metà degli elementi e ingrandire il logo.",
-   "gdo": "A scaffale sembra una marca locale; il blocco non si riconosce."
+   "gdo": "A scaffale sembra una marca locale; il blocco non si riconosce.",
+   "forma": {
+    "g": "standard",
+    "t": "Bottiglia comune a spalla tonda con tappo bianco: forma da primo prezzo, nulla di proprio."
+   }
   },
   {
    "id": "solania",
@@ -443,7 +483,11 @@
     "Logo con ombre e contorni che a distanza diventa una macchia."
    ],
    "fix": "Rifare l'etichetta da zero: logo pulito, nome grande, origine in chiaro.",
-   "gdo": "Non regge il confronto in GDO italiana; la foto viene da un negozio estero, perché il sito ufficiale non è leggibile."
+   "gdo": "Non regge il confronto in GDO italiana; la foto viene da un negozio estero, perché il sito ufficiale non è leggibile.",
+   "forma": {
+    "g": "standard",
+    "t": "Bottiglia alta comune, spalla dritta: generica, comunica prezzo."
+   }
   }
  ],
  "cliente": {
@@ -471,6 +515,7 @@
     "Pomì e Mutti si riconoscono anche dalla forma",
     "alto"
    ]
-  ]
+  ],
+  "forma": "Le due bottiglie La Fiammante hanno due forme diverse: la classica è il cilindro più generico della categoria, la Dolcissima è sagomata con il vetro a puntini in rilievo, l’idea di forma più originale dello scaffale. A scaffale un vetro proprio comunica cura e qualità e si riconosce anche di sbieco (Pomì con la scritta incisa, Rodolfi e Petti col profilo); il cilindro standard comunica prodotto di base. La mossa è portare la bottiglia della Dolcissima, o almeno la fascia a rilievo, su tutte le passate: una sola forma La Fiammante, riconoscibile prima ancora del logo."
  }
 }

@@ -69,23 +69,24 @@
     "rid": 2,
     "mono": 2,
     "dist": 3,
-    "tipo": 3,
+    "tipo": 2,
     "sist": 2,
-    "sett": 3,
+    "sett": 2,
     "dur": 2,
     "prem": 2,
     "ess": 2
    },
    "v": "Una scritta rossa minuscola, tonda e molto grassa: dice simpatia e prezzo, non qualità. In più è circondata da troppi accessori: bandierina, scintilla gialla e verde, contorno chiaro e payoff in maiuscolo spaziato.",
    "pro": [
-    "«fiammante» in minuscolo tondo e pesante è diversa dagli altri, ma diversa nel senso sbagliato: nella categoria maiuscole, grazie e scudi sono il codice della qualità, e uscirne con un tondo grasso fa leggere il marchio come più economico.",
     "Il ritmo delle due m e delle due a dà una forma lunga e riconoscibile anche da lontano, sulla fascia dell'etichetta.",
     "La bandierina tricolore piccola in alto dice Italia senza trasformare tutto il logo in un tricolore, come fa La Torrente."
    ],
    "contro": [
+    "«fiammante» in minuscolo tondo e pesante è diversa dagli altri nel senso sbagliato: nella categoria maiuscole, grazie e scudi sono il codice della qualità, e uscirne con un tondo grasso fa leggere il marchio come più economico.",
     "Bandierina, scintilla giallo-verde sul «la» e payoff stanno in tre punti diversi del logo: a 16 px o sul tappo restano solo macchie colorate.",
     "Il contorno chiaro e la leggera ombra sotto le lettere sono un effetto da insegna, che a un colore (timbro sul cartone) sparisce e lascia le lettere più magre.",
-    "Il tono giocoso delle lettere tonde parla di prezzo accessibile: è in tensione con i prodotti DOP San Marzano e Piennolo che il marchio vende."
+    "Il tono giocoso delle lettere tonde parla di prezzo accessibile: è in tensione con i prodotti DOP San Marzano e Piennolo che il marchio vende.",
+    "Il tondo molto grasso chiude gli occhielli di «a» ed «e» sotto i 2 cm: proprio dove servirebbe, sul tappo e in favicon, la scritta si impasta."
    ],
    "fix": "Tenere la scritta «la fiammante» come logo principale piena a un colore, senza contorno né ombra; togliere la scintilla, spostare la bandierina a elemento di pack e ricavare dalla «f» con la fiamma un segno quadrato per tappo, favicon e social."
   },
@@ -543,13 +544,13 @@
   },
   "icab": {
    "k": "Debole",
-   "e": "Scritta simpatica, troppi accessori",
+   "e": "Scritta simpatica, poca autorevolezza",
    "v": "Una scritta minuscola, tonda e grassa: si fa vedere, ma ha il tono di una merendina, non di un San Marzano DOP. Intorno ha bandiera, scintilla, contorno e payoff.",
    "x": [
     [
      "Tipografo",
-     3,
-     "Le lettere tonde e pesanti hanno ritmo (mm, aa); il «la» impilato a sinistra e il payoff spaziato sono tre registri diversi."
+     2,
+     "Minuscolo tondo e molto grasso: ritmo nelle mm e aa, ma occhielli che si chiudono in piccolo e un tono da merendina che le ricerche legano a meno competenza percepita."
     ],
     [
      "Packaging designer",
@@ -584,7 +585,7 @@
    ],
    "lez": "Il nome «fiammante» è già un'immagine: il logo deve trasformarlo in un solo segno, non aggiungere accessori.",
    "w": 1,
-   "wv": "Ha un'idea (la scritta tonda e calda) ma niente della disciplina dei loghi globali: quattro accessori intorno al nome, effetti che non reggono a un colore e nessuna versione piccola."
+   "wv": "Niente della disciplina dei loghi globali: una scritta tonda senza autorevolezza, quattro accessori intorno al nome, effetti che non reggono a un colore e nessuna versione piccola."
   },
   "ladoria": {
    "k": "Debole",
