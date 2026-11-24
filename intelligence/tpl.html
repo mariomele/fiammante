@@ -344,6 +344,13 @@ table.vm th{white-space:normal;min-width:64px;vertical-align:bottom}table.vm td{
 @media(max-width:720px){svg.wd{min-width:620px}.card:has(>svg.wd){overflow-x:auto}}
 @media(max-width:720px){.r1{flex-wrap:wrap}#q{width:100%;order:3}#slg{display:none}.feed li{grid-template-columns:70px 1fr}.feed em{display:none}.sbar{grid-template-columns:90px 1fr 80px}}
 .disc{font-size:12.5px;color:var(--mut);border:1px dashed var(--ln);border-radius:8px;padding:8px 12px;margin:0 0 14px}
+.qg>a{transition:opacity .4s}.qg>a.nw{animation:qgIn .5s}@keyframes qgIn{from{opacity:0}to{opacity:1}}@media (prefers-reduced-motion:reduce){.qg>a.nw{animation:none}}
+.rkn{display:inline-block;background:#fff;color:#111;border-radius:5px;padding:3px 4px;font-size:9.5px;line-height:1.15;max-width:74px;text-align:center}.rkn.me,.lsl img.me{outline:2px solid var(--me)}
+.rkref{display:flex;flex-direction:column;align-items:center;gap:2px;font-size:9.5px;color:var(--tx);text-align:center}.rkref img{width:30px;height:30px;object-fit:contain;background:#fff;border-radius:6px;padding:3px}
+.rksh{width:100%;border-radius:6px;display:block;border:1px solid var(--ln);max-height:none}.rkpp{display:grid;grid-template-columns:repeat(3,1fr);gap:3px}.rkpp img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:4px;max-height:none}
+.rkfull{max-height:520px;overflow-y:auto;border:1px solid var(--ln);border-radius:6px;margin:8px 0}.rkfull img{width:100%;display:block;max-height:none}
+.rkt th small{display:block;color:var(--mut);font-weight:400}.rkt td.me,.rkt tr.me td{color:var(--me)}.lt.open{grid-column:1/-1;cursor:default}.rkpa p{margin:4px 0}.rkpa b{color:var(--mut);font:600 10px ui-monospace,Menlo,monospace;text-transform:uppercase;margin-right:6px}
+@media(max-width:600px){.rkt{display:block;overflow-x:auto;max-width:100%}.lgg2{grid-template-columns:1fr}}
 </style></head><body>
 <div class="bar"><div class="wrap">
   <div class="r1"><a class="logo" href="#"><span id="lgw"></span><i class="lgt"><b id="lg1"></b><span id="lg2"></span></i></a><nav class="tabs" id="areas"></nav><input id="q" type="search" placeholder="Cerca azienda" aria-label="Cerca azienda"></div>
@@ -433,7 +440,10 @@ function quadro(){
   if(O&&OI.length){const y=OI.filter(o=>days(o.d)<=365),c={};y.forEach(o=>c[o.id]=(c[o.id]||0)+1);const r=Object.keys(c).sort((a,b)=>c[b]-c[a]);
     t('osint','OSINT',y.length+' segnali','in 12 mesi su '+r.length+' aziende',r.length?'Più attivo: '+esc(nm(r[0]))+' ('+c[r[0]]+')':'','#2ec4b6')}
   const PR=press();if(PR.length)t('pressione','Pressione competitiva',esc(nm(PR[0].id)),'il concorrente più vicino a noi','Indice '+Math.round(PR[0].v)+' su 100 · valutazione','#ef6f6c');
-  return T.length>2?`<div class="qg">${T.join('')}</div>`:'';
+  if(BX){const r=bxRank(),i=r.indexOf(ME);if(i>=0)t('marchio','Logo',(i+1)+'° su '+r.length,'classifica dei loghi · '+(BXT[ME]?.k||''),'Primo: '+esc(nm(r[0]))+' · Mondo '+(BXT[ME]?.w??'—')+'/10','#c678dd')}
+  for(const[h,X,l]of[['sito',D.sito,'Sito web'],['fdclass',D.feed,'LinkedIn']])if(X){const R=rkList(X),x=R.find(rkMe);if(x)t(h,l,x.rk+'° su '+R.length,'voto '+fmt(x.m,{dec:2})+'/5 · '+RKC(x.m),'Primo: '+esc(rkNm(R[0]))+' '+fmt(R[0].m,{dec:2})+(x.e?' · «'+esc(x.e)+'»':''),x.rk===1?'#3fb950':x.m>=3.3?'#f5a524':'#ef6f6c')}
+  if(T.length<3)return'';QPOOL=T;QSH=T.slice(0,8).map((_,i)=>i);
+  return`<div class="qg" id="qgR">${T.slice(0,8).join('')}</div>${T.length>8?'<p class="note">I riquadri cambiano da soli ogni 15 secondi: passa sopra con il mouse per fermarli.</p>':''}`;
 }
 function regia(){
   const s30=N.filter(n=>n.id!==ME&&days(n.d)<=30),me=A.find(a=>a.id===ME);
@@ -1092,6 +1102,42 @@ function trends(){
   <p class="note">${so(T)} ${esc(T.n||'')}</p>`;
 }
 
+// Classifiche in stile loghi per sito (home intera) e social (LinkedIn): data/sito.json e data/feed.json.
+// Voto = media PESATA dei criteri (pesi nel JSON), mai la somma; pari voto = pari posizione.
+const RKC=m=>m>=4?'Riferimento':m>=3.3?'Solido':m>=2.8?'Nella norma':m>=2.1?'Debole':'Da rifare';
+const rkAvg=(X,x)=>{let s=0,w=0;for(const k in x.v){const p=(X.pesi||{})[k]??1;s+=x.v[k]*p;w+=p}return w?s/w:null};
+const rkMe=x=>x.id===ME||x.me;
+function rkList(X){const R=(X.items||[]).filter(x=>x.v).map(x=>({...x,m:rkAvg(X,x)})).sort((a,b)=>b.m-a.m);R.forEach((x,i)=>x.rk=i&&Math.abs(x.m-R[i-1].m)<.005?R[i-1].rk:i+1);return R}
+const rkNm=x=>x.nome||nm(x.id),rkLg=(x,t)=>(BR_[x.id]?.logo?.data&&!x.nome?`<img src="${BR_[x.id].logo.data}" alt="${esc(rkNm(x))}" data-tip="${esc(t)}"${rkMe(x)?' class="me"':''} loading="lazy">`:`<span class="rkn${rkMe(x)?' me':''}" data-tip="${esc(t)}">${esc(rkNm(x))}</span>`);
+const rkDots=v=>`<span class="dt">${'●'.repeat(v)}<i>${'●'.repeat(5-v)}</i></span>`;
+function rkView(k,X,kind){
+  if(!X||!(X.items||[]).length)return ND;const R=rkList(X),C=(X.crit||[]).map(c=>Array.isArray(c)?c:[c.k,c.t,c.d||'']),n=R.length,mine=R.filter(rkMe),F=R[0],S=ST[k+'S']||'s',V=ST[k+'L']||'s',T=(X.mondo||{}).top||[];
+  const best=f=>R.filter(x=>f(x)!=null).sort((a,b)=>f(b)-f(a))[0];
+  const kp=mine.map(x=>{const c=[[`${esc(rkNm(x))} · posizione`,x.rk+'° su '+n,'In testa: '+esc(rkNm(F))+' '+fmt(F.m,{dec:2})],['Voto',fmt(x.m,{dec:2})+'/5',RKC(x.m)+' · distacco dal primo '+fmt(x.m-F.m,{dec:2})],['Indice mondiale',(x.w??'—')+'/10','Il migliore del settore: '+esc(rkNm(best(y=>y.w)||F))+' '+((best(y=>y.w)||{}).w??'—')+'/10']];
+    if(kind==='feed')[['f','Follower'],['pm','Post al mese'],['rmed','Reazioni medie a post']].forEach(([q,l])=>{const b=best(y=>y[q]);c.push([l,x[q]!=null?fmt(x[q],{dec:q==='f'?0:1}):'—','Il migliore: '+esc(rkNm(b||F))+' '+(b?fmt(b[q],{dec:q==='f'?0:1}):'—')])});
+    else{const lo=C.filter(c=>x.v[c[0]]!=null).sort((a,b)=>x.v[a[0]]-x.v[b[0]])[0];if(lo)c.push(['Criterio più debole',esc(lo[1]),x.v[lo[0]]+'/5'])}
+    return c.map(([l,b,sp])=>`<div class="kpi me"><small>${l}</small><b>${b}</b><span>${sp}</span></div>`).join('')}).join('');
+  const cols=[];if(S==='m')for(let w=1;w<=10;w++)cols.push([w,w>=9?T.filter((t,i)=>w===10?i<5:i>=5).map(t=>`<div class="rkref" data-tip="${esc(t.nome+(t.perche?' · '+t.perche:''))}">${t.data?`<img src="${t.data}" alt="">`:''}<span>${esc(t.nome)}</span></div>`).join(''):R.filter(x=>x.w===w).map(x=>rkLg(x,rkNm(x)+' · Mondo '+w+'/10'+(x.wv?' · '+x.wv:''))).join(''),(w-1)/9]);
+  else for(let v=1.5;v<=4.5;v+=.5)cols.push([String(v).replace('.',','),R.filter(x=>Math.min(4.5,Math.max(1.5,Math.round(x.m*2)/2))===v).map(x=>rkLg(x,rkNm(x)+' · '+fmt(x.m,{dec:2})+'/5 · '+RKC(x.m))).join(''),(v-1.5)/3]);
+  const scale=`<div class="card"><h3>Classificazione rapida</h3>${sseg(k+'S',[['s','Settore'],['m','Mondo']].filter(o=>o[0]==='s'||T.length),'s')}<div class="lsr" style="grid-template-columns:repeat(${cols.length},minmax(0,1fr))">${cols.map(c=>`<div class="lsc"><div class="lsl">${c[1]}</div><b style="background:hsl(${Math.round(c[2]*125)} 62% 42%)">${c[0]}</b></div>`).join('')}</div><p class="note">${S==='m'?esc((X.mondo||{}).n||'Scala mondiale 1-10, severa: 10 i migliori al mondo, 9 gli altri riferimenti (a destra), 8 i migliori industriali, 6 eccellente per il settore, 4 corretto ma ordinario, 3 datato.'):'Voto nel settore da 1 a 5: media pesata dei criteri, arrotondata al mezzo punto.'} La nostra azienda è cerchiata. Passa sopra un logo per voto e giudizio.</p></div>`;
+  const tab=`<div class="card tw"><h3>Classifica con tutti i voti</h3><table class="rkt mx"><thead><tr><th>#</th><th></th><th>Voto</th>${C.map(c=>`<th title="${esc(c[2]||'')}">${esc(c[1])}<small>peso ${fmt((X.pesi||{})[c[0]]??1,{dec:1})}</small></th>`).join('')}</tr></thead><tbody>${R.map((x,i)=>`<tr${rkMe(x)?' class="me"':''}><td>${x.rk}°${i&&R[i-1].rk===x.rk||R[i+1]?.rk===x.rk?' <small>pari</small>':''}</td><td>${esc(rkNm(x))}</td><td><b>${fmt(x.m,{dec:2})}</b></td>${C.map(c=>`<td>${x.v[c[0]]??'—'}</td>`).join('')}</tr>`).join('')}</tbody></table><p class="note">Il voto finale è la media pesata dei voti (somma di voto × peso, divisa per la somma dei pesi), non la loro somma. ${esc(X.regola||'')}</p></div>`;
+  const pic=(x,o)=>kind==='feed'?`<div class="rkpp">${(x.post||[]).slice(0,o?9:3).map(p=>p.data?`<a href="${esc(p.u)}" target="_blank" rel="noopener"><img src="${p.data}" alt="" data-tip="${esc((p.d||'')+' · '+(p.ty||'')+' · '+(p.r??'')+' reazioni · '+(p.t||''))}" loading="lazy"></a>`:`<a class="rkn" href="${esc(p.u)}" target="_blank" rel="noopener">${esc(p.ty||'post')}</a>`).join('')}</div>`:x.data?`<img class="rksh" src="${x.data}" alt="" loading="lazy">`:'<i class="na">schermata non disponibile</i>';
+  const tile=x=>{const o=V==='c'||ST[k+'X']===(x.k||x.id),c=RKC(x.m);return`<div class="lt${rkMe(x)?' me':''}${o?' open':''}" data-st="${k}X:${o&&V!=='c'?'':esc(x.k||x.id)}">${pic(x,o)}
+    <div class="ltn">${esc(rkNm(x))} <span class="tkk" style="background:${TK[c]}">${c}</span></div>
+    <div class="lts"><span><i>Posizione</i><b>${x.rk}<small>°/${n}</small></b></span><span><i>Settore</i><b style="color:hsl(${Math.round((x.m-1)/4*125)} 62% 58%)">${fmt(x.m,{dec:1})}<small>/5</small></b></span><span><i>Mondo</i><b style="color:hsl(${Math.round(((x.w||1)-1)/9*125)} 62% 58%)">${x.w??'—'}<small>/10</small></b></span></div>
+    ${x.e?`<div class="lte">«${esc(x.e)}»</div>`:''}
+    ${V!=='s'||o?`<div class="lv">${C.filter(c=>x.v[c[0]]!=null).map(c=>`<span>${esc(c[1])}</span>${rkDots(x.v[c[0]])}`).join('')}</div>`:''}
+    ${o?`<p class="ltv">${esc(x.verd||'')}</p>${x.panel?`<div class="rkpa">${Object.entries(x.panel).map(([a,t])=>`<p><b>${esc((X.esperti||{})[a]||a)}</b>${esc(t)}</p>`).join('')}</div>`:''}
+      <div class="ltpc"><div><div class="lth ok">Funziona</div><ul>${(x.pro||[]).map(t=>`<li>${esc(t)}</li>`).join('')}</ul></div><div><div class="lth ko">Non funziona</div><ul>${(x.contro||[]).map(t=>`<li>${esc(t)}</li>`).join('')}</ul></div></div>
+      ${x.fix?`<p class="ltl"><b>Cosa cambiare</b>${esc(x.fix)}</p>`:''}${x.wv?`<p class="ltl"><b>Sulla scala mondiale</b>${esc(x.wv)}</p>`:''}${x.fullData?`<div class="rkfull"><img src="${x.fullData}" alt="La home intera" loading="lazy"></div>`:''}<p class="note">${so(x)} ${lk(x.u,esc(x.u||''))}</p>`:''}</div>`};
+  const cl=(X.cliente||{}).testo;
+  return`<div class="kpis">${kp}</div>${cl?`<div class="card mine"><p class="btq">${esc(cl)}</p></div>`:''}${scale}${tab}<div class="card"><h3>Le schede</h3>${sseg(k+'L',[['s','Essenziale'],['v','Con i voti'],['c','Completa']],'s')}<div class="lgg2">${R.map(tile).join('')}</div><p class="note">Clic su una scheda per aprirla. ${esc(X.n||'')}</p></div>${VAL}`;
+}
+// Home che ruota: 8 riquadri visibili, ogni 15 s ne cambiano 4; ferma con il mouse sopra, scheda nascosta o movimento ridotto
+let QPOOL=[],QSH=[];
+setInterval(()=>{const g=document.getElementById('qgR');if(!g||QPOOL.length<=QSH.length||document.hidden||g.matches(':hover')||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  const free=QPOOL.map((_,i)=>i).filter(i=>!QSH.includes(i)).sort(()=>Math.random()-.5),pos=QSH.map((_,i)=>i).sort(()=>Math.random()-.5).slice(0,Math.min(4,free.length));
+  pos.forEach((p,j)=>{QSH[p]=free[j];const t=document.createElement('template');t.innerHTML=QPOOL[free[j]];const a=t.content.firstElementChild;a.classList.add('nw');g.children[p].replaceWith(a)})},15000);
 function show(){
   const id=ORD.includes(location.hash.slice(1))?location.hash.slice(1):ORD[0],ar=NAVA.find(a=>a[2].includes(id)),i=ORD.indexOf(id),n=ar[2].indexOf(id)+1;
   areas.innerHTML=NAVA.map(a=>`<a href="#${a[2][0]}"${a===ar?' aria-current="page"':''}>${esc(a[1])}</a>`).join('');
