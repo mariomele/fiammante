@@ -344,6 +344,7 @@ table.vm th{white-space:normal;min-width:64px;vertical-align:bottom}table.vm td{
 @media(max-width:720px){svg.wd{min-width:620px}.card:has(>svg.wd){overflow-x:auto}}
 @media(max-width:720px){.r1{flex-wrap:wrap}#q{width:100%;order:3}#slg{display:none}.feed li{grid-template-columns:70px 1fr}.feed em{display:none}.sbar{grid-template-columns:90px 1fr 80px}}
 .disc{font-size:12.5px;color:var(--mut);border:1px dashed var(--ln);border-radius:8px;padding:8px 12px;margin:0 0 14px}
+#qgR{grid-template-columns:repeat(4,1fr)}@media (max-width:900px){#qgR{grid-template-columns:repeat(2,1fr)}}.qg>a.qd b{font-size:15px;line-height:1.25;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.qg>a.qd span{color:var(--tx);opacity:.85;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .qg>a{transition:opacity .4s}.qg>a.nw{animation:qgIn .5s}@keyframes qgIn{from{opacity:0}to{opacity:1}}@media (prefers-reduced-motion:reduce){.qg>a.nw{animation:none}}
 .rkn{display:inline-block;background:#fff;color:#111;border-radius:5px;padding:3px 4px;font-size:9.5px;line-height:1.15;max-width:74px;text-align:center}.rkn.me,.lsl img.me{outline:2px solid var(--me)}
 .rkref{display:flex;flex-direction:column;align-items:center;gap:2px;font-size:9.5px;color:var(--tx);text-align:center}.rkref img{width:30px;height:30px;object-fit:contain;background:#fff;border-radius:6px;padding:3px}
@@ -442,8 +443,27 @@ function quadro(){
   const PR=press();if(PR.length)t('pressione','Pressione competitiva',esc(nm(PR[0].id)),'il concorrente più vicino a noi','Indice '+Math.round(PR[0].v)+' su 100 · valutazione','#ef6f6c');
   if(BX){const r=bxRank(),i=r.indexOf(ME);if(i>=0)t('marchio','Logo',(i+1)+'° su '+r.length,'classifica dei loghi · '+(BXT[ME]?.k||''),'Primo: '+esc(nm(r[0]))+' · Mondo '+(BXT[ME]?.w??'—')+'/10','#c678dd')}
   for(const[h,X,l]of[['sito',D.sito,'Sito web'],['fdclass',D.feed,'LinkedIn']])if(X){const R=rkList(X),x=R.find(rkMe);if(x)t(h,l,x.rk+'° su '+R.length,'voto '+fmt(x.m,{dec:2})+'/5 · '+RKC(x.m),'Primo: '+esc(rkNm(R[0]))+' '+fmt(R[0].m,{dec:2})+(x.e?' · «'+esc(x.e)+'»':''),x.rk===1?'#3fb950':x.m>=3.3?'#f5a524':'#ef6f6c')}
-  if(T.length<3)return'';QPOOL=T;QSH=T.slice(0,8).map((_,i)=>i);
-  return`<div class="qg" id="qgR">${T.slice(0,8).join('')}</div>${T.length>8?'<p class="note">I riquadri cambiano da soli ogni 15 secondi: passa sopra con il mouse per fermarli.</p>':''}`;
+  // Scoperte: dettagli presi dalle sezioni interne, scelti a caso a ogni apertura
+  const F=[],pk=(a,n)=>a.slice().sort(()=>Math.random()-.5).slice(0,n),cut=(x,n=150)=>{x=String(x||'');return x.length>n?x.slice(0,n).replace(/\s\S*$/,'')+'…':x},dt=d=>String(d||'').split('-').reverse().join('/'),
+   f=(h,k,b,v,e,c)=>F.push(`<a href="#${h}" class="qd" style="--qc:${c}"><small>${k}</small><b>${esc(cut(b,70))}</b>${v?`<span>${esc(cut(v))}</span>`:''}<em>${e}</em></a>`);
+  pk(OI.filter(o=>days(o.d)<=365),6).forEach(o=>f('osint','OSINT · '+esc(OC[o.c]||''),nm(o.id)+': '+o.t,o.n,dt(o.d)+(o.luogo?' · '+esc(o.luogo):''),CC(o.c)));
+  pk(N.filter(n=>n.id!==ME&&days(n.d)<=45),5).forEach(n=>f('segnali','Notizia · '+esc(nm(n.id)),n.t,'',esc(n.s||'')+' · '+dt(n.d),'#5b9cf0'));
+  for(const[k,l,h]of[['sales','Analisi Sales','asales'],['mkt','Analisi Marketing','amkt']]){const E=D[k];if(!E)continue;
+    (E.punti||[]).forEach(p=>f(p.sez&&ORD.includes(p.sez)?p.sez:h,'Da '+l,p.t,p.dati&&!/\.json/.test(p.dati)?p.dati:p.x,'Cosa fare: '+esc(cut(p.az,80)),'#e5c07b'));
+    const W=E.swot||{};[['opportunita','Opportunità','#3fb950'],['minaccia','Minaccia','#ef6f6c']].forEach(([w,n,c])=>(W[w]||[]).forEach(x=>{const m=String(x).match(/^([^:.;]+)[:.;]\s*([\s\S]*)$/)||[0,x,''];f(h,n+' · '+l,m[1],m[2],'Dalla SWOT',c)}));
+    (E.batt||[]).forEach(b=>f(h,'Battlecard · '+esc(nm(b.id)),'Cosa dire contro '+nm(b.id),b.risposta,'Noi: '+esc(cut(b.noi,80)),'#ef6f6c'))}
+  const GA=D.gamma;if(GA){const v=(id,k)=>((GA.az[id]||{})[k]||[])[0],ids=Object.keys(GA.az).filter(i=>i!==ME);
+    GA.assi.forEach(([k,l])=>{const c=ids.filter(i=>v(i,k)>0);
+      if(v(ME,k)>0&&c.length<=2)f('gamma','Gamma · nostro punto raro',l+(c.length?': noi e altri '+c.length:': solo noi'),(GA.az[ME][k]||[])[1],c.length?'Anche: '+c.map(i=>esc(nm(i))).join(', '):'Nessun concorrente la fa','#3fb950');
+      else if(v(ME,k)===0&&c.length>=ids.length/2)f('gamma','Gamma · ci manca',l+': ce l\'hanno '+c.length+' su '+ids.length,'La fanno '+c.map(nm).join(', ')+'.','Nella nostra gamma non c\'è','#ef6f6c')})}
+  for(const[id,z]of Object.entries((D.social||{}).az||{})){const p=((z.ig||{}).top||[])[0];if(p)f('social','Post più apprezzato · '+esc(nm(id)),fmt(p.l)+' mi piace · '+fmt(p.c)+' commenti',p.t,'Instagram · '+dt(p.d),'#c678dd');
+    if(z.tono&&z.tono.frase)f('tono','Tono di voce · '+esc(nm(id)),(z.tono.temi||[])[0]||nm(id),z.tono.frase,'Valutazione','#c678dd')}
+  PKI.forEach(x=>f('pack','Pack · '+esc(nm(x.id)),x.ep||x.nome,x.verd,esc(x.cls||'')+' · '+esc(x.nome||''),'#c678dd'));
+  for(const[id,a]of Object.entries((D.ads||{}).az||{})){const e=((a.meta||{}).es||[])[0]||((a.google||{}).es||[])[0];if(e&&e.t)f('pubblicita','Annuncio attivo · '+esc(nm(id)),cut(e.t,70),e.t,(e.f?esc(e.f)+' · ':'')+'dal '+dt(e.d),'#f5a524')}
+  const KW=(((D.seo2||{}).dom||{})[ME]||{}).kw||[];KW.slice().sort((a,b)=>b[1]-a[1]).slice(0,4).forEach(k=>f('seo2','Parola che ci porta su Google','«'+k[0]+'»',fmt(k[1])+' ricerche al mese: siamo '+k[2]+'° nei risultati','Stima di terzi','#5b9cf0'));
+  const RG=((D.reput||{}).google||{});if(RG[ME]){const r=Object.keys(RG).filter(i=>RG[i].v!=null).sort((a,b)=>RG[b].v-RG[a].v);f('reputazione','Google Maps',fmt(RG[ME].v,{dec:1})+' stelle su '+RG[ME].r+' recensioni',(r.indexOf(ME)+1)+'° su '+r.length+' per voto. Primo: '+nm(r[0])+' ('+fmt(RG[r[0]].v,{dec:1})+').','Scheda Google','#f5a524')}
+  if(T.length<3)return'';const nT=pk(T.map((_,i)=>i),4),nF=pk(F.map((_,i)=>T.length+i),8-nT.length);QPOOL=T.concat(F);QSH=nT.concat(nF).sort(()=>Math.random()-.5);
+  return`<div class="qg" id="qgR">${QSH.map(i=>QPOOL[i]).join('')}</div>${QPOOL.length>8?'<p class="note">I riquadri cambiano da soli ogni 10 secondi, con dati e dettagli presi dalle sezioni interne: passa sopra con il mouse per fermarli, clicca per aprire la sezione.</p>':''}`;
 }
 function regia(){
   const s30=N.filter(n=>n.id!==ME&&days(n.d)<=30),me=A.find(a=>a.id===ME);
@@ -1137,7 +1157,7 @@ function rkView(k,X,kind){
 let QPOOL=[],QSH=[];
 setInterval(()=>{const g=document.getElementById('qgR');if(!g||QPOOL.length<=QSH.length||document.hidden||g.matches(':hover')||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
   const free=QPOOL.map((_,i)=>i).filter(i=>!QSH.includes(i)).sort(()=>Math.random()-.5),pos=QSH.map((_,i)=>i).sort(()=>Math.random()-.5).slice(0,Math.min(4,free.length));
-  pos.forEach((p,j)=>{QSH[p]=free[j];const t=document.createElement('template');t.innerHTML=QPOOL[free[j]];const a=t.content.firstElementChild;a.classList.add('nw');g.children[p].replaceWith(a)})},15000);
+  pos.forEach((p,j)=>{QSH[p]=free[j];const t=document.createElement('template');t.innerHTML=QPOOL[free[j]];const a=t.content.firstElementChild;a.classList.add('nw');g.children[p].replaceWith(a)})},10000);
 function show(){
   const id=ORD.includes(location.hash.slice(1))?location.hash.slice(1):ORD[0],ar=NAVA.find(a=>a[2].includes(id)),i=ORD.indexOf(id),n=ar[2].indexOf(id)+1;
   areas.innerHTML=NAVA.map(a=>`<a href="#${a[2][0]}"${a===ar?' aria-current="page"':''}>${esc(a[1])}</a>`).join('');
