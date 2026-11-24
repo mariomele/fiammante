@@ -1,4 +1,4 @@
-# Ogni 2 ore aggiorna intelligence/news.json, rifà intelligence/index.html e ripubblica
+# Ogni 2 ore aggiorna intelligence/news.json, rifà intelligence/index.html (con lo strato v2) e ripubblica
 name: Notizie
 on:
   schedule:
@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node news.js && node render.js
+      - run: node news.js && node render.js && python3 -I v2/v2.py && mv index-v2.html index.html
         working-directory: intelligence
       - env:
           GH_TOKEN: ${{ github.token }}
