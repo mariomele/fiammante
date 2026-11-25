@@ -343,7 +343,7 @@ table.vm th{white-space:normal;min-width:64px;vertical-align:bottom}table.vm td{
 @media(max-width:900px){.maprow,.rgx{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:720px){svg.wd{min-width:620px}.card:has(>svg.wd){overflow-x:auto}}
 @media(max-width:720px){.r1{flex-wrap:wrap}#q{width:100%;order:3}#slg{display:none}.feed li{grid-template-columns:70px 1fr}.feed em{display:none}.sbar{grid-template-columns:90px 1fr 80px}}
-.disc{font-size:12.5px;color:var(--mut);border:1px dashed var(--ln);border-radius:8px;padding:8px 12px;margin:0 0 14px}
+.disc.stale{border-color:var(--red);color:var(--tx)}.disc{font-size:12.5px;color:var(--mut);border:1px dashed var(--ln);border-radius:8px;padding:8px 12px;margin:0 0 14px}
 #qgR{grid-template-columns:repeat(4,1fr)}@media (max-width:900px){#qgR{grid-template-columns:repeat(2,1fr)}}.qg>a.qd b{font-size:15px;line-height:1.25;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.qg>a.qd span{color:var(--tx);opacity:.85;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .qg>a{transition:opacity .4s}.qg>a.nw{animation:qgIn .5s}@keyframes qgIn{from{opacity:0}to{opacity:1}}@media (prefers-reduced-motion:reduce){.qg>a.nw{animation:none}}
 .rkn{display:inline-block;background:#fff;color:#111;border-radius:5px;padding:3px 4px;font-size:9.5px;line-height:1.15;max-width:74px;text-align:center}.rkn.me,.lsl img.me{outline:2px solid var(--me)}
@@ -494,11 +494,16 @@ function segnali(){
   ${calH()}<select id="nf" aria-label="Filtra per azienda"><option value="">Tutte le aziende</option>${A.map(a=>`<option value="${a.id}"${ST.f===a.id?' selected':''}>${esc(a.nome)}</option>`).join('')}</select>
   <div class="card">${feed(it)}<p class="note">Aggiornate il ${D.news.at?new Date(D.news.at).toLocaleString('it-IT'):'—'} da Google News.</p></div>`;
 }
+// analisi scritta su dati poi cambiati (data/_dal.json firmato con scripts/deps.js): avviso in cima alla sezione
+const secN=f=>{const b=String(f).split('.')[0],s=Object.values(SEC).find(v=>v[3]===b);return s?s[0]:b};
+const STL=k=>{const x=k&&(D._stale||{})[k];return x?`<p class="disc stale">⚠ Testo scritto il ${dt(x.at)} su dati che nel frattempo sono cambiati: ${esc([...new Set(x.fonti.map(secN))].join(', '))}. Finché non viene riletto, alcuni numeri del testo possono non coincidere con le tabelle.</p>`:''};
+function dalCard(){const L=Object.entries(D._dal||{});if(!L.length)return'';
+  return`<div class="card"><h3>Da dove vengono le analisi</h3><div class="tw"><table><tr><th>Testo</th><th>Scritto il</th><th>Scritto sui dati di</th><th>Stato</th></tr>${L.map(([k,x])=>{const st=(D._stale||{})[k];return`<tr><td>${esc(secN(k))}</td><td>${dt(x.at)}</td><td style="white-space:normal;text-align:left">${esc(Object.keys(x.fonti).map(secN).filter((v,i,a)=>a.indexOf(v)===i).join(', '))}</td><td>${st?'<b style="color:var(--red)">da rileggere</b>':'<span style="color:var(--grn)">allineato</span>'}</td></tr>`}).join('')}</table></div><p class="note">Ogni testo scritto (analisi, giudizi, battlecard) è legato ai dati da cui è nato. Se quei dati cambiano, la sezione mostra un avviso finché il testo non viene riletto e firmato di nuovo.</p></div>`}
 function fonti(){
   const c={},src={};A.forEach(a=>Object.entries(a.f||{}).forEach(([k,x])=>{c[x[1]]=(c[x[1]]||0)+1;if(x[3])(src[x[3]]=src[x[3]]||[]).push(a.nome+' · '+(MET.find(m=>m.k===k)||{l:k}).l)}));
   return`<div class="card"><h3>Stato dei dati</h3><div class="leg">${Object.entries(STAT).map(([k,s])=>`<i class="sg s-${k}">${s[0]}</i><b>${s[1]}</b><span>${s[2]}</span><span>${c[k]||0}</span>`).join('')}</div>
   <p class="note">Le valutazioni e le stime sono calcolate in automatico: sono solo indicative e vanno lette come tali. ${esc(M.nota||'')}</p></div>
-  <div class="card"><h3>Fonti (${Object.keys(src).length})</h3><ul class="feed">${Object.entries(src).map(([u,w])=>`<li style="grid-template-columns:1fr"><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a><em>${esc(w.join(', '))}</em></li>`).join('')}</ul></div>`;
+  ${dalCard()}<div class="card"><h3>Fonti (${Object.keys(src).length})</h3><ul class="feed">${Object.entries(src).map(([u,w])=>`<li style="grid-template-columns:1fr"><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a><em>${esc(w.join(', '))}</em></li>`).join('')}</ul></div>`;
 }
 
 // ---- moduli aggiunti il 22/11/2026: ogni dato è un oggetto {…, s:stato, u:url, n:nota} o una riga [anno, valore, stato, nota, url]
@@ -1162,7 +1167,7 @@ function show(){
   const id=ORD.includes(location.hash.slice(1))?location.hash.slice(1):ORD[0],ar=NAVA.find(a=>a[2].includes(id)),i=ORD.indexOf(id),n=ar[2].indexOf(id)+1;
   areas.innerHTML=NAVA.map(a=>`<a href="#${a[2][0]}"${a===ar?' aria-current="page"':''}>${esc(a[1])}</a>`).join('');
   secs.innerHTML=ar[2].map(s=>`<a href="#${s}"${s===id?' aria-current="page"':''}>${esc(SEC[s][0])}</a>`).join('');
-  main.innerHTML=`<section id="${id}"><div class="sh"><i>${String(n).padStart(2,'0')}</i><h2>${esc(SEC[id][0])}</h2></div><p class="lead">${esc(SEC[id][2])}</p>${DSC_S.includes(id)?DSC:''}${SEC[id][1]()}</section>`;
+  main.innerHTML=`<section id="${id}"><div class="sh"><i>${String(n).padStart(2,'0')}</i><h2>${esc(SEC[id][0])}</h2></div><p class="lead">${esc(SEC[id][2])}</p>${DSC_S.includes(id)?DSC:''}${STL(SEC[id][3])}${SEC[id][1]()}</section>`;
   pager.innerHTML=(i>0?`<a href="#${ORD[i-1]}">← ${esc(SEC[ORD[i-1]][0])}</a>`:'<span></span>')+(i<ORD.length-1?`<a href="#${ORD[i+1]}">${esc(SEC[ORD[i+1]][0])} →</a>`:'');
 }
 document.title=M.nome+' · '+M.sottotitolo;

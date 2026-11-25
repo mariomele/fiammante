@@ -1,0 +1,48 @@
+{
+ "sales": {
+  "at": "2026-11-25",
+  "fonti": {
+   "aziende": "7f39de6ada",
+   "storico": "40eab8f0e3",
+   "gamma": "27a92b73d6",
+   "export": "8d43b42fc6",
+   "sedi": "d04f278353",
+   "osint": "20e947fb71",
+   "reput": "f4b990df60",
+   "seo": "0eab73041a",
+   "social": "5d4aeb18d7",
+   "posts": "d8b11d7aab"
+  }
+ },
+ "mkt": {
+  "at": "2026-11-25",
+  "fonti": {
+   "aziende": "7f39de6ada",
+   "social": "5d4aeb18d7",
+   "posts": "d8b11d7aab",
+   "ads": "e0b074f4b1",
+   "seo": "0eab73041a",
+   "seo2": "608fda51db",
+   "geo2": "d8bbd48fe4",
+   "reput": "f4b990df60",
+   "brandx": "be942c6264",
+   "pack": "915495dee8",
+   "trends": "9b15f1c8fa"
+  }
+ },
+ "brandx": {
+  "at": "2026-11-25",
+  "fonti": {
+   "brand": "bf4505adb8"
+  }
+ },
+ "lenti": {
+  "at": "2026-11-25",
+  "fonti": {
+   "brandx": "be942c6264",
+   "brand": "bf4505adb8",
+   "gamma": "27a92b73d6",
+   "aziende.icab": "07a77199bf"
+  }
+ }
+}

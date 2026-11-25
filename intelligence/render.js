@@ -43,6 +43,9 @@ function build() {
     D[f.slice(0, -5)] = JSON.parse(fs.readFileSync(path.join(H, 'data', f), 'utf8'));
   const nf = path.join(H, 'news.json');
   D.news = fs.existsSync(nf) ? JSON.parse(fs.readFileSync(nf, 'utf8')) : { at: null, items: [] };
+  // analisi firmate, controllate sui dati come sono su disco (prima di incorporare immagini) (data/_dal.json, scripts/deps.js): se i dati da cui sono nate sono cambiati, la pagina lo dice sulla sezione
+  D._stale = require('./scripts/deps.js').stale(k => D[k]);
+  for (const [k, x] of Object.entries(D._stale)) console.warn(`DA RILEGGERE ${k} (scritto il ${x.at}): cambiati ${x.fonti.join(', ')}`);
   // logo del cliente (meta.logo = file locale): incorporato in base64, la pagina resta un solo file
   const lf = D.meta.logo && path.join(H, D.meta.logo);
   if (lf && fs.existsSync(lf)) D.meta.logoData = `data:image/${path.extname(lf).slice(1).replace('jpg', 'jpeg').replace('svg', 'svg+xml')};base64,` + fs.readFileSync(lf).toString('base64');
