@@ -1,0 +1,392 @@
+{
+ "at": "2026-11-26",
+ "s": "val",
+ "cmp": [
+  "icab",
+  "mutti",
+  "conserveitalia",
+  "casalasco",
+  "ladoria",
+  "petti",
+  "rodolfi",
+  "latorrente"
+ ],
+ "n": "Voti dati da Claude immedesimandosi in 11 ruoli, solo sui file data/ della dashboard (bilanci, gamma, export, social, SEO, risposte AI, recensioni, pack, logo, OSINT): non sono interviste vere. Mancano per tutti: prezzi a scaffale, quote di mercato, margini e debiti; per ICAB anche quota export, pomodoro trasformato e report di sostenibilità con numeri. Casalasco senza dati SEO. Agromonte e Solania esclusi dal confronto (meno dati).",
+ "sintesi": "La Fiammante vince in 3 ruoli su 11 (appassionato di cucina, giornalista food, filiera), tutti legati a origine e impegno. Media 5,8 su 10, 5° posto su 8; prima è Mutti con 7,6. Tutti riconoscono la gamma campana più ricca (unica con il Piennolo DOP), la storia sulla filiera (NO CAP, aste, FSSC 24000) e le buone recensioni (4,6 su Google). Le tre debolezze che pesano di più: dimensione piccola (43 M€ contro 777 di Mutti) e quota export sconosciuta; poca visibilità online (720 ricerche al mese, 4 risposte AI su 40); logo e pack deboli a scaffale (logo 2,11 su 5, passata 2,56).",
+ "pov": [
+  {
+   "id": "buyer-gdo",
+   "ruolo": "Buyer GDO di categoria",
+   "chi": "Compra pomodoro per una catena di supermercati e decide chi resta a scaffale",
+   "dom": "Quale marca mi fa girare lo scaffale e regge le promozioni tutto l'anno?",
+   "v": {
+    "icab": 5,
+    "mutti": 9,
+    "conserveitalia": 8,
+    "casalasco": 7,
+    "ladoria": 6,
+    "petti": 6,
+    "rodolfi": 6,
+    "latorrente": 5
+   },
+   "win": [
+    "mutti",
+    "Ha i numeri che un buyer guarda: 777 M€ di ricavi, +10,6% nel 2025, 8.100 ricerche Google al mese sul nome e la confezione più forte a scaffale (4 su 5 nel panel pack)."
+   ],
+   "verd": "La Fiammante è una marca che un buyer conosce ma non spinge: 43 M€ di ricavi e 720 ricerche al mese pesano poco accanto a Mutti e Cirio. La gamma è completa, ma il pack non si fa vedere. Oggi La Fiammante è tra gli ultimi due in questo ruolo.",
+   "contro": [
+    "Ricavi 2025 di 43,15 M€ contro 777 M€ di Mutti e 1.150 M€ di Conserve Italia: poco peso nella trattativa.",
+    "Il panel pack dà alle passate La Fiammante 2,78 e 2,56 su 5, contro 4 di Mutti e 3,56 di Cirio.",
+    "720 ricerche Google al mese su «la fiammante» contro 8.100 su «mutti»: poca domanda che arriva da sola allo scaffale."
+   ],
+   "pro": [
+    "Gamma larga: 76 prodotti in tre marchi (La Fiammante, La Reale, La Paesana), con pelati, passata, polpa, pomodorini, concentrato, vetro e latta.",
+    "Ricavi cresciuti da 25,23 M€ (2021) a 43,15 M€ (2025): la marca guadagna spazio.",
+    "Prima azienda italiana certificata FSSC 24000 (2025): un punto da mettere sul tavolo per qualità e sicurezza."
+   ],
+   "serve": "Dati di vendita a scaffale (rotazione, quota per catena) e un pack che si riconosca da due metri.",
+   "dati": "aziende.json (ricavi, ricerche), storico.json, pack.json, gamma.json, osint.json",
+   "sez": "pack"
+  },
+  {
+   "id": "discount",
+   "ruolo": "Category manager di un discount",
+   "chi": "Sceglie i fornitori di marca privata per un discount, tutto su prezzo e volumi",
+   "dom": "Chi mi garantisce grandi volumi, costo basso e consegne sicure con la mia etichetta?",
+   "v": {
+    "icab": 4,
+    "mutti": 5,
+    "conserveitalia": 7,
+    "casalasco": 7,
+    "ladoria": 9,
+    "petti": 6,
+    "rodolfi": 7,
+    "latorrente": 4
+   },
+   "win": [
+    "ladoria",
+    "È il grande fornitore di marche private: 1.375 M€ di ricavi, +7,7% nel 2025, 81,2% venduto all'estero."
+   ],
+   "verd": "Per un discount contano scala e costo, e qui La Fiammante non gioca: è una marca propria piccola, senza dati su marca privata. Vince La Doria; La Fiammante è in fondo insieme a La Torrente.",
+   "contro": [
+    "Nessun dato nella dashboard su produzione per marca privata di ICAB.",
+    "Pomodoro trasformato di ICAB non disponibile; Mutti dichiara 728.000 t, Casalasco 549.978 t.",
+    "Dipendenti 2025 a bilancio: 49 per ICAB contro 1.221 di La Doria e 2.037 di Casalasco."
+   ],
+   "pro": [
+    "Il piano da circa 8 M€ con Invitalia punta a 1 milione di quintali lavorati (notizia 2024).",
+    "Ricavi in crescita ogni anno dal 2021 al 2025 (da 25,23 a 43,15 M€).",
+    "Sede in Campania (Buccino), vicino al pomodoro del Sud come La Doria (Angri)."
+   ],
+   "serve": "Dati su capacità produttiva reale, quote di marca privata e prezzi di cessione.",
+   "dati": "aziende.json, storico.json, osint.json",
+   "sez": "classifica"
+  },
+  {
+   "id": "prezzo",
+   "ruolo": "Consumatore attento al prezzo",
+   "chi": "Fa la spesa con il volantino e prende la passata che conosce al prezzo giusto",
+   "dom": "Quale marca nota trovo ovunque e mi fido a comprare senza pensarci?",
+   "v": {
+    "icab": 5,
+    "mutti": 6,
+    "conserveitalia": 7,
+    "casalasco": 6,
+    "ladoria": 6,
+    "petti": 6,
+    "rodolfi": 6,
+    "latorrente": 5
+   },
+   "win": [
+    "conserveitalia",
+    "Cirio è il nome più noto dopo Mutti (4.400 ricerche al mese), ha la pagina Facebook più seguita (376.236 «mi piace») e un pack chiaro (3,56 su 5)."
+   ],
+   "verd": "I prezzi a scaffale non sono nella dashboard, quindi il giudizio si basa su notorietà e confezione. La Fiammante ha buoni voti online ma poca notorietà fuori dal Sud. Non convince ancora chi sceglie in fretta.",
+   "contro": [
+    "Mancano i prezzi a scaffale: non si può dire se La Fiammante costa meno o più.",
+    "Pack della passata classica a 2,56 su 5: si perde tra le altre rosse.",
+    "Solo 720 ricerche al mese sul nome: molti non la cercano per nome."
+   ],
+   "pro": [
+    "Google Maps: 4,6 su 57 recensioni, meglio di Mutti (4,3) e Cirio (4,2).",
+    "103.883 «mi piace» su Facebook, più di Petti (38.824) e La Torrente (42.029).",
+    "La nuova passata Dolcissima (settembre 2026) è il post con più «mi piace» del periodo su Instagram (406)."
+   ],
+   "serve": "Prezzi medi a scaffale e promozioni rispetto a Cirio, Mutti e alle marche del distributore.",
+   "dati": "aziende.json, social.json, reput.json, pack.json",
+   "sez": "pack"
+  },
+  {
+   "id": "foodie",
+   "ruolo": "Consumatore premium, appassionato di cucina",
+   "chi": "Spende di più per un pomodoro con origine e varietà precise",
+   "dom": "Chi ha il pomodoro più speciale e lo racconta in modo credibile?",
+   "v": {
+    "icab": 8,
+    "mutti": 7,
+    "conserveitalia": 5,
+    "casalasco": 5,
+    "ladoria": 4,
+    "petti": 6,
+    "rodolfi": 5,
+    "latorrente": 7
+   },
+   "win": [
+    "icab",
+    "Unica con due DOP del Piennolo del Vesuvio, più San Marzano DOP e varietà rare (Corbarino, Principe Borghese, datterino giallo)."
+   ],
+   "verd": "Qui La Fiammante vince: la gamma campana è la più ricca del gruppo. Mutti ha più nome, La Torrente ha il riconoscimento del Gambero Rosso. Il limite è che il premio non si vede nel logo.",
+   "contro": [
+    "Nessuna linea premium dichiarata come tale sul sito (voce «premium» assente).",
+    "Il logo è valutato 2,11 su 5: il panel lo legge come «simpatia e prezzo, non qualità».",
+    "Mutti è citata in 22 risposte AI su 40, La Fiammante in 4: il foodie che chiede all'AI trova altri."
+   ],
+   "pro": [
+    "Due DOP del Piennolo del Vesuvio: nessun altro concorrente le ha in gamma.",
+    "San Marzano DOP, che fra i concorrenti abbiamo visto solo da Mutti e La Torrente.",
+    "Messaggio chiaro sul fresco: «6 ore dalla raccolta alla conserva» in homepage."
+   ],
+   "serve": "Una linea premium con nome e pack propri e recensioni di guide gastronomiche.",
+   "dati": "gamma.json, brandx.json, geo2.json",
+   "sez": "gamma"
+  },
+  {
+   "id": "chef",
+   "ruolo": "Chef e pizzaiolo (Horeca)",
+   "chi": "Usa decine di chili a settimana e vuole resa e costanza",
+   "dom": "Su quale pelato o polpa posso contare per la pizza e la cucina ogni giorno?",
+   "v": {
+    "icab": 7,
+    "mutti": 8,
+    "conserveitalia": 6,
+    "casalasco": 6,
+    "ladoria": 5,
+    "petti": 6,
+    "rodolfi": 6,
+    "latorrente": 6
+   },
+   "win": [
+    "mutti",
+    "È la marca più citata dalle AI su 10 domande di cucina e pizza (22 risposte su 40) e ha gamma Horeca con DOP."
+   ],
+   "verd": "Tutti hanno una linea per la ristorazione, quindi conta la reputazione. La Fiammante è credibile per la pizza napoletana grazie al pomodoro campano, ma è poco citata. Seconda, non lontana.",
+   "contro": [
+    "Solo 4 risposte AI su 40 nominano La Fiammante.",
+    "Nessun dato nella dashboard su formati e prezzi Horeca.",
+    "Nessuna fiera Horeca dedicata trovata: solo TuttoFood 2025."
+   ],
+   "pro": [
+    "Linea Horeca presente nello shop, insieme a pelati e polpa in latta.",
+    "Pomodoro campano e DOP: è il tipo che chiede la pizza napoletana.",
+    "Recensioni Google 4,6 su 5 sulla sede di Buccino."
+   ],
+   "serve": "Referenze di pizzerie note e schede tecniche (resa, residuo) confrontabili.",
+   "dati": "gamma.json, geo2.json, reput.json, osint.json",
+   "sez": "geo2"
+  },
+  {
+   "id": "importatore",
+   "ruolo": "Importatore estero",
+   "chi": "Porta pomodoro italiano in Germania, Regno Unito o Stati Uniti",
+   "dom": "Chi ha già una struttura per l'estero e volumi affidabili?",
+   "v": {
+    "icab": 4,
+    "mutti": 9,
+    "conserveitalia": 7,
+    "casalasco": 7,
+    "ladoria": 8,
+    "petti": 5,
+    "rodolfi": 6,
+    "latorrente": 4
+   },
+   "win": [
+    "mutti",
+    "60% delle vendite all'estero su 777 M€ di ricavi e crescita del 10,6%: marca e volumi."
+   ],
+   "verd": "La quota export di ICAB non è nella dashboard, e questo per un importatore è già un segnale. La Doria (81,2%) e Mutti (60%) sono avanti. La Fiammante è tra gli ultimi.",
+   "contro": [
+    "Quota export di ICAB non disponibile in nessun file.",
+    "L'export italiano di pomodoro in valore è sceso nel 2025 (da 3,01 a 2,77 miliardi € in tutto il mondo, Eurostat).",
+    "Nessuna fiera estera trovata per ICAB, solo TuttoFood a Milano."
+   ],
+   "pro": [
+    "Certificazione FSSC 24000 (prima in Italia): conta molto per la GDO estera.",
+    "Filiera tracciata in blockchain (2022): un argomento per i mercati attenti all'origine.",
+    "DOP campane (San Marzano, Piennolo) sono richieste fuori Italia."
+   ],
+   "serve": "Quota export, paesi serviti e certificazioni per mercato (BRC, IFS, FDA).",
+   "dati": "aziende.json, export.json, osint.json, gamma.json",
+   "sez": "export"
+  },
+  {
+   "id": "giornalista",
+   "ruolo": "Giornalista food",
+   "chi": "Scrive di cibo e filiera e cerca storie vere da raccontare",
+   "dom": "Chi ha una storia forte e verificabile, oltre alla pubblicità?",
+   "v": {
+    "icab": 8,
+    "mutti": 7,
+    "conserveitalia": 5,
+    "casalasco": 5,
+    "ladoria": 4,
+    "petti": 4,
+    "rodolfi": 4,
+    "latorrente": 5
+   },
+   "win": [
+    "icab",
+    "Ha la storia di impegno pubblico più lunga: 9 notizie tra campagna contro le aste al doppio ribasso, progetto NO CAP e filiera in blockchain."
+   ],
+   "verd": "La Fiammante è la marca più interessante da raccontare: prende posizione dal 2017. Mutti ha più risorse e un report di sostenibilità. La storia c'è, va tenuta viva: l'ultima notizia è del luglio 2026.",
+   "contro": [
+    "Le notizie più forti sono vecchie: aste nel 2017, NO CAP nel 2022.",
+    "Solo 1 fiera trovata in OSINT contro 2 di quasi tutti i concorrenti.",
+    "Il nome compare in 4 risposte AI su 40: le redazioni che usano l'AI la trovano poco."
+   ],
+   "pro": [
+    "9 notizie di impegno pubblico, contro 5 di Mutti e 1-2 degli altri.",
+    "Progetto NO CAP: braccianti migranti assunti con contratto CCNL (2022).",
+    "Prima azienda italiana certificata FSSC 24000 (maggio 2025)."
+   ],
+   "serve": "Dati recenti e misurabili sulla filiera (ettari, agricoltori, prezzi pagati).",
+   "dati": "osint.json, geo2.json",
+   "sez": "osint"
+  },
+  {
+   "id": "filiera",
+   "ruolo": "Agronomo, filiera e sostenibilità",
+   "chi": "Valuta come si coltiva e si paga il pomodoro, e il rispetto del lavoro",
+   "dom": "Chi ha la filiera più pulita e lo può dimostrare?",
+   "v": {
+    "icab": 8,
+    "mutti": 7,
+    "conserveitalia": 6,
+    "casalasco": 6,
+    "ladoria": 5,
+    "petti": 5,
+    "rodolfi": 5,
+    "latorrente": 5
+   },
+   "win": [
+    "icab",
+    "Patto di filiera con OP Mediterraneo, NO CAP, blockchain e FSSC 24000: più prove pubbliche di tutti."
+   ],
+   "verd": "Sulla filiera La Fiammante ha i fatti più chiari del gruppo. Mutti pubblica un report di sostenibilità con numeri grandi, che ICAB non ha nella dashboard. Vince La Fiammante, ma serve un documento con i numeri.",
+   "contro": [
+    "Nessun report di sostenibilità con numeri nella dashboard per ICAB, Mutti invece ne pubblica uno (2025).",
+    "Pomodoro trasformato da ICAB non disponibile.",
+    "Nessun dato su ettari o numero di agricoltori."
+   ],
+   "pro": [
+    "Patto di filiera con OP Mediterraneo e contratti regolari (2019).",
+    "Una risposta AI sulla filiera etica cita la pagina sostenibilita.lafiammante.it.",
+    "«6 ore dalla raccolta alla conserva»: promessa chiara sul fresco."
+   ],
+   "serve": "Un report annuale con ettari, agricoltori, prezzi pagati ed emissioni.",
+   "dati": "osint.json, geo2.json, gamma.json",
+   "sez": "osint"
+  },
+  {
+   "id": "banca",
+   "ruolo": "Banca o fondo",
+   "chi": "Decide se prestare o investire guardando conti e crescita",
+   "dom": "Chi cresce in modo sano e regge i rischi del settore?",
+   "v": {
+    "icab": 6,
+    "mutti": 9,
+    "conserveitalia": 7,
+    "casalasco": 6,
+    "ladoria": 8,
+    "petti": 4,
+    "rodolfi": 6,
+    "latorrente": 5
+   },
+   "win": [
+    "mutti",
+    "Ricavi da 420 a 737 M€ dal 2021 al 2025 nel bilancio storico, +10,6% nel 2025 secondo il comunicato."
+   ],
+   "verd": "ICAB è cresciuta molto dal 2021 (+71%), ma nel 2025 solo +1,9%. Mancano margini e debiti nella dashboard. Voto medio: credibile, non ancora una scelta sicura.",
+   "contro": [
+    "Crescita 2025 solo +1,9% (da 42,36 a 43,15 M€) dopo anni a due cifre.",
+    "Mancano margini, utile e debiti: la dashboard ha solo ricavi e dipendenti.",
+    "Dipendenti a bilancio scesi da 118 (2024) a 49 (2025): dato da chiarire."
+   ],
+   "pro": [
+    "Ricavi +71% in quattro anni: da 25,23 M€ (2021) a 43,15 M€ (2025).",
+    "Cresce meglio di Petti (-8,15%) e La Torrente (-4,75%), che hanno ricavi simili.",
+    "Piano da circa 8 M€ con Invitalia per aumentare la capacità (2024)."
+   ],
+   "serve": "Margini, debiti e flussi di cassa degli ultimi tre bilanci.",
+   "dati": "storico.json, aziende.json, osint.json",
+   "sez": "storico"
+  },
+  {
+   "id": "candidato",
+   "ruolo": "Candidato in cerca di lavoro",
+   "chi": "Tecnico o giovane laureato che sceglie dove lavorare nel food",
+   "dom": "Dove trovo un posto stabile e un'azienda che cresce?",
+   "v": {
+    "icab": 4,
+    "mutti": 8,
+    "conserveitalia": 7,
+    "casalasco": 7,
+    "ladoria": 6,
+    "petti": 5,
+    "rodolfi": 5,
+    "latorrente": 4
+   },
+   "win": [
+    "mutti",
+    "Oltre 600 dipendenti fissi più 1.600 stagionali, annunci di lavoro trovati e azienda in crescita."
+   ],
+   "verd": "ICAB è piccola e non ha annunci trovati in OSINT. L'impegno sui diritti dei lavoratori (NO CAP) è un buon segnale, ma non basta per chi cerca carriera. La Fiammante è ultima con La Torrente.",
+   "contro": [
+    "Nessun annuncio di lavoro trovato per ICAB; Casalasco ne ha 2, Mutti e Cirio 1.",
+    "49 dipendenti a bilancio nel 2025.",
+    "Sede a Buccino (SA), lontana dai poli del food del Nord."
+   ],
+   "pro": [
+    "Progetto NO CAP: lavoratori assunti con contratto CCNL.",
+    "Ricavi in crescita da cinque anni.",
+    "Recensioni Google 4,6 su 5 sulla sede."
+   ],
+   "serve": "Annunci attivi, benefit e una pagina «lavora con noi» curata.",
+   "dati": "aziende.json, storico.json, osint.json, reput.json",
+   "sez": "osint"
+  },
+  {
+   "id": "ricerca-online",
+   "ruolo": "Chi cerca online (Google e AI)",
+   "chi": "Chiede a Google o a ChatGPT qual è il pomodoro migliore",
+   "dom": "Quali marche mi propone la rete quando chiedo un consiglio?",
+   "v": {
+    "icab": 5,
+    "mutti": 9,
+    "conserveitalia": 7,
+    "casalasco": 3,
+    "ladoria": 5,
+    "petti": 5,
+    "rodolfi": 3,
+    "latorrente": 4
+   },
+   "win": [
+    "mutti",
+    "8.100 ricerche al mese, 22 risposte AI su 40, 49 parole al primo posto su Google e 2.355 siti che la linkano."
+   ],
+   "verd": "La Fiammante ha un sito tecnicamente buono (SEO 100, velocità 91) ma poca autorità e poche citazioni AI. Mutti domina. La Fiammante è a metà classifica, a pari merito con La Doria e Petti.",
+   "contro": [
+    "Citata in 4 risposte AI su 40, contro 22 di Mutti, 13 di Cirio e 8 di Petti.",
+    "496 siti che linkano lafiammante.it contro 2.355 di Mutti.",
+    "16 parole al primo posto su Google contro 49 di Mutti e 22 di Cirio."
+   ],
+   "pro": [
+    "Lighthouse: SEO 100 e velocità 91, tra i siti migliori del gruppo.",
+    "221 parole tra la posizione 4 e 10: base pronta per salire.",
+    "Più parole posizionate di Petti, La Doria e La Torrente."
+   ],
+   "serve": "Più citazioni da siti terzi (guide, giornali) che le AI usano come fonte.",
+   "dati": "seo2.json, geo2.json, aziende.json",
+   "sez": "geo2"
+  }
+ ]
+}
