@@ -1,4 +1,4 @@
-const V='fiammante-tvc-20261128181447';
+const V='fiammante-tvc-20261128181507';
 const PRE=['./','index.html','og.png','location.jpg','CallSheet_La_Fiammante.pdf','icon-192.png','manifest.webmanifest'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>c.addAll(PRE)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==V).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
